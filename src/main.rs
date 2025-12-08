@@ -22,6 +22,34 @@ fn main() {
     let strings = fs::read_to_string("strings.json").unwrap();
     let strings: Vec<String> = serde_json::from_str(&strings).unwrap();
 
+    let mut i = 4;
+    while i + 8 < form.len() {
+        let header: [u8; 8] = form[i..i + 8].try_into().unwrap();
+        let header: Header = unsafe { mem::transmute(header) };
+        println!("{i}: {header:?}");
+        if header.head <= header.end
+            && (header.end as usize) <= form.len()
+            && ((header.head..=header.end).contains(&header.read) || header.read == 0)
+            && ((header.head..=header.end).contains(&header.write) || header.write == 0)
+        {
+            let head = header.head as usize;
+            println!("  end:   {:?}", BStr::new(&form[head..header.end as _]));
+            if header.read != 0 {
+                println!("  read:  {:?}", BStr::new(&form[head..header.read as _]));
+            } else {
+                println!("  read:  None");
+            }
+            if header.write != 0 {
+                println!("  write: {:?}", BStr::new(&form[head..header.write as _]));
+            } else {
+                println!("  write: None");
+            }
+        } else {
+            println!("  Invalid!");
+        }
+        i += 8;
+    }
+
     let mut labels = Vec::new();
     let mut offsets = HashSet::new();
     struct Label {
