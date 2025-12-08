@@ -4,6 +4,7 @@ use std::{
     io::{Write, stdout},
 };
 
+use bstr::BStr;
 use serde::Serialize;
 
 fn main() {
@@ -51,19 +52,48 @@ fn main() {
         });
     }
 
+    let mut labels = Vec::new();
+    #[derive(Serialize)]
+    struct Label {
+        offset: usize,
+        len: usize,
+        label: String,
+        text: String,
+    }
+    let new_label = |offset, len, label| Label {
+        offset,
+        len,
+        label,
+        text: BStr::new(&form[offset..offset + len]).to_string(),
+    };
+
     for (&line, entry) in &mut line_map {
+        let lines = entry
+            .lines
+            .iter()
+            .map(|line| format!("{}:{}", line.name, line.line))
+            .collect::<Vec<_>>()
+            .join(",");
+        let lines_str = format!("lines[{lines}]");
+        let occurrences_str = format!("offset[{lines}]");
+
         let matches = form
             .windows(line.len())
             .enumerate()
             .filter_map(|(offset, window)| (window == line.as_bytes()).then_some(offset));
         let offsets = matches.collect::<Vec<_>>();
         for &offset in &offsets {
+            labels.push(new_label(offset, line.len(), lines_str.clone()));
+
             let offset_bytes = u16::try_from(offset).unwrap().to_le_bytes();
             let occurrences = form
                 .windows(2)
                 .enumerate()
                 .filter_map(|(offset, window)| (window == offset_bytes).then_some(offset))
                 .collect();
+            for &occurrence in &occurrences {
+                labels.push(new_label(occurrence, 2, occurrences_str.clone()));
+            }
             entry.offsets.push(Offset {
                 offset,
                 occurrences,
@@ -73,9 +103,31 @@ fn main() {
 
     let mut entries = line_map.into_values().collect::<Vec<_>>();
     entries.sort_by_key(|entry| entry.lines[0].line);
-    let mut out = stdout().lock();
+    let mut out = stdout();
     for entry in &entries {
         serde_json::to_writer(&mut out, entry).unwrap();
         out.write_all(b"\n").unwrap();
+    }
+
+    labels.sort_by(|x, y| x.offset.cmp(&y.offset).then(x.len.cmp(&y.len).reverse()));
+    let mut segments = Vec::new();
+    let mut offset = 0;
+    let mut push = |label| {
+        serde_json::to_writer(&mut out, &label).unwrap();
+        out.write_all(b"\n").unwrap();
+        segments.push(label);
+    };
+    for label in labels {
+        if label.offset > offset {
+            push(new_label(offset, label.offset - offset, "?".to_owned()));
+        }
+        if label.offset < offset {
+            println!("// overlapping labels!");
+        }
+        offset = offset.max(label.offset + label.len);
+        push(label);
+    }
+    if offset < form.len() {
+        push(new_label(offset, form.len() - offset, "?".to_owned()));
     }
 }
