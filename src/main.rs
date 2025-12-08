@@ -15,12 +15,17 @@ fn main() {
     struct Entry<'a> {
         text: &'a str,
         lines: Vec<Line<'a>>,
-        offsets: Vec<usize>,
+        offsets: Vec<Offset>,
     }
     #[derive(Serialize)]
     struct Line<'a> {
         name: &'a str,
         line: usize,
+    }
+    #[derive(Serialize)]
+    struct Offset {
+        offset: usize,
+        occurrences: Vec<usize>,
     }
 
     let mut line_map = HashMap::<&str, Entry>::new();
@@ -51,7 +56,19 @@ fn main() {
             .windows(line.len())
             .enumerate()
             .filter_map(|(offset, window)| (window == line.as_bytes()).then_some(offset));
-        entry.offsets.extend(matches);
+        let offsets = matches.collect::<Vec<_>>();
+        for &offset in &offsets {
+            let offset_bytes = u16::try_from(offset).unwrap().to_le_bytes();
+            let occurrences = form
+                .windows(2)
+                .enumerate()
+                .filter_map(|(offset, window)| (window == offset_bytes).then_some(offset))
+                .collect();
+            entry.offsets.push(Offset {
+                offset,
+                occurrences,
+            });
+        }
     }
 
     let mut entries = line_map.into_values().collect::<Vec<_>>();
