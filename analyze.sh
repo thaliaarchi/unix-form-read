@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -eEuo pipefail
 
-rg --json -a 'towhom-\d{1,2}' distr/form.m |
+rg --json -a 'towhom-(?:(?:1|11|26|27)a|2[0-7]|1[0-9]|[1-9])' distr/form.m |
 jq -cs '
   [
     .[] |
