@@ -33,15 +33,15 @@ fn main() {
     let mut names = HashSet::new();
     let mut name_number = None;
 
-    for (line_number, mut line) in text.split("\n").enumerate() {
-        if line.is_empty() {
+    for (line_number, mut line) in text.split_inclusive('\n').enumerate() {
+        if line == "\n" {
             continue;
         }
-        if let [b'n', b'a', b'm', b'e', b'-', .., b':'] = line.as_bytes() {
-            let name = &line[5..line.len() - 1];
+        if let [b'n', b'a', b'm', b'e', b'-', .., b':', b'\n'] = line.as_bytes() {
+            let name = &line[5..line.len() - 2];
             assert!(names.insert(name), "non-unique name");
             name_number = Some(name);
-            line = &line[..line.len() - 1];
+            line = &line[..line.len() - 2];
         }
         let entry = line_map.entry(line).or_default();
         let name_number = name_number.expect("missing name number before first line");
