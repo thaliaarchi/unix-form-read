@@ -92,7 +92,11 @@ fn main() {
                 .filter_map(|(offset, window)| (window == offset_bytes).then_some(offset))
                 .collect();
             for &occurrence in &occurrences {
-                labels.push(new_label(occurrence, 2, occurrences_str.clone()));
+                labels.push(new_label(
+                    occurrence,
+                    2,
+                    format!("{occurrences_str} = {:?}", BStr::new(line)),
+                ));
             }
             entry.offsets.push(Offset {
                 offset,

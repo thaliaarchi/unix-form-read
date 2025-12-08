@@ -282,630 +282,630 @@
 {"text":"University of Manitoba","lines":[{"name":"51","line":406}],"offsets":[{"offset":20519,"occurrences":[]}]}
 {"text":"Winnipeg, Manitoba, Canada R3T2N2","lines":[{"name":"51","line":407}],"offsets":[{"offset":20542,"occurrences":[]}]}
 {"offset":0,"len":29,"label":"?","text":"\u0014\u0007\u0000\u0000�\u0006�\u0005�\u0006�\u0006$\u0006\u0000\u0000\f\u0007\u0004\u0007�\u0006�\u0006\u0000\u0000\u0000\u0000\u0000"}
-{"offset":29,"len":2,"label":"offset[25:196]","text":"\u0000,"}
+{"offset":29,"len":2,"label":"offset[25:196] = \"Mr. John E. Ecklund\"","text":"\u0000,"}
 {"offset":31,"len":2,"label":"?","text":"\u0000\u0000"}
-{"offset":33,"len":2,"label":"offset[6:48]","text":"\u0000$"}
+{"offset":33,"len":2,"label":"offset[6:48] = \"Mr. A. J. Lindstrom\"","text":"\u0000$"}
 {"offset":35,"len":7,"label":"?","text":"\u0000�A�A\u0000@"}
-{"offset":42,"len":2,"label":"offset[26a:211]","text":"\u0000B"}
+{"offset":42,"len":2,"label":"offset[26a:211] = \"Ms. Lois H. Heiser\"","text":"\u0000B"}
 {"offset":44,"len":22,"label":"?","text":"\u0000\u0000\u0000\u0018\u0000X\u0000�n0n0`0p0\t1\u00011\u00001"}
-{"offset":66,"len":2,"label":"offset[21:167]","text":"\u00101"}
+{"offset":66,"len":2,"label":"offset[21:167] = \"name-21\"","text":"\u00101"}
 // overlapping labels!
-{"offset":66,"len":2,"label":"offset[2:17]","text":"\u00101"}
+{"offset":66,"len":2,"label":"offset[2:17] = \"name-2\"","text":"\u00101"}
 {"offset":68,"len":36,"label":"?","text":"�\u0018�\u0018�\u0018\u0000\u0019�\u0018�\u0018�\u0018�\u0018G\u0018G\u0018@\u0018P\u0018m\u001bm\u001b@\u001b�\u001bs$s$"}
-{"offset":104,"len":2,"label":"offset[6:48]","text":"\u0000$"}
-{"offset":106,"len":2,"label":"offset[8:63]","text":"�$"}
+{"offset":104,"len":2,"label":"offset[6:48] = \"Mr. A. J. Lindstrom\"","text":"\u0000$"}
+{"offset":106,"len":2,"label":"offset[8:63] = \"Prof. W. H. Huggins\"","text":"�$"}
 {"offset":108,"len":6,"label":"?","text":"�#�#\u0000 "}
-{"offset":114,"len":2,"label":"offset[6:48]","text":"\u0000$"}
+{"offset":114,"len":2,"label":"offset[6:48] = \"Mr. A. J. Lindstrom\"","text":"\u0000$"}
 {"offset":116,"len":4,"label":"?","text":"_C^C"}
-{"offset":120,"len":2,"label":"offset[35:288]","text":"XC"}
+{"offset":120,"len":2,"label":"offset[35:288] = \"name-35\"","text":"XC"}
 // overlapping labels!
-{"offset":120,"len":2,"label":"offset[3:24]","text":"XC"}
+{"offset":120,"len":2,"label":"offset[3:24] = \"name-3\"","text":"XC"}
 {"offset":122,"len":42,"label":"?","text":"`C=\u00189\u00188\u0018@\u0018h\u001ah\u001a\u0000\u001a\u0000\u001b\u0016\u0018\u0011\u0018\u0010\u0018\u0018\u0018�\u0018�\u0018�\u0018�\u0018%\u0018!\u0018 \u0018(\u0018"}
-{"offset":164,"len":2,"label":"offset[5:39]","text":"\b\u001b"}
+{"offset":164,"len":2,"label":"offset[5:39] = \"name-5\"","text":"\b\u001b"}
 {"offset":166,"len":4,"label":"?","text":"\u0001\u001b\u0000\u001b"}
-{"offset":170,"len":2,"label":"offset[5:39]","text":"\b\u001b"}
+{"offset":170,"len":2,"label":"offset[5:39] = \"name-5\"","text":"\b\u001b"}
 {"offset":172,"len":6,"label":"?","text":"\u0017\u001e\u0017\u001e\u0000\u001e"}
-{"offset":178,"len":2,"label":"offset[16:129]","text":"�\u001e"}
+{"offset":178,"len":2,"label":"offset[16:129] = \"name-16\"","text":"�\u001e"}
 // overlapping labels!
-{"offset":178,"len":2,"label":"offset[1:1]","text":"�\u001e"}
+{"offset":178,"len":2,"label":"offset[1:1] = \"name-1\"","text":"�\u001e"}
 {"offset":180,"len":5,"label":"?","text":".\u0018)\u0018("}
-{"offset":185,"len":2,"label":"offset[1:1]","text":"\u00180"}
+{"offset":185,"len":2,"label":"offset[1:1] = \"name-1\"","text":"\u00180"}
 // overlapping labels!
-{"offset":185,"len":2,"label":"offset[1a:9]","text":"\u00180"}
+{"offset":185,"len":2,"label":"offset[1a:9] = \"name-1a\"","text":"\u00180"}
 {"offset":187,"len":1,"label":"?","text":"\u0018"}
-{"offset":188,"len":2,"label":"offset[7:54]","text":"8\u0019"}
+{"offset":188,"len":2,"label":"offset[7:54] = \"name-7\"","text":"8\u0019"}
 {"offset":190,"len":4,"label":"?","text":"1\u00190\u0019"}
-{"offset":194,"len":2,"label":"offset[7:54]","text":"8\u0019"}
+{"offset":194,"len":2,"label":"offset[7:54] = \"name-7\"","text":"8\u0019"}
 {"offset":196,"len":16,"label":"?","text":"�\u0019�\u0019�\u0019�\u0019w\u0018q\u0018p\u0018�\u0018"}
-{"offset":212,"len":2,"label":"offset[3:24]","text":"X\u0018"}
+{"offset":212,"len":2,"label":"offset[3:24] = \"name-3\"","text":"X\u0018"}
 {"offset":214,"len":4,"label":"?","text":"Q\u0018P\u0018"}
-{"offset":218,"len":2,"label":"offset[3:24]","text":"X\u0018"}
+{"offset":218,"len":2,"label":"offset[3:24] = \"name-3\"","text":"X\u0018"}
 {"offset":220,"len":4,"label":"?","text":"�\u0019�\u0019"}
-{"offset":224,"len":2,"label":"offset[9:69]","text":"�\u0019"}
+{"offset":224,"len":2,"label":"offset[9:69] = \"name-9\"","text":"�\u0019"}
 {"offset":226,"len":6,"label":"?","text":"�\u0019^\u0018^\u0018"}
-{"offset":232,"len":2,"label":"offset[3:24]","text":"X\u0018"}
+{"offset":232,"len":2,"label":"offset[3:24] = \"name-3\"","text":"X\u0018"}
 {"offset":234,"len":6,"label":"?","text":"`\u0018{\u001f{\u001f"}
-{"offset":240,"len":2,"label":"offset[1:2]","text":"\u0000\u001f"}
-{"offset":242,"len":2,"label":"offset[2:18]","text":"�\u001f"}
+{"offset":240,"len":2,"label":"offset[1:2] = \"Professor Cyrus Levinthal\"","text":"\u0000\u001f"}
+{"offset":242,"len":2,"label":"offset[2:18] = \"Prof. T. A. Marsland\"","text":"�\u001f"}
 {"offset":244,"len":8,"label":"?","text":"-\u0019)\u0019(\u00190\u0019"}
-{"offset":252,"len":2,"label":"offset[9:69]","text":"�\u0019"}
+{"offset":252,"len":2,"label":"offset[9:69] = \"name-9\"","text":"�\u0019"}
 {"offset":254,"len":4,"label":"?","text":"�\u0019�\u0019"}
-{"offset":258,"len":2,"label":"offset[9:69]","text":"�\u0019"}
-{"offset":260,"len":2,"label":"offset[8:62]","text":"�\u0019"}
+{"offset":258,"len":2,"label":"offset[9:69] = \"name-9\"","text":"�\u0019"}
+{"offset":260,"len":2,"label":"offset[8:62] = \"name-8\"","text":"�\u0019"}
 {"offset":262,"len":4,"label":"?","text":"�\u0019�\u0019"}
-{"offset":266,"len":2,"label":"offset[8:62]","text":"�\u0019"}
+{"offset":266,"len":2,"label":"offset[8:62] = \"name-8\"","text":"�\u0019"}
 {"offset":268,"len":4,"label":"?","text":"�\u0018�\u0018"}
-{"offset":272,"len":2,"label":"offset[10:76]","text":"�\u0018"}
+{"offset":272,"len":2,"label":"offset[10:76] = \"name-10\"","text":"�\u0018"}
 // overlapping labels!
-{"offset":272,"len":2,"label":"offset[1:1]","text":"�\u0018"}
+{"offset":272,"len":2,"label":"offset[1:1] = \"name-1\"","text":"�\u0018"}
 {"offset":274,"len":10,"label":"?","text":"�\u0018�\u0019�\u0019�\u0019�\u0019"}
-{"offset":284,"len":2,"label":"offset[6:47]","text":"�\u0019"}
+{"offset":284,"len":2,"label":"offset[6:47] = \"name-6\"","text":"�\u0019"}
 {"offset":286,"len":4,"label":"?","text":"�\u0019�\u0019"}
-{"offset":290,"len":2,"label":"offset[6:47]","text":"�\u0019"}
+{"offset":290,"len":2,"label":"offset[6:47] = \"name-6\"","text":"�\u0019"}
 {"offset":292,"len":9,"label":"?","text":"�\u001b�\u001b�\u001b�\u001b6"}
-{"offset":301,"len":2,"label":"offset[22:174]","text":"\u00181"}
+{"offset":301,"len":2,"label":"offset[22:174] = \"name-22\"","text":"\u00181"}
 // overlapping labels!
-{"offset":301,"len":2,"label":"offset[2:17]","text":"\u00181"}
-{"offset":303,"len":2,"label":"offset[1:1]","text":"\u00180"}
+{"offset":301,"len":2,"label":"offset[2:17] = \"name-2\"","text":"\u00181"}
+{"offset":303,"len":2,"label":"offset[1:1] = \"name-1\"","text":"\u00180"}
 // overlapping labels!
-{"offset":303,"len":2,"label":"offset[1a:9]","text":"\u00180"}
+{"offset":303,"len":2,"label":"offset[1a:9] = \"name-1a\"","text":"\u00180"}
 {"offset":305,"len":3,"label":"?","text":"\u00188\u0018"}
-{"offset":308,"len":2,"label":"offset[2:17]","text":"�\u0019"}
+{"offset":308,"len":2,"label":"offset[2:17] = \"name-2\"","text":"�\u0019"}
 {"offset":310,"len":4,"label":"?","text":"�\u0019�\u0019"}
-{"offset":314,"len":2,"label":"offset[2:17]","text":"�\u0019"}
+{"offset":314,"len":2,"label":"offset[2:17] = \"name-2\"","text":"�\u0019"}
 {"offset":316,"len":12,"label":"?","text":"o\u0018o\u0018`\u0018p\u0018�\u0019�\u0019"}
-{"offset":328,"len":2,"label":"offset[2:17]","text":"�\u0019"}
+{"offset":328,"len":2,"label":"offset[2:17] = \"name-2\"","text":"�\u0019"}
 {"offset":330,"len":16,"label":"?","text":"�\u0019'\u0019'\u0019 \u0019(\u0019)\u001b)\u001b \u001b"}
-{"offset":346,"len":2,"label":"offset[11:84]","text":"0\u001b"}
+{"offset":346,"len":2,"label":"offset[11:84] = \"name-11\"","text":"0\u001b"}
 // overlapping labels!
-{"offset":346,"len":2,"label":"offset[1:1]","text":"0\u001b"}
+{"offset":346,"len":2,"label":"offset[1:1] = \"name-1\"","text":"0\u001b"}
 {"offset":348,"len":8,"label":"?","text":" \u0018\u0019\u0018\u0018\u0018 \u0018"}
-{"offset":356,"len":2,"label":"offset[4:31]","text":"�\u0018"}
+{"offset":356,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�\u0018"}
 {"offset":358,"len":4,"label":"?","text":"�\u0018�\u0018"}
-{"offset":362,"len":2,"label":"offset[4:31]","text":"�\u0018"}
+{"offset":362,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�\u0018"}
 {"offset":364,"len":20,"label":"?","text":"�\u001b�\u001b�\u001b�\u001b�\u0018�\u0018�\u0018�\u0018�\u0018�\u0018"}
-{"offset":384,"len":2,"label":"offset[4:31]","text":"�\u0018"}
+{"offset":384,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�\u0018"}
 {"offset":386,"len":6,"label":"?","text":"�\u0018>\u0019>\u0019"}
-{"offset":392,"len":2,"label":"offset[7:54]","text":"8\u0019"}
+{"offset":392,"len":2,"label":"offset[7:54] = \"name-7\"","text":"8\u0019"}
 {"offset":394,"len":30,"label":"?","text":"@\u0019�\u0018�\u0018�\u0018�\u0018�\u0019�\u0019�\u0019\u0000\u001a\f\u0018\t\u0018\b\u0018\f\u0018\u000e\u001b\u000e\u001b"}
-{"offset":424,"len":2,"label":"offset[5:39]","text":"\b\u001b"}
+{"offset":424,"len":2,"label":"offset[5:39] = \"name-5\"","text":"\b\u001b"}
 {"offset":426,"len":6,"label":"?","text":"\u0010\u001b�&�&"}
-{"offset":432,"len":2,"label":"offset[11:85]","text":"�&"}
-{"offset":434,"len":2,"label":"offset[10:77]","text":"\u0000'"}
+{"offset":432,"len":2,"label":"offset[11:85] = \"Dr. Kenneth King\"","text":"�&"}
+{"offset":434,"len":2,"label":"offset[10:77] = \"Dr. Vladimir Slamecka\"","text":"\u0000'"}
 {"offset":436,"len":6,"label":"?","text":"\u0007\u0019\u0007\u0019\u0000\u0019"}
-{"offset":442,"len":2,"label":"offset[1:1]","text":"\b\u0019"}
+{"offset":442,"len":2,"label":"offset[1:1] = \"name-1\"","text":"\b\u0019"}
 {"offset":444,"len":6,"label":"?","text":"�6�6\u00004"}
-{"offset":450,"len":2,"label":"offset[19:153]","text":"\u00008"}
+{"offset":450,"len":2,"label":"offset[19:153] = \"Mr. Martin E. Newell\"","text":"\u00008"}
 {"offset":452,"len":12,"label":"?","text":"\u001e\u001b\u001e\u001b\u0010\u001b \u001b\u000e\u0019\u000e\u0019"}
-{"offset":464,"len":2,"label":"offset[1:1]","text":"\b\u0019"}
+{"offset":464,"len":2,"label":"offset[1:1] = \"name-1\"","text":"\b\u0019"}
 {"offset":466,"len":6,"label":"?","text":"\u0010\u0019XGXG"}
-{"offset":472,"len":2,"label":"offset[32:266]","text":"\u0000G"}
-{"offset":474,"len":2,"label":"offset[31:258]","text":"�G"}
+{"offset":472,"len":2,"label":"offset[32:266] = \"Mr. William C. Ripperger\"","text":"\u0000G"}
+{"offset":474,"len":2,"label":"offset[31:258] = \"Mr. Travis Wood\"","text":"�G"}
 {"offset":476,"len":12,"label":"?","text":"�\u0019�\u0019�\u0019�\u0019�\u001f�\u001f"}
-{"offset":488,"len":2,"label":"offset[2:18]","text":"�\u001f"}
+{"offset":488,"len":2,"label":"offset[2:18] = \"Prof. T. A. Marsland\"","text":"�\u001f"}
 {"offset":490,"len":14,"label":"?","text":"\u0000 \u0010\u0018\r\u0018\f\u0018\u0010\u0018�\u0019�\u0019"}
-{"offset":504,"len":2,"label":"offset[8:62]","text":"�\u0019"}
+{"offset":504,"len":2,"label":"offset[8:62] = \"name-8\"","text":"�\u0019"}
 {"offset":506,"len":6,"label":"?","text":"�\u0019Q\u001cQ\u001c"}
-{"offset":512,"len":2,"label":"offset[3:25]","text":"\u0000\u001c"}
-{"offset":514,"len":2,"label":"offset[7:55]","text":"�\u001c"}
+{"offset":512,"len":2,"label":"offset[3:25] = \"Mr. Bill Mayhew\"","text":"\u0000\u001c"}
+{"offset":514,"len":2,"label":"offset[7:55] = \"Mr. Gary M. Goins\"","text":"�\u001c"}
 {"offset":516,"len":4,"label":"?","text":"�%�%"}
-{"offset":520,"len":2,"label":"offset[4:32]","text":"\u0000%"}
-{"offset":522,"len":2,"label":"offset[9:70]","text":"\u0000&"}
+{"offset":520,"len":2,"label":"offset[4:32] = \"Prof. Bruce W. Arden\"","text":"\u0000%"}
+{"offset":522,"len":2,"label":"offset[9:70] = \"Mr. Brent Byer\"","text":"\u0000&"}
 {"offset":524,"len":4,"label":"?","text":"�\u001c�\u001c"}
-{"offset":528,"len":2,"label":"offset[7:55]","text":"�\u001c"}
+{"offset":528,"len":2,"label":"offset[7:55] = \"Mr. Gary M. Goins\"","text":"�\u001c"}
 {"offset":530,"len":6,"label":"?","text":"\u0000\u001d\u00100\u000e0"}
-{"offset":536,"len":2,"label":"offset[11:84]","text":"\b0"}
+{"offset":536,"len":2,"label":"offset[11:84] = \"name-11\"","text":"\b0"}
 // overlapping labels!
-{"offset":536,"len":2,"label":"offset[11a:91]","text":"\b0"}
+{"offset":536,"len":2,"label":"offset[11a:91] = \"name-11a\"","text":"\b0"}
 // overlapping labels!
-{"offset":536,"len":2,"label":"offset[1:1]","text":"\b0"}
+{"offset":536,"len":2,"label":"offset[1:1] = \"name-1\"","text":"\b0"}
 {"offset":538,"len":6,"label":"?","text":"\u00100�\u001d�\u001d"}
-{"offset":544,"len":2,"label":"offset[5:40]","text":"�\u001d"}
+{"offset":544,"len":2,"label":"offset[5:40] = \"Mr. E. J. Desautels\"","text":"�\u001d"}
 {"offset":546,"len":14,"label":"?","text":"\u0000\u001e�\u0018�\u0018�\u0018�\u0018�\u0019�\u0019"}
-{"offset":560,"len":2,"label":"offset[6:47]","text":"�\u0019"}
+{"offset":560,"len":2,"label":"offset[6:47] = \"name-6\"","text":"�\u0019"}
 {"offset":562,"len":16,"label":"?","text":"�\u0019\u0000\u0000\u0000\u0018\u0002\u0018\u0004\u00186*6*\u0000("}
-{"offset":578,"len":2,"label":"offset[25:196]","text":"\u0000,"}
+{"offset":578,"len":2,"label":"offset[25:196] = \"Mr. John E. Ecklund\"","text":"\u0000,"}
 {"offset":580,"len":4,"label":"?","text":"7\u001b6\u001b"}
-{"offset":584,"len":2,"label":"offset[11:84]","text":"0\u001b"}
+{"offset":584,"len":2,"label":"offset[11:84] = \"name-11\"","text":"0\u001b"}
 // overlapping labels!
-{"offset":584,"len":2,"label":"offset[1:1]","text":"0\u001b"}
-{"offset":586,"len":2,"label":"offset[12:98]","text":"8\u001b"}
+{"offset":584,"len":2,"label":"offset[1:1] = \"name-1\"","text":"0\u001b"}
+{"offset":586,"len":2,"label":"offset[12:98] = \"name-12\"","text":"8\u001b"}
 // overlapping labels!
-{"offset":586,"len":2,"label":"offset[1:1]","text":"8\u001b"}
-{"offset":588,"len":2,"label":"offset[10:76]","text":"�\u0018"}
+{"offset":586,"len":2,"label":"offset[1:1] = \"name-1\"","text":"8\u001b"}
+{"offset":588,"len":2,"label":"offset[10:76] = \"name-10\"","text":"�\u0018"}
 // overlapping labels!
-{"offset":588,"len":2,"label":"offset[1:1]","text":"�\u0018"}
+{"offset":588,"len":2,"label":"offset[1:1] = \"name-1\"","text":"�\u0018"}
 {"offset":590,"len":4,"label":"?","text":"�\u0018�\u0018"}
-{"offset":594,"len":2,"label":"offset[10:76]","text":"�\u0018"}
+{"offset":594,"len":2,"label":"offset[10:76] = \"name-10\"","text":"�\u0018"}
 // overlapping labels!
-{"offset":594,"len":2,"label":"offset[1:1]","text":"�\u0018"}
+{"offset":594,"len":2,"label":"offset[1:1] = \"name-1\"","text":"�\u0018"}
 {"offset":596,"len":12,"label":"?","text":"�\u001b�\u001b�\u001b�\u001b�\u001e�\u001e"}
-{"offset":608,"len":2,"label":"offset[16:129]","text":"�\u001e"}
+{"offset":608,"len":2,"label":"offset[16:129] = \"name-16\"","text":"�\u001e"}
 // overlapping labels!
-{"offset":608,"len":2,"label":"offset[1:1]","text":"�\u001e"}
-{"offset":610,"len":2,"label":"offset[17:136]","text":"�\u001e"}
+{"offset":608,"len":2,"label":"offset[1:1] = \"name-1\"","text":"�\u001e"}
+{"offset":610,"len":2,"label":"offset[17:136] = \"name-17\"","text":"�\u001e"}
 // overlapping labels!
-{"offset":610,"len":2,"label":"offset[1:1]","text":"�\u001e"}
+{"offset":610,"len":2,"label":"offset[1:1] = \"name-1\"","text":"�\u001e"}
 {"offset":612,"len":20,"label":"?","text":"Y\u001dQ\u001dP\u001d`\u001di\u001da\u001d`\u001dp\u001d�$�$"}
-{"offset":632,"len":2,"label":"offset[8:63]","text":"�$"}
-{"offset":634,"len":2,"label":"offset[4:32]","text":"\u0000%"}
+{"offset":632,"len":2,"label":"offset[8:63] = \"Prof. W. H. Huggins\"","text":"�$"}
+{"offset":634,"len":2,"label":"offset[4:32] = \"Prof. Bruce W. Arden\"","text":"\u0000%"}
 {"offset":636,"len":4,"label":"?","text":"W&W&"}
-{"offset":640,"len":2,"label":"offset[9:70]","text":"\u0000&"}
-{"offset":642,"len":2,"label":"offset[11:85]","text":"�&"}
+{"offset":640,"len":2,"label":"offset[9:70] = \"Mr. Brent Byer\"","text":"\u0000&"}
+{"offset":642,"len":2,"label":"offset[11:85] = \"Dr. Kenneth King\"","text":"�&"}
 {"offset":644,"len":4,"label":"?","text":"?\u001b>\u001b"}
-{"offset":648,"len":2,"label":"offset[12:98]","text":"8\u001b"}
+{"offset":648,"len":2,"label":"offset[12:98] = \"name-12\"","text":"8\u001b"}
 // overlapping labels!
-{"offset":648,"len":2,"label":"offset[1:1]","text":"8\u001b"}
+{"offset":648,"len":2,"label":"offset[1:1] = \"name-1\"","text":"8\u001b"}
 {"offset":650,"len":6,"label":"?","text":"@\u001b�'�'"}
-{"offset":656,"len":2,"label":"offset[10:77]","text":"\u0000'"}
+{"offset":656,"len":2,"label":"offset[10:77] = \"Dr. Vladimir Slamecka\"","text":"\u0000'"}
 {"offset":658,"len":16,"label":"?","text":"\u0000(\u001a\u0019\u001a\u0019\u0010\u0019 \u0019\u00150\u00110\u00100"}
-{"offset":674,"len":2,"label":"offset[1:1]","text":"\u00180"}
+{"offset":674,"len":2,"label":"offset[1:1] = \"name-1\"","text":"\u00180"}
 // overlapping labels!
-{"offset":674,"len":2,"label":"offset[1a:9]","text":"\u00180"}
+{"offset":674,"len":2,"label":"offset[1a:9] = \"name-1a\"","text":"\u00180"}
 {"offset":676,"len":4,"label":"?","text":"�.�."}
-{"offset":680,"len":2,"label":"offset[13:108]","text":"�."}
-{"offset":682,"len":2,"label":"offset[14:116]","text":"\u0000/"}
+{"offset":680,"len":2,"label":"offset[13:108] = \"Mr. Rusty Whitney\"","text":"�."}
+{"offset":682,"len":2,"label":"offset[14:116] = \"Mr. Gideon Yuval\"","text":"\u0000/"}
 {"offset":684,"len":20,"label":"?","text":"�\u001b�\u001b�\u001b�\u001bY\u0019Y\u0019P\u0019`\u0019�0�0"}
-{"offset":704,"len":2,"label":"offset[16:130]","text":"�0"}
+{"offset":704,"len":2,"label":"offset[16:130] = \"Prof. D. A. Michalopoulos\"","text":"�0"}
 {"offset":706,"len":6,"label":"?","text":"\u00001�-�-"}
-{"offset":712,"len":2,"label":"offset[12:99]","text":"\u0000-"}
+{"offset":712,"len":2,"label":"offset[12:99] = \"James P. Lewis, Director\"","text":"\u0000-"}
 {"offset":714,"len":14,"label":"?","text":"\u0000.I\u0019A\u0019@\u0019P\u0019�\u001e�\u001e"}
-{"offset":728,"len":2,"label":"offset[15:122]","text":"�\u001e"}
+{"offset":728,"len":2,"label":"offset[15:122] = \"name-15\"","text":"�\u001e"}
 // overlapping labels!
-{"offset":728,"len":2,"label":"offset[1:1]","text":"�\u001e"}
+{"offset":728,"len":2,"label":"offset[1:1] = \"name-1\"","text":"�\u001e"}
 {"offset":730,"len":8,"label":"?","text":"�\u001e�\u001e�\u001e�\u001e"}
-{"offset":738,"len":2,"label":"offset[14:115]","text":"�\u001e"}
+{"offset":738,"len":2,"label":"offset[14:115] = \"name-14\"","text":"�\u001e"}
 // overlapping labels!
-{"offset":738,"len":2,"label":"offset[1:1]","text":"�\u001e"}
+{"offset":738,"len":2,"label":"offset[1:1] = \"name-1\"","text":"�\u001e"}
 {"offset":740,"len":6,"label":"?","text":"Y.Y.\u0000."}
-{"offset":746,"len":2,"label":"offset[13:108]","text":"�."}
+{"offset":746,"len":2,"label":"offset[13:108] = \"Mr. Rusty Whitney\"","text":"�."}
 {"offset":748,"len":6,"label":"?","text":"�\u001b�\u001b�\u001b"}
-{"offset":754,"len":2,"label":"offset[3:25]","text":"\u0000\u001c"}
+{"offset":754,"len":2,"label":"offset[3:25] = \"Mr. Bill Mayhew\"","text":"\u0000\u001c"}
 {"offset":756,"len":14,"label":"?","text":"\t\u001d\u0001\u001d\u0000\u001d\u0010\u001d�\u001e�\u001e�\u001e"}
-{"offset":770,"len":2,"label":"offset[1:2]","text":"\u0000\u001f"}
+{"offset":770,"len":2,"label":"offset[1:2] = \"Professor Cyrus Levinthal\"","text":"\u0000\u001f"}
 {"offset":772,"len":4,"label":"?","text":"�\u0018�\u0018"}
-{"offset":776,"len":2,"label":"offset[13:107]","text":"�\u0018"}
+{"offset":776,"len":2,"label":"offset[13:107] = \"name-13\"","text":"�\u0018"}
 // overlapping labels!
-{"offset":776,"len":2,"label":"offset[1:1]","text":"�\u0018"}
+{"offset":776,"len":2,"label":"offset[1:1] = \"name-1\"","text":"�\u0018"}
 {"offset":778,"len":6,"label":"?","text":"�\u0018�/�/"}
-{"offset":784,"len":2,"label":"offset[15:123]","text":"�/"}
-{"offset":786,"len":2,"label":"offset[18:144]","text":"\u00000"}
+{"offset":784,"len":2,"label":"offset[15:123] = \"Mr. Stanley C. Bateman\"","text":"�/"}
+{"offset":786,"len":2,"label":"offset[18:144] = \"name-18\"","text":"\u00000"}
 // overlapping labels!
-{"offset":786,"len":2,"label":"offset[1:1]","text":"\u00000"}
+{"offset":786,"len":2,"label":"offset[1:1] = \"name-1\"","text":"\u00000"}
 {"offset":788,"len":4,"label":"?","text":"?1>1"}
-{"offset":792,"len":2,"label":"offset[20:159]","text":"81"}
+{"offset":792,"len":2,"label":"offset[20:159] = \"name-20\"","text":"81"}
 // overlapping labels!
-{"offset":792,"len":2,"label":"offset[2:17]","text":"81"}
-{"offset":794,"len":2,"label":"offset[44:353]","text":"@1"}
+{"offset":792,"len":2,"label":"offset[2:17] = \"name-2\"","text":"81"}
+{"offset":794,"len":2,"label":"offset[44:353] = \"name-44\"","text":"@1"}
 // overlapping labels!
-{"offset":794,"len":2,"label":"offset[4:31]","text":"@1"}
+{"offset":794,"len":2,"label":"offset[4:31] = \"name-4\"","text":"@1"}
 {"offset":796,"len":4,"label":"?","text":"�\u001e�\u001e"}
-{"offset":800,"len":2,"label":"offset[14:115]","text":"�\u001e"}
+{"offset":800,"len":2,"label":"offset[14:115] = \"name-14\"","text":"�\u001e"}
 // overlapping labels!
-{"offset":800,"len":2,"label":"offset[1:1]","text":"�\u001e"}
-{"offset":802,"len":2,"label":"offset[15:122]","text":"�\u001e"}
+{"offset":800,"len":2,"label":"offset[1:1] = \"name-1\"","text":"�\u001e"}
+{"offset":802,"len":2,"label":"offset[15:122] = \"name-15\"","text":"�\u001e"}
 // overlapping labels!
-{"offset":802,"len":2,"label":"offset[1:1]","text":"�\u001e"}
+{"offset":802,"len":2,"label":"offset[1:1] = \"name-1\"","text":"�\u001e"}
 {"offset":804,"len":4,"label":"?","text":"�\u001e�\u001e"}
-{"offset":808,"len":2,"label":"offset[17:136]","text":"�\u001e"}
+{"offset":808,"len":2,"label":"offset[17:136] = \"name-17\"","text":"�\u001e"}
 // overlapping labels!
-{"offset":808,"len":2,"label":"offset[1:1]","text":"�\u001e"}
+{"offset":808,"len":2,"label":"offset[1:1] = \"name-1\"","text":"�\u001e"}
 {"offset":810,"len":6,"label":"?","text":"�\u001e�2�2"}
-{"offset":816,"len":2,"label":"offset[11a:92]","text":"�2"}
+{"offset":816,"len":2,"label":"offset[11a:92] = \"Prof. Melvin Ferentz\"","text":"�2"}
 {"offset":818,"len":14,"label":"?","text":"\u00003y\u0019q\u0019p\u0019�\u0019b/b/"}
-{"offset":832,"len":2,"label":"offset[14:116]","text":"\u0000/"}
-{"offset":834,"len":2,"label":"offset[15:123]","text":"�/"}
+{"offset":832,"len":2,"label":"offset[14:116] = \"Mr. Gideon Yuval\"","text":"\u0000/"}
+{"offset":834,"len":2,"label":"offset[15:123] = \"Mr. Stanley C. Bateman\"","text":"�/"}
 {"offset":836,"len":6,"label":"?","text":"j3a3`3"}
-{"offset":842,"len":2,"label":"offset[27:218]","text":"p3"}
+{"offset":842,"len":2,"label":"offset[27:218] = \"name-27\"","text":"p3"}
 // overlapping labels!
-{"offset":842,"len":2,"label":"offset[27a:225]","text":"p3"}
+{"offset":842,"len":2,"label":"offset[27a:225] = \"name-27a\"","text":"p3"}
 // overlapping labels!
-{"offset":842,"len":2,"label":"offset[2:17]","text":"p3"}
+{"offset":842,"len":2,"label":"offset[2:17] = \"name-2\"","text":"p3"}
 {"offset":844,"len":12,"label":"?","text":"�\u001e�\u001e�\u001e�\u001e\u00171\u00161"}
-{"offset":856,"len":2,"label":"offset[21:167]","text":"\u00101"}
+{"offset":856,"len":2,"label":"offset[21:167] = \"name-21\"","text":"\u00101"}
 // overlapping labels!
-{"offset":856,"len":2,"label":"offset[2:17]","text":"\u00101"}
-{"offset":858,"len":2,"label":"offset[22:174]","text":"\u00181"}
+{"offset":856,"len":2,"label":"offset[2:17] = \"name-2\"","text":"\u00101"}
+{"offset":858,"len":2,"label":"offset[22:174] = \"name-22\"","text":"\u00181"}
 // overlapping labels!
-{"offset":858,"len":2,"label":"offset[2:17]","text":"\u00181"}
+{"offset":858,"len":2,"label":"offset[2:17] = \"name-2\"","text":"\u00181"}
 {"offset":860,"len":12,"label":"?","text":"4040 0@0r2r2"}
-{"offset":872,"len":2,"label":"offset[18:145]","text":"\u00002"}
-{"offset":874,"len":2,"label":"offset[11a:92]","text":"�2"}
+{"offset":872,"len":2,"label":"offset[18:145] = \"Prof. R. W. Peebles\"","text":"\u00002"}
+{"offset":874,"len":2,"label":"offset[11a:92] = \"Prof. Melvin Ferentz\"","text":"�2"}
 {"offset":876,"len":4,"label":"?","text":"\u00070\u00060"}
-{"offset":880,"len":2,"label":"offset[18:144]","text":"\u00000"}
+{"offset":880,"len":2,"label":"offset[18:144] = \"name-18\"","text":"\u00000"}
 // overlapping labels!
-{"offset":880,"len":2,"label":"offset[1:1]","text":"\u00000"}
-{"offset":882,"len":2,"label":"offset[11:84]","text":"\b0"}
+{"offset":880,"len":2,"label":"offset[1:1] = \"name-1\"","text":"\u00000"}
+{"offset":882,"len":2,"label":"offset[11:84] = \"name-11\"","text":"\b0"}
 // overlapping labels!
-{"offset":882,"len":2,"label":"offset[11a:91]","text":"\b0"}
+{"offset":882,"len":2,"label":"offset[11a:91] = \"name-11a\"","text":"\b0"}
 // overlapping labels!
-{"offset":882,"len":2,"label":"offset[1:1]","text":"\b0"}
+{"offset":882,"len":2,"label":"offset[1:1] = \"name-1\"","text":"\b0"}
 {"offset":884,"len":4,"label":"?","text":"�1�1"}
-{"offset":888,"len":2,"label":"offset[17:137]","text":"�1"}
-{"offset":890,"len":2,"label":"offset[18:145]","text":"\u00002"}
+{"offset":888,"len":2,"label":"offset[17:137] = \"Prof. N. Marcuvitz\"","text":"�1"}
+{"offset":890,"len":2,"label":"offset[18:145] = \"Prof. R. W. Peebles\"","text":"\u00002"}
 {"offset":892,"len":20,"label":"?","text":"�;�;�;�;�\u001e�\u001e�\u001e�\u001ew1v1"}
-{"offset":912,"len":2,"label":"offset[23:180]","text":"p1"}
+{"offset":912,"len":2,"label":"offset[23:180] = \"name-23\"","text":"p1"}
 // overlapping labels!
-{"offset":912,"len":2,"label":"offset[2:17]","text":"p1"}
-{"offset":914,"len":2,"label":"offset[24:187]","text":"x1"}
+{"offset":912,"len":2,"label":"offset[2:17] = \"name-2\"","text":"p1"}
+{"offset":914,"len":2,"label":"offset[24:187] = \"name-24\"","text":"x1"}
 // overlapping labels!
-{"offset":914,"len":2,"label":"offset[2:17]","text":"x1"}
+{"offset":914,"len":2,"label":"offset[2:17] = \"name-2\"","text":"x1"}
 {"offset":916,"len":4,"label":"?","text":"\u001f0\u001e0"}
-{"offset":920,"len":2,"label":"offset[1:1]","text":"\u00180"}
+{"offset":920,"len":2,"label":"offset[1:1] = \"name-1\"","text":"\u00180"}
 // overlapping labels!
-{"offset":920,"len":2,"label":"offset[1a:9]","text":"\u00180"}
+{"offset":920,"len":2,"label":"offset[1a:9] = \"name-1a\"","text":"\u00180"}
 {"offset":922,"len":16,"label":"?","text":" 0�\u001e�\u001e�\u001e�\u001e~\u001d~\u001dp\u001d"}
-{"offset":938,"len":2,"label":"offset[5:40]","text":"�\u001d"}
+{"offset":938,"len":2,"label":"offset[5:40] = \"Mr. E. J. Desautels\"","text":"�\u001d"}
 {"offset":940,"len":6,"label":"?","text":"931303"}
-{"offset":946,"len":2,"label":"offset[25:195]","text":"@3"}
+{"offset":946,"len":2,"label":"offset[25:195] = \"name-25\"","text":"@3"}
 // overlapping labels!
-{"offset":946,"len":2,"label":"offset[2:17]","text":"@3"}
+{"offset":946,"len":2,"label":"offset[2:17] = \"name-2\"","text":"@3"}
 {"offset":948,"len":6,"label":"?","text":"i1a1`1"}
-{"offset":954,"len":2,"label":"offset[23:180]","text":"p1"}
+{"offset":954,"len":2,"label":"offset[23:180] = \"name-23\"","text":"p1"}
 // overlapping labels!
-{"offset":954,"len":2,"label":"offset[2:17]","text":"p1"}
+{"offset":954,"len":2,"label":"offset[2:17] = \"name-2\"","text":"p1"}
 {"offset":956,"len":20,"label":"?","text":">\u001d>\u001d0\u001d@\u001d�?�?\u0000<\u0000@7161"}
-{"offset":976,"len":2,"label":"offset[19:152]","text":"01"}
+{"offset":976,"len":2,"label":"offset[19:152] = \"name-19\"","text":"01"}
 // overlapping labels!
-{"offset":976,"len":2,"label":"offset[1:1]","text":"01"}
-{"offset":978,"len":2,"label":"offset[20:159]","text":"81"}
+{"offset":976,"len":2,"label":"offset[1:1] = \"name-1\"","text":"01"}
+{"offset":978,"len":2,"label":"offset[20:159] = \"name-20\"","text":"81"}
 // overlapping labels!
-{"offset":978,"len":2,"label":"offset[2:17]","text":"81"}
+{"offset":978,"len":2,"label":"offset[2:17] = \"name-2\"","text":"81"}
 {"offset":980,"len":4,"label":"?","text":"�;�;"}
-{"offset":984,"len":2,"label":"offset[43:346]","text":"�;"}
+{"offset":984,"len":2,"label":"offset[43:346] = \"name-43\"","text":"�;"}
 // overlapping labels!
-{"offset":984,"len":2,"label":"offset[4:31]","text":"�;"}
-{"offset":986,"len":2,"label":"offset[46:368]","text":"�;"}
+{"offset":984,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
+{"offset":986,"len":2,"label":"offset[46:368] = \"name-46\"","text":"�;"}
 // overlapping labels!
-{"offset":986,"len":2,"label":"offset[4:31]","text":"�;"}
+{"offset":986,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
 {"offset":988,"len":12,"label":"?","text":"�\u001e�\u001e�\u001e�\u001e�3�3"}
-{"offset":1000,"len":2,"label":"offset[1a:10]","text":"�3"}
+{"offset":1000,"len":2,"label":"offset[1a:10] = \"Mr. Reidar Bornholdt\"","text":"�3"}
 {"offset":1002,"len":6,"label":"?","text":"\u00004\u001f1\u001e1"}
-{"offset":1008,"len":2,"label":"offset[22:174]","text":"\u00181"}
+{"offset":1008,"len":2,"label":"offset[22:174] = \"name-22\"","text":"\u00181"}
 // overlapping labels!
-{"offset":1008,"len":2,"label":"offset[2:17]","text":"\u00181"}
+{"offset":1008,"len":2,"label":"offset[2:17] = \"name-2\"","text":"\u00181"}
 {"offset":1010,"len":6,"label":"?","text":" 1�;�;"}
-{"offset":1016,"len":2,"label":"offset[39:316]","text":"�;"}
+{"offset":1016,"len":2,"label":"offset[39:316] = \"name-39\"","text":"�;"}
 // overlapping labels!
-{"offset":1016,"len":2,"label":"offset[3:24]","text":"�;"}
+{"offset":1016,"len":2,"label":"offset[3:24] = \"name-3\"","text":"�;"}
 {"offset":1018,"len":6,"label":"?","text":"\u0000<�;�;"}
-{"offset":1024,"len":2,"label":"offset[49:389]","text":"�;"}
+{"offset":1024,"len":2,"label":"offset[49:389] = \"name-49\"","text":"�;"}
 // overlapping labels!
-{"offset":1024,"len":2,"label":"offset[4:31]","text":"�;"}
-{"offset":1026,"len":2,"label":"offset[40:323]","text":"�;"}
+{"offset":1024,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
+{"offset":1026,"len":2,"label":"offset[40:323] = \"name-40\"","text":"�;"}
 // overlapping labels!
-{"offset":1026,"len":2,"label":"offset[4:31]","text":"�;"}
+{"offset":1026,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
 {"offset":1028,"len":4,"label":"?","text":"V,V,"}
-{"offset":1032,"len":2,"label":"offset[25:196]","text":"\u0000,"}
-{"offset":1034,"len":2,"label":"offset[26:203]","text":"�,"}
+{"offset":1032,"len":2,"label":"offset[25:196] = \"Mr. John E. Ecklund\"","text":"\u0000,"}
+{"offset":1034,"len":2,"label":"offset[26:203] = \"Dr. P. Weiner\"","text":"�,"}
 {"offset":1036,"len":4,"label":"?","text":"�8�8"}
-{"offset":1040,"len":2,"label":"offset[20:160]","text":"�8"}
-{"offset":1042,"len":2,"label":"offset[21:168]","text":"\u00009"}
+{"offset":1040,"len":2,"label":"offset[20:160] = \"Prof. D. A. Jardine\"","text":"�8"}
+{"offset":1042,"len":2,"label":"offset[21:168] = \"Prof. Ralph H. Bjork\"","text":"\u00009"}
 {"offset":1044,"len":12,"label":"?","text":"+3&3 303�C�C"}
-{"offset":1056,"len":2,"label":"offset[27a:226]","text":"�C"}
-{"offset":1058,"len":2,"label":"offset[51:404]","text":"\u0000D"}
+{"offset":1056,"len":2,"label":"offset[27a:226] = \"Greg Chesson\"","text":"�C"}
+{"offset":1058,"len":2,"label":"offset[51:404] = \"R. J. Collins\"","text":"\u0000D"}
 {"offset":1060,"len":28,"label":"?","text":"i\u0019a\u0019`\u0019p\u0019I\u001dA\u001d@\u001dP\u001d^0^0P0`0^8^8"}
-{"offset":1088,"len":2,"label":"offset[19:153]","text":"\u00008"}
-{"offset":1090,"len":2,"label":"offset[20:160]","text":"�8"}
+{"offset":1088,"len":2,"label":"offset[19:153] = \"Mr. Martin E. Newell\"","text":"\u00008"}
+{"offset":1090,"len":2,"label":"offset[20:160] = \"Prof. D. A. Jardine\"","text":"�8"}
 {"offset":1092,"len":14,"label":"?","text":"I0A0@0P0+1+1 1"}
-{"offset":1106,"len":2,"label":"offset[19:152]","text":"01"}
+{"offset":1106,"len":2,"label":"offset[19:152] = \"name-19\"","text":"01"}
 // overlapping labels!
-{"offset":1106,"len":2,"label":"offset[1:1]","text":"01"}
+{"offset":1106,"len":2,"label":"offset[1:1] = \"name-1\"","text":"01"}
 {"offset":1108,"len":4,"label":"?","text":"U9U9"}
-{"offset":1112,"len":2,"label":"offset[21:168]","text":"\u00009"}
-{"offset":1114,"len":2,"label":"offset[22:175]","text":"�9"}
+{"offset":1112,"len":2,"label":"offset[21:168] = \"Prof. Ralph H. Bjork\"","text":"\u00009"}
+{"offset":1114,"len":2,"label":"offset[22:175] = \"Prof C. Frank Starmer\"","text":"�9"}
 {"offset":1116,"len":4,"label":"?","text":"�:�:"}
-{"offset":1120,"len":2,"label":"offset[23:181]","text":"�:"}
-{"offset":1122,"len":2,"label":"offset[24:188]","text":"\u0000;"}
+{"offset":1120,"len":2,"label":"offset[23:181] = \"Prof. R. S. Fabry\"","text":"�:"}
+{"offset":1122,"len":2,"label":"offset[24:188] = \"Dr. M. S. Cole\"","text":"\u0000;"}
 {"offset":1124,"len":12,"label":"?","text":"^1^1P1`1�9�9"}
-{"offset":1136,"len":2,"label":"offset[22:175]","text":"�9"}
+{"offset":1136,"len":2,"label":"offset[22:175] = \"Prof C. Frank Starmer\"","text":"�9"}
 {"offset":1138,"len":35,"label":"?","text":"\u0000:\f3\f3\u00003\u00103\t:\u0001:\u0000:\u0010:\u00193\u00193\u00103 3\\3\\3P3`3G"}
-{"offset":1173,"len":2,"label":"offset[34:284]","text":"3F"}
+{"offset":1173,"len":2,"label":"offset[34:284] = \"Naval Postgraduate School\"","text":"3F"}
 {"offset":1175,"len":1,"label":"?","text":"3"}
-{"offset":1176,"len":2,"label":"offset[25:195]","text":"@3"}
+{"offset":1176,"len":2,"label":"offset[25:195] = \"name-25\"","text":"@3"}
 // overlapping labels!
-{"offset":1176,"len":2,"label":"offset[2:17]","text":"@3"}
-{"offset":1178,"len":2,"label":"offset[26:202]","text":"H3"}
+{"offset":1176,"len":2,"label":"offset[2:17] = \"name-2\"","text":"@3"}
+{"offset":1178,"len":2,"label":"offset[26:202] = \"name-26\"","text":"H3"}
 // overlapping labels!
-{"offset":1178,"len":2,"label":"offset[2:17]","text":"H3"}
+{"offset":1178,"len":2,"label":"offset[2:17] = \"name-2\"","text":"H3"}
 {"offset":1180,"len":4,"label":"?","text":"1~1"}
-{"offset":1184,"len":2,"label":"offset[24:187]","text":"x1"}
+{"offset":1184,"len":2,"label":"offset[24:187] = \"name-24\"","text":"x1"}
 // overlapping labels!
-{"offset":1184,"len":2,"label":"offset[2:17]","text":"x1"}
-{"offset":1186,"len":2,"label":"offset[17:137]","text":"�1"}
+{"offset":1184,"len":2,"label":"offset[2:17] = \"name-2\"","text":"x1"}
+{"offset":1186,"len":2,"label":"offset[17:137] = \"Prof. N. Marcuvitz\"","text":"�1"}
 {"offset":1188,"len":4,"label":"?","text":"\\;\\;"}
-{"offset":1192,"len":2,"label":"offset[24:188]","text":"\u0000;"}
+{"offset":1192,"len":2,"label":"offset[24:188] = \"Dr. M. S. Cole\"","text":"\u0000;"}
 {"offset":1194,"len":6,"label":"?","text":"�;O3N3"}
-{"offset":1200,"len":2,"label":"offset[26:202]","text":"H3"}
+{"offset":1200,"len":2,"label":"offset[26:202] = \"name-26\"","text":"H3"}
 // overlapping labels!
-{"offset":1200,"len":2,"label":"offset[2:17]","text":"H3"}
+{"offset":1200,"len":2,"label":"offset[2:17] = \"name-2\"","text":"H3"}
 {"offset":1202,"len":2,"label":"?","text":"P3"}
-{"offset":1204,"len":2,"label":"offset[13:107]","text":"�\u0018"}
+{"offset":1204,"len":2,"label":"offset[13:107] = \"name-13\"","text":"�\u0018"}
 // overlapping labels!
-{"offset":1204,"len":2,"label":"offset[1:1]","text":"�\u0018"}
+{"offset":1204,"len":2,"label":"offset[1:1] = \"name-1\"","text":"�\u0018"}
 {"offset":1206,"len":4,"label":"?","text":"�\u0018�\u0018"}
-{"offset":1210,"len":2,"label":"offset[13:107]","text":"�\u0018"}
+{"offset":1210,"len":2,"label":"offset[13:107] = \"name-13\"","text":"�\u0018"}
 // overlapping labels!
-{"offset":1210,"len":2,"label":"offset[1:1]","text":"�\u0018"}
+{"offset":1210,"len":2,"label":"offset[1:1] = \"name-1\"","text":"�\u0018"}
 {"offset":1212,"len":6,"label":"?","text":"\u001e\u001d\u001e\u001d\u0010\u001d"}
-{"offset":1218,"len":2,"label":"offset[26:202]","text":" \u001d"}
+{"offset":1218,"len":2,"label":"offset[26:202] = \"name-26\"","text":" \u001d"}
 // overlapping labels!
-{"offset":1218,"len":2,"label":"offset[26a:210]","text":" \u001d"}
+{"offset":1218,"len":2,"label":"offset[26a:210] = \"name-26a\"","text":" \u001d"}
 // overlapping labels!
-{"offset":1218,"len":2,"label":"offset[2:17]","text":" \u001d"}
+{"offset":1218,"len":2,"label":"offset[2:17] = \"name-2\"","text":" \u001d"}
 {"offset":1220,"len":6,"label":"?","text":"\\:\\:P:"}
-{"offset":1226,"len":2,"label":"offset[50:395]","text":"`:"}
+{"offset":1226,"len":2,"label":"offset[50:395] = \"name-50\"","text":"`:"}
 // overlapping labels!
-{"offset":1226,"len":2,"label":"offset[5:39]","text":"`:"}
+{"offset":1226,"len":2,"label":"offset[5:39] = \"name-5\"","text":"`:"}
 {"offset":1228,"len":4,"label":"?","text":"xIxI"}
-{"offset":1232,"len":2,"label":"offset[28:233]","text":"\u0000I"}
-{"offset":1234,"len":2,"label":"offset[30:250]","text":"�I"}
+{"offset":1232,"len":2,"label":"offset[28:233] = \"Mr John Vanderford\"","text":"\u0000I"}
+{"offset":1234,"len":2,"label":"offset[30:250] = \"Prof C.J. Karzmark\"","text":"�I"}
 {"offset":1236,"len":4,"label":"?","text":"hFhF"}
-{"offset":1240,"len":2,"label":"offset[34:282]","text":"\u0000F"}
-{"offset":1242,"len":2,"label":"offset[33:273]","text":"�F"}
+{"offset":1240,"len":2,"label":"offset[34:282] = \"Mr. Belton E. Allen\"","text":"\u0000F"}
+{"offset":1242,"len":2,"label":"offset[33:273] = \"Mr. J. Tansley\"","text":"�F"}
 {"offset":1244,"len":4,"label":"?","text":"�;�;"}
-{"offset":1248,"len":2,"label":"offset[47:376]","text":"�;"}
+{"offset":1248,"len":2,"label":"offset[47:376] = \"name-47\"","text":"�;"}
 // overlapping labels!
-{"offset":1248,"len":2,"label":"offset[4:31]","text":"�;"}
-{"offset":1250,"len":2,"label":"offset[38:309]","text":"�;"}
+{"offset":1248,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
+{"offset":1250,"len":2,"label":"offset[38:309] = \"name-38\"","text":"�;"}
 // overlapping labels!
-{"offset":1250,"len":2,"label":"offset[3:24]","text":"�;"}
+{"offset":1250,"len":2,"label":"offset[3:24] = \"name-3\"","text":"�;"}
 {"offset":1252,"len":4,"label":"?","text":"x3v3"}
-{"offset":1256,"len":2,"label":"offset[27:218]","text":"p3"}
+{"offset":1256,"len":2,"label":"offset[27:218] = \"name-27\"","text":"p3"}
 // overlapping labels!
-{"offset":1256,"len":2,"label":"offset[27a:225]","text":"p3"}
+{"offset":1256,"len":2,"label":"offset[27a:225] = \"name-27a\"","text":"p3"}
 // overlapping labels!
-{"offset":1256,"len":2,"label":"offset[2:17]","text":"p3"}
+{"offset":1256,"len":2,"label":"offset[2:17] = \"name-2\"","text":"p3"}
 {"offset":1258,"len":16,"label":"?","text":"x3 : : :0:y0q0p0"}
-{"offset":1274,"len":2,"label":"offset[16:130]","text":"�0"}
+{"offset":1274,"len":2,"label":"offset[16:130] = \"Prof. D. A. Michalopoulos\"","text":"�0"}
 {"offset":1276,"len":12,"label":"?","text":"�;�;�;�;�,�,"}
-{"offset":1288,"len":2,"label":"offset[26:203]","text":"�,"}
-{"offset":1290,"len":2,"label":"offset[12:99]","text":"\u0000-"}
+{"offset":1288,"len":2,"label":"offset[26:203] = \"Dr. P. Weiner\"","text":"�,"}
+{"offset":1290,"len":2,"label":"offset[12:99] = \"James P. Lewis, Director\"","text":"\u0000-"}
 {"offset":1292,"len":6,"label":"?","text":"z:q:p:"}
-{"offset":1298,"len":2,"label":"offset[23:181]","text":"�:"}
+{"offset":1298,"len":2,"label":"offset[23:181] = \"Prof. R. S. Fabry\"","text":"�:"}
 {"offset":1300,"len":4,"label":"?","text":"�B�B"}
-{"offset":1304,"len":2,"label":"offset[27:219]","text":"�B"}
-{"offset":1306,"len":2,"label":"offset[42:340]","text":"\u0000C"}
+{"offset":1304,"len":2,"label":"offset[27:219] = \"Prof. D. B. Gillies\"","text":"�B"}
+{"offset":1306,"len":2,"label":"offset[42:340] = \"James Curry\"","text":"\u0000C"}
 {"offset":1308,"len":6,"label":"?","text":"�;�;�;"}
-{"offset":1314,"len":2,"label":"offset[48:382]","text":"�;"}
+{"offset":1314,"len":2,"label":"offset[48:382] = \"name-48\"","text":"�;"}
 // overlapping labels!
-{"offset":1314,"len":2,"label":"offset[4:31]","text":"�;"}
+{"offset":1314,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
 {"offset":1316,"len":4,"label":"?","text":"/\u001d.\u001d"}
-{"offset":1320,"len":2,"label":"offset[27:218]","text":"(\u001d"}
+{"offset":1320,"len":2,"label":"offset[27:218] = \"name-27\"","text":"(\u001d"}
 // overlapping labels!
-{"offset":1320,"len":2,"label":"offset[2:17]","text":"(\u001d"}
+{"offset":1320,"len":2,"label":"offset[2:17] = \"name-2\"","text":"(\u001d"}
 {"offset":1322,"len":6,"label":"?","text":"0\u001dsBsB"}
-{"offset":1328,"len":2,"label":"offset[26a:211]","text":"\u0000B"}
-{"offset":1330,"len":2,"label":"offset[27:219]","text":"�B"}
-{"offset":1332,"len":2,"label":"offset[27:218]","text":"(\u001d"}
+{"offset":1328,"len":2,"label":"offset[26a:211] = \"Ms. Lois H. Heiser\"","text":"\u0000B"}
+{"offset":1330,"len":2,"label":"offset[27:219] = \"Prof. D. B. Gillies\"","text":"�B"}
+{"offset":1332,"len":2,"label":"offset[27:218] = \"name-27\"","text":"(\u001d"}
 // overlapping labels!
-{"offset":1332,"len":2,"label":"offset[2:17]","text":"(\u001d"}
+{"offset":1332,"len":2,"label":"offset[2:17] = \"name-2\"","text":"(\u001d"}
 {"offset":1334,"len":2,"label":"?","text":"&\u001d"}
-{"offset":1336,"len":2,"label":"offset[26:202]","text":" \u001d"}
+{"offset":1336,"len":2,"label":"offset[26:202] = \"name-26\"","text":" \u001d"}
 // overlapping labels!
-{"offset":1336,"len":2,"label":"offset[26a:210]","text":" \u001d"}
+{"offset":1336,"len":2,"label":"offset[26a:210] = \"name-26a\"","text":" \u001d"}
 // overlapping labels!
-{"offset":1336,"len":2,"label":"offset[2:17]","text":" \u001d"}
-{"offset":1338,"len":2,"label":"offset[27:218]","text":"(\u001d"}
+{"offset":1336,"len":2,"label":"offset[2:17] = \"name-2\"","text":" \u001d"}
+{"offset":1338,"len":2,"label":"offset[27:218] = \"name-27\"","text":"(\u001d"}
 // overlapping labels!
-{"offset":1338,"len":2,"label":"offset[2:17]","text":"(\u001d"}
+{"offset":1338,"len":2,"label":"offset[2:17] = \"name-2\"","text":"(\u001d"}
 {"offset":1340,"len":20,"label":"?","text":"\u001b:\u001b:\u0010: :|3|3x3|3O:N:"}
-{"offset":1360,"len":2,"label":"offset[29:240]","text":"H:"}
+{"offset":1360,"len":2,"label":"offset[29:240] = \"name-29\"","text":"H:"}
 // overlapping labels!
-{"offset":1360,"len":2,"label":"offset[2:17]","text":"H:"}
+{"offset":1360,"len":2,"label":"offset[2:17] = \"name-2\"","text":"H:"}
 {"offset":1362,"len":8,"label":"?","text":"P:<:<:0:"}
-{"offset":1370,"len":2,"label":"offset[28:232]","text":"@:"}
+{"offset":1370,"len":2,"label":"offset[28:232] = \"name-28\"","text":"@:"}
 // overlapping labels!
-{"offset":1370,"len":2,"label":"offset[2:17]","text":"@:"}
+{"offset":1370,"len":2,"label":"offset[2:17] = \"name-2\"","text":"@:"}
 {"offset":1372,"len":4,"label":"?","text":"�I�I"}
-{"offset":1376,"len":2,"label":"offset[30:250]","text":"�I"}
-{"offset":1378,"len":2,"label":"offset[38:310]","text":"\u0000J"}
+{"offset":1376,"len":2,"label":"offset[30:250] = \"Prof C.J. Karzmark\"","text":"�I"}
+{"offset":1378,"len":2,"label":"offset[38:310] = \"R. M. Kavanaugh\"","text":"\u0000J"}
 {"offset":1380,"len":4,"label":"?","text":"O1N1"}
-{"offset":1384,"len":2,"label":"offset[45:361]","text":"H1"}
+{"offset":1384,"len":2,"label":"offset[45:361] = \"name-45\"","text":"H1"}
 // overlapping labels!
-{"offset":1384,"len":2,"label":"offset[4:31]","text":"H1"}
+{"offset":1384,"len":2,"label":"offset[4:31] = \"name-4\"","text":"H1"}
 {"offset":1386,"len":6,"label":"?","text":"P1�;�;"}
-{"offset":1392,"len":2,"label":"offset[41:331]","text":"�;"}
+{"offset":1392,"len":2,"label":"offset[41:331] = \"name-41\"","text":"�;"}
 // overlapping labels!
-{"offset":1392,"len":2,"label":"offset[4:31]","text":"�;"}
+{"offset":1392,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
 {"offset":1394,"len":6,"label":"?","text":"�;/C.C"}
-{"offset":1400,"len":2,"label":"offset[37:302]","text":"(C"}
+{"offset":1400,"len":2,"label":"offset[37:302] = \"name-37\"","text":"(C"}
 // overlapping labels!
-{"offset":1400,"len":2,"label":"offset[3:24]","text":"(C"}
-{"offset":1402,"len":2,"label":"offset[32:265]","text":"0C"}
+{"offset":1400,"len":2,"label":"offset[3:24] = \"name-3\"","text":"(C"}
+{"offset":1402,"len":2,"label":"offset[32:265] = \"name-32\"","text":"0C"}
 // overlapping labels!
-{"offset":1402,"len":2,"label":"offset[3:24]","text":"0C"}
+{"offset":1402,"len":2,"label":"offset[3:24] = \"name-3\"","text":"0C"}
 {"offset":1404,"len":4,"label":"?","text":"�D�D"}
-{"offset":1408,"len":2,"label":"offset[35:289]","text":"�D"}
-{"offset":1410,"len":2,"label":"offset[29:241]","text":"\u0000E"}
+{"offset":1408,"len":2,"label":"offset[35:289] = \"Prof. James D. Foley\"","text":"�D"}
+{"offset":1410,"len":2,"label":"offset[29:241] = \"Prof. E. Milgrom\"","text":"\u0000E"}
 {"offset":1412,"len":4,"label":"?","text":"�;�;"}
-{"offset":1416,"len":2,"label":"offset[38:309]","text":"�;"}
+{"offset":1416,"len":2,"label":"offset[38:309] = \"name-38\"","text":"�;"}
 // overlapping labels!
-{"offset":1416,"len":2,"label":"offset[3:24]","text":"�;"}
-{"offset":1418,"len":2,"label":"offset[39:316]","text":"�;"}
+{"offset":1416,"len":2,"label":"offset[3:24] = \"name-3\"","text":"�;"}
+{"offset":1418,"len":2,"label":"offset[39:316] = \"name-39\"","text":"�;"}
 // overlapping labels!
-{"offset":1418,"len":2,"label":"offset[3:24]","text":"�;"}
+{"offset":1418,"len":2,"label":"offset[3:24] = \"name-3\"","text":"�;"}
 {"offset":1420,"len":3,"label":"?","text":"?C>"}
-{"offset":1423,"len":2,"label":"offset[19:156]","text":"C8"}
+{"offset":1423,"len":2,"label":"offset[19:156] = \"Salt Lake City, Utah 84112\"","text":"C8"}
 // overlapping labels!
-{"offset":1424,"len":2,"label":"offset[31:257]","text":"8C"}
+{"offset":1424,"len":2,"label":"offset[31:257] = \"name-31\"","text":"8C"}
 // overlapping labels!
-{"offset":1424,"len":2,"label":"offset[3:24]","text":"8C"}
-{"offset":1426,"len":2,"label":"offset[34:281]","text":"@C"}
+{"offset":1424,"len":2,"label":"offset[3:24] = \"name-3\"","text":"8C"}
+{"offset":1426,"len":2,"label":"offset[34:281] = \"name-34\"","text":"@C"}
 // overlapping labels!
-{"offset":1426,"len":2,"label":"offset[3:24]","text":"@C"}
+{"offset":1426,"len":2,"label":"offset[3:24] = \"name-3\"","text":"@C"}
 {"offset":1428,"len":4,"label":"?","text":"OCNC"}
-{"offset":1432,"len":2,"label":"offset[33:272]","text":"HC"}
+{"offset":1432,"len":2,"label":"offset[33:272] = \"name-33\"","text":"HC"}
 // overlapping labels!
-{"offset":1432,"len":2,"label":"offset[3:24]","text":"HC"}
-{"offset":1434,"len":2,"label":"offset[30:249]","text":"PC"}
+{"offset":1432,"len":2,"label":"offset[3:24] = \"name-3\"","text":"HC"}
+{"offset":1434,"len":2,"label":"offset[30:249] = \"name-30\"","text":"PC"}
 // overlapping labels!
-{"offset":1434,"len":2,"label":"offset[3:24]","text":"PC"}
+{"offset":1434,"len":2,"label":"offset[3:24] = \"name-3\"","text":"PC"}
 {"offset":1436,"len":4,"label":"?","text":"�;�;"}
-{"offset":1440,"len":2,"label":"offset[46:368]","text":"�;"}
+{"offset":1440,"len":2,"label":"offset[46:368] = \"name-46\"","text":"�;"}
 // overlapping labels!
-{"offset":1440,"len":2,"label":"offset[4:31]","text":"�;"}
-{"offset":1442,"len":2,"label":"offset[47:376]","text":"�;"}
+{"offset":1440,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
+{"offset":1442,"len":2,"label":"offset[47:376] = \"name-47\"","text":"�;"}
 // overlapping labels!
-{"offset":1442,"len":2,"label":"offset[4:31]","text":"�;"}
+{"offset":1442,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
 {"offset":1444,"len":4,"label":"?","text":"�E�E"}
-{"offset":1448,"len":2,"label":"offset[29:241]","text":"\u0000E"}
-{"offset":1450,"len":2,"label":"offset[34:282]","text":"\u0000F"}
-{"offset":1452,"len":2,"label":"offset[1a:10]","text":"�3"}
-{"offset":1454,"len":2,"label":"offset[1a:10]","text":"�3"}
+{"offset":1448,"len":2,"label":"offset[29:241] = \"Prof. E. Milgrom\"","text":"\u0000E"}
+{"offset":1450,"len":2,"label":"offset[34:282] = \"Mr. Belton E. Allen\"","text":"\u0000F"}
+{"offset":1452,"len":2,"label":"offset[1a:10] = \"Mr. Reidar Bornholdt\"","text":"�3"}
+{"offset":1454,"len":2,"label":"offset[1a:10] = \"Mr. Reidar Bornholdt\"","text":"�3"}
 {"offset":1456,"len":2,"label":"?","text":"|3"}
-{"offset":1458,"len":2,"label":"offset[1a:10]","text":"�3"}
+{"offset":1458,"len":2,"label":"offset[1a:10] = \"Mr. Reidar Bornholdt\"","text":"�3"}
 {"offset":1460,"len":4,"label":"?","text":"G:F:"}
-{"offset":1464,"len":2,"label":"offset[28:232]","text":"@:"}
+{"offset":1464,"len":2,"label":"offset[28:232] = \"name-28\"","text":"@:"}
 // overlapping labels!
-{"offset":1464,"len":2,"label":"offset[2:17]","text":"@:"}
-{"offset":1466,"len":2,"label":"offset[29:240]","text":"H:"}
+{"offset":1464,"len":2,"label":"offset[2:17] = \"name-2\"","text":"@:"}
+{"offset":1466,"len":2,"label":"offset[29:240] = \"name-29\"","text":"H:"}
 // overlapping labels!
-{"offset":1466,"len":2,"label":"offset[2:17]","text":"H:"}
+{"offset":1466,"len":2,"label":"offset[2:17] = \"name-2\"","text":"H:"}
 {"offset":1468,"len":6,"label":"?","text":"\u0000\u0000\u0000\u0018�;"}
-{"offset":1474,"len":2,"label":"offset[42:339]","text":"�;"}
+{"offset":1474,"len":2,"label":"offset[42:339] = \"name-42\"","text":"�;"}
 // overlapping labels!
-{"offset":1474,"len":2,"label":"offset[4:31]","text":"�;"}
+{"offset":1474,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
 {"offset":1476,"len":4,"label":"?","text":"WCVC"}
-{"offset":1480,"len":2,"label":"offset[30:249]","text":"PC"}
+{"offset":1480,"len":2,"label":"offset[30:249] = \"name-30\"","text":"PC"}
 // overlapping labels!
-{"offset":1480,"len":2,"label":"offset[3:24]","text":"PC"}
-{"offset":1482,"len":2,"label":"offset[35:288]","text":"XC"}
+{"offset":1480,"len":2,"label":"offset[3:24] = \"name-3\"","text":"PC"}
+{"offset":1482,"len":2,"label":"offset[35:288] = \"name-35\"","text":"XC"}
 // overlapping labels!
-{"offset":1482,"len":2,"label":"offset[3:24]","text":"XC"}
+{"offset":1482,"len":2,"label":"offset[3:24] = \"name-3\"","text":"XC"}
 {"offset":1484,"len":4,"label":"?","text":"PHPH"}
-{"offset":1488,"len":2,"label":"offset[36:296]","text":"\u0000H"}
-{"offset":1490,"len":2,"label":"offset[37:303]","text":"�H"}
+{"offset":1488,"len":2,"label":"offset[36:296] = \"Mr. Dustin H. Heuston\"","text":"\u0000H"}
+{"offset":1490,"len":2,"label":"offset[37:303] = \"Mr. T. C. Stevens\"","text":"�H"}
 {"offset":1492,"len":4,"label":"?","text":"'C&C"}
-{"offset":1496,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":1496,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":1496,"len":2,"label":"offset[3:24]","text":" C"}
-{"offset":1498,"len":2,"label":"offset[37:302]","text":"(C"}
+{"offset":1496,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
+{"offset":1498,"len":2,"label":"offset[37:302] = \"name-37\"","text":"(C"}
 // overlapping labels!
-{"offset":1498,"len":2,"label":"offset[3:24]","text":"(C"}
+{"offset":1498,"len":2,"label":"offset[3:24] = \"name-3\"","text":"(C"}
 {"offset":1500,"len":4,"label":"?","text":"7C6C"}
-{"offset":1504,"len":2,"label":"offset[32:265]","text":"0C"}
+{"offset":1504,"len":2,"label":"offset[32:265] = \"name-32\"","text":"0C"}
 // overlapping labels!
-{"offset":1504,"len":2,"label":"offset[3:24]","text":"0C"}
+{"offset":1504,"len":2,"label":"offset[3:24] = \"name-3\"","text":"0C"}
 // overlapping labels!
-{"offset":1505,"len":2,"label":"offset[19:156]","text":"C8"}
+{"offset":1505,"len":2,"label":"offset[19:156] = \"Salt Lake City, Utah 84112\"","text":"C8"}
 // overlapping labels!
-{"offset":1506,"len":2,"label":"offset[31:257]","text":"8C"}
+{"offset":1506,"len":2,"label":"offset[31:257] = \"name-31\"","text":"8C"}
 // overlapping labels!
-{"offset":1506,"len":2,"label":"offset[3:24]","text":"8C"}
+{"offset":1506,"len":2,"label":"offset[3:24] = \"name-3\"","text":"8C"}
 {"offset":1508,"len":12,"label":"?","text":"�\u0005\u0000\u0000�;�;GCFC"}
-{"offset":1520,"len":2,"label":"offset[34:281]","text":"@C"}
+{"offset":1520,"len":2,"label":"offset[34:281] = \"name-34\"","text":"@C"}
 // overlapping labels!
-{"offset":1520,"len":2,"label":"offset[3:24]","text":"@C"}
-{"offset":1522,"len":2,"label":"offset[33:272]","text":"HC"}
+{"offset":1520,"len":2,"label":"offset[3:24] = \"name-3\"","text":"@C"}
+{"offset":1522,"len":2,"label":"offset[33:272] = \"name-33\"","text":"HC"}
 // overlapping labels!
-{"offset":1522,"len":2,"label":"offset[3:24]","text":"HC"}
+{"offset":1522,"len":2,"label":"offset[3:24] = \"name-3\"","text":"HC"}
 {"offset":1524,"len":4,"label":"?","text":"�F�F"}
-{"offset":1528,"len":2,"label":"offset[33:273]","text":"�F"}
-{"offset":1530,"len":2,"label":"offset[32:266]","text":"\u0000G"}
+{"offset":1528,"len":2,"label":"offset[33:273] = \"Mr. J. Tansley\"","text":"�F"}
+{"offset":1530,"len":2,"label":"offset[32:266] = \"Mr. William C. Ripperger\"","text":"\u0000G"}
 {"offset":1532,"len":20,"label":"?","text":"\u0004\u0006\u0000\u0000\u0006\u0018\b\u00184\u0002\u0000\u0000\u0000\u0018\u0002\u0018�G�G"}
-{"offset":1552,"len":2,"label":"offset[31:258]","text":"�G"}
-{"offset":1554,"len":2,"label":"offset[36:296]","text":"\u0000H"}
+{"offset":1552,"len":2,"label":"offset[31:258] = \"Mr. Travis Wood\"","text":"�G"}
+{"offset":1554,"len":2,"label":"offset[36:296] = \"Mr. Dustin H. Heuston\"","text":"\u0000H"}
 {"offset":1556,"len":4,"label":"?","text":"bJbJ"}
-{"offset":1560,"len":2,"label":"offset[38:310]","text":"\u0000J"}
-{"offset":1562,"len":2,"label":"offset[39:317]","text":"�J"}
+{"offset":1560,"len":2,"label":"offset[38:310] = \"R. M. Kavanaugh\"","text":"\u0000J"}
+{"offset":1562,"len":2,"label":"offset[39:317] = \"D. R. McNeil\"","text":"�J"}
 {"offset":1564,"len":4,"label":"?","text":"�H�H"}
-{"offset":1568,"len":2,"label":"offset[37:303]","text":"�H"}
-{"offset":1570,"len":2,"label":"offset[28:233]","text":"\u0000I"}
+{"offset":1568,"len":2,"label":"offset[37:303] = \"Mr. T. C. Stevens\"","text":"�H"}
+{"offset":1570,"len":2,"label":"offset[28:233] = \"Mr John Vanderford\"","text":"\u0000I"}
 {"offset":1572,"len":4,"label":"?","text":"�\u0006\u0000\u0000"}
-{"offset":1576,"len":2,"label":"offset[42:340]","text":"\u0000C"}
-{"offset":1578,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":1576,"len":2,"label":"offset[42:340] = \"James Curry\"","text":"\u0000C"}
+{"offset":1578,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":1578,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":1578,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":1580,"len":4,"label":"?","text":"�;�;"}
-{"offset":1584,"len":2,"label":"offset[48:382]","text":"�;"}
+{"offset":1584,"len":2,"label":"offset[48:382] = \"name-48\"","text":"�;"}
 // overlapping labels!
-{"offset":1584,"len":2,"label":"offset[4:31]","text":"�;"}
-{"offset":1586,"len":2,"label":"offset[49:389]","text":"�;"}
+{"offset":1584,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
+{"offset":1586,"len":2,"label":"offset[49:389] = \"name-49\"","text":"�;"}
 // overlapping labels!
-{"offset":1586,"len":2,"label":"offset[4:31]","text":"�;"}
+{"offset":1586,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
 {"offset":1588,"len":4,"label":"?","text":"qDqD"}
-{"offset":1592,"len":2,"label":"offset[42:340]","text":"@D"}
-{"offset":1594,"len":2,"label":"offset[35:289]","text":"�D"}
+{"offset":1592,"len":2,"label":"offset[42:340] = \"James Curry\"","text":"@D"}
+{"offset":1594,"len":2,"label":"offset[35:289] = \"Prof. James D. Foley\"","text":"�D"}
 {"offset":1596,"len":4,"label":"?","text":"SKSK"}
-{"offset":1600,"len":2,"label":"offset[40:324]","text":"\u0000K"}
-{"offset":1602,"len":2,"label":"offset[41:332]","text":"�K"}
+{"offset":1600,"len":2,"label":"offset[40:324] = \"H. L. Counts, Jr.\"","text":"\u0000K"}
+{"offset":1602,"len":2,"label":"offset[41:332] = \"H. Bellmar\"","text":"�K"}
 {"offset":1604,"len":4,"label":"?","text":"�;�;"}
-{"offset":1608,"len":2,"label":"offset[40:323]","text":"�;"}
+{"offset":1608,"len":2,"label":"offset[40:323] = \"name-40\"","text":"�;"}
 // overlapping labels!
-{"offset":1608,"len":2,"label":"offset[4:31]","text":"�;"}
-{"offset":1610,"len":2,"label":"offset[41:331]","text":"�;"}
+{"offset":1608,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
+{"offset":1610,"len":2,"label":"offset[41:331] = \"name-41\"","text":"�;"}
 // overlapping labels!
-{"offset":1610,"len":2,"label":"offset[4:31]","text":"�;"}
+{"offset":1610,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
 {"offset":1612,"len":4,"label":"?","text":"�J�J"}
-{"offset":1616,"len":2,"label":"offset[39:317]","text":"�J"}
-{"offset":1618,"len":2,"label":"offset[40:324]","text":"\u0000K"}
+{"offset":1616,"len":2,"label":"offset[39:317] = \"D. R. McNeil\"","text":"�J"}
+{"offset":1618,"len":2,"label":"offset[40:324] = \"H. L. Counts, Jr.\"","text":"\u0000K"}
 {"offset":1620,"len":4,"label":"?","text":"�;�;"}
-{"offset":1624,"len":2,"label":"offset[42:339]","text":"�;"}
+{"offset":1624,"len":2,"label":"offset[42:339] = \"name-42\"","text":"�;"}
 // overlapping labels!
-{"offset":1624,"len":2,"label":"offset[4:31]","text":"�;"}
-{"offset":1626,"len":2,"label":"offset[43:346]","text":"�;"}
+{"offset":1624,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
+{"offset":1626,"len":2,"label":"offset[43:346] = \"name-43\"","text":"�;"}
 // overlapping labels!
-{"offset":1626,"len":2,"label":"offset[4:31]","text":"�;"}
-{"offset":1628,"len":2,"label":"offset[45:362]","text":"\u0000M"}
-{"offset":1630,"len":2,"label":"offset[45:362]","text":"\u0000M"}
-{"offset":1632,"len":2,"label":"offset[44:354]","text":"�L"}
-{"offset":1634,"len":2,"label":"offset[45:362]","text":"\u0000M"}
+{"offset":1626,"len":2,"label":"offset[4:31] = \"name-4\"","text":"�;"}
+{"offset":1628,"len":2,"label":"offset[45:362] = \"S. Grodstein\"","text":"\u0000M"}
+{"offset":1630,"len":2,"label":"offset[45:362] = \"S. Grodstein\"","text":"\u0000M"}
+{"offset":1632,"len":2,"label":"offset[44:354] = \"D. W. de Bakker\"","text":"�L"}
+{"offset":1634,"len":2,"label":"offset[45:362] = \"S. Grodstein\"","text":"\u0000M"}
 {"offset":1636,"len":4,"label":"?","text":"G1F1"}
-{"offset":1640,"len":2,"label":"offset[44:353]","text":"@1"}
+{"offset":1640,"len":2,"label":"offset[44:353] = \"name-44\"","text":"@1"}
 // overlapping labels!
-{"offset":1640,"len":2,"label":"offset[4:31]","text":"@1"}
-{"offset":1642,"len":2,"label":"offset[45:361]","text":"H1"}
+{"offset":1640,"len":2,"label":"offset[4:31] = \"name-4\"","text":"@1"}
+{"offset":1642,"len":2,"label":"offset[45:361] = \"name-45\"","text":"H1"}
 // overlapping labels!
-{"offset":1642,"len":2,"label":"offset[4:31]","text":"H1"}
+{"offset":1642,"len":2,"label":"offset[4:31] = \"name-4\"","text":"H1"}
 {"offset":1644,"len":4,"label":"?","text":"�K�K"}
-{"offset":1648,"len":2,"label":"offset[41:332]","text":"�K"}
-{"offset":1650,"len":2,"label":"offset[43:347]","text":"\u0000L"}
+{"offset":1648,"len":2,"label":"offset[41:332] = \"H. Bellmar\"","text":"�K"}
+{"offset":1650,"len":2,"label":"offset[43:347] = \"Carl Henry\"","text":"\u0000L"}
 {"offset":1652,"len":4,"label":"?","text":"�M�M"}
-{"offset":1656,"len":2,"label":"offset[46:369]","text":"�M"}
-{"offset":1658,"len":2,"label":"offset[47:377]","text":"\u0000N"}
+{"offset":1656,"len":2,"label":"offset[46:369] = \"C. W. Tan\"","text":"�M"}
+{"offset":1658,"len":2,"label":"offset[47:377] = \"H. S. Eisenstein\"","text":"\u0000N"}
 {"offset":1660,"len":4,"label":"?","text":"CLCL"}
-{"offset":1664,"len":2,"label":"offset[43:347]","text":"\u0000L"}
-{"offset":1666,"len":2,"label":"offset[44:354]","text":"�L"}
+{"offset":1664,"len":2,"label":"offset[43:347] = \"Carl Henry\"","text":"\u0000L"}
+{"offset":1666,"len":2,"label":"offset[44:354] = \"D. W. de Bakker\"","text":"�L"}
 {"offset":1668,"len":4,"label":"?","text":"QMQM"}
-{"offset":1672,"len":2,"label":"offset[45:362]","text":"\u0000M"}
-{"offset":1674,"len":2,"label":"offset[46:369]","text":"�M"}
+{"offset":1672,"len":2,"label":"offset[45:362] = \"S. Grodstein\"","text":"\u0000M"}
+{"offset":1674,"len":2,"label":"offset[46:369] = \"C. W. Tan\"","text":"�M"}
 {"offset":1676,"len":4,"label":"?","text":"o:o:"}
-{"offset":1680,"len":2,"label":"offset[51:403]","text":"h:"}
+{"offset":1680,"len":2,"label":"offset[51:403] = \"name-51\"","text":"h:"}
 // overlapping labels!
-{"offset":1680,"len":2,"label":"offset[5:39]","text":"h:"}
+{"offset":1680,"len":2,"label":"offset[5:39] = \"name-5\"","text":"h:"}
 {"offset":1682,"len":6,"label":"?","text":"p:g:g:"}
-{"offset":1688,"len":2,"label":"offset[50:395]","text":"`:"}
+{"offset":1688,"len":2,"label":"offset[50:395] = \"name-50\"","text":"`:"}
 // overlapping labels!
-{"offset":1688,"len":2,"label":"offset[5:39]","text":"`:"}
-{"offset":1690,"len":2,"label":"offset[51:403]","text":"h:"}
+{"offset":1688,"len":2,"label":"offset[5:39] = \"name-5\"","text":"`:"}
+{"offset":1690,"len":2,"label":"offset[51:403] = \"name-51\"","text":"h:"}
 // overlapping labels!
-{"offset":1690,"len":2,"label":"offset[5:39]","text":"h:"}
+{"offset":1690,"len":2,"label":"offset[5:39] = \"name-5\"","text":"h:"}
 {"offset":1692,"len":4,"label":"?","text":"�N�N"}
-{"offset":1696,"len":2,"label":"offset[48:383]","text":"�N"}
-{"offset":1698,"len":2,"label":"offset[49:390]","text":"\u0000O"}
+{"offset":1696,"len":2,"label":"offset[48:383] = \"R. Whitfeld\"","text":"�N"}
+{"offset":1698,"len":2,"label":"offset[49:390] = \"J. van den Bas\"","text":"\u0000O"}
 {"offset":1700,"len":4,"label":"?","text":"ANAN"}
-{"offset":1704,"len":2,"label":"offset[47:377]","text":"\u0000N"}
-{"offset":1706,"len":2,"label":"offset[48:383]","text":"�N"}
+{"offset":1704,"len":2,"label":"offset[47:377] = \"H. S. Eisenstein\"","text":"\u0000N"}
+{"offset":1706,"len":2,"label":"offset[48:383] = \"R. Whitfeld\"","text":"�N"}
 {"offset":1708,"len":4,"label":"?","text":"�O�O"}
-{"offset":1712,"len":2,"label":"offset[50:396]","text":"�O"}
-{"offset":1714,"len":2,"label":"offset[51:404]","text":"\u0000P"}
+{"offset":1712,"len":2,"label":"offset[50:396] = \"P. L. De Souza\"","text":"�O"}
+{"offset":1714,"len":2,"label":"offset[51:404] = \"R. J. Collins\"","text":"\u0000P"}
 {"offset":1716,"len":4,"label":"?","text":"OOOO"}
-{"offset":1720,"len":2,"label":"offset[49:390]","text":"\u0000O"}
-{"offset":1722,"len":2,"label":"offset[50:396]","text":"�O"}
+{"offset":1720,"len":2,"label":"offset[49:390] = \"J. van den Bas\"","text":"\u0000O"}
+{"offset":1722,"len":2,"label":"offset[50:396] = \"P. L. De Souza\"","text":"�O"}
 {"offset":1724,"len":4,"label":"?","text":"\u0000\u0000\u0000\u0000"}
-{"offset":1728,"len":2,"label":"offset[51:404]","text":"pC"}
-{"offset":1730,"len":2,"label":"offset[27a:226]","text":"�C"}
+{"offset":1728,"len":2,"label":"offset[51:404] = \"R. J. Collins\"","text":"pC"}
+{"offset":1730,"len":2,"label":"offset[27a:226] = \"Greg Chesson\"","text":"�C"}
 {"offset":1732,"len":12,"label":"?","text":"�\u0005\u0000\u0000\u0004\u0018\u0006\u0018`P`P"}
-{"offset":1744,"len":2,"label":"offset[51:404]","text":"\u0000P"}
+{"offset":1744,"len":2,"label":"offset[51:404] = \"R. J. Collins\"","text":"\u0000P"}
 {"offset":1746,"len":16,"label":"?","text":"�P�\u0006\u0000\u0000`ChC\u0000\u0000\u0000\u0018 D"}
-{"offset":1762,"len":2,"label":"offset[42:340]","text":"@D"}
+{"offset":1762,"len":2,"label":"offset[42:340] = \"James Curry\"","text":"@D"}
 {"offset":1764,"len":4,"label":"?","text":"�\u0006\u0000\u0000"}
-{"offset":1768,"len":2,"label":"offset[51:404]","text":"\u0000D"}
+{"offset":1768,"len":2,"label":"offset[51:404] = \"R. J. Collins\"","text":"\u0000D"}
 {"offset":1770,"len":8,"label":"?","text":" D\u0000\u0000\u0000\u0018hC"}
-{"offset":1778,"len":2,"label":"offset[51:404]","text":"pC"}
+{"offset":1778,"len":2,"label":"offset[51:404] = \"R. J. Collins\"","text":"pC"}
 {"offset":1780,"len":4363,"label":"?","text":"\u0000\u0000\u0000\u0018\u0000T\u0000X\u0000\u0000\u0000\u0018\u0000R\u0000T\u0000\u0000\u0000\u0018\u0000Q\u0000R\u0000\u0000\u0000\u0018�P\u0000Q\u001c\u0007\u0000\u0018\u0000\u0018\u0000\u0018$\u0007\u0000\u0018\u0000\u0018\u0000\u0018,\u0007\u0000\u0018\u0000\u0018\u0000\u00184\u0007\u0000\u0018\u0000\u0018\u0000\u0018<\u0007\u0000\u0018\u0000\u0018\u0000\u0018D\u0007\u0000\u0018\u0000\u0018\u0000\u0018L\u0007\u0000\u0018\u0000\u0018\u0000\u0018T\u0007\u0000\u0018\u0000\u0018\u0000\u0018\\\u0007\u0000\u0018\u0000\u0018\u0000\u0018d\u0007\u0000\u0018\u0000\u0018\u0000\u0018l\u0007\u0000\u0018\u0000\u0018\u0000\u0018t\u0007\u0000\u0018\u0000\u0018\u0000\u0018|\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018�\u0007\u0000\u0018\u0000\u0018\u0000\u0018\u0004\b\u0000\u0018\u0000\u0018\u0000\u0018\f\b\u0000\u0018\u0000\u0018\u0000\u0018\u0014\b\u0000\u0018\u0000\u0018\u0000\u0018\u001c\b\u0000\u0018\u0000\u0018\u0000\u0018$\b\u0000\u0018\u0000\u0018\u0000\u0018,\b\u0000\u0018\u0000\u0018\u0000\u00184\b\u0000\u0018\u0000\u0018\u0000\u0018<\b\u0000\u0018\u0000\u0018\u0000\u0018D\b\u0000\u0018\u0000\u0018\u0000\u0018L\b\u0000\u0018\u0000\u0018\u0000\u0018T\b\u0000\u0018\u0000\u0018\u0000\u0018\\\b\u0000\u0018\u0000\u0018\u0000\u0018d\b\u0000\u0018\u0000\u0018\u0000\u0018l\b\u0000\u0018\u0000\u0018\u0000\u0018t\b\u0000\u0018\u0000\u0018\u0000\u0018|\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018�\b\u0000\u0018\u0000\u0018\u0000\u0018\u0004\t\u0000\u0018\u0000\u0018\u0000\u0018\f\t\u0000\u0018\u0000\u0018\u0000\u0018\u0014\t\u0000\u0018\u0000\u0018\u0000\u0018\u001c\t\u0000\u0018\u0000\u0018\u0000\u0018$\t\u0000\u0018\u0000\u0018\u0000\u0018,\t\u0000\u0018\u0000\u0018\u0000\u00184\t\u0000\u0018\u0000\u0018\u0000\u0018<\t\u0000\u0018\u0000\u0018\u0000\u0018D\t\u0000\u0018\u0000\u0018\u0000\u0018L\t\u0000\u0018\u0000\u0018\u0000\u0018T\t\u0000\u0018\u0000\u0018\u0000\u0018\\\t\u0000\u0018\u0000\u0018\u0000\u0018d\t\u0000\u0018\u0000\u0018\u0000\u0018l\t\u0000\u0018\u0000\u0018\u0000\u0018t\t\u0000\u0018\u0000\u0018\u0000\u0018|\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018�\t\u0000\u0018\u0000\u0018\u0000\u0018\u0004\n\u0000\u0018\u0000\u0018\u0000\u0018\f\n\u0000\u0018\u0000\u0018\u0000\u0018\u0014\n\u0000\u0018\u0000\u0018\u0000\u0018\u001c\n\u0000\u0018\u0000\u0018\u0000\u0018$\n\u0000\u0018\u0000\u0018\u0000\u0018,\n\u0000\u0018\u0000\u0018\u0000\u00184\n\u0000\u0018\u0000\u0018\u0000\u0018<\n\u0000\u0018\u0000\u0018\u0000\u0018D\n\u0000\u0018\u0000\u0018\u0000\u0018L\n\u0000\u0018\u0000\u0018\u0000\u0018T\n\u0000\u0018\u0000\u0018\u0000\u0018\\\n\u0000\u0018\u0000\u0018\u0000\u0018d\n\u0000\u0018\u0000\u0018\u0000\u0018l\n\u0000\u0018\u0000\u0018\u0000\u0018t\n\u0000\u0018\u0000\u0018\u0000\u0018|\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018�\n\u0000\u0018\u0000\u0018\u0000\u0018\u0004\u000b\u0000\u0018\u0000\u0018\u0000\u0018\f\u000b\u0000\u0018\u0000\u0018\u0000\u0018\u0014\u000b\u0000\u0018\u0000\u0018\u0000\u0018\u001c\u000b\u0000\u0018\u0000\u0018\u0000\u0018$\u000b\u0000\u0018\u0000\u0018\u0000\u0018,\u000b\u0000\u0018\u0000\u0018\u0000\u00184\u000b\u0000\u0018\u0000\u0018\u0000\u0018<\u000b\u0000\u0018\u0000\u0018\u0000\u0018D\u000b\u0000\u0018\u0000\u0018\u0000\u0018L\u000b\u0000\u0018\u0000\u0018\u0000\u0018T\u000b\u0000\u0018\u0000\u0018\u0000\u0018\\\u000b\u0000\u0018\u0000\u0018\u0000\u0018d\u000b\u0000\u0018\u0000\u0018\u0000\u0018l\u000b\u0000\u0018\u0000\u0018\u0000\u0018t\u000b\u0000\u0018\u0000\u0018\u0000\u0018|\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018�\u000b\u0000\u0018\u0000\u0018\u0000\u0018\u0004\f\u0000\u0018\u0000\u0018\u0000\u0018\f\f\u0000\u0018\u0000\u0018\u0000\u0018\u0014\f\u0000\u0018\u0000\u0018\u0000\u0018\u001c\f\u0000\u0018\u0000\u0018\u0000\u0018$\f\u0000\u0018\u0000\u0018\u0000\u0018,\f\u0000\u0018\u0000\u0018\u0000\u00184\f\u0000\u0018\u0000\u0018\u0000\u0018<\f\u0000\u0018\u0000\u0018\u0000\u0018D\f\u0000\u0018\u0000\u0018\u0000\u0018L\f\u0000\u0018\u0000\u0018\u0000\u0018T\f\u0000\u0018\u0000\u0018\u0000\u0018\\\f\u0000\u0018\u0000\u0018\u0000\u0018d\f\u0000\u0018\u0000\u0018\u0000\u0018l\f\u0000\u0018\u0000\u0018\u0000\u0018t\f\u0000\u0018\u0000\u0018\u0000\u0018|\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018�\f\u0000\u0018\u0000\u0018\u0000\u0018\u0004\r\u0000\u0018\u0000\u0018\u0000\u0018\f\r\u0000\u0018\u0000\u0018\u0000\u0018\u0014\r\u0000\u0018\u0000\u0018\u0000\u0018\u001c\r\u0000\u0018\u0000\u0018\u0000\u0018$\r\u0000\u0018\u0000\u0018\u0000\u0018,\r\u0000\u0018\u0000\u0018\u0000\u00184\r\u0000\u0018\u0000\u0018\u0000\u0018<\r\u0000\u0018\u0000\u0018\u0000\u0018D\r\u0000\u0018\u0000\u0018\u0000\u0018L\r\u0000\u0018\u0000\u0018\u0000\u0018T\r\u0000\u0018\u0000\u0018\u0000\u0018\\\r\u0000\u0018\u0000\u0018\u0000\u0018d\r\u0000\u0018\u0000\u0018\u0000\u0018l\r\u0000\u0018\u0000\u0018\u0000\u0018t\r\u0000\u0018\u0000\u0018\u0000\u0018|\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018�\r\u0000\u0018\u0000\u0018\u0000\u0018\u0004\u000e\u0000\u0018\u0000\u0018\u0000\u0018\f\u000e\u0000\u0018\u0000\u0018\u0000\u0018\u0014\u000e\u0000\u0018\u0000\u0018\u0000\u0018\u001c\u000e\u0000\u0018\u0000\u0018\u0000\u0018$\u000e\u0000\u0018\u0000\u0018\u0000\u0018,\u000e\u0000\u0018\u0000\u0018\u0000\u00184\u000e\u0000\u0018\u0000\u0018\u0000\u0018<\u000e\u0000\u0018\u0000\u0018\u0000\u0018D\u000e\u0000\u0018\u0000\u0018\u0000\u0018L\u000e\u0000\u0018\u0000\u0018\u0000\u0018T\u000e\u0000\u0018\u0000\u0018\u0000\u0018\\\u000e\u0000\u0018\u0000\u0018\u0000\u0018d\u000e\u0000\u0018\u0000\u0018\u0000\u0018l\u000e\u0000\u0018\u0000\u0018\u0000\u0018t\u000e\u0000\u0018\u0000\u0018\u0000\u0018|\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018�\u000e\u0000\u0018\u0000\u0018\u0000\u0018\u0004\u000f\u0000\u0018\u0000\u0018\u0000\u0018\f\u000f\u0000\u0018\u0000\u0018\u0000\u0018\u0014\u000f\u0000\u0018\u0000\u0018\u0000\u0018\u001c\u000f\u0000\u0018\u0000\u0018\u0000\u0018$\u000f\u0000\u0018\u0000\u0018\u0000\u0018,\u000f\u0000\u0018\u0000\u0018\u0000\u00184\u000f\u0000\u0018\u0000\u0018\u0000\u0018<\u000f\u0000\u0018\u0000\u0018\u0000\u0018D\u000f\u0000\u0018\u0000\u0018\u0000\u0018L\u000f\u0000\u0018\u0000\u0018\u0000\u0018T\u000f\u0000\u0018\u0000\u0018\u0000\u0018\\\u000f\u0000\u0018\u0000\u0018\u0000\u0018d\u000f\u0000\u0018\u0000\u0018\u0000\u0018l\u000f\u0000\u0018\u0000\u0018\u0000\u0018t\u000f\u0000\u0018\u0000\u0018\u0000\u0018|\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018�\u000f\u0000\u0018\u0000\u0018\u0000\u0018\u0004\u0010\u0000\u0018\u0000\u0018\u0000\u0018\f\u0010\u0000\u0018\u0000\u0018\u0000\u0018\u0014\u0010\u0000\u0018\u0000\u0018\u0000\u0018\u001c\u0010\u0000\u0018\u0000\u0018\u0000\u0018$\u0010\u0000\u0018\u0000\u0018\u0000\u0018,\u0010\u0000\u0018\u0000\u0018\u0000\u00184\u0010\u0000\u0018\u0000\u0018\u0000\u0018<\u0010\u0000\u0018\u0000\u0018\u0000\u0018D\u0010\u0000\u0018\u0000\u0018\u0000\u0018L\u0010\u0000\u0018\u0000\u0018\u0000\u0018T\u0010\u0000\u0018\u0000\u0018\u0000\u0018\\\u0010\u0000\u0018\u0000\u0018\u0000\u0018d\u0010\u0000\u0018\u0000\u0018\u0000\u0018l\u0010\u0000\u0018\u0000\u0018\u0000\u0018t\u0010\u0000\u0018\u0000\u0018\u0000\u0018|\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018�\u0010\u0000\u0018\u0000\u0018\u0000\u0018\u0004\u0011\u0000\u0018\u0000\u0018\u0000\u0018\f\u0011\u0000\u0018\u0000\u0018\u0000\u0018\u0014\u0011\u0000\u0018\u0000\u0018\u0000\u0018\u001c\u0011\u0000\u0018\u0000\u0018\u0000\u0018$\u0011\u0000\u0018\u0000\u0018\u0000\u0018,\u0011\u0000\u0018\u0000\u0018\u0000\u00184\u0011\u0000\u0018\u0000\u0018\u0000\u0018<\u0011\u0000\u0018\u0000\u0018\u0000\u0018D\u0011\u0000\u0018\u0000\u0018\u0000\u0018L\u0011\u0000\u0018\u0000\u0018\u0000\u0018T\u0011\u0000\u0018\u0000\u0018\u0000\u0018\\\u0011\u0000\u0018\u0000\u0018\u0000\u0018d\u0011\u0000\u0018\u0000\u0018\u0000\u0018l\u0011\u0000\u0018\u0000\u0018\u0000\u0018t\u0011\u0000\u0018\u0000\u0018\u0000\u0018|\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018�\u0011\u0000\u0018\u0000\u0018\u0000\u0018\u0004\u0012\u0000\u0018\u0000\u0018\u0000\u0018\f\u0012\u0000\u0018\u0000\u0018\u0000\u0018\u0014\u0012\u0000\u0018\u0000\u0018\u0000\u0018\u001c\u0012\u0000\u0018\u0000\u0018\u0000\u0018$\u0012\u0000\u0018\u0000\u0018\u0000\u0018,\u0012\u0000\u0018\u0000\u0018\u0000\u00184\u0012\u0000\u0018\u0000\u0018\u0000\u0018<\u0012\u0000\u0018\u0000\u0018\u0000\u0018D\u0012\u0000\u0018\u0000\u0018\u0000\u0018L\u0012\u0000\u0018\u0000\u0018\u0000\u0018T\u0012\u0000\u0018\u0000\u0018\u0000\u0018\\\u0012\u0000\u0018\u0000\u0018\u0000\u0018d\u0012\u0000\u0018\u0000\u0018\u0000\u0018l\u0012\u0000\u0018\u0000\u0018\u0000\u0018t\u0012\u0000\u0018\u0000\u0018\u0000\u0018|\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018�\u0012\u0000\u0018\u0000\u0018\u0000\u0018\u0004\u0013\u0000\u0018\u0000\u0018\u0000\u0018\f\u0013\u0000\u0018\u0000\u0018\u0000\u0018\u0014\u0013\u0000\u0018\u0000\u0018\u0000\u0018\u001c\u0013\u0000\u0018\u0000\u0018\u0000\u0018$\u0013\u0000\u0018\u0000\u0018\u0000\u0018,\u0013\u0000\u0018\u0000\u0018\u0000\u00184\u0013\u0000\u0018\u0000\u0018\u0000\u0018<\u0013\u0000\u0018\u0000\u0018\u0000\u0018D\u0013\u0000\u0018\u0000\u0018\u0000\u0018L\u0013\u0000\u0018\u0000\u0018\u0000\u0018T\u0013\u0000\u0018\u0000\u0018\u0000\u0018\\\u0013\u0000\u0018\u0000\u0018\u0000\u0018d\u0013\u0000\u0018\u0000\u0018\u0000\u0018l\u0013\u0000\u0018\u0000\u0018\u0000\u0018t\u0013\u0000\u0018\u0000\u0018\u0000\u0018|\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018�\u0013\u0000\u0018\u0000\u0018\u0000\u0018\u0004\u0014\u0000\u0018\u0000\u0018\u0000\u0018\f\u0014\u0000\u0018\u0000\u0018\u0000\u0018\u0014\u0014\u0000\u0018\u0000\u0018\u0000\u0018\u001c\u0014\u0000\u0018\u0000\u0018\u0000\u0018$\u0014\u0000\u0018\u0000\u0018\u0000\u0018,\u0014\u0000\u0018\u0000\u0018\u0000\u00184\u0014\u0000\u0018\u0000\u0018\u0000\u0018<\u0014\u0000\u0018\u0000\u0018\u0000\u0018D\u0014\u0000\u0018\u0000\u0018\u0000\u0018L\u0014\u0000\u0018\u0000\u0018\u0000\u0018T\u0014\u0000\u0018\u0000\u0018\u0000\u0018\\\u0014\u0000\u0018\u0000\u0018\u0000\u0018d\u0014\u0000\u0018\u0000\u0018\u0000\u0018l\u0014\u0000\u0018\u0000\u0018\u0000\u0018t\u0014\u0000\u0018\u0000\u0018\u0000\u0018|\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018�\u0014\u0000\u0018\u0000\u0018\u0000\u0018\u0004\u0015\u0000\u0018\u0000\u0018\u0000\u0018\f\u0015\u0000\u0018\u0000\u0018\u0000\u0018\u0014\u0015\u0000\u0018\u0000\u0018\u0000\u0018\u001c\u0015\u0000\u0018\u0000\u0018\u0000\u0018$\u0015\u0000\u0018\u0000\u0018\u0000\u0018,\u0015\u0000\u0018\u0000\u0018\u0000\u00184\u0015\u0000\u0018\u0000\u0018\u0000\u0018<\u0015\u0000\u0018\u0000\u0018\u0000\u0018D\u0015\u0000\u0018\u0000\u0018\u0000\u0018L\u0015\u0000\u0018\u0000\u0018\u0000\u0018T\u0015\u0000\u0018\u0000\u0018\u0000\u0018\\\u0015\u0000\u0018\u0000\u0018\u0000\u0018d\u0015\u0000\u0018\u0000\u0018\u0000\u0018l\u0015\u0000\u0018\u0000\u0018\u0000\u0018t\u0015\u0000\u0018\u0000\u0018\u0000\u0018|\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018�\u0015\u0000\u0018\u0000\u0018\u0000\u0018\u0004\u0016\u0000\u0018\u0000\u0018\u0000\u0018\f\u0016\u0000\u0018\u0000\u0018\u0000\u0018\u0014\u0016\u0000\u0018\u0000\u0018\u0000\u0018\u001c\u0016\u0000\u0018\u0000\u0018\u0000\u0018$\u0016\u0000\u0018\u0000\u0018\u0000\u0018,\u0016\u0000\u0018\u0000\u0018\u0000\u00184\u0016\u0000\u0018\u0000\u0018\u0000\u0018<\u0016\u0000\u0018\u0000\u0018\u0000\u0018D\u0016\u0000\u0018\u0000\u0018\u0000\u0018L\u0016\u0000\u0018\u0000\u0018\u0000\u0018T\u0016\u0000\u0018\u0000\u0018\u0000\u0018\\\u0016\u0000\u0018\u0000\u0018\u0000\u0018d\u0016\u0000\u0018\u0000\u0018\u0000\u0018l\u0016\u0000\u0018\u0000\u0018\u0000\u0018t\u0016\u0000\u0018\u0000\u0018\u0000\u0018|\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018�\u0016\u0000\u0018\u0000\u0018\u0000\u0018\u0004\u0017\u0000\u0018\u0000\u0018\u0000\u0018\f\u0017\u0000\u0018\u0000\u0018\u0000\u0018\u0014\u0017\u0000\u0018\u0000\u0018\u0000\u0018\u001c\u0017\u0000\u0018\u0000\u0018\u0000\u0018$\u0017\u0000\u0018\u0000\u0018\u0000\u0018,\u0017\u0000\u0018\u0000\u0018\u0000\u00184\u0017\u0000\u0018\u0000\u0018\u0000\u0018<\u0017\u0000\u0018\u0000\u0018\u0000\u0018D\u0017\u0000\u0018\u0000\u0018\u0000\u0018L\u0017\u0000\u0018\u0000\u0018\u0000\u0018T\u0017\u0000\u0018\u0000\u0018\u0000\u0018\\\u0017\u0000\u0018\u0000\u0018\u0000\u0018d\u0017\u0000\u0018\u0000\u0018\u0000\u0018l\u0017\u0000\u0018\u0000\u0018\u0000\u0018t\u0017\u0000\u0018\u0000\u0018\u0000\u0018|\u0017\u0000\u0018\u0000\u0018\u0000\u0018�\u0017\u0000\u0018\u0000\u0018\u0000\u0018�\u0017\u0000\u0018\u0000\u0018\u0000\u0018�\u0017\u0000\u0018\u0000\u0018\u0000\u0018�\u0017\u0000\u0018\u0000\u0018\u0000\u0018�\u0017\u0000\u0018\u0000\u0018\u0000\u0018�\u0017\u0000\u0018\u0000\u0018\u0000\u0018�\u0017\u0000\u0018\u0000\u0018\u0000\u0018�\u0017\u0000\u0018\u0000\u0018\u0000\u0018�\u0017\u0000\u0018\u0000\u0018\u0000\u0018�\u0017\u0000\u0018\u0000\u0018\u0000\u0018�\u0017\u0000\u0018\u0000\u0018\u0000\u0018�\u0017\u0000\u0018\u0000\u0018\u0000\u0018�\u0017\u0000\u0018\u0000\u0018\u0000\u0018�\u0017\u0000\u0018\u0000\u0018\u0000\u0018�\u0017\u0000\u0018\u0000\u0018\u0000\u0018\u0000\u0000\u0000\u0018\u0000\u0018\u0000\u0018\u0000\u0000\u0000"}
-{"offset":6143,"len":2,"label":"offset[45:362]","text":"\u0000M"}
+{"offset":6143,"len":2,"label":"offset[45:362] = \"S. Grodstein\"","text":"\u0000M"}
 {"offset":6145,"len":87,"label":"?","text":"rwhR.Mrconfunivletter\u000b�in-housefixplccoheader\n.footer\nRencl-cco{name}\nresddresstowhom-2"}
 {"offset":6232,"len":6,"label":"lines[3:24]","text":"name-3"}
 {"offset":6238,"len":106,"label":"?","text":"MaProf. Marsland\nstowhom-\u0000esr lettMr. Desautels\nssProf. Arden\nKiddProf. Levinthal\nMr. Byer\nn\n Austtowhom-9"}
@@ -919,9 +919,9 @@
 {"offset":6367,"len":9,"label":"?","text":"htowhom-3"}
 {"offset":6376,"len":6,"label":"lines[4:31]","text":"name-4"}
 {"offset":6382,"len":10,"label":"?","text":"yhtowhom-1"}
-{"offset":6392,"len":2,"label":"offset[19:152]","text":"01"}
+{"offset":6392,"len":2,"label":"offset[19:152] = \"name-19\"","text":"01"}
 // overlapping labels!
-{"offset":6392,"len":2,"label":"offset[1:1]","text":"01"}
+{"offset":6392,"len":2,"label":"offset[1:1] = \"name-1\"","text":"01"}
 {"offset":6394,"len":14,"label":"?","text":"3\u0000�\u0000T\u0001{text}\no"}
 {"offset":6408,"len":6,"label":"lines[1:1]","text":"name-1"}
 {"offset":6414,"len":42,"label":"?","text":"ngMr. Lewis\ns(medi{encl}\netext- fotowhom-6"}
@@ -945,17 +945,17 @@
 // overlapping labels!
 {"offset":6968,"len":6,"label":"lines[1:1]","text":"name-1"}
 {"offset":6975,"len":188,"label":"?","text":"g.hc %\n.m1 0\n.m2 0\n.m3 0\n.m4 0\n.na\n.nf\n.bl 11\nl 10\n\nowing proviso.sp 2\n.in 30\n.nf\nSincerely,\n.sp 3\nKen Thompson\n.in 0\nKT/pdp\nphonDr. Slamecka\nuggtowhom-11th Kingtowhom-12Lewis, towhom-15ey"}
-{"offset":7163,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":7163,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":7163,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":7163,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":7165,"len":3,"label":"?","text":". B"}
 {"offset":7168,"len":15,"label":"lines[3:25]","text":"Mr. Bill Mayhew"}
 {"offset":7183,"len":1,"label":"?","text":"\n"}
 {"offset":7184,"len":21,"label":"lines[3:26]","text":"The Children's Museum"}
 // overlapping labels!
-{"offset":7187,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":7187,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":7187,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":7187,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":7205,"len":1,"label":"?","text":"\n"}
 {"offset":7206,"len":14,"label":"lines[3:27]","text":"The Jamaicaway"}
 {"offset":7220,"len":1,"label":"?","text":"\n"}
@@ -990,7 +990,7 @@
 {"offset":7651,"len":1,"label":"?","text":"\n"}
 {"offset":7652,"len":24,"label":"lines[5:44]","text":"Madison, Wisconsin 53706"}
 {"offset":7676,"len":97,"label":"?","text":"\nper.in 30\n[0], 1974\n.in 0\nhompson\n.in +11\nRoom 2C-523\nBell Telephone Laboratories\nMurray Hill, N"}
-{"offset":7773,"len":2,"label":"offset[38:312]","text":".J"}
+{"offset":7773,"len":2,"label":"offset[38:312] = \"University of Sakatchewan\"","text":".J"}
 {"offset":7775,"len":33,"label":"?","text":". 07974\n.sp\n[0], 1973\n.in 0\nreste"}
 {"offset":7808,"len":7,"label":"lines[16:129]","text":"name-16"}
 // overlapping labels!
@@ -1010,9 +1010,9 @@
 {"offset":7903,"len":33,"label":"?","text":"atowhom-19n E. NeMr. Whitney\nr of"}
 {"offset":7936,"len":25,"label":"lines[1:2]","text":"Professor Cyrus Levinthal"}
 // overlapping labels!
-{"offset":7945,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":7945,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":7945,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":7945,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":7961,"len":1,"label":"?","text":"\n"}
 {"offset":7962,"len":33,"label":"lines[1:3]","text":"Department of Biological Sciences"}
 {"offset":7995,"len":1,"label":"?","text":"\n"}
@@ -1026,17 +1026,17 @@
 {"offset":8084,"len":1,"label":"?","text":"\n"}
 {"offset":8085,"len":31,"label":"lines[2:19]","text":"Department of Computing Science"}
 // overlapping labels!
-{"offset":8098,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":8098,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":8098,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":8098,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":8116,"len":1,"label":"?","text":"\n"}
 {"offset":8117,"len":25,"label":"lines[2:20]","text":"The University of Alberta"}
 {"offset":8142,"len":1,"label":"?","text":"\n"}
 {"offset":8143,"len":16,"label":"lines[2:21]","text":"Edmonton, Canada"}
 // overlapping labels!
-{"offset":8152,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":8152,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":8152,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":8152,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 // overlapping labels!
 {"offset":8153,"len":6,"label":"lines[20:164]","text":"Canada"}
 {"offset":8159,"len":1057,"label":"?","text":"\nperty of Bell Laboratories.\nIt iThe accompanying {materials(media+documents)} for UNIX are \nintended for your use {for your use  ...} with the\nfollowing proviso:\n.sp\n.in +4\n.ll -4\nThe program and information transmitted herewith is and shall\nremain the property of Bell Lab%oratories.\nIt is provided solely for your use within the Bell System\nfor Bell System purposes and should be disclosed only to\nthose with a need to know.\nAny program transmitted herewith should be executed on a\nsingle piece of computer equipment only, \nand the written permission of Bell Lab%oratories must be secured before\nexecuting any program on any additional piece of \ncomputer equipment.\nNeither program nor information may be reproduced in any way\nand may not be made available in any form to non-Bell\nSystem personnel without the express written permission\nof Bell Lab%oratories.\nAll restrictions set forth herein are fully applicable to\nthose supplying, programming or maintaining \ncomputer equipment on which any program transmitted herewith\nis executed.\n.in -4\n.ll +4\niso"}
@@ -1048,9 +1048,9 @@
 {"offset":9303,"len":1,"label":"?","text":"\n"}
 {"offset":9304,"len":26,"label":"lines[6:51]","text":"Pasadena, California 91109"}
 // overlapping labels!
-{"offset":9313,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":9313,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":9313,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":9313,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":9330,"len":14,"label":"?","text":"\nare intereste"}
 {"offset":9344,"len":19,"label":"lines[8:63]","text":"Prof. W. H. Huggins"}
 {"offset":9363,"len":1,"label":"?","text":"\n"}
@@ -1070,19 +1070,19 @@
 {"offset":9588,"len":1,"label":"?","text":"\n"}
 {"offset":9589,"len":27,"label":"lines[4:36]","text":"Princeton, New Jersey 08540"}
 {"offset":9616,"len":23,"label":"?","text":"\nwith EIS) or PDP-11/45"}
-{"offset":9639,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":9639,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":9639,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":9639,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":9641,"len":53,"label":"?","text":"PU\n\tKT segmentation option\n\t32K words of core\n\tRK or "}
-{"offset":9694,"len":2,"label":"offset[20:164]","text":"RP"}
+{"offset":9694,"len":2,"label":"offset[20:164] = \"Canada\"","text":"RP"}
 {"offset":9696,"len":32,"label":"?","text":" disk\n\tKW (line or programmable)"}
 {"offset":9728,"len":14,"label":"lines[9:70]","text":"Mr. Brent Byer"}
 {"offset":9742,"len":1,"label":"?","text":"\n"}
 {"offset":9743,"len":21,"label":"lines[9:71]","text":"Aiken Computation Lab"}
 // overlapping labels!
-{"offset":9748,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":9748,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":9748,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":9748,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":9764,"len":1,"label":"?","text":"\n"}
 {"offset":9765,"len":18,"label":"lines[9:72]","text":"Harvard University"}
 {"offset":9783,"len":1,"label":"?","text":"\n"}
@@ -1092,9 +1092,9 @@
 {"offset":9872,"len":1,"label":"?","text":"\n"}
 {"offset":9873,"len":39,"label":"lines[11:86]","text":"Office of the Dean for Computer Systems"}
 // overlapping labels!
-{"offset":9895,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":9895,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":9895,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":9895,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":9912,"len":1,"label":"?","text":"\n"}
 {"offset":9913,"len":20,"label":"lines[11:87]","text":"535 East 80th Street"}
 {"offset":9933,"len":1,"label":"?","text":"\n"}
@@ -1104,29 +1104,29 @@
 {"offset":10005,"len":1,"label":"?","text":"\n"}
 {"offset":10006,"len":15,"label":"lines[10:78,12:100,43:348]","text":"Computer Center"}
 // overlapping labels!
-{"offset":10014,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":10014,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":10014,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":10014,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":10021,"len":1,"label":"?","text":"\n"}
 {"offset":10022,"len":42,"label":"lines[10:79]","text":"School of Information and Computer Science"}
 // overlapping labels!
-{"offset":10047,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":10047,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":10047,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":10047,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":10064,"len":1,"label":"?","text":"\n"}
 {"offset":10065,"len":31,"label":"lines[10:80]","text":"Georgia Institute of Technology"}
 {"offset":10096,"len":1,"label":"?","text":"\n"}
 {"offset":10097,"len":22,"label":"lines[10:81]","text":"Atlanta, Georgia 30332"}
 {"offset":10119,"len":288,"label":"?","text":"\ner/punch\n\tDC line adapter\n\tDP line adapter\n\tDN ACU interface\n.sp\nYou should send me a complete\nlist of your configuratioThank you for your request for the UNIX operating system.\nThe current version of UNIX requires at least\nthe following equipment:\n.sp\n\tPDP-11/40 (with EIS) or PDP-11/45"}
-{"offset":10407,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":10407,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":10407,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":10407,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":10409,"len":53,"label":"?","text":"PU\n\tKT segmentation option\n\t32K words of core\n\tRK or "}
-{"offset":10462,"len":2,"label":"offset[20:164]","text":"RP"}
+{"offset":10462,"len":2,"label":"offset[20:164] = \"Canada\"","text":"RP"}
 {"offset":10464,"len":234,"label":"?","text":" disk\n\tKW (line or programmable) clock\n\tstandard DEC console (LA, VT, or LT)\n.sp\nYou should send me a complete\nlist of your configuration plus one of the following:\n.sp\n\t600'-2400' (9 track 800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\t"}
-{"offset":10698,"len":2,"label":"offset[20:164]","text":"RP"}
+{"offset":10698,"len":2,"label":"offset[20:164] = \"Canada\"","text":"RP"}
 {"offset":10700,"len":150,"label":"?","text":"03 disk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\n800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\t"}
-{"offset":10850,"len":2,"label":"offset[20:164]","text":"RP"}
+{"offset":10850,"len":2,"label":"offset[20:164] = \"Canada\"","text":"RP"}
 {"offset":10852,"len":132,"label":"?","text":"03 disk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\nstconfSponsored Retowhom-3"}
 {"offset":10984,"len":6,"label":"lines[4:31]","text":"name-4"}
 {"offset":10990,"len":26,"label":"?","text":"yhT\u0002�\u0001-m- 14�\u0000�\u0000T\u0001{text}\no"}
@@ -1134,9 +1134,9 @@
 {"offset":11022,"len":138,"label":"?","text":"ngOctober 31s(medi{encl}\netext- fotowhom-6Thank yoThank you for your request for the UNIX operating system.\nThe cuname-rr 10D\u0000T\u00004\u0001towhom-1"}
 {"offset":11160,"len":6,"label":"lines[2:17]","text":"name-2"}
 {"offset":11166,"len":21,"label":"?","text":"LeMr. Desautels\nut\u0004\u0001�"}
-{"offset":11187,"len":2,"label":"offset[6:48]","text":"\u0000$"}
+{"offset":11187,"len":2,"label":"offset[6:48] = \"Mr. A. J. Lindstrom\"","text":"\u0000$"}
 {"offset":11189,"len":6,"label":"?","text":"\u0002r 27�"}
-{"offset":11195,"len":2,"label":"offset[43:347]","text":"\u0000L"}
+{"offset":11195,"len":2,"label":"offset[43:347] = \"Carl Henry\"","text":"\u0000L"}
 {"offset":11197,"len":11,"label":"?","text":"\u00004\u0001towhom-5"}
 {"offset":11208,"len":6,"label":"lines[6:47]","text":"name-6"}
 {"offset":11214,"len":50,"label":"?","text":"saMr. Mayhew\nyhew\nThank you for yotext-5-5s)al pur"}
@@ -1148,9 +1148,9 @@
 {"offset":11319,"len":1,"label":"?","text":"\n"}
 {"offset":11320,"len":29,"label":"lines[25:199]","text":"New Haven, Connecticut  06520"}
 // overlapping labels!
-{"offset":11330,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":11330,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":11330,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":11330,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":11349,"len":43,"label":"?","text":"\nUNIX requires at least\nthe following equip"}
 {"offset":11392,"len":13,"label":"lines[26:203]","text":"Dr. P. Weiner"}
 {"offset":11405,"len":1,"label":"?","text":"\n"}
@@ -1158,25 +1158,25 @@
 {"offset":11432,"len":1,"label":"?","text":"\n"}
 {"offset":11433,"len":20,"label":"lines[26:205,26a:213]","text":"The Rand Corporation"}
 // overlapping labels!
-{"offset":11441,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":11441,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":11441,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":11441,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":11453,"len":1,"label":"?","text":"\n"}
 {"offset":11454,"len":16,"label":"lines[26:206,26a:214]","text":"1700 Main Street"}
 {"offset":11470,"len":1,"label":"?","text":"\n"}
 {"offset":11471,"len":30,"label":"lines[26:207,26a:215]","text":"Santa Monica, California 90406"}
 // overlapping labels!
-{"offset":11484,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":11484,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":11484,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":11484,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":11501,"len":19,"label":"?","text":"\n (line or programm"}
 {"offset":11520,"len":24,"label":"lines[12:99]","text":"James P. Lewis, Director"}
 {"offset":11544,"len":1,"label":"?","text":"\n"}
 {"offset":11545,"len":15,"label":"lines[10:78,12:100,43:348]","text":"Computer Center"}
 // overlapping labels!
-{"offset":11553,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":11553,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":11553,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":11553,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":11560,"len":1,"label":"?","text":"\n"}
 {"offset":11561,"len":19,"label":"lines[1:5,1a:13,12:101]","text":"Columbia University"}
 {"offset":11580,"len":1,"label":"?","text":"\n"}
@@ -1186,33 +1186,33 @@
 {"offset":11637,"len":1,"label":"?","text":"\n"}
 {"offset":11638,"len":21,"label":"lines[12:104]","text":"New York, N. Y. 10032"}
 {"offset":11659,"len":159,"label":"?","text":"\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000R. G. Shahpazian\nRoom 400\nWestern Electric"}
-{"offset":11818,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":11818,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":11818,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":11818,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":11820,"len":84,"label":"?","text":"ompany\n222 Broadway\nNew York, New York 10038\n the\nCommunications of the ACM in their"}
 {"offset":11904,"len":17,"label":"lines[13:108]","text":"Mr. Rusty Whitney"}
 {"offset":11921,"len":1,"label":"?","text":"\n"}
 {"offset":11922,"len":21,"label":"lines[13:109]","text":"Director of Computing"}
 // overlapping labels!
-{"offset":11933,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":11933,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":11933,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":11933,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":11943,"len":1,"label":"?","text":"\n"}
 {"offset":11944,"len":37,"label":"lines[13:110]","text":"Oregon Museum of Science and Industry"}
 {"offset":11981,"len":1,"label":"?","text":"\n"}
 {"offset":11982,"len":21,"label":"lines[13:111]","text":"4015 S.W. Canyon Road"}
 // overlapping labels!
-{"offset":11983,"len":2,"label":"offset[19:152]","text":"01"}
+{"offset":11983,"len":2,"label":"offset[19:152] = \"name-19\"","text":"01"}
 // overlapping labels!
-{"offset":11983,"len":2,"label":"offset[1:1]","text":"01"}
+{"offset":11983,"len":2,"label":"offset[1:1] = \"name-1\"","text":"01"}
 // overlapping labels!
-{"offset":11991,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":11991,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":11991,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":11991,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":12003,"len":1,"label":"?","text":"\n"}
 {"offset":12004,"len":22,"label":"lines[13:112]","text":"Portland, Oregon 97221"}
 {"offset":12026,"len":5,"label":"?","text":"\n\u0000\u0000\u0000\u0000"}
-{"offset":12031,"len":2,"label":"offset[45:362]","text":"\u0000M"}
+{"offset":12031,"len":2,"label":"offset[45:362] = \"S. Grodstein\"","text":"\u0000M"}
 // overlapping labels!
 {"offset":12032,"len":16,"label":"lines[14:116]","text":"Mr. Gideon Yuval"}
 {"offset":12048,"len":1,"label":"?","text":"\n"}
@@ -1224,23 +1224,23 @@
 {"offset":12129,"len":31,"label":"?","text":"\nunications of the ACM in their"}
 {"offset":12160,"len":22,"label":"lines[15:123]","text":"Mr. Stanley C. Bateman"}
 // overlapping labels!
-{"offset":12171,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":12171,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":12171,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":12171,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":12182,"len":1,"label":"?","text":"\n"}
 {"offset":12183,"len":24,"label":"lines[15:124,23:183]","text":"University of California"}
 // overlapping labels!
-{"offset":12196,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":12196,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":12196,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":12196,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":12207,"len":1,"label":"?","text":"\n"}
 {"offset":12208,"len":27,"label":"lines[15:125]","text":"Contracts and Grants Office"}
 {"offset":12235,"len":1,"label":"?","text":"\n"}
 {"offset":12236,"len":31,"label":"lines[15:126]","text":"San Francisco, California 94143"}
 // overlapping labels!
-{"offset":12250,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":12250,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":12250,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":12250,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":12267,"len":21,"label":"?","text":"\n-free basis,\nto educ"}
 {"offset":12288,"len":7,"label":"lines[18:144]","text":"name-18"}
 // overlapping labels!
@@ -1262,15 +1262,15 @@
 {"offset":12476,"len":1,"label":"?","text":"\n"}
 {"offset":12477,"len":31,"label":"lines[16:132]","text":"The California State University"}
 // overlapping labels!
-{"offset":12480,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":12480,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":12480,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":12480,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":12508,"len":1,"label":"?","text":"\n"}
 {"offset":12509,"len":27,"label":"lines[16:133]","text":"Fullerton, California 92634"}
 // overlapping labels!
-{"offset":12519,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":12519,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":12519,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":12519,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":12536,"len":24,"label":"?","text":"\nto eductowhom-1ar Bornh"}
 {"offset":12560,"len":7,"label":"lines[21:167]","text":"name-21"}
 // overlapping labels!
@@ -1310,9 +1310,9 @@
 {"offset":12724,"len":1,"label":"?","text":"\n"}
 {"offset":12725,"len":18,"label":"lines[17:139]","text":"Long Island Center"}
 // overlapping labels!
-{"offset":12736,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":12736,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":12736,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":12736,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":12743,"len":1,"label":"?","text":"\n"}
 {"offset":12744,"len":9,"label":"lines[17:140]","text":"Route 110"}
 {"offset":12753,"len":1,"label":"?","text":"\n"}
@@ -1322,9 +1322,9 @@
 {"offset":12819,"len":1,"label":"?","text":"\n"}
 {"offset":12820,"len":37,"label":"lines[18:146]","text":"Computer Communications Network Group"}
 // overlapping labels!
-{"offset":12828,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":12828,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":12828,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":12828,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":12857,"len":1,"label":"?","text":"\n"}
 {"offset":12858,"len":22,"label":"lines[18:147]","text":"University of Waterloo"}
 {"offset":12880,"len":1,"label":"?","text":"\n"}
@@ -1340,29 +1340,29 @@
 {"offset":12962,"len":1,"label":"?","text":"\n"}
 {"offset":12963,"len":24,"label":"lines[11a:94]","text":"Brooklyn College of CUNY"}
 // overlapping labels!
-{"offset":12971,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":12971,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":12971,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":12971,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 // overlapping labels!
-{"offset":12982,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":12982,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":12982,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":12982,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":12987,"len":1,"label":"?","text":"\n"}
 {"offset":12988,"len":20,"label":"lines[11a:95]","text":"Brooklyn, N.Y. 11210"}
 {"offset":13008,"len":47,"label":"?","text":"\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"}
-{"offset":13055,"len":2,"label":"offset[51:404]","text":"\u0000P"}
+{"offset":13055,"len":2,"label":"offset[51:404] = \"R. J. Collins\"","text":"\u0000P"}
 {"offset":13057,"len":18,"label":"?","text":"rof. Bjork\nJardDr."}
-{"offset":13075,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":13075,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":13075,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":13075,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":13077,"len":7,"label":"?","text":"ole\n of"}
-{"offset":13084,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":13084,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":13084,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":13084,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":13086,"len":27,"label":"?","text":"omname-letternk Sttowhom-24"}
-{"offset":13113,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":13113,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":13113,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":13113,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":13115,"len":5,"label":"?","text":"ole\nQ"}
 {"offset":13120,"len":7,"label":"lines[25:195]","text":"name-25"}
 // overlapping labels!
@@ -1416,17 +1416,17 @@
 {"offset":14402,"len":1,"label":"?","text":"\n"}
 {"offset":14403,"len":26,"label":"lines[19:156]","text":"Salt Lake City, Utah 84112"}
 // overlapping labels!
-{"offset":14412,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":14412,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":14412,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":14412,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":14429,"len":35,"label":"?","text":"\nms involved in releasing chess.\nTh"}
 {"offset":14464,"len":19,"label":"lines[20:160]","text":"Prof. D. A. Jardine"}
 {"offset":14483,"len":1,"label":"?","text":"\n"}
 {"offset":14484,"len":26,"label":"lines[20:161]","text":"Dept. of Computing Science"}
 // overlapping labels!
-{"offset":14492,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":14492,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":14492,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":14492,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":14510,"len":1,"label":"?","text":"\n"}
 {"offset":14511,"len":30,"label":"lines[20:162]","text":"Queen's University at Kingston"}
 {"offset":14541,"len":1,"label":"?","text":"\n"}
@@ -1440,9 +1440,9 @@
 {"offset":14629,"len":1,"label":"?","text":"\n"}
 {"offset":14630,"len":18,"label":"lines[21:170]","text":"Saint Olaf College"}
 // overlapping labels!
-{"offset":14640,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":14640,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":14640,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":14640,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":14648,"len":1,"label":"?","text":"\n"}
 {"offset":14649,"len":27,"label":"lines[21:171]","text":"Northfield, Minnesota 55057"}
 {"offset":14676,"len":12,"label":"?","text":"\nd Surgeons\n"}
@@ -1450,21 +1450,21 @@
 {"offset":14709,"len":11,"label":"?","text":"\nNew York, "}
 {"offset":14720,"len":21,"label":"lines[22:175]","text":"Prof C. Frank Starmer"}
 // overlapping labels!
-{"offset":14724,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":14724,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":14724,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":14724,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":14741,"len":1,"label":"?","text":"\n"}
 {"offset":14742,"len":15,"label":"lines[22:176]","text":"Duke University"}
 {"offset":14757,"len":1,"label":"?","text":"\n"}
 {"offset":14758,"len":28,"label":"lines[22:177]","text":"Durham, North Carolina 27710"}
 // overlapping labels!
-{"offset":14771,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":14771,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":14771,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":14771,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":14786,"len":113,"label":"?","text":"\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000towhom-25E. EcklMs. Heiser\nolleg�\u0004�\u0004-Thank you fMr."}
-{"offset":14899,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":14899,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":14899,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":14899,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":14901,"len":11,"label":"?","text":"hesson\nest "}
 {"offset":14912,"len":7,"label":"lines[28:232]","text":"name-28"}
 // overlapping labels!
@@ -1488,27 +1488,27 @@
 {"offset":15004,"len":1,"label":"?","text":"\n"}
 {"offset":15005,"len":24,"label":"lines[15:124,23:183]","text":"University of California"}
 // overlapping labels!
-{"offset":15018,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":15018,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":15018,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":15018,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":15029,"len":1,"label":"?","text":"\n"}
 {"offset":15030,"len":21,"label":"lines[23:184]","text":"Berkeley, Calif 94720"}
 // overlapping labels!
-{"offset":15039,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":15039,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":15039,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":15039,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":15051,"len":53,"label":"?","text":"\n speed,\nparts of the program are writen in a local\nv"}
 {"offset":15104,"len":14,"label":"lines[24:188]","text":"Dr. M. S. Cole"}
 // overlapping labels!
-{"offset":15113,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":15113,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":15113,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":15113,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":15118,"len":1,"label":"?","text":"\n"}
 {"offset":15119,"len":18,"label":"lines[24:189]","text":"Queen Mary College"}
 // overlapping labels!
-{"offset":15129,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":15129,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":15129,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":15129,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":15137,"len":1,"label":"?","text":"\n"}
 {"offset":15138,"len":20,"label":"lines[24:190]","text":"University of London"}
 {"offset":15158,"len":1,"label":"?","text":"\n"}
@@ -1556,17 +1556,17 @@
 // overlapping labels!
 {"offset":15352,"len":6,"label":"lines[3:24]","text":"name-3"}
 {"offset":15359,"len":1036,"label":"?","text":"aThank you for your letter concerning the chess\nprogram for the PDP-11.\nThere are certain problems involved in releasing chess.\nThe program is writen in a local language which is\nconsidered proprietary.\nFor speed,\nparts of the program are writen in a local\nvarient of PDP-11 assembly language.\nIn addition,\nthe program and associated table compilers\nall run under the UNIX time-sharing system,\nwhich is also considered proprietary.\n.sp\nIf after all this,\nyou believe that listings\nin two undocumented languages,\ncalling on undocumented system I/O routines,\nwould be of use,\nI will try to get them released.\nOn the other hand,\nif you are really interested in running\nthe program,\nyou should consider obtaining UNIX,\nwhich is available under a Western Electric\nlicense agreement, royality-free, to educational institutions.\nFor information on the UNIX agreement,\nyou should contact:\n.nf\n.sp\n.in 5\n{shah}\n.sp\n.in 0\n.fi\nI hope I have been of some help.\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0000�\u0000�\u0000\\\u0000�\u0000�"}
-{"offset":16395,"len":2,"label":"offset[25:196]","text":"\u0000,"}
+{"offset":16395,"len":2,"label":"offset[25:196] = \"Mr. John E. Ecklund\"","text":"\u0000,"}
 {"offset":16397,"len":16,"label":"?","text":"\u0001$\u0001\\\u0001l\u0000�\u0000T\u0000�\u0000T\u0001|"}
-{"offset":16413,"len":2,"label":"offset[43:347]","text":"\u0000L"}
+{"offset":16413,"len":2,"label":"offset[43:347] = \"Carl Henry\"","text":"\u0000L"}
 {"offset":16415,"len":12,"label":"?","text":"\u0001�\u0000�\u0001�\u0001�\u00004\u0001�"}
-{"offset":16427,"len":2,"label":"offset[51:404]","text":"\u0000D"}
+{"offset":16427,"len":2,"label":"offset[51:404] = \"R. J. Collins\"","text":"\u0000D"}
 {"offset":16429,"len":392,"label":"?","text":"\u0001�\u0001�\u0000<\u0001�\u0000�\u0001d\u0001\u0014\u0001|\u0001\u0004\u0002�\u0000t\u0001�\u0001\u001c\u0002\u001c\u0001�\u0001,\u0002d\u0000�\u0000�\u0001�\u0001<\u0002�\u0001\f\u0002\u0004\u0001�\u0001�\u0001t\u0002�\u0000�\u0001�\u0000|\u0002L\u0002$\u0002\f\u0001�\u0002D\u0000l\u0001D\u0002�\u0001T\u0002�\u0002�\u0002�\u0002�\u0002�\u0002�\u0001�\u0001L\u0000�\u0002\u0004\u0003�\u0002�\u0002�\u0002\u001c\u0003<\u00034\u0003L\u0003�\u0002\f\u0003�\u0002�\u0002\\\u0002�\u0002l\u0002\\\u0003$\u0003t\u0003d\u0002�\u0003l\u0003d\u0003�\u0002�\u0003\u0014\u0002,\u0003�\u0003�\u0003�\u0002�\u0003�\u0003�\u0003<\u00004\u0004�\u0003<\u0004�\u0003L\u0004\u0014\u0003\f\u0004$\u00044\u0000T\u0003T\u0004�\u0003t\u0004�\u0003l\u0004,\u0004d\u0004�\u0003\\\u0004D\u0004�\u0004�\u0004�\u0004�\u0003�\u0004�\u0004\u0004\u0004|\u0004�\u0004\u0014\u0004�\u0004�\u0004\u0004\u0005\u001c\u0005|\u00034\u0005,\u0005\f\u0005<\u0005$\u0005\u0014\u0005�\u0004�\u0004�\u0004\u001c\u0004D\u0003T\u0005�\u0004D\u0005�\u0004�\u0005�\u0005�\u0004L\u0005�\u0005�\u0005\\\u0005t\u0000|\u0005�\u0005�\u0004�\u0005�\u0005�\u0005�\u0001�\u0005\f\u0006�\u0005�\u0005t\u0005\u001c\u0006�\u0005\u0014\u0006�\u0003L\u0006D\u0006<\u0006l\u0005l\u0006T\u00064\u0006�\u0003|\u0006d\u0006\\\u0006d\u0005�\u0006�\u0005t\u0006�\u0004�\u0006,\u0006�\u0006�\u0003�\u0006�\u0006�\u0006�\u0006�\u0006echnic Institute of New York\n"}
 {"offset":16821,"len":18,"label":"lines[17:139]","text":"Long Island Center"}
 // overlapping labels!
-{"offset":16832,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":16832,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":16832,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":16832,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":16839,"len":1,"label":"?","text":"\n"}
 {"offset":16840,"len":9,"label":"lines[17:140]","text":"Route 110"}
 {"offset":16849,"len":1,"label":"?","text":"\n"}
@@ -1578,41 +1578,41 @@
 {"offset":16941,"len":1,"label":"?","text":"\n"}
 {"offset":16942,"len":20,"label":"lines[26:205,26a:213]","text":"The Rand Corporation"}
 // overlapping labels!
-{"offset":16950,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":16950,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":16950,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":16950,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":16962,"len":1,"label":"?","text":"\n"}
 {"offset":16963,"len":16,"label":"lines[26:206,26a:214]","text":"1700 Main Street"}
 {"offset":16979,"len":1,"label":"?","text":"\n"}
 {"offset":16980,"len":30,"label":"lines[26:207,26a:215]","text":"Santa Monica, California 90406"}
 // overlapping labels!
-{"offset":16993,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":16993,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":16993,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":16993,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17010,"len":14,"label":"?","text":"\nllowing equip"}
 {"offset":17024,"len":19,"label":"lines[27:219]","text":"Prof. D. B. Gillies"}
 {"offset":17043,"len":1,"label":"?","text":"\n"}
 {"offset":17044,"len":25,"label":"lines[27:220,27a:227,44:355]","text":"Dept. of Computer Science"}
 // overlapping labels!
-{"offset":17052,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17052,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17052,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17052,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17069,"len":1,"label":"?","text":"\n"}
 {"offset":17070,"len":22,"label":"lines[27:221,27a:228]","text":"University of Illinois"}
 {"offset":17092,"len":1,"label":"?","text":"\n"}
 {"offset":17093,"len":22,"label":"lines[27:222,27a:229]","text":"Urbana, Illinois 61801"}
 // overlapping labels!
-{"offset":17113,"len":2,"label":"offset[19:152]","text":"01"}
+{"offset":17113,"len":2,"label":"offset[19:152] = \"name-19\"","text":"01"}
 // overlapping labels!
-{"offset":17113,"len":2,"label":"offset[1:1]","text":"01"}
+{"offset":17113,"len":2,"label":"offset[1:1] = \"name-1\"","text":"01"}
 {"offset":17115,"len":8,"label":"?","text":"\n\tRK or "}
-{"offset":17123,"len":2,"label":"offset[20:164]","text":"RP"}
+{"offset":17123,"len":2,"label":"offset[20:164] = \"Canada\"","text":"RP"}
 {"offset":17125,"len":27,"label":"?","text":" disk\n\tKW (line or programm"}
 {"offset":17152,"len":11,"label":"lines[42:340]","text":"James Curry"}
 // overlapping labels!
-{"offset":17157,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17157,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17157,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17157,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17163,"len":1,"label":"?","text":"\n"}
 {"offset":17164,"len":5,"label":"lines[42:341]","text":"IASSA"}
 {"offset":17169,"len":1,"label":"?","text":"\n"}
@@ -1649,53 +1649,53 @@
 // overlapping labels!
 {"offset":17240,"len":6,"label":"lines[3:24]","text":"name-3"}
 {"offset":17247,"len":6,"label":"?","text":"fR. J."}
-{"offset":17253,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17253,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17253,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17253,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17255,"len":9,"label":"?","text":"o Souza\nD"}
 {"offset":17264,"len":13,"label":"lines[51:404]","text":"R. J. Collins"}
 // overlapping labels!
-{"offset":17269,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17269,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17269,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17269,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17277,"len":3,"label":"?","text":"\nDe"}
 {"offset":17280,"len":12,"label":"lines[27a:226]","text":"Greg Chesson"}
 // overlapping labels!
-{"offset":17284,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17284,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17284,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17284,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17292,"len":1,"label":"?","text":"\n"}
 {"offset":17293,"len":25,"label":"lines[27:220,27a:227,44:355]","text":"Dept. of Computer Science"}
 // overlapping labels!
-{"offset":17301,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17301,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17301,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17301,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17318,"len":1,"label":"?","text":"\n"}
 {"offset":17319,"len":22,"label":"lines[27:221,27a:228]","text":"University of Illinois"}
 {"offset":17341,"len":1,"label":"?","text":"\n"}
 {"offset":17342,"len":22,"label":"lines[27:222,27a:229]","text":"Urbana, Illinois 61801"}
 // overlapping labels!
-{"offset":17362,"len":2,"label":"offset[19:152]","text":"01"}
+{"offset":17362,"len":2,"label":"offset[19:152] = \"name-19\"","text":"01"}
 // overlapping labels!
-{"offset":17362,"len":2,"label":"offset[1:1]","text":"01"}
+{"offset":17362,"len":2,"label":"offset[1:1] = \"name-1\"","text":"01"}
 {"offset":17364,"len":44,"label":"?","text":"\nisk pack\n.sp\nI will be able to send the sys"}
 {"offset":17408,"len":13,"label":"lines[51:404]","text":"R. J. Collins"}
 // overlapping labels!
-{"offset":17413,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17413,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17413,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17413,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17421,"len":8,"label":"?","text":"\nDept of"}
-{"offset":17429,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17429,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17429,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17429,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17431,"len":19,"label":"?","text":"omputer Suth Wales\n"}
 {"offset":17450,"len":8,"label":"lines[48:385]","text":"PO Box 1"}
 {"offset":17458,"len":14,"label":"?","text":"\nKensington, N"}
 {"offset":17472,"len":11,"label":"lines[42:340]","text":"James Curry"}
 // overlapping labels!
-{"offset":17477,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17477,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17477,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17477,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17483,"len":1,"label":"?","text":"\n"}
 {"offset":17484,"len":5,"label":"lines[42:341]","text":"IASSA"}
 {"offset":17489,"len":1,"label":"?","text":"\n"}
@@ -1707,25 +1707,25 @@
 {"offset":17556,"len":1,"label":"?","text":"\n"}
 {"offset":17557,"len":43,"label":"lines[35:290]","text":"University of North Carolina at Chapel Hill"}
 // overlapping labels!
-{"offset":17576,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17576,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17576,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17576,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 // overlapping labels!
-{"offset":17588,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17588,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17588,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17588,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17600,"len":1,"label":"?","text":"\n"}
 {"offset":17601,"len":13,"label":"lines[35:291]","text":"New West Hall"}
 {"offset":17614,"len":1,"label":"?","text":"\n"}
 {"offset":17615,"len":27,"label":"lines[35:292]","text":"Chapel Hill, North Carolina"}
 // overlapping labels!
-{"offset":17633,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17633,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17633,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17633,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17642,"len":6,"label":"?","text":"\nin Du"}
-{"offset":17648,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17648,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17648,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17648,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17650,"len":14,"label":"?","text":"yclotron 2\n134"}
 {"offset":17664,"len":16,"label":"lines[29:241]","text":"Prof. E. Milgrom"}
 {"offset":17680,"len":1,"label":"?","text":"\n"}
@@ -1735,47 +1735,47 @@
 {"offset":17733,"len":1,"label":"?","text":"\n"}
 {"offset":17734,"len":32,"label":"lines[29:244]","text":"Universite Catholique de Louvain"}
 // overlapping labels!
-{"offset":17744,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17744,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17744,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17744,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17766,"len":1,"label":"?","text":"\n"}
 {"offset":17767,"len":21,"label":"lines[29:245]","text":"Chenin Du Cyclotron 2"}
 // overlapping labels!
-{"offset":17776,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17776,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17776,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17776,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17788,"len":1,"label":"?","text":"\n"}
 {"offset":17789,"len":31,"label":"lines[29:246]","text":"1348 Louvain-La-Neuve, Belgique"}
 {"offset":17820,"len":51,"label":"?","text":"\ntrack 800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\t"}
-{"offset":17871,"len":2,"label":"offset[20:164]","text":"RP"}
+{"offset":17871,"len":2,"label":"offset[20:164] = \"Canada\"","text":"RP"}
 {"offset":17873,"len":47,"label":"?","text":"03 disk pack\n.sp\nI will be able to send the sys"}
 {"offset":17920,"len":19,"label":"lines[34:282]","text":"Mr. Belton E. Allen"}
 {"offset":17939,"len":1,"label":"?","text":"\n"}
 {"offset":17940,"len":30,"label":"lines[34:283]","text":"Instructor of Computer Science"}
 // overlapping labels!
-{"offset":17953,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":17953,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":17953,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":17953,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":17970,"len":1,"label":"?","text":"\n"}
 {"offset":17971,"len":25,"label":"lines[34:284]","text":"Naval Postgraduate School"}
 {"offset":17996,"len":1,"label":"?","text":"\n"}
 {"offset":17997,"len":26,"label":"lines[34:285]","text":"Monterey, California 93940"}
 // overlapping labels!
-{"offset":18006,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":18006,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":18006,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":18006,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":18023,"len":24,"label":"?","text":"\neast\nthe following equi"}
-{"offset":18047,"len":2,"label":"offset[23:180]","text":"pM"}
+{"offset":18047,"len":2,"label":"offset[23:180] = \"name-23\"","text":"pM"}
 // overlapping labels!
-{"offset":18047,"len":2,"label":"offset[2:17]","text":"pM"}
+{"offset":18047,"len":2,"label":"offset[2:17] = \"name-2\"","text":"pM"}
 // overlapping labels!
 {"offset":18048,"len":14,"label":"lines[33:273]","text":"Mr. J. Tansley"}
 {"offset":18062,"len":1,"label":"?","text":"\n"}
 {"offset":18063,"len":23,"label":"lines[33:274]","text":"Medical Computing Group"}
 // overlapping labels!
-{"offset":18070,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":18070,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":18070,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":18070,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":18086,"len":1,"label":"?","text":"\n"}
 {"offset":18087,"len":14,"label":"lines[33:275]","text":"Medical School"}
 {"offset":18101,"len":1,"label":"?","text":"\n"}
@@ -1787,39 +1787,39 @@
 {"offset":18167,"len":9,"label":"?","text":"\nprogramm"}
 {"offset":18176,"len":24,"label":"lines[32:266]","text":"Mr. William C. Ripperger"}
 // overlapping labels!
-{"offset":18187,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":18187,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":18187,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":18187,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":18200,"len":1,"label":"?","text":"\n"}
 {"offset":18201,"len":28,"label":"lines[32:267]","text":"Knox College Computer Center"}
 // overlapping labels!
 {"offset":18201,"len":12,"label":"lines[32:268]","text":"Knox College"}
 // overlapping labels!
-{"offset":18205,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":18205,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":18205,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":18205,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 // overlapping labels!
-{"offset":18213,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":18213,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":18213,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":18213,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 // overlapping labels!
 {"offset":18214,"len":15,"label":"lines[10:78,12:100,43:348]","text":"Computer Center"}
 // overlapping labels!
-{"offset":18222,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":18222,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":18222,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":18222,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":18229,"len":1,"label":"?","text":"\n"}
 {"offset":18230,"len":12,"label":"lines[32:268]","text":"Knox College"}
 // overlapping labels!
-{"offset":18234,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":18234,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":18234,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":18234,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":18242,"len":1,"label":"?","text":"\n"}
 {"offset":18243,"len":20,"label":"lines[32:269]","text":"Galesburg, Ill 61401"}
 // overlapping labels!
-{"offset":18261,"len":2,"label":"offset[19:152]","text":"01"}
+{"offset":18261,"len":2,"label":"offset[19:152] = \"name-19\"","text":"01"}
 // overlapping labels!
-{"offset":18261,"len":2,"label":"offset[1:1]","text":"01"}
+{"offset":18261,"len":2,"label":"offset[1:1] = \"name-1\"","text":"01"}
 {"offset":18263,"len":9,"label":"?","text":"\nurgeons\n"}
 {"offset":18272,"len":21,"label":"lines[12:103]","text":"630 West 168th Street"}
 {"offset":18293,"len":11,"label":"?","text":"\nNew York, "}
@@ -1833,7 +1833,7 @@
 {"offset":18389,"len":1,"label":"?","text":"\n"}
 {"offset":18390,"len":25,"label":"lines[31:262]","text":"Birmingham, Alabama 35294"}
 {"offset":18415,"len":16,"label":"?","text":"\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"}
-{"offset":18431,"len":2,"label":"offset[45:362]","text":"\u0000M"}
+{"offset":18431,"len":2,"label":"offset[45:362] = \"S. Grodstein\"","text":"\u0000M"}
 // overlapping labels!
 {"offset":18432,"len":21,"label":"lines[36:296]","text":"Mr. Dustin H. Heuston"}
 {"offset":18453,"len":1,"label":"?","text":"\n"}
@@ -1847,9 +1847,9 @@
 {"offset":18526,"len":34,"label":"?","text":"MaProf. Marsland\nstowhom-\u0000esr lett"}
 {"offset":18560,"len":17,"label":"lines[37:303]","text":"Mr. T. C. Stevens"}
 // overlapping labels!
-{"offset":18566,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":18566,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":18566,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":18566,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":18577,"len":1,"label":"?","text":"\n"}
 {"offset":18578,"len":22,"label":"lines[37:304]","text":"Computer Research Dept"}
 {"offset":18600,"len":1,"label":"?","text":"\n"}
@@ -1857,9 +1857,9 @@
 {"offset":18622,"len":1,"label":"?","text":"\n"}
 {"offset":18623,"len":23,"label":"lines[37:306]","text":"Toronto, Canada M5S 1A1"}
 // overlapping labels!
-{"offset":18631,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":18631,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":18631,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":18631,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 // overlapping labels!
 {"offset":18632,"len":6,"label":"lines[20:164]","text":"Canada"}
 {"offset":18646,"len":2,"label":"?","text":"\ng"}
@@ -1869,9 +1869,9 @@
 {"offset":18655,"len":9,"label":"?","text":"htowhom-3"}
 {"offset":18664,"len":6,"label":"lines[4:31]","text":"name-4"}
 {"offset":18670,"len":10,"label":"?","text":"yhtowhom-1"}
-{"offset":18680,"len":2,"label":"offset[19:152]","text":"01"}
+{"offset":18680,"len":2,"label":"offset[19:152] = \"name-19\"","text":"01"}
 // overlapping labels!
-{"offset":18680,"len":2,"label":"offset[1:1]","text":"01"}
+{"offset":18680,"len":2,"label":"offset[1:1] = \"name-1\"","text":"01"}
 {"offset":18682,"len":6,"label":"?","text":"3\u0000�\u0000T\u0001"}
 {"offset":18688,"len":18,"label":"lines[28:233]","text":"Mr John Vanderford"}
 {"offset":18706,"len":1,"label":"?","text":"\n"}
@@ -1885,11 +1885,11 @@
 {"offset":18807,"len":9,"label":"?","text":"\n4n Yuval"}
 {"offset":18816,"len":18,"label":"lines[30:250]","text":"Prof C.J. Karzmark"}
 // overlapping labels!
-{"offset":18820,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":18820,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":18820,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":18820,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 // overlapping labels!
-{"offset":18822,"len":2,"label":"offset[38:312]","text":".J"}
+{"offset":18822,"len":2,"label":"offset[38:312] = \"University of Sakatchewan\"","text":".J"}
 {"offset":18834,"len":1,"label":"?","text":"\n"}
 {"offset":18835,"len":17,"label":"lines[30:251]","text":"Dept of Radiology"}
 {"offset":18852,"len":1,"label":"?","text":"\n"}
@@ -1899,25 +1899,25 @@
 {"offset":18909,"len":1,"label":"?","text":"\n"}
 {"offset":18910,"len":26,"label":"lines[30:254]","text":"Stanford, California 94305"}
 // overlapping labels!
-{"offset":18919,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":18919,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":18919,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":18919,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":18936,"len":8,"label":"?","text":"\nM. Goin"}
 {"offset":18944,"len":15,"label":"lines[38:310]","text":"R. M. Kavanaugh"}
 {"offset":18959,"len":1,"label":"?","text":"\n"}
 {"offset":18960,"len":29,"label":"lines[38:311]","text":"Dept of Computational Science"}
 // overlapping labels!
-{"offset":18967,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":18967,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":18967,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":18967,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":18989,"len":1,"label":"?","text":"\n"}
 {"offset":18990,"len":25,"label":"lines[38:312]","text":"University of Sakatchewan"}
 {"offset":19015,"len":1,"label":"?","text":"\n"}
 {"offset":19016,"len":25,"label":"lines[38:313]","text":"Saskatoon, S7N 0W0 Canada"}
 // overlapping labels!
-{"offset":19034,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":19034,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":19034,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":19034,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 // overlapping labels!
 {"offset":19035,"len":6,"label":"lines[20:164]","text":"Canada"}
 {"offset":19041,"len":31,"label":"?","text":"\nof. Marsland\nstowhom-\u0000esr lett"}
@@ -1925,15 +1925,15 @@
 {"offset":19084,"len":1,"label":"?","text":"\n"}
 {"offset":19085,"len":25,"label":"lines[39:318]","text":"Statistical Computing Lab"}
 // overlapping labels!
-{"offset":19096,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":19096,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":19096,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":19096,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":19110,"len":1,"label":"?","text":"\n"}
 {"offset":19111,"len":20,"label":"lines[4:35,39:319]","text":"Princeton University"}
 {"offset":19131,"len":1,"label":"?","text":"\n"}
 {"offset":19132,"len":21,"label":"lines[39:320]","text":"Princeton, N.J. 08540"}
 // overlapping labels!
-{"offset":19144,"len":2,"label":"offset[38:312]","text":".J"}
+{"offset":19144,"len":2,"label":"offset[38:312] = \"University of Sakatchewan\"","text":".J"}
 {"offset":19153,"len":7,"label":"?","text":"\nahgreg"}
 {"offset":19160,"len":7,"label":"lines[13:107]","text":"name-13"}
 // overlapping labels!
@@ -1941,15 +1941,15 @@
 {"offset":19167,"len":9,"label":"?","text":"htowhom-3"}
 {"offset":19176,"len":6,"label":"lines[4:31]","text":"name-4"}
 {"offset":19182,"len":10,"label":"?","text":"yhtowhom-1"}
-{"offset":19192,"len":2,"label":"offset[19:152]","text":"01"}
+{"offset":19192,"len":2,"label":"offset[19:152] = \"name-19\"","text":"01"}
 // overlapping labels!
-{"offset":19192,"len":2,"label":"offset[1:1]","text":"01"}
+{"offset":19192,"len":2,"label":"offset[1:1] = \"name-1\"","text":"01"}
 {"offset":19194,"len":6,"label":"?","text":"3\u0000�\u0000T\u0001"}
 {"offset":19200,"len":17,"label":"lines[40:324]","text":"H. L. Counts, Jr."}
 // overlapping labels!
-{"offset":19205,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":19205,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":19205,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":19205,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":19217,"len":1,"label":"?","text":"\n"}
 {"offset":19218,"len":10,"label":"lines[40:325]","text":"Purchasing"}
 {"offset":19228,"len":1,"label":"?","text":"\n"}
@@ -1973,15 +1973,15 @@
 {"offset":19466,"len":1,"label":"?","text":"\n"}
 {"offset":19467,"len":15,"label":"lines[10:78,12:100,43:348]","text":"Computer Center"}
 // overlapping labels!
-{"offset":19475,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":19475,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":19475,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":19475,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":19482,"len":1,"label":"?","text":"\n"}
 {"offset":19483,"len":16,"label":"lines[43:349]","text":"Carleton College"}
 // overlapping labels!
-{"offset":19491,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":19491,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":19491,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":19491,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":19499,"len":1,"label":"?","text":"\n"}
 {"offset":19500,"len":22,"label":"lines[43:350]","text":"Northfield, Minn 55057"}
 {"offset":19522,"len":62,"label":"?","text":"\nhom-23S. FabrMr. Bornholdt\n4\u0004Prof. Jardine\n Stowhom-27B. Gill"}
@@ -1989,15 +1989,15 @@
 {"offset":19599,"len":1,"label":"?","text":"\n"}
 {"offset":19600,"len":25,"label":"lines[27:220,27a:227,44:355]","text":"Dept. of Computer Science"}
 // overlapping labels!
-{"offset":19608,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":19608,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":19608,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":19608,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":19625,"len":1,"label":"?","text":"\n"}
 {"offset":19626,"len":31,"label":"lines[44:356]","text":"Foundation Mathematisch Centrum"}
 // overlapping labels!
-{"offset":19649,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":19649,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":19649,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":19649,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":19657,"len":1,"label":"?","text":"\n"}
 {"offset":19658,"len":21,"label":"lines[44:357]","text":"2e Boerhaavestraar 49"}
 {"offset":19679,"len":1,"label":"?","text":"\n"}
@@ -2011,9 +2011,9 @@
 {"offset":19767,"len":1,"label":"?","text":"\n"}
 {"offset":19768,"len":24,"label":"lines[45:365]","text":"East Brunswick, NJ 08816"}
 // overlapping labels!
-{"offset":19789,"len":2,"label":"offset[20:159]","text":"81"}
+{"offset":19789,"len":2,"label":"offset[20:159] = \"name-20\"","text":"81"}
 // overlapping labels!
-{"offset":19789,"len":2,"label":"offset[2:17]","text":"81"}
+{"offset":19789,"len":2,"label":"offset[2:17] = \"name-2\"","text":"81"}
 {"offset":19792,"len":32,"label":"?","text":"\nrof. Starmer\na,towhom-21ph H. B"}
 {"offset":19824,"len":7,"label":"lines[23:180]","text":"name-23"}
 // overlapping labels!
@@ -2029,9 +2029,9 @@
 {"offset":19873,"len":1,"label":"?","text":"\n"}
 {"offset":19874,"len":16,"label":"lines[46:371]","text":"The Cooper Union"}
 // overlapping labels!
-{"offset":19877,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":19877,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":19877,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":19877,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":19890,"len":1,"label":"?","text":"\n"}
 {"offset":19891,"len":13,"label":"lines[46:372]","text":"Cooper Square"}
 {"offset":19904,"len":1,"label":"?","text":"\n"}
@@ -2041,9 +2041,9 @@
 {"offset":19984,"len":1,"label":"?","text":"\n"}
 {"offset":19985,"len":28,"label":"lines[47:378]","text":"University of South Carolina"}
 // overlapping labels!
-{"offset":20004,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":20004,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":20004,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":20004,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":20013,"len":1,"label":"?","text":"\n"}
 {"offset":20014,"len":18,"label":"lines[47:379]","text":"Columbia, SC 29208"}
 {"offset":20032,"len":24,"label":"?","text":"\nname}\nresddresstowhom-2"}
@@ -2063,9 +2063,9 @@
 {"offset":20191,"len":9,"label":"?","text":"htowhom-3"}
 {"offset":20200,"len":6,"label":"lines[4:31]","text":"name-4"}
 {"offset":20206,"len":10,"label":"?","text":"yhtowhom-1"}
-{"offset":20216,"len":2,"label":"offset[19:152]","text":"01"}
+{"offset":20216,"len":2,"label":"offset[19:152] = \"name-19\"","text":"01"}
 // overlapping labels!
-{"offset":20216,"len":2,"label":"offset[1:1]","text":"01"}
+{"offset":20216,"len":2,"label":"offset[1:1] = \"name-1\"","text":"01"}
 {"offset":20218,"len":6,"label":"?","text":"3\u0000�\u0000T\u0001"}
 {"offset":20224,"len":14,"label":"lines[49:390]","text":"J. van den Bas"}
 {"offset":20238,"len":1,"label":"?","text":"\n"}
@@ -2083,29 +2083,29 @@
 {"offset":20438,"len":1,"label":"?","text":"\n"}
 {"offset":20439,"len":25,"label":"lines[50:400]","text":"Edinburgh EH12H5 Scotland"}
 // overlapping labels!
-{"offset":20450,"len":2,"label":"offset[45:361]","text":"H1"}
+{"offset":20450,"len":2,"label":"offset[45:361] = \"name-45\"","text":"H1"}
 // overlapping labels!
-{"offset":20450,"len":2,"label":"offset[4:31]","text":"H1"}
+{"offset":20450,"len":2,"label":"offset[4:31] = \"name-4\"","text":"H1"}
 {"offset":20464,"len":16,"label":"?","text":"\n. Goins\nM. Goin"}
 {"offset":20480,"len":13,"label":"lines[51:404]","text":"R. J. Collins"}
 // overlapping labels!
-{"offset":20485,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":20485,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":20485,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":20485,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":20493,"len":1,"label":"?","text":"\n"}
 {"offset":20494,"len":24,"label":"lines[51:405]","text":"Dept of Computer Science"}
 // overlapping labels!
-{"offset":20501,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":20501,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":20501,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":20501,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 {"offset":20518,"len":1,"label":"?","text":"\n"}
 {"offset":20519,"len":22,"label":"lines[51:406]","text":"University of Manitoba"}
 {"offset":20541,"len":1,"label":"?","text":"\n"}
 {"offset":20542,"len":33,"label":"lines[51:407]","text":"Winnipeg, Manitoba, Canada R3T2N2"}
 // overlapping labels!
-{"offset":20561,"len":2,"label":"offset[36:295]","text":" C"}
+{"offset":20561,"len":2,"label":"offset[36:295] = \"name-36\"","text":" C"}
 // overlapping labels!
-{"offset":20561,"len":2,"label":"offset[3:24]","text":" C"}
+{"offset":20561,"len":2,"label":"offset[3:24] = \"name-3\"","text":" C"}
 // overlapping labels!
 {"offset":20562,"len":6,"label":"lines[20:164]","text":"Canada"}
 {"offset":20575,"len":105,"label":"?","text":"\nProf. Marsland\nstowhom-\u0000esr lettMr. Desautels\nssProf. Arden\nKiddProf. Levinthal\nMr. Byer\nn\n Austtowhom-9"}
@@ -2119,9 +2119,9 @@
 {"offset":20703,"len":9,"label":"?","text":"htowhom-3"}
 {"offset":20712,"len":6,"label":"lines[4:31]","text":"name-4"}
 {"offset":20718,"len":10,"label":"?","text":"yhtowhom-1"}
-{"offset":20728,"len":2,"label":"offset[19:152]","text":"01"}
+{"offset":20728,"len":2,"label":"offset[19:152] = \"name-19\"","text":"01"}
 // overlapping labels!
-{"offset":20728,"len":2,"label":"offset[1:1]","text":"01"}
+{"offset":20728,"len":2,"label":"offset[1:1] = \"name-1\"","text":"01"}
 {"offset":20730,"len":14,"label":"?","text":"3\u0000�\u0000T\u0001{text}\no"}
 {"offset":20744,"len":6,"label":"lines[1:1]","text":"name-1"}
 {"offset":20750,"len":42,"label":"?","text":"ngMr. Lewis\ns(medi{encl}\netext- fotowhom-6"}
