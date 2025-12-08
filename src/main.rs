@@ -1,4 +1,4 @@
-use std::fs;
+use std::{collections::HashSet, fs};
 
 use bstr::BStr;
 
@@ -9,7 +9,7 @@ fn main() {
     let strings: Vec<String> = serde_json::from_str(&strings).unwrap();
 
     let mut labels = Vec::new();
-    let mut offsets = Vec::new();
+    let mut offsets = HashSet::new();
     struct Label {
         offset: usize,
         len: usize,
@@ -32,7 +32,7 @@ fn main() {
         let mut found = false;
         for offset in matches {
             found = true;
-            offsets.push(offset);
+            offsets.insert(offset);
             labels.push(new_label(offset, s.len(), Kind::String));
         }
         if !found {
