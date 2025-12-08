@@ -1,186 +1,98 @@
-offset=0, len=29, kind=Unknown, text="\x14\x07\0\0\xc4\x06\xe4\x05\xd4\x06\xbc\x06$\x06\0\0\x0c\x07\x04\x07\xfc\x06\xf4\x06\0\0\0\0\0"
-offset=29, len=8, kind=Header(Header { write: 11264, read: 0, head: 9216, end: 38912 }), text="\0,\0\0\0$\0\x98"
-offset=37, len=17, kind=Unknown, text="A\x98A\0@\0B\0\0\0\x18\0X\0\x98n0"
-offset=54, len=8, kind=Header(Header { write: 12398, read: 12384, head: 12400, end: 12553 }), text="n0`0p0\t1"
-// overlapping labels!
+offset=0, len=60, kind=Unknown, text="\x14\x07\0\0\xc4\x06\xe4\x05\xd4\x06\xbc\x06$\x06\0\0\x0c\x07\x04\x07\xfc\x06\xf4\x06\0\0\0\0\0\0,\0\0\0$\0\x98A\x98A\0@\0B\0\0\0\x18\0X\0\x98n0n0`0p0"
 offset=60, len=8, kind=Header(Header { write: 12553, read: 12545, head: 12544, end: 12560 }), text="\t1\x011\01\x101"
 offset=68, len=8, kind=Header(Header { write: 6393, read: 6385, head: 6384, end: 6400 }), text="\xf9\x18\xf1\x18\xf0\x18\0\x19"
-offset=76, len=10, kind=Unknown, text="\xd4\x18\xd1\x18\xd0\x18\xd4\x18G\x18"
-offset=86, len=8, kind=Header(Header { write: 6215, read: 6208, head: 6224, end: 7021 }), text="G\x18@\x18P\x18m\x1b"
-offset=94, len=6, kind=Unknown, text="m\x1b@\x1b\x80\x1b"
+offset=76, len=24, kind=Unknown, text="\xd4\x18\xd1\x18\xd0\x18\xd4\x18G\x18G\x18@\x18P\x18m\x1bm\x1b@\x1b\x80\x1b"
 offset=100, len=8, kind=Header(Header { write: 9331, read: 9331, head: 9216, end: 9344 }), text="s$s$\0$\x80$"
-offset=108, len=2, kind=Unknown, text="\xfd#"
-offset=110, len=8, kind=Header(Header { write: 9213, read: 8192, head: 9216, end: 17247 }), text="\xfd#\0 \0$_C"
-// overlapping labels!
+offset=108, len=8, kind=Unknown, text="\xfd#\xfd#\0 \0$"
 offset=116, len=8, kind=Header(Header { write: 17247, read: 17246, head: 17240, end: 17248 }), text="_C^CXC`C"
 offset=124, len=40, kind=Unknown, text="=\x189\x188\x18@\x18h\x1ah\x1a\0\x1a\0\x1b\x16\x18\x11\x18\x10\x18\x18\x18\xb0\x18\xb0\x18\xa0\x18\xb0\x18%\x18!\x18 \x18(\x18"
 offset=164, len=8, kind=Header(Header { write: 6920, read: 6913, head: 6912, end: 6920 }), text="\x08\x1b\x01\x1b\0\x1b\x08\x1b"
-// overlapping labels!
-offset=166, len=8, kind=Header(Header { write: 6913, read: 6912, head: 6920, end: 7703 }), text="\x01\x1b\0\x1b\x08\x1b\x17\x1e"
-offset=174, len=7, kind=Unknown, text="\x17\x1e\0\x1e\x80\x1e."
-offset=181, len=8, kind=Header(Header { write: 10520, read: 10264, head: 12312, end: 14360 }), text="\x18)\x18(\x180\x188"
-// overlapping labels!
+offset=172, len=16, kind=Unknown, text="\x17\x1e\x17\x1e\0\x1e\x80\x1e.\x18)\x18(\x180\x18"
 offset=188, len=8, kind=Header(Header { write: 6456, read: 6449, head: 6448, end: 6456 }), text="8\x191\x190\x198\x19"
-// overlapping labels!
-offset=190, len=8, kind=Header(Header { write: 6449, read: 6448, head: 6456, end: 6533 }), text="1\x190\x198\x19\x85\x19"
-offset=198, len=14, kind=Unknown, text="\x85\x19\x80\x19\x90\x19w\x18q\x18p\x18\x80\x18"
+offset=196, len=16, kind=Unknown, text="\x85\x19\x85\x19\x80\x19\x90\x19w\x18q\x18p\x18\x80\x18"
 offset=212, len=8, kind=Header(Header { write: 6232, read: 6225, head: 6224, end: 6232 }), text="X\x18Q\x18P\x18X\x18"
-// overlapping labels!
-offset=214, len=8, kind=Header(Header { write: 6225, read: 6224, head: 6232, end: 6574 }), text="Q\x18P\x18X\x18\xae\x19"
-// overlapping labels!
 offset=220, len=8, kind=Header(Header { write: 6574, read: 6574, head: 6568, end: 6576 }), text="\xae\x19\xae\x19\xa8\x19\xb0\x19"
 offset=228, len=8, kind=Header(Header { write: 6238, read: 6238, head: 6232, end: 6240 }), text="^\x18^\x18X\x18`\x18"
 offset=236, len=8, kind=Header(Header { write: 8059, read: 8059, head: 7936, end: 8064 }), text="{\x1f{\x1f\0\x1f\x80\x1f"
-offset=244, len=2, kind=Unknown, text="-\x19"
-offset=246, len=8, kind=Header(Header { write: 6441, read: 6440, head: 6448, end: 6568 }), text=")\x19(\x190\x19\xa8\x19"
-// overlapping labels!
+offset=244, len=8, kind=Unknown, text="-\x19)\x19(\x190\x19"
 offset=252, len=8, kind=Header(Header { write: 6568, read: 6561, head: 6560, end: 6568 }), text="\xa8\x19\xa1\x19\xa0\x19\xa8\x19"
-// overlapping labels!
-offset=254, len=8, kind=Header(Header { write: 6561, read: 6560, head: 6568, end: 6584 }), text="\xa1\x19\xa0\x19\xa8\x19\xb8\x19"
-// overlapping labels!
 offset=260, len=8, kind=Header(Header { write: 6584, read: 6577, head: 6576, end: 6584 }), text="\xb8\x19\xb1\x19\xb0\x19\xb8\x19"
 offset=268, len=8, kind=Header(Header { write: 6351, read: 6350, head: 6344, end: 6352 }), text="\xcf\x18\xce\x18\xc8\x18\xd0\x18"
 offset=276, len=8, kind=Unknown, text="\xdb\x19\xdb\x19\xd0\x19\xe0\x19"
 offset=284, len=8, kind=Header(Header { write: 6600, read: 6593, head: 6592, end: 6600 }), text="\xc8\x19\xc1\x19\xc0\x19\xc8\x19"
-// overlapping labels!
-offset=286, len=8, kind=Header(Header { write: 6593, read: 6592, head: 6600, end: 7100 }), text="\xc1\x19\xc0\x19\xc8\x19\xbc\x1b"
-offset=294, len=5, kind=Unknown, text="\xbc\x1b\x80\x1b\xc0"
-offset=299, len=8, kind=Header(Header { write: 13851, read: 12568, head: 12312, end: 14360 }), text="\x1b6\x181\x180\x188"
-offset=307, len=1, kind=Unknown, text="\x18"
+offset=292, len=16, kind=Unknown, text="\xbc\x1b\xbc\x1b\x80\x1b\xc0\x1b6\x181\x180\x188\x18"
 offset=308, len=8, kind=Header(Header { write: 6552, read: 6545, head: 6544, end: 6552 }), text="\x98\x19\x91\x19\x90\x19\x98\x19"
 offset=316, len=8, kind=Unknown, text="o\x18o\x18`\x18p\x18"
 offset=324, len=8, kind=Header(Header { write: 6558, read: 6558, head: 6552, end: 6560 }), text="\x9e\x19\x9e\x19\x98\x19\xa0\x19"
 offset=332, len=24, kind=Unknown, text="\'\x19\'\x19 \x19(\x19)\x1b)\x1b \x1b0\x1b \x18\x19\x18\x18\x18 \x18"
 offset=356, len=8, kind=Header(Header { write: 6376, read: 6369, head: 6368, end: 6376 }), text="\xe8\x18\xe1\x18\xe0\x18\xe8\x18"
-// overlapping labels!
-offset=358, len=8, kind=Header(Header { write: 6369, read: 6368, head: 6376, end: 7117 }), text="\xe1\x18\xe0\x18\xe8\x18\xcd\x1b"
-offset=366, len=14, kind=Unknown, text="\xcd\x1b\xc0\x1b\xd0\x1b\x9c\x18\x9c\x18\x90\x18\xa0\x18"
+offset=364, len=16, kind=Unknown, text="\xcd\x1b\xcd\x1b\xc0\x1b\xd0\x1b\x9c\x18\x9c\x18\x90\x18\xa0\x18"
 offset=380, len=8, kind=Header(Header { write: 6382, read: 6382, head: 6376, end: 6384 }), text="\xee\x18\xee\x18\xe8\x18\xf0\x18"
-// overlapping labels!
-offset=382, len=8, kind=Header(Header { write: 6382, read: 6376, head: 6384, end: 6462 }), text="\xee\x18\xe8\x18\xf0\x18>\x19"
-// overlapping labels!
 offset=388, len=8, kind=Header(Header { write: 6462, read: 6462, head: 6456, end: 6464 }), text=">\x19>\x198\x19@\x19"
 offset=396, len=24, kind=Unknown, text="\x8e\x18\x8e\x18\x80\x18\x90\x18\xf9\x19\xf9\x19\xf0\x19\0\x1a\x0c\x18\t\x18\x08\x18\x0c\x18"
 offset=420, len=8, kind=Header(Header { write: 6926, read: 6926, head: 6920, end: 6928 }), text="\x0e\x1b\x0e\x1b\x08\x1b\x10\x1b"
 offset=428, len=8, kind=Header(Header { write: 9959, read: 9959, head: 9856, end: 9984 }), text="\xe7&\xe7&\x80&\0\'"
-offset=436, len=2, kind=Unknown, text="\x07\x19"
-offset=438, len=8, kind=Header(Header { write: 6407, read: 6400, head: 6408, end: 13959 }), text="\x07\x19\0\x19\x08\x19\x876"
-offset=446, len=14, kind=Unknown, text="\x876\04\08\x1e\x1b\x1e\x1b\x10\x1b \x1b"
+offset=436, len=24, kind=Unknown, text="\x07\x19\x07\x19\0\x19\x08\x19\x876\x876\04\08\x1e\x1b\x1e\x1b\x10\x1b \x1b"
 offset=460, len=8, kind=Header(Header { write: 6414, read: 6414, head: 6408, end: 6416 }), text="\x0e\x19\x0e\x19\x08\x19\x10\x19"
 offset=468, len=8, kind=Header(Header { write: 18264, read: 18264, head: 18176, end: 18304 }), text="XGXG\0G\x80G"
 offset=476, len=8, kind=Unknown, text="\xee\x19\xee\x19\xe0\x19\xf0\x19"
 offset=484, len=8, kind=Header(Header { write: 8160, read: 8160, head: 8064, end: 8192 }), text="\xe0\x1f\xe0\x1f\x80\x1f\0 "
 offset=492, len=8, kind=Unknown, text="\x10\x18\r\x18\x0c\x18\x10\x18"
 offset=500, len=8, kind=Header(Header { write: 6590, read: 6590, head: 6584, end: 6592 }), text="\xbe\x19\xbe\x19\xb8\x19\xc0\x19"
-// overlapping labels!
-offset=502, len=8, kind=Header(Header { write: 6590, read: 6584, head: 6592, end: 7249 }), text="\xbe\x19\xb8\x19\xc0\x19Q\x1c"
-// overlapping labels!
 offset=508, len=8, kind=Header(Header { write: 7249, read: 7249, head: 7168, end: 7296 }), text="Q\x1cQ\x1c\0\x1c\x80\x1c"
-// overlapping labels!
-offset=510, len=8, kind=Header(Header { write: 7249, read: 7168, head: 7296, end: 9617 }), text="Q\x1c\0\x1c\x80\x1c\x91%"
-// overlapping labels!
 offset=516, len=8, kind=Header(Header { write: 9617, read: 9617, head: 9472, end: 9728 }), text="\x91%\x91%\0%\0&"
 offset=524, len=8, kind=Header(Header { write: 7407, read: 7407, head: 7296, end: 7424 }), text="\xef\x1c\xef\x1c\x80\x1c\0\x1d"
-// overlapping labels!
-offset=526, len=8, kind=Header(Header { write: 7407, read: 7296, head: 7424, end: 12304 }), text="\xef\x1c\x80\x1c\0\x1d\x100"
-// overlapping labels!
 offset=532, len=8, kind=Header(Header { write: 12304, read: 12302, head: 12296, end: 12304 }), text="\x100\x0e0\x080\x100"
 offset=540, len=8, kind=Header(Header { write: 7677, read: 7677, head: 7552, end: 7680 }), text="\xfd\x1d\xfd\x1d\x80\x1d\0\x1e"
-offset=548, len=2, kind=Unknown, text="\xb9\x18"
-offset=550, len=8, kind=Header(Header { write: 6329, read: 6320, head: 6336, end: 6606 }), text="\xb9\x18\xb0\x18\xc0\x18\xce\x19"
-// overlapping labels!
+offset=548, len=8, kind=Unknown, text="\xb9\x18\xb9\x18\xb0\x18\xc0\x18"
 offset=556, len=8, kind=Header(Header { write: 6606, read: 6606, head: 6600, end: 6608 }), text="\xce\x19\xce\x19\xc8\x19\xd0\x19"
 offset=564, len=16, kind=Unknown, text="\0\0\0\x18\x02\x18\x04\x186*6*\0(\0,"
 offset=580, len=8, kind=Header(Header { write: 6967, read: 6966, head: 6960, end: 6968 }), text="7\x1b6\x1b0\x1b8\x1b"
 offset=588, len=8, kind=Header(Header { write: 6344, read: 6337, head: 6336, end: 6344 }), text="\xc8\x18\xc1\x18\xc0\x18\xc8\x18"
-// overlapping labels!
-offset=590, len=8, kind=Header(Header { write: 6337, read: 6336, head: 6344, end: 7129 }), text="\xc1\x18\xc0\x18\xc8\x18\xd9\x1b"
-// overlapping labels!
 offset=596, len=8, kind=Header(Header { write: 7129, read: 7121, head: 7120, end: 7136 }), text="\xd9\x1b\xd1\x1b\xd0\x1b\xe0\x1b"
-// overlapping labels!
-offset=598, len=8, kind=Header(Header { write: 7121, read: 7120, head: 7136, end: 7815 }), text="\xd1\x1b\xd0\x1b\xe0\x1b\x87\x1e"
-// overlapping labels!
 offset=604, len=8, kind=Header(Header { write: 7815, read: 7814, head: 7808, end: 7816 }), text="\x87\x1e\x86\x1e\x80\x1e\x88\x1e"
 offset=612, len=8, kind=Header(Header { write: 7513, read: 7505, head: 7504, end: 7520 }), text="Y\x1dQ\x1dP\x1d`\x1d"
-// overlapping labels!
-offset=614, len=8, kind=Header(Header { write: 7505, read: 7504, head: 7520, end: 7529 }), text="Q\x1dP\x1d`\x1di\x1d"
-// overlapping labels!
 offset=620, len=8, kind=Header(Header { write: 7529, read: 7521, head: 7520, end: 7536 }), text="i\x1da\x1d`\x1dp\x1d"
 offset=628, len=8, kind=Header(Header { write: 9456, read: 9456, head: 9344, end: 9472 }), text="\xf0$\xf0$\x80$\0%"
-// overlapping labels!
-offset=630, len=8, kind=Header(Header { write: 9456, read: 9344, head: 9472, end: 9815 }), text="\xf0$\x80$\0%W&"
-// overlapping labels!
 offset=636, len=8, kind=Header(Header { write: 9815, read: 9815, head: 9728, end: 9856 }), text="W&W&\0&\x80&"
 offset=644, len=8, kind=Header(Header { write: 6975, read: 6974, head: 6968, end: 6976 }), text="?\x1b>\x1b8\x1b@\x1b"
 offset=652, len=8, kind=Header(Header { write: 10120, read: 10120, head: 9984, end: 10240 }), text="\x88\'\x88\'\0\'\0("
 offset=660, len=16, kind=Unknown, text="\x1a\x19\x1a\x19\x10\x19 \x19\x150\x110\x100\x180"
 offset=676, len=8, kind=Header(Header { write: 12027, read: 12027, head: 11904, end: 12032 }), text="\xfb.\xfb.\x80.\0/"
 offset=684, len=8, kind=Header(Header { write: 7145, read: 7137, head: 7136, end: 7152 }), text="\xe9\x1b\xe1\x1b\xe0\x1b\xf0\x1b"
-offset=692, len=2, kind=Unknown, text="Y\x19"
-offset=694, len=8, kind=Header(Header { write: 6489, read: 6480, head: 6496, end: 12537 }), text="Y\x19P\x19`\x19\xf90"
-// overlapping labels!
+offset=692, len=8, kind=Unknown, text="Y\x19Y\x19P\x19`\x19"
 offset=700, len=8, kind=Header(Header { write: 12537, read: 12537, head: 12416, end: 12544 }), text="\xf90\xf90\x800\01"
 offset=708, len=8, kind=Header(Header { write: 11660, read: 11660, head: 11520, end: 11776 }), text="\x8c-\x8c-\0-\0."
 offset=716, len=8, kind=Header(Header { write: 6473, read: 6465, head: 6464, end: 6480 }), text="I\x19A\x19@\x19P\x19"
 offset=724, len=8, kind=Header(Header { write: 7903, read: 7902, head: 7896, end: 7904 }), text="\xdf\x1e\xde\x1e\xd8\x1e\xe0\x1e"
-offset=732, len=2, kind=Unknown, text="\xcc\x1e"
-offset=734, len=8, kind=Header(Header { write: 7884, read: 7872, head: 7888, end: 11865 }), text="\xcc\x1e\xc0\x1e\xd0\x1eY."
-offset=742, len=6, kind=Unknown, text="Y.\0.\x80."
+offset=732, len=16, kind=Unknown, text="\xcc\x1e\xcc\x1e\xc0\x1e\xd0\x1eY.Y.\0.\x80."
 offset=748, len=8, kind=Header(Header { write: 7161, read: 7153, head: 7152, end: 7168 }), text="\xf9\x1b\xf1\x1b\xf0\x1b\0\x1c"
-// overlapping labels!
-offset=750, len=8, kind=Header(Header { write: 7153, read: 7152, head: 7168, end: 7433 }), text="\xf1\x1b\xf0\x1b\0\x1c\t\x1d"
-// overlapping labels!
 offset=756, len=8, kind=Header(Header { write: 7433, read: 7425, head: 7424, end: 7440 }), text="\t\x1d\x01\x1d\0\x1d\x10\x1d"
 offset=764, len=8, kind=Unknown, text="\xfc\x1e\xfc\x1e\xf0\x1e\0\x1f"
 offset=772, len=8, kind=Header(Header { write: 6367, read: 6366, head: 6360, end: 6368 }), text="\xdf\x18\xde\x18\xd8\x18\xe0\x18"
-// overlapping labels!
-offset=774, len=8, kind=Header(Header { write: 6366, read: 6360, head: 6368, end: 12268 }), text="\xde\x18\xd8\x18\xe0\x18\xec/"
-// overlapping labels!
 offset=780, len=8, kind=Header(Header { write: 12268, read: 12268, head: 12160, end: 12288 }), text="\xec/\xec/\x80/\00"
-// overlapping labels!
-offset=782, len=8, kind=Header(Header { write: 12268, read: 12160, head: 12288, end: 12607 }), text="\xec/\x80/\00?1"
-// overlapping labels!
 offset=788, len=8, kind=Header(Header { write: 12607, read: 12606, head: 12600, end: 12608 }), text="?1>181@1"
 offset=796, len=8, kind=Header(Header { write: 7895, read: 7894, head: 7888, end: 7896 }), text="\xd7\x1e\xd6\x1e\xd0\x1e\xd8\x1e"
 offset=804, len=8, kind=Header(Header { write: 7823, read: 7822, head: 7816, end: 7824 }), text="\x8f\x1e\x8e\x1e\x88\x1e\x90\x1e"
 offset=812, len=8, kind=Header(Header { write: 13009, read: 13009, head: 12928, end: 13056 }), text="\xd12\xd12\x802\03"
 offset=820, len=8, kind=Header(Header { write: 6521, read: 6513, head: 6512, end: 6528 }), text="y\x19q\x19p\x19\x80\x19"
 offset=828, len=8, kind=Header(Header { write: 12130, read: 12130, head: 12032, end: 12160 }), text="b/b/\0/\x80/"
-// overlapping labels!
-offset=830, len=8, kind=Header(Header { write: 12130, read: 12032, head: 12160, end: 13162 }), text="b/\0/\x80/j3"
-// overlapping labels!
 offset=836, len=8, kind=Header(Header { write: 13162, read: 13153, head: 13152, end: 13168 }), text="j3a3`3p3"
 offset=844, len=8, kind=Unknown, text="\xba\x1e\xba\x1e\xb0\x1e\xc0\x1e"
 offset=852, len=8, kind=Header(Header { write: 12567, read: 12566, head: 12560, end: 12568 }), text="\x171\x161\x101\x181"
-offset=860, len=2, kind=Unknown, text="40"
-offset=862, len=8, kind=Header(Header { write: 12340, read: 12320, head: 12352, end: 12914 }), text="40 0@0r2"
-// overlapping labels!
+offset=860, len=8, kind=Unknown, text="4040 0@0"
 offset=868, len=8, kind=Header(Header { write: 12914, read: 12914, head: 12800, end: 12928 }), text="r2r2\02\x802"
 offset=876, len=8, kind=Header(Header { write: 12295, read: 12294, head: 12288, end: 12296 }), text="\x070\x060\00\x080"
-// overlapping labels!
-offset=878, len=8, kind=Header(Header { write: 12294, read: 12288, head: 12296, end: 12782 }), text="\x060\00\x080\xee1"
-// overlapping labels!
 offset=884, len=8, kind=Header(Header { write: 12782, read: 12782, head: 12672, end: 12800 }), text="\xee1\xee1\x801\02"
-// overlapping labels!
-offset=886, len=8, kind=Header(Header { write: 12782, read: 12672, head: 12800, end: 15243 }), text="\xee1\x801\02\x8b;"
-offset=894, len=8, kind=Unknown, text="\x8b;\x80;\x90;\xa0\x1e"
-offset=902, len=8, kind=Header(Header { write: 7840, read: 7824, head: 7840, end: 12663 }), text="\xa0\x1e\x90\x1e\xa0\x1ew1"
-// overlapping labels!
+offset=892, len=16, kind=Unknown, text="\x8b;\x8b;\x80;\x90;\xa0\x1e\xa0\x1e\x90\x1e\xa0\x1e"
 offset=908, len=8, kind=Header(Header { write: 12663, read: 12662, head: 12656, end: 12664 }), text="w1v1p1x1"
 offset=916, len=8, kind=Header(Header { write: 12319, read: 12318, head: 12312, end: 12320 }), text="\x1f0\x1e0\x180 0"
 offset=924, len=8, kind=Header(Header { write: 7850, read: 7841, head: 7840, end: 7856 }), text="\xaa\x1e\xa1\x1e\xa0\x1e\xb0\x1e"
-offset=932, len=2, kind=Unknown, text="~\x1d"
-offset=934, len=8, kind=Header(Header { write: 7550, read: 7536, head: 7552, end: 13113 }), text="~\x1dp\x1d\x80\x1d93"
-// overlapping labels!
+offset=932, len=8, kind=Unknown, text="~\x1d~\x1dp\x1d\x80\x1d"
 offset=940, len=8, kind=Header(Header { write: 13113, read: 13105, head: 13104, end: 13120 }), text="931303@3"
 offset=948, len=8, kind=Header(Header { write: 12649, read: 12641, head: 12640, end: 12656 }), text="i1a1`1p1"
-offset=956, len=2, kind=Unknown, text=">\x1d"
-offset=958, len=8, kind=Header(Header { write: 7486, read: 7472, head: 7488, end: 16308 }), text=">\x1d0\x1d@\x1d\xb4?"
-offset=966, len=6, kind=Unknown, text="\xb4?\0<\0@"
+offset=956, len=16, kind=Unknown, text=">\x1d>\x1d0\x1d@\x1d\xb4?\xb4?\0<\0@"
 offset=972, len=8, kind=Header(Header { write: 12599, read: 12598, head: 12592, end: 12600 }), text="71610181"
-// overlapping labels!
-offset=974, len=8, kind=Header(Header { write: 12598, read: 12592, head: 12600, end: 15327 }), text="610181\xdf;"
-// overlapping labels!
 offset=980, len=8, kind=Header(Header { write: 15327, read: 15326, head: 15320, end: 15328 }), text="\xdf;\xde;\xd8;\xe0;"
 offset=988, len=8, kind=Header(Header { write: 7913, read: 7905, head: 7904, end: 7920 }), text="\xe9\x1e\xe1\x1e\xe0\x1e\xf0\x1e"
 offset=996, len=8, kind=Header(Header { write: 13291, read: 13291, head: 13184, end: 13312 }), text="\xeb3\xeb3\x803\04"
@@ -188,187 +100,90 @@ offset=1004, len=8, kind=Header(Header { write: 12575, read: 12574, head: 12568,
 offset=1012, len=8, kind=Header(Header { write: 15359, read: 15358, head: 15352, end: 15360 }), text="\xff;\xfe;\xf8;\0<"
 offset=1020, len=8, kind=Header(Header { write: 15279, read: 15278, head: 15272, end: 15280 }), text="\xaf;\xae;\xa8;\xb0;"
 offset=1028, len=8, kind=Header(Header { write: 11350, read: 11350, head: 11264, end: 11392 }), text="V,V,\0,\x80,"
-// overlapping labels!
-offset=1030, len=8, kind=Header(Header { write: 11350, read: 11264, head: 11392, end: 14567 }), text="V,\0,\x80,\xe78"
-// overlapping labels!
 offset=1036, len=8, kind=Header(Header { write: 14567, read: 14567, head: 14464, end: 14592 }), text="\xe78\xe78\x808\09"
-offset=1044, len=2, kind=Unknown, text="+3"
-offset=1046, len=8, kind=Header(Header { write: 13094, read: 13088, head: 13104, end: 17365 }), text="&3 303\xd5C"
-// overlapping labels!
+offset=1044, len=8, kind=Unknown, text="+3&3 303"
 offset=1052, len=8, kind=Header(Header { write: 17365, read: 17365, head: 17280, end: 17408 }), text="\xd5C\xd5C\x80C\0D"
 offset=1060, len=8, kind=Header(Header { write: 6505, read: 6497, head: 6496, end: 6512 }), text="i\x19a\x19`\x19p\x19"
-// overlapping labels!
-offset=1062, len=8, kind=Header(Header { write: 6497, read: 6496, head: 6512, end: 7497 }), text="a\x19`\x19p\x19I\x1d"
-// overlapping labels!
 offset=1068, len=8, kind=Header(Header { write: 7497, read: 7489, head: 7488, end: 7504 }), text="I\x1dA\x1d@\x1dP\x1d"
-// overlapping labels!
-offset=1070, len=8, kind=Header(Header { write: 7489, read: 7488, head: 7504, end: 12382 }), text="A\x1d@\x1dP\x1d^0"
-offset=1078, len=6, kind=Unknown, text="^0P0`0"
+offset=1076, len=8, kind=Unknown, text="^0^0P0`0"
 offset=1084, len=8, kind=Header(Header { write: 14430, read: 14430, head: 14336, end: 14464 }), text="^8^8\08\x808"
 offset=1092, len=8, kind=Header(Header { write: 12361, read: 12353, head: 12352, end: 12368 }), text="I0A0@0P0"
-offset=1100, len=2, kind=Unknown, text="+1"
-offset=1102, len=8, kind=Header(Header { write: 12587, read: 12576, head: 12592, end: 14677 }), text="+1 101U9"
-// overlapping labels!
+offset=1100, len=8, kind=Unknown, text="+1+1 101"
 offset=1108, len=8, kind=Header(Header { write: 14677, read: 14677, head: 14592, end: 14720 }), text="U9U9\09\x809"
-// overlapping labels!
-offset=1110, len=8, kind=Header(Header { write: 14677, read: 14592, head: 14720, end: 15052 }), text="U9\09\x809\xcc:"
-// overlapping labels!
 offset=1116, len=8, kind=Header(Header { write: 15052, read: 15052, head: 14976, end: 15104 }), text="\xcc:\xcc:\x80:\0;"
-offset=1124, len=2, kind=Unknown, text="^1"
-offset=1126, len=8, kind=Header(Header { write: 12638, read: 12624, head: 12640, end: 14787 }), text="^1P1`1\xc39"
-// overlapping labels!
+offset=1124, len=8, kind=Unknown, text="^1^1P1`1"
 offset=1132, len=8, kind=Header(Header { write: 14787, read: 14787, head: 14720, end: 14848 }), text="\xc39\xc39\x809\0:"
 offset=1140, len=8, kind=Unknown, text="\x0c3\x0c3\03\x103"
 offset=1148, len=8, kind=Header(Header { write: 14857, read: 14849, head: 14848, end: 14864 }), text="\t:\x01:\0:\x10:"
 offset=1156, len=16, kind=Unknown, text="\x193\x193\x103 3\\3\\3P3`3"
 offset=1172, len=8, kind=Header(Header { write: 13127, read: 13126, head: 13120, end: 13128 }), text="G3F3@3H3"
 offset=1180, len=8, kind=Header(Header { write: 12671, read: 12670, head: 12664, end: 12672 }), text="\x7f1~1x1\x801"
-// overlapping labels!
-offset=1182, len=8, kind=Header(Header { write: 12670, read: 12664, head: 12672, end: 15196 }), text="~1x1\x801\\;"
-// overlapping labels!
 offset=1188, len=8, kind=Header(Header { write: 15196, read: 15196, head: 15104, end: 15232 }), text="\\;\\;\0;\x80;"
 offset=1196, len=8, kind=Header(Header { write: 13135, read: 13134, head: 13128, end: 13136 }), text="O3N3H3P3"
-offset=1204, len=2, kind=Unknown, text="\xd8\x18"
-offset=1206, len=8, kind=Header(Header { write: 6357, read: 6356, head: 6360, end: 7454 }), text="\xd5\x18\xd4\x18\xd8\x18\x1e\x1d"
-offset=1214, len=8, kind=Header(Header { write: 7454, read: 7440, head: 7456, end: 14940 }), text="\x1e\x1d\x10\x1d \x1d\\:"
-offset=1222, len=8, kind=Header(Header { write: 14940, read: 14928, head: 14944, end: 18808 }), text="\\:P:`:xI"
-// overlapping labels!
+offset=1204, len=24, kind=Unknown, text="\xd8\x18\xd5\x18\xd4\x18\xd8\x18\x1e\x1d\x1e\x1d\x10\x1d \x1d\\:\\:P:`:"
 offset=1228, len=8, kind=Header(Header { write: 18808, read: 18808, head: 18688, end: 18816 }), text="xIxI\0I\x80I"
 offset=1236, len=8, kind=Header(Header { write: 18024, read: 18024, head: 17920, end: 18048 }), text="hFhF\0F\x80F"
 offset=1244, len=8, kind=Header(Header { write: 15343, read: 15342, head: 15336, end: 15344 }), text="\xef;\xee;\xe8;\xf0;"
 offset=1252, len=8, kind=Header(Header { write: 13176, read: 13174, head: 13168, end: 13176 }), text="x3v3p3x3"
 offset=1260, len=8, kind=Unknown, text=" : : :0:"
 offset=1268, len=8, kind=Header(Header { write: 12409, read: 12401, head: 12400, end: 12416 }), text="y0q0p0\x800"
-// overlapping labels!
-offset=1270, len=8, kind=Header(Header { write: 12401, read: 12400, head: 12416, end: 15303 }), text="q0p0\x800\xc7;"
-offset=1278, len=6, kind=Unknown, text="\xc1;\xc0;\xc8;"
+offset=1276, len=8, kind=Unknown, text="\xc7;\xc1;\xc0;\xc8;"
 offset=1284, len=8, kind=Header(Header { write: 11502, read: 11502, head: 11392, end: 11520 }), text="\xee,\xee,\x80,\0-"
-// overlapping labels!
-offset=1286, len=8, kind=Header(Header { write: 11502, read: 11392, head: 11520, end: 14970 }), text="\xee,\x80,\0-z:"
-// overlapping labels!
 offset=1292, len=8, kind=Header(Header { write: 14970, read: 14961, head: 14960, end: 14976 }), text="z:q:p:\x80:"
-// overlapping labels!
-offset=1294, len=8, kind=Header(Header { write: 14961, read: 14960, head: 14976, end: 17116 }), text="q:p:\x80:\xdcB"
-// overlapping labels!
 offset=1300, len=8, kind=Header(Header { write: 17116, read: 17116, head: 17024, end: 17152 }), text="\xdcB\xdcB\x80B\0C"
 offset=1308, len=8, kind=Header(Header { write: 15257, read: 15249, head: 15248, end: 15264 }), text="\x99;\x91;\x90;\xa0;"
 offset=1316, len=8, kind=Header(Header { write: 7471, read: 7470, head: 7464, end: 7472 }), text="/\x1d.\x1d(\x1d0\x1d"
 offset=1324, len=8, kind=Header(Header { write: 17011, read: 17011, head: 16896, end: 17024 }), text="sBsB\0B\x80B"
 offset=1332, len=8, kind=Header(Header { write: 7464, read: 7462, head: 7456, end: 7464 }), text="(\x1d&\x1d \x1d(\x1d"
-// overlapping labels!
-offset=1334, len=8, kind=Header(Header { write: 7462, read: 7456, head: 7464, end: 14875 }), text="&\x1d \x1d(\x1d\x1b:"
-offset=1342, len=14, kind=Unknown, text="\x1b:\x10: :|3|3x3|3"
+offset=1340, len=16, kind=Unknown, text="\x1b:\x1b:\x10: :|3|3x3|3"
 offset=1356, len=8, kind=Header(Header { write: 14927, read: 14926, head: 14920, end: 14928 }), text="O:N:H:P:"
-offset=1364, len=2, kind=Unknown, text="<:"
-offset=1366, len=8, kind=Header(Header { write: 14908, read: 14896, head: 14912, end: 18937 }), text="<:0:@:\xf9I"
-// overlapping labels!
+offset=1364, len=8, kind=Unknown, text="<:<:0:@:"
 offset=1372, len=8, kind=Header(Header { write: 18937, read: 18937, head: 18816, end: 18944 }), text="\xf9I\xf9I\x80I\0J"
 offset=1380, len=8, kind=Header(Header { write: 12623, read: 12622, head: 12616, end: 12624 }), text="O1N1H1P1"
 offset=1388, len=8, kind=Header(Header { write: 15295, read: 15294, head: 15288, end: 15296 }), text="\xbf;\xbe;\xb8;\xc0;"
 offset=1396, len=8, kind=Header(Header { write: 17199, read: 17198, head: 17192, end: 17200 }), text="/C.C(C0C"
-// overlapping labels!
-offset=1398, len=8, kind=Header(Header { write: 17198, read: 17192, head: 17200, end: 17643 }), text=".C(C0C\xebD"
-// overlapping labels!
 offset=1404, len=8, kind=Header(Header { write: 17643, read: 17643, head: 17536, end: 17664 }), text="\xebD\xebD\x80D\0E"
 offset=1412, len=8, kind=Header(Header { write: 15351, read: 15350, head: 15344, end: 15352 }), text="\xf7;\xf6;\xf0;\xf8;"
-// overlapping labels!
-offset=1414, len=8, kind=Header(Header { write: 15350, read: 15344, head: 15352, end: 17215 }), text="\xf6;\xf0;\xf8;?C"
-// overlapping labels!
 offset=1420, len=8, kind=Header(Header { write: 17215, read: 17214, head: 17208, end: 17216 }), text="?C>C8C@C"
-// overlapping labels!
-offset=1422, len=8, kind=Header(Header { write: 17214, read: 17208, head: 17216, end: 17231 }), text=">C8C@COC"
-// overlapping labels!
 offset=1428, len=8, kind=Header(Header { write: 17231, read: 17230, head: 17224, end: 17232 }), text="OCNCHCPC"
 offset=1436, len=8, kind=Header(Header { write: 15335, read: 15334, head: 15328, end: 15336 }), text="\xe7;\xe6;\xe0;\xe8;"
-// overlapping labels!
-offset=1438, len=8, kind=Header(Header { write: 15334, read: 15328, head: 15336, end: 17821 }), text="\xe6;\xe0;\xe8;\x9dE"
-// overlapping labels!
 offset=1444, len=8, kind=Header(Header { write: 17821, read: 17821, head: 17664, end: 17920 }), text="\x9dE\x9dE\0E\0F"
-offset=1452, len=2, kind=Unknown, text="\x803"
-offset=1454, len=8, kind=Header(Header { write: 13184, read: 13180, head: 13184, end: 14919 }), text="\x803|3\x803G:"
-// overlapping labels!
+offset=1452, len=8, kind=Unknown, text="\x803\x803|3\x803"
 offset=1460, len=8, kind=Header(Header { write: 14919, read: 14918, head: 14912, end: 14920 }), text="G:F:@:H:"
-offset=1468, len=2, kind=Unknown, text="\0\0"
-offset=1470, len=8, kind=Header(Header { write: 6144, read: 15308, head: 15312, end: 17239 }), text="\0\x18\xcc;\xd0;WC"
-// overlapping labels!
+offset=1468, len=8, kind=Unknown, text="\0\0\0\x18\xcc;\xd0;"
 offset=1476, len=8, kind=Header(Header { write: 17239, read: 17238, head: 17232, end: 17240 }), text="WCVCPCXC"
-// overlapping labels!
-offset=1478, len=8, kind=Header(Header { write: 17238, read: 17232, head: 17240, end: 18512 }), text="VCPCXCPH"
-// overlapping labels!
-offset=1480, len=8, kind=Header(Header { write: 17232, read: 17240, head: 18512, end: 18512 }), text="PCXCPHPH"
-// overlapping labels!
 offset=1484, len=8, kind=Header(Header { write: 18512, read: 18512, head: 18432, end: 18560 }), text="PHPH\0H\x80H"
 offset=1492, len=8, kind=Header(Header { write: 17191, read: 17190, head: 17184, end: 17192 }), text="\'C&C C(C"
-// overlapping labels!
-offset=1494, len=8, kind=Header(Header { write: 17190, read: 17184, head: 17192, end: 17207 }), text="&C C(C7C"
-// overlapping labels!
 offset=1500, len=8, kind=Header(Header { write: 17207, read: 17206, head: 17200, end: 17208 }), text="7C6C0C8C"
 offset=1508, len=8, kind=Unknown, text="\xbc\x05\0\0\xc8;\xcc;"
 offset=1516, len=8, kind=Header(Header { write: 17223, read: 17222, head: 17216, end: 17224 }), text="GCFC@CHC"
-// overlapping labels!
-offset=1518, len=8, kind=Header(Header { write: 17222, read: 17216, head: 17224, end: 18168 }), text="FC@CHC\xf8F"
-// overlapping labels!
 offset=1524, len=8, kind=Header(Header { write: 18168, read: 18168, head: 18048, end: 18176 }), text="\xf8F\xf8F\x80F\0G"
 offset=1532, len=16, kind=Unknown, text="\x04\x06\0\0\x06\x18\x08\x184\x02\0\0\0\x18\x02\x18"
 offset=1548, len=8, kind=Header(Header { write: 18416, read: 18416, head: 18304, end: 18432 }), text="\xf0G\xf0G\x80G\0H"
-// overlapping labels!
-offset=1550, len=8, kind=Header(Header { write: 18416, read: 18304, head: 18432, end: 19042 }), text="\xf0G\x80G\0HbJ"
-// overlapping labels!
 offset=1556, len=8, kind=Header(Header { write: 19042, read: 19042, head: 18944, end: 19072 }), text="bJbJ\0J\x80J"
 offset=1564, len=8, kind=Header(Header { write: 18647, read: 18647, head: 18560, end: 18688 }), text="\xd7H\xd7H\x80H\0I"
 offset=1572, len=8, kind=Unknown, text="\xe4\x06\0\0\0C C"
 offset=1580, len=8, kind=Header(Header { write: 15271, read: 15270, head: 15264, end: 15272 }), text="\xa7;\xa6;\xa0;\xa8;"
-// overlapping labels!
-offset=1582, len=8, kind=Header(Header { write: 15270, read: 15264, head: 15272, end: 17521 }), text="\xa6;\xa0;\xa8;qD"
-// overlapping labels!
 offset=1588, len=8, kind=Header(Header { write: 17521, read: 17521, head: 17472, end: 17536 }), text="qDqD@D\x80D"
-// overlapping labels!
-offset=1590, len=8, kind=Header(Header { write: 17521, read: 17472, head: 17536, end: 19283 }), text="qD@D\x80DSK"
-// overlapping labels!
 offset=1596, len=8, kind=Header(Header { write: 19283, read: 19283, head: 19200, end: 19328 }), text="SKSK\0K\x80K"
 offset=1604, len=8, kind=Header(Header { write: 15287, read: 15286, head: 15280, end: 15288 }), text="\xb7;\xb6;\xb0;\xb8;"
-// overlapping labels!
-offset=1606, len=8, kind=Header(Header { write: 15286, read: 15280, head: 15288, end: 19154 }), text="\xb6;\xb0;\xb8;\xd2J"
-// overlapping labels!
 offset=1612, len=8, kind=Header(Header { write: 19154, read: 19154, head: 19072, end: 19200 }), text="\xd2J\xd2J\x80J\0K"
 offset=1620, len=8, kind=Header(Header { write: 15319, read: 15318, head: 15312, end: 15320 }), text="\xd7;\xd6;\xd0;\xd8;"
-// overlapping labels!
-offset=1622, len=8, kind=Header(Header { write: 15318, read: 15312, head: 15320, end: 19712 }), text="\xd6;\xd0;\xd8;\0M"
-// overlapping labels!
-offset=1624, len=8, kind=Header(Header { write: 15312, read: 15320, head: 19712, end: 19712 }), text="\xd0;\xd8;\0M\0M"
-// overlapping labels!
 offset=1628, len=8, kind=Header(Header { write: 19712, read: 19712, head: 19584, end: 19712 }), text="\0M\0M\x80L\0M"
 offset=1636, len=8, kind=Header(Header { write: 12615, read: 12614, head: 12608, end: 12616 }), text="G1F1@1H1"
-// overlapping labels!
-offset=1638, len=8, kind=Header(Header { write: 12614, read: 12608, head: 12616, end: 19429 }), text="F1@1H1\xe5K"
-// overlapping labels!
 offset=1644, len=8, kind=Header(Header { write: 19429, read: 19429, head: 19328, end: 19456 }), text="\xe5K\xe5K\x80K\0L"
-// overlapping labels!
-offset=1646, len=8, kind=Header(Header { write: 19429, read: 19328, head: 19456, end: 19924 }), text="\xe5K\x80K\0L\xd4M"
-// overlapping labels!
 offset=1652, len=8, kind=Header(Header { write: 19924, read: 19924, head: 19840, end: 19968 }), text="\xd4M\xd4M\x80M\0N"
 offset=1660, len=8, kind=Header(Header { write: 19523, read: 19523, head: 19456, end: 19584 }), text="CLCL\0L\x80L"
-// overlapping labels!
-offset=1662, len=8, kind=Header(Header { write: 19523, read: 19456, head: 19584, end: 19793 }), text="CL\0L\x80LQM"
-// overlapping labels!
 offset=1668, len=8, kind=Header(Header { write: 19793, read: 19793, head: 19712, end: 19840 }), text="QMQM\0M\x80M"
 offset=1676, len=8, kind=Header(Header { write: 14959, read: 14959, head: 14952, end: 14960 }), text="o:o:h:p:"
 offset=1684, len=8, kind=Header(Header { write: 14951, read: 14951, head: 14944, end: 14952 }), text="g:g:`:h:"
-// overlapping labels!
-offset=1686, len=8, kind=Header(Header { write: 14951, read: 14944, head: 14952, end: 20179 }), text="g:`:h:\xd3N"
-// overlapping labels!
 offset=1692, len=8, kind=Header(Header { write: 20179, read: 20179, head: 20096, end: 20224 }), text="\xd3N\xd3N\x80N\0O"
 offset=1700, len=8, kind=Header(Header { write: 20033, read: 20033, head: 19968, end: 20096 }), text="ANAN\0N\x80N"
-// overlapping labels!
-offset=1702, len=8, kind=Header(Header { write: 20033, read: 19968, head: 20096, end: 20465 }), text="AN\0N\x80N\xf1O"
-// overlapping labels!
 offset=1708, len=8, kind=Header(Header { write: 20465, read: 20465, head: 20352, end: 20480 }), text="\xf1O\xf1O\x80O\0P"
 offset=1716, len=8, kind=Header(Header { write: 20303, read: 20303, head: 20224, end: 20352 }), text="OOOO\0O\x80O"
 offset=1724, len=16, kind=Unknown, text="\0\0\0\0pC\x80C\xfc\x05\0\0\x04\x18\x06\x18"
 offset=1740, len=8, kind=Header(Header { write: 20576, read: 20576, head: 20480, end: 20608 }), text="`P`P\0P\x80P"
-offset=1748, len=4391, kind=Unknown, text="\xec\x06\0\0`ChC\0\0\0\x18 D@D\xdc\x06\0\0\0D D\0\0\0\x18hCpC\0\0\0\x18\0T\0X\0\0\0\x18\0R\0T\0\0\0\x18\0Q\0R\0\0\0\x18\x80P\0Q\x1c\x07\0\x18\0\x18\0\x18$\x07\0\x18\0\x18\0\x18,\x07\0\x18\0\x18\0\x184\x07\0\x18\0\x18\0\x18<\x07\0\x18\0\x18\0\x18D\x07\0\x18\0\x18\0\x18L\x07\0\x18\0\x18\0\x18T\x07\0\x18\0\x18\0\x18\\\x07\0\x18\0\x18\0\x18d\x07\0\x18\0\x18\0\x18l\x07\0\x18\0\x18\0\x18t\x07\0\x18\0\x18\0\x18|\x07\0\x18\0\x18\0\x18\x84\x07\0\x18\0\x18\0\x18\x8c\x07\0\x18\0\x18\0\x18\x94\x07\0\x18\0\x18\0\x18\x9c\x07\0\x18\0\x18\0\x18\xa4\x07\0\x18\0\x18\0\x18\xac\x07\0\x18\0\x18\0\x18\xb4\x07\0\x18\0\x18\0\x18\xbc\x07\0\x18\0\x18\0\x18\xc4\x07\0\x18\0\x18\0\x18\xcc\x07\0\x18\0\x18\0\x18\xd4\x07\0\x18\0\x18\0\x18\xdc\x07\0\x18\0\x18\0\x18\xe4\x07\0\x18\0\x18\0\x18\xec\x07\0\x18\0\x18\0\x18\xf4\x07\0\x18\0\x18\0\x18\xfc\x07\0\x18\0\x18\0\x18\x04\x08\0\x18\0\x18\0\x18\x0c\x08\0\x18\0\x18\0\x18\x14\x08\0\x18\0\x18\0\x18\x1c\x08\0\x18\0\x18\0\x18$\x08\0\x18\0\x18\0\x18,\x08\0\x18\0\x18\0\x184\x08\0\x18\0\x18\0\x18<\x08\0\x18\0\x18\0\x18D\x08\0\x18\0\x18\0\x18L\x08\0\x18\0\x18\0\x18T\x08\0\x18\0\x18\0\x18\\\x08\0\x18\0\x18\0\x18d\x08\0\x18\0\x18\0\x18l\x08\0\x18\0\x18\0\x18t\x08\0\x18\0\x18\0\x18|\x08\0\x18\0\x18\0\x18\x84\x08\0\x18\0\x18\0\x18\x8c\x08\0\x18\0\x18\0\x18\x94\x08\0\x18\0\x18\0\x18\x9c\x08\0\x18\0\x18\0\x18\xa4\x08\0\x18\0\x18\0\x18\xac\x08\0\x18\0\x18\0\x18\xb4\x08\0\x18\0\x18\0\x18\xbc\x08\0\x18\0\x18\0\x18\xc4\x08\0\x18\0\x18\0\x18\xcc\x08\0\x18\0\x18\0\x18\xd4\x08\0\x18\0\x18\0\x18\xdc\x08\0\x18\0\x18\0\x18\xe4\x08\0\x18\0\x18\0\x18\xec\x08\0\x18\0\x18\0\x18\xf4\x08\0\x18\0\x18\0\x18\xfc\x08\0\x18\0\x18\0\x18\x04\t\0\x18\0\x18\0\x18\x0c\t\0\x18\0\x18\0\x18\x14\t\0\x18\0\x18\0\x18\x1c\t\0\x18\0\x18\0\x18$\t\0\x18\0\x18\0\x18,\t\0\x18\0\x18\0\x184\t\0\x18\0\x18\0\x18<\t\0\x18\0\x18\0\x18D\t\0\x18\0\x18\0\x18L\t\0\x18\0\x18\0\x18T\t\0\x18\0\x18\0\x18\\\t\0\x18\0\x18\0\x18d\t\0\x18\0\x18\0\x18l\t\0\x18\0\x18\0\x18t\t\0\x18\0\x18\0\x18|\t\0\x18\0\x18\0\x18\x84\t\0\x18\0\x18\0\x18\x8c\t\0\x18\0\x18\0\x18\x94\t\0\x18\0\x18\0\x18\x9c\t\0\x18\0\x18\0\x18\xa4\t\0\x18\0\x18\0\x18\xac\t\0\x18\0\x18\0\x18\xb4\t\0\x18\0\x18\0\x18\xbc\t\0\x18\0\x18\0\x18\xc4\t\0\x18\0\x18\0\x18\xcc\t\0\x18\0\x18\0\x18\xd4\t\0\x18\0\x18\0\x18\xdc\t\0\x18\0\x18\0\x18\xe4\t\0\x18\0\x18\0\x18\xec\t\0\x18\0\x18\0\x18\xf4\t\0\x18\0\x18\0\x18\xfc\t\0\x18\0\x18\0\x18\x04\n\0\x18\0\x18\0\x18\x0c\n\0\x18\0\x18\0\x18\x14\n\0\x18\0\x18\0\x18\x1c\n\0\x18\0\x18\0\x18$\n\0\x18\0\x18\0\x18,\n\0\x18\0\x18\0\x184\n\0\x18\0\x18\0\x18<\n\0\x18\0\x18\0\x18D\n\0\x18\0\x18\0\x18L\n\0\x18\0\x18\0\x18T\n\0\x18\0\x18\0\x18\\\n\0\x18\0\x18\0\x18d\n\0\x18\0\x18\0\x18l\n\0\x18\0\x18\0\x18t\n\0\x18\0\x18\0\x18|\n\0\x18\0\x18\0\x18\x84\n\0\x18\0\x18\0\x18\x8c\n\0\x18\0\x18\0\x18\x94\n\0\x18\0\x18\0\x18\x9c\n\0\x18\0\x18\0\x18\xa4\n\0\x18\0\x18\0\x18\xac\n\0\x18\0\x18\0\x18\xb4\n\0\x18\0\x18\0\x18\xbc\n\0\x18\0\x18\0\x18\xc4\n\0\x18\0\x18\0\x18\xcc\n\0\x18\0\x18\0\x18\xd4\n\0\x18\0\x18\0\x18\xdc\n\0\x18\0\x18\0\x18\xe4\n\0\x18\0\x18\0\x18\xec\n\0\x18\0\x18\0\x18\xf4\n\0\x18\0\x18\0\x18\xfc\n\0\x18\0\x18\0\x18\x04\x0b\0\x18\0\x18\0\x18\x0c\x0b\0\x18\0\x18\0\x18\x14\x0b\0\x18\0\x18\0\x18\x1c\x0b\0\x18\0\x18\0\x18$\x0b\0\x18\0\x18\0\x18,\x0b\0\x18\0\x18\0\x184\x0b\0\x18\0\x18\0\x18<\x0b\0\x18\0\x18\0\x18D\x0b\0\x18\0\x18\0\x18L\x0b\0\x18\0\x18\0\x18T\x0b\0\x18\0\x18\0\x18\\\x0b\0\x18\0\x18\0\x18d\x0b\0\x18\0\x18\0\x18l\x0b\0\x18\0\x18\0\x18t\x0b\0\x18\0\x18\0\x18|\x0b\0\x18\0\x18\0\x18\x84\x0b\0\x18\0\x18\0\x18\x8c\x0b\0\x18\0\x18\0\x18\x94\x0b\0\x18\0\x18\0\x18\x9c\x0b\0\x18\0\x18\0\x18\xa4\x0b\0\x18\0\x18\0\x18\xac\x0b\0\x18\0\x18\0\x18\xb4\x0b\0\x18\0\x18\0\x18\xbc\x0b\0\x18\0\x18\0\x18\xc4\x0b\0\x18\0\x18\0\x18\xcc\x0b\0\x18\0\x18\0\x18\xd4\x0b\0\x18\0\x18\0\x18\xdc\x0b\0\x18\0\x18\0\x18\xe4\x0b\0\x18\0\x18\0\x18\xec\x0b\0\x18\0\x18\0\x18\xf4\x0b\0\x18\0\x18\0\x18\xfc\x0b\0\x18\0\x18\0\x18\x04\x0c\0\x18\0\x18\0\x18\x0c\x0c\0\x18\0\x18\0\x18\x14\x0c\0\x18\0\x18\0\x18\x1c\x0c\0\x18\0\x18\0\x18$\x0c\0\x18\0\x18\0\x18,\x0c\0\x18\0\x18\0\x184\x0c\0\x18\0\x18\0\x18<\x0c\0\x18\0\x18\0\x18D\x0c\0\x18\0\x18\0\x18L\x0c\0\x18\0\x18\0\x18T\x0c\0\x18\0\x18\0\x18\\\x0c\0\x18\0\x18\0\x18d\x0c\0\x18\0\x18\0\x18l\x0c\0\x18\0\x18\0\x18t\x0c\0\x18\0\x18\0\x18|\x0c\0\x18\0\x18\0\x18\x84\x0c\0\x18\0\x18\0\x18\x8c\x0c\0\x18\0\x18\0\x18\x94\x0c\0\x18\0\x18\0\x18\x9c\x0c\0\x18\0\x18\0\x18\xa4\x0c\0\x18\0\x18\0\x18\xac\x0c\0\x18\0\x18\0\x18\xb4\x0c\0\x18\0\x18\0\x18\xbc\x0c\0\x18\0\x18\0\x18\xc4\x0c\0\x18\0\x18\0\x18\xcc\x0c\0\x18\0\x18\0\x18\xd4\x0c\0\x18\0\x18\0\x18\xdc\x0c\0\x18\0\x18\0\x18\xe4\x0c\0\x18\0\x18\0\x18\xec\x0c\0\x18\0\x18\0\x18\xf4\x0c\0\x18\0\x18\0\x18\xfc\x0c\0\x18\0\x18\0\x18\x04\r\0\x18\0\x18\0\x18\x0c\r\0\x18\0\x18\0\x18\x14\r\0\x18\0\x18\0\x18\x1c\r\0\x18\0\x18\0\x18$\r\0\x18\0\x18\0\x18,\r\0\x18\0\x18\0\x184\r\0\x18\0\x18\0\x18<\r\0\x18\0\x18\0\x18D\r\0\x18\0\x18\0\x18L\r\0\x18\0\x18\0\x18T\r\0\x18\0\x18\0\x18\\\r\0\x18\0\x18\0\x18d\r\0\x18\0\x18\0\x18l\r\0\x18\0\x18\0\x18t\r\0\x18\0\x18\0\x18|\r\0\x18\0\x18\0\x18\x84\r\0\x18\0\x18\0\x18\x8c\r\0\x18\0\x18\0\x18\x94\r\0\x18\0\x18\0\x18\x9c\r\0\x18\0\x18\0\x18\xa4\r\0\x18\0\x18\0\x18\xac\r\0\x18\0\x18\0\x18\xb4\r\0\x18\0\x18\0\x18\xbc\r\0\x18\0\x18\0\x18\xc4\r\0\x18\0\x18\0\x18\xcc\r\0\x18\0\x18\0\x18\xd4\r\0\x18\0\x18\0\x18\xdc\r\0\x18\0\x18\0\x18\xe4\r\0\x18\0\x18\0\x18\xec\r\0\x18\0\x18\0\x18\xf4\r\0\x18\0\x18\0\x18\xfc\r\0\x18\0\x18\0\x18\x04\x0e\0\x18\0\x18\0\x18\x0c\x0e\0\x18\0\x18\0\x18\x14\x0e\0\x18\0\x18\0\x18\x1c\x0e\0\x18\0\x18\0\x18$\x0e\0\x18\0\x18\0\x18,\x0e\0\x18\0\x18\0\x184\x0e\0\x18\0\x18\0\x18<\x0e\0\x18\0\x18\0\x18D\x0e\0\x18\0\x18\0\x18L\x0e\0\x18\0\x18\0\x18T\x0e\0\x18\0\x18\0\x18\\\x0e\0\x18\0\x18\0\x18d\x0e\0\x18\0\x18\0\x18l\x0e\0\x18\0\x18\0\x18t\x0e\0\x18\0\x18\0\x18|\x0e\0\x18\0\x18\0\x18\x84\x0e\0\x18\0\x18\0\x18\x8c\x0e\0\x18\0\x18\0\x18\x94\x0e\0\x18\0\x18\0\x18\x9c\x0e\0\x18\0\x18\0\x18\xa4\x0e\0\x18\0\x18\0\x18\xac\x0e\0\x18\0\x18\0\x18\xb4\x0e\0\x18\0\x18\0\x18\xbc\x0e\0\x18\0\x18\0\x18\xc4\x0e\0\x18\0\x18\0\x18\xcc\x0e\0\x18\0\x18\0\x18\xd4\x0e\0\x18\0\x18\0\x18\xdc\x0e\0\x18\0\x18\0\x18\xe4\x0e\0\x18\0\x18\0\x18\xec\x0e\0\x18\0\x18\0\x18\xf4\x0e\0\x18\0\x18\0\x18\xfc\x0e\0\x18\0\x18\0\x18\x04\x0f\0\x18\0\x18\0\x18\x0c\x0f\0\x18\0\x18\0\x18\x14\x0f\0\x18\0\x18\0\x18\x1c\x0f\0\x18\0\x18\0\x18$\x0f\0\x18\0\x18\0\x18,\x0f\0\x18\0\x18\0\x184\x0f\0\x18\0\x18\0\x18<\x0f\0\x18\0\x18\0\x18D\x0f\0\x18\0\x18\0\x18L\x0f\0\x18\0\x18\0\x18T\x0f\0\x18\0\x18\0\x18\\\x0f\0\x18\0\x18\0\x18d\x0f\0\x18\0\x18\0\x18l\x0f\0\x18\0\x18\0\x18t\x0f\0\x18\0\x18\0\x18|\x0f\0\x18\0\x18\0\x18\x84\x0f\0\x18\0\x18\0\x18\x8c\x0f\0\x18\0\x18\0\x18\x94\x0f\0\x18\0\x18\0\x18\x9c\x0f\0\x18\0\x18\0\x18\xa4\x0f\0\x18\0\x18\0\x18\xac\x0f\0\x18\0\x18\0\x18\xb4\x0f\0\x18\0\x18\0\x18\xbc\x0f\0\x18\0\x18\0\x18\xc4\x0f\0\x18\0\x18\0\x18\xcc\x0f\0\x18\0\x18\0\x18\xd4\x0f\0\x18\0\x18\0\x18\xdc\x0f\0\x18\0\x18\0\x18\xe4\x0f\0\x18\0\x18\0\x18\xec\x0f\0\x18\0\x18\0\x18\xf4\x0f\0\x18\0\x18\0\x18\xfc\x0f\0\x18\0\x18\0\x18\x04\x10\0\x18\0\x18\0\x18\x0c\x10\0\x18\0\x18\0\x18\x14\x10\0\x18\0\x18\0\x18\x1c\x10\0\x18\0\x18\0\x18$\x10\0\x18\0\x18\0\x18,\x10\0\x18\0\x18\0\x184\x10\0\x18\0\x18\0\x18<\x10\0\x18\0\x18\0\x18D\x10\0\x18\0\x18\0\x18L\x10\0\x18\0\x18\0\x18T\x10\0\x18\0\x18\0\x18\\\x10\0\x18\0\x18\0\x18d\x10\0\x18\0\x18\0\x18l\x10\0\x18\0\x18\0\x18t\x10\0\x18\0\x18\0\x18|\x10\0\x18\0\x18\0\x18\x84\x10\0\x18\0\x18\0\x18\x8c\x10\0\x18\0\x18\0\x18\x94\x10\0\x18\0\x18\0\x18\x9c\x10\0\x18\0\x18\0\x18\xa4\x10\0\x18\0\x18\0\x18\xac\x10\0\x18\0\x18\0\x18\xb4\x10\0\x18\0\x18\0\x18\xbc\x10\0\x18\0\x18\0\x18\xc4\x10\0\x18\0\x18\0\x18\xcc\x10\0\x18\0\x18\0\x18\xd4\x10\0\x18\0\x18\0\x18\xdc\x10\0\x18\0\x18\0\x18\xe4\x10\0\x18\0\x18\0\x18\xec\x10\0\x18\0\x18\0\x18\xf4\x10\0\x18\0\x18\0\x18\xfc\x10\0\x18\0\x18\0\x18\x04\x11\0\x18\0\x18\0\x18\x0c\x11\0\x18\0\x18\0\x18\x14\x11\0\x18\0\x18\0\x18\x1c\x11\0\x18\0\x18\0\x18$\x11\0\x18\0\x18\0\x18,\x11\0\x18\0\x18\0\x184\x11\0\x18\0\x18\0\x18<\x11\0\x18\0\x18\0\x18D\x11\0\x18\0\x18\0\x18L\x11\0\x18\0\x18\0\x18T\x11\0\x18\0\x18\0\x18\\\x11\0\x18\0\x18\0\x18d\x11\0\x18\0\x18\0\x18l\x11\0\x18\0\x18\0\x18t\x11\0\x18\0\x18\0\x18|\x11\0\x18\0\x18\0\x18\x84\x11\0\x18\0\x18\0\x18\x8c\x11\0\x18\0\x18\0\x18\x94\x11\0\x18\0\x18\0\x18\x9c\x11\0\x18\0\x18\0\x18\xa4\x11\0\x18\0\x18\0\x18\xac\x11\0\x18\0\x18\0\x18\xb4\x11\0\x18\0\x18\0\x18\xbc\x11\0\x18\0\x18\0\x18\xc4\x11\0\x18\0\x18\0\x18\xcc\x11\0\x18\0\x18\0\x18\xd4\x11\0\x18\0\x18\0\x18\xdc\x11\0\x18\0\x18\0\x18\xe4\x11\0\x18\0\x18\0\x18\xec\x11\0\x18\0\x18\0\x18\xf4\x11\0\x18\0\x18\0\x18\xfc\x11\0\x18\0\x18\0\x18\x04\x12\0\x18\0\x18\0\x18\x0c\x12\0\x18\0\x18\0\x18\x14\x12\0\x18\0\x18\0\x18\x1c\x12\0\x18\0\x18\0\x18$\x12\0\x18\0\x18\0\x18,\x12\0\x18\0\x18\0\x184\x12\0\x18\0\x18\0\x18<\x12\0\x18\0\x18\0\x18D\x12\0\x18\0\x18\0\x18L\x12\0\x18\0\x18\0\x18T\x12\0\x18\0\x18\0\x18\\\x12\0\x18\0\x18\0\x18d\x12\0\x18\0\x18\0\x18l\x12\0\x18\0\x18\0\x18t\x12\0\x18\0\x18\0\x18|\x12\0\x18\0\x18\0\x18\x84\x12\0\x18\0\x18\0\x18\x8c\x12\0\x18\0\x18\0\x18\x94\x12\0\x18\0\x18\0\x18\x9c\x12\0\x18\0\x18\0\x18\xa4\x12\0\x18\0\x18\0\x18\xac\x12\0\x18\0\x18\0\x18\xb4\x12\0\x18\0\x18\0\x18\xbc\x12\0\x18\0\x18\0\x18\xc4\x12\0\x18\0\x18\0\x18\xcc\x12\0\x18\0\x18\0\x18\xd4\x12\0\x18\0\x18\0\x18\xdc\x12\0\x18\0\x18\0\x18\xe4\x12\0\x18\0\x18\0\x18\xec\x12\0\x18\0\x18\0\x18\xf4\x12\0\x18\0\x18\0\x18\xfc\x12\0\x18\0\x18\0\x18\x04\x13\0\x18\0\x18\0\x18\x0c\x13\0\x18\0\x18\0\x18\x14\x13\0\x18\0\x18\0\x18\x1c\x13\0\x18\0\x18\0\x18$\x13\0\x18\0\x18\0\x18,\x13\0\x18\0\x18\0\x184\x13\0\x18\0\x18\0\x18<\x13\0\x18\0\x18\0\x18D\x13\0\x18\0\x18\0\x18L\x13\0\x18\0\x18\0\x18T\x13\0\x18\0\x18\0\x18\\\x13\0\x18\0\x18\0\x18d\x13\0\x18\0\x18\0\x18l\x13\0\x18\0\x18\0\x18t\x13\0\x18\0\x18\0\x18|\x13\0\x18\0\x18\0\x18\x84\x13\0\x18\0\x18\0\x18\x8c\x13\0\x18\0\x18\0\x18\x94\x13\0\x18\0\x18\0\x18\x9c\x13\0\x18\0\x18\0\x18\xa4\x13\0\x18\0\x18\0\x18\xac\x13\0\x18\0\x18\0\x18\xb4\x13\0\x18\0\x18\0\x18\xbc\x13\0\x18\0\x18\0\x18\xc4\x13\0\x18\0\x18\0\x18\xcc\x13\0\x18\0\x18\0\x18\xd4\x13\0\x18\0\x18\0\x18\xdc\x13\0\x18\0\x18\0\x18\xe4\x13\0\x18\0\x18\0\x18\xec\x13\0\x18\0\x18\0\x18\xf4\x13\0\x18\0\x18\0\x18\xfc\x13\0\x18\0\x18\0\x18\x04\x14\0\x18\0\x18\0\x18\x0c\x14\0\x18\0\x18\0\x18\x14\x14\0\x18\0\x18\0\x18\x1c\x14\0\x18\0\x18\0\x18$\x14\0\x18\0\x18\0\x18,\x14\0\x18\0\x18\0\x184\x14\0\x18\0\x18\0\x18<\x14\0\x18\0\x18\0\x18D\x14\0\x18\0\x18\0\x18L\x14\0\x18\0\x18\0\x18T\x14\0\x18\0\x18\0\x18\\\x14\0\x18\0\x18\0\x18d\x14\0\x18\0\x18\0\x18l\x14\0\x18\0\x18\0\x18t\x14\0\x18\0\x18\0\x18|\x14\0\x18\0\x18\0\x18\x84\x14\0\x18\0\x18\0\x18\x8c\x14\0\x18\0\x18\0\x18\x94\x14\0\x18\0\x18\0\x18\x9c\x14\0\x18\0\x18\0\x18\xa4\x14\0\x18\0\x18\0\x18\xac\x14\0\x18\0\x18\0\x18\xb4\x14\0\x18\0\x18\0\x18\xbc\x14\0\x18\0\x18\0\x18\xc4\x14\0\x18\0\x18\0\x18\xcc\x14\0\x18\0\x18\0\x18\xd4\x14\0\x18\0\x18\0\x18\xdc\x14\0\x18\0\x18\0\x18\xe4\x14\0\x18\0\x18\0\x18\xec\x14\0\x18\0\x18\0\x18\xf4\x14\0\x18\0\x18\0\x18\xfc\x14\0\x18\0\x18\0\x18\x04\x15\0\x18\0\x18\0\x18\x0c\x15\0\x18\0\x18\0\x18\x14\x15\0\x18\0\x18\0\x18\x1c\x15\0\x18\0\x18\0\x18$\x15\0\x18\0\x18\0\x18,\x15\0\x18\0\x18\0\x184\x15\0\x18\0\x18\0\x18<\x15\0\x18\0\x18\0\x18D\x15\0\x18\0\x18\0\x18L\x15\0\x18\0\x18\0\x18T\x15\0\x18\0\x18\0\x18\\\x15\0\x18\0\x18\0\x18d\x15\0\x18\0\x18\0\x18l\x15\0\x18\0\x18\0\x18t\x15\0\x18\0\x18\0\x18|\x15\0\x18\0\x18\0\x18\x84\x15\0\x18\0\x18\0\x18\x8c\x15\0\x18\0\x18\0\x18\x94\x15\0\x18\0\x18\0\x18\x9c\x15\0\x18\0\x18\0\x18\xa4\x15\0\x18\0\x18\0\x18\xac\x15\0\x18\0\x18\0\x18\xb4\x15\0\x18\0\x18\0\x18\xbc\x15\0\x18\0\x18\0\x18\xc4\x15\0\x18\0\x18\0\x18\xcc\x15\0\x18\0\x18\0\x18\xd4\x15\0\x18\0\x18\0\x18\xdc\x15\0\x18\0\x18\0\x18\xe4\x15\0\x18\0\x18\0\x18\xec\x15\0\x18\0\x18\0\x18\xf4\x15\0\x18\0\x18\0\x18\xfc\x15\0\x18\0\x18\0\x18\x04\x16\0\x18\0\x18\0\x18\x0c\x16\0\x18\0\x18\0\x18\x14\x16\0\x18\0\x18\0\x18\x1c\x16\0\x18\0\x18\0\x18$\x16\0\x18\0\x18\0\x18,\x16\0\x18\0\x18\0\x184\x16\0\x18\0\x18\0\x18<\x16\0\x18\0\x18\0\x18D\x16\0\x18\0\x18\0\x18L\x16\0\x18\0\x18\0\x18T\x16\0\x18\0\x18\0\x18\\\x16\0\x18\0\x18\0\x18d\x16\0\x18\0\x18\0\x18l\x16\0\x18\0\x18\0\x18t\x16\0\x18\0\x18\0\x18|\x16\0\x18\0\x18\0\x18\x84\x16\0\x18\0\x18\0\x18\x8c\x16\0\x18\0\x18\0\x18\x94\x16\0\x18\0\x18\0\x18\x9c\x16\0\x18\0\x18\0\x18\xa4\x16\0\x18\0\x18\0\x18\xac\x16\0\x18\0\x18\0\x18\xb4\x16\0\x18\0\x18\0\x18\xbc\x16\0\x18\0\x18\0\x18\xc4\x16\0\x18\0\x18\0\x18\xcc\x16\0\x18\0\x18\0\x18\xd4\x16\0\x18\0\x18\0\x18\xdc\x16\0\x18\0\x18\0\x18\xe4\x16\0\x18\0\x18\0\x18\xec\x16\0\x18\0\x18\0\x18\xf4\x16\0\x18\0\x18\0\x18\xfc\x16\0\x18\0\x18\0\x18\x04\x17\0\x18\0\x18\0\x18\x0c\x17\0\x18\0\x18\0\x18\x14\x17\0\x18\0\x18\0\x18\x1c\x17\0\x18\0\x18\0\x18$\x17\0\x18\0\x18\0\x18,\x17\0\x18\0\x18\0\x184\x17\0\x18\0\x18\0\x18<\x17\0\x18\0\x18\0\x18D\x17\0\x18\0\x18\0\x18L\x17\0\x18\0\x18\0\x18T\x17\0\x18\0\x18\0\x18\\\x17\0\x18\0\x18\0\x18d\x17\0\x18\0\x18\0\x18l\x17\0\x18\0\x18\0\x18t\x17\0\x18\0\x18\0\x18|\x17\0\x18\0\x18\0\x18\x84\x17\0\x18\0\x18\0\x18\x8c\x17\0\x18\0\x18\0\x18\x94\x17\0\x18\0\x18\0\x18\x9c\x17\0\x18\0\x18\0\x18\xa4\x17\0\x18\0\x18\0\x18\xac\x17\0\x18\0\x18\0\x18\xb4\x17\0\x18\0\x18\0\x18\xbc\x17\0\x18\0\x18\0\x18\xc4\x17\0\x18\0\x18\0\x18\xcc\x17\0\x18\0\x18\0\x18\xd4\x17\0\x18\0\x18\0\x18\xdc\x17\0\x18\0\x18\0\x18\xe4\x17\0\x18\0\x18\0\x18\xec\x17\0\x18\0\x18\0\x18\xf4\x17\0\x18\0\x18\0\x18\0\0\0\x18\0\x18\0"
-offset=6139, len=8, kind=Header(Header { write: 24, read: 0, head: 19712, end: 30578 }), text="\x18\0\0\0\0Mrw"
-offset=6147, len=77, kind=Unknown, text="hR.Mrconfunivletter\x0b\x87in-housefixplccoheader\n.footer\nRencl-cco{name}\nresddress"
+offset=1748, len=4476, kind=Unknown, text="\xec\x06\0\0`ChC\0\0\0\x18 D@D\xdc\x06\0\0\0D D\0\0\0\x18hCpC\0\0\0\x18\0T\0X\0\0\0\x18\0R\0T\0\0\0\x18\0Q\0R\0\0\0\x18\x80P\0Q\x1c\x07\0\x18\0\x18\0\x18$\x07\0\x18\0\x18\0\x18,\x07\0\x18\0\x18\0\x184\x07\0\x18\0\x18\0\x18<\x07\0\x18\0\x18\0\x18D\x07\0\x18\0\x18\0\x18L\x07\0\x18\0\x18\0\x18T\x07\0\x18\0\x18\0\x18\\\x07\0\x18\0\x18\0\x18d\x07\0\x18\0\x18\0\x18l\x07\0\x18\0\x18\0\x18t\x07\0\x18\0\x18\0\x18|\x07\0\x18\0\x18\0\x18\x84\x07\0\x18\0\x18\0\x18\x8c\x07\0\x18\0\x18\0\x18\x94\x07\0\x18\0\x18\0\x18\x9c\x07\0\x18\0\x18\0\x18\xa4\x07\0\x18\0\x18\0\x18\xac\x07\0\x18\0\x18\0\x18\xb4\x07\0\x18\0\x18\0\x18\xbc\x07\0\x18\0\x18\0\x18\xc4\x07\0\x18\0\x18\0\x18\xcc\x07\0\x18\0\x18\0\x18\xd4\x07\0\x18\0\x18\0\x18\xdc\x07\0\x18\0\x18\0\x18\xe4\x07\0\x18\0\x18\0\x18\xec\x07\0\x18\0\x18\0\x18\xf4\x07\0\x18\0\x18\0\x18\xfc\x07\0\x18\0\x18\0\x18\x04\x08\0\x18\0\x18\0\x18\x0c\x08\0\x18\0\x18\0\x18\x14\x08\0\x18\0\x18\0\x18\x1c\x08\0\x18\0\x18\0\x18$\x08\0\x18\0\x18\0\x18,\x08\0\x18\0\x18\0\x184\x08\0\x18\0\x18\0\x18<\x08\0\x18\0\x18\0\x18D\x08\0\x18\0\x18\0\x18L\x08\0\x18\0\x18\0\x18T\x08\0\x18\0\x18\0\x18\\\x08\0\x18\0\x18\0\x18d\x08\0\x18\0\x18\0\x18l\x08\0\x18\0\x18\0\x18t\x08\0\x18\0\x18\0\x18|\x08\0\x18\0\x18\0\x18\x84\x08\0\x18\0\x18\0\x18\x8c\x08\0\x18\0\x18\0\x18\x94\x08\0\x18\0\x18\0\x18\x9c\x08\0\x18\0\x18\0\x18\xa4\x08\0\x18\0\x18\0\x18\xac\x08\0\x18\0\x18\0\x18\xb4\x08\0\x18\0\x18\0\x18\xbc\x08\0\x18\0\x18\0\x18\xc4\x08\0\x18\0\x18\0\x18\xcc\x08\0\x18\0\x18\0\x18\xd4\x08\0\x18\0\x18\0\x18\xdc\x08\0\x18\0\x18\0\x18\xe4\x08\0\x18\0\x18\0\x18\xec\x08\0\x18\0\x18\0\x18\xf4\x08\0\x18\0\x18\0\x18\xfc\x08\0\x18\0\x18\0\x18\x04\t\0\x18\0\x18\0\x18\x0c\t\0\x18\0\x18\0\x18\x14\t\0\x18\0\x18\0\x18\x1c\t\0\x18\0\x18\0\x18$\t\0\x18\0\x18\0\x18,\t\0\x18\0\x18\0\x184\t\0\x18\0\x18\0\x18<\t\0\x18\0\x18\0\x18D\t\0\x18\0\x18\0\x18L\t\0\x18\0\x18\0\x18T\t\0\x18\0\x18\0\x18\\\t\0\x18\0\x18\0\x18d\t\0\x18\0\x18\0\x18l\t\0\x18\0\x18\0\x18t\t\0\x18\0\x18\0\x18|\t\0\x18\0\x18\0\x18\x84\t\0\x18\0\x18\0\x18\x8c\t\0\x18\0\x18\0\x18\x94\t\0\x18\0\x18\0\x18\x9c\t\0\x18\0\x18\0\x18\xa4\t\0\x18\0\x18\0\x18\xac\t\0\x18\0\x18\0\x18\xb4\t\0\x18\0\x18\0\x18\xbc\t\0\x18\0\x18\0\x18\xc4\t\0\x18\0\x18\0\x18\xcc\t\0\x18\0\x18\0\x18\xd4\t\0\x18\0\x18\0\x18\xdc\t\0\x18\0\x18\0\x18\xe4\t\0\x18\0\x18\0\x18\xec\t\0\x18\0\x18\0\x18\xf4\t\0\x18\0\x18\0\x18\xfc\t\0\x18\0\x18\0\x18\x04\n\0\x18\0\x18\0\x18\x0c\n\0\x18\0\x18\0\x18\x14\n\0\x18\0\x18\0\x18\x1c\n\0\x18\0\x18\0\x18$\n\0\x18\0\x18\0\x18,\n\0\x18\0\x18\0\x184\n\0\x18\0\x18\0\x18<\n\0\x18\0\x18\0\x18D\n\0\x18\0\x18\0\x18L\n\0\x18\0\x18\0\x18T\n\0\x18\0\x18\0\x18\\\n\0\x18\0\x18\0\x18d\n\0\x18\0\x18\0\x18l\n\0\x18\0\x18\0\x18t\n\0\x18\0\x18\0\x18|\n\0\x18\0\x18\0\x18\x84\n\0\x18\0\x18\0\x18\x8c\n\0\x18\0\x18\0\x18\x94\n\0\x18\0\x18\0\x18\x9c\n\0\x18\0\x18\0\x18\xa4\n\0\x18\0\x18\0\x18\xac\n\0\x18\0\x18\0\x18\xb4\n\0\x18\0\x18\0\x18\xbc\n\0\x18\0\x18\0\x18\xc4\n\0\x18\0\x18\0\x18\xcc\n\0\x18\0\x18\0\x18\xd4\n\0\x18\0\x18\0\x18\xdc\n\0\x18\0\x18\0\x18\xe4\n\0\x18\0\x18\0\x18\xec\n\0\x18\0\x18\0\x18\xf4\n\0\x18\0\x18\0\x18\xfc\n\0\x18\0\x18\0\x18\x04\x0b\0\x18\0\x18\0\x18\x0c\x0b\0\x18\0\x18\0\x18\x14\x0b\0\x18\0\x18\0\x18\x1c\x0b\0\x18\0\x18\0\x18$\x0b\0\x18\0\x18\0\x18,\x0b\0\x18\0\x18\0\x184\x0b\0\x18\0\x18\0\x18<\x0b\0\x18\0\x18\0\x18D\x0b\0\x18\0\x18\0\x18L\x0b\0\x18\0\x18\0\x18T\x0b\0\x18\0\x18\0\x18\\\x0b\0\x18\0\x18\0\x18d\x0b\0\x18\0\x18\0\x18l\x0b\0\x18\0\x18\0\x18t\x0b\0\x18\0\x18\0\x18|\x0b\0\x18\0\x18\0\x18\x84\x0b\0\x18\0\x18\0\x18\x8c\x0b\0\x18\0\x18\0\x18\x94\x0b\0\x18\0\x18\0\x18\x9c\x0b\0\x18\0\x18\0\x18\xa4\x0b\0\x18\0\x18\0\x18\xac\x0b\0\x18\0\x18\0\x18\xb4\x0b\0\x18\0\x18\0\x18\xbc\x0b\0\x18\0\x18\0\x18\xc4\x0b\0\x18\0\x18\0\x18\xcc\x0b\0\x18\0\x18\0\x18\xd4\x0b\0\x18\0\x18\0\x18\xdc\x0b\0\x18\0\x18\0\x18\xe4\x0b\0\x18\0\x18\0\x18\xec\x0b\0\x18\0\x18\0\x18\xf4\x0b\0\x18\0\x18\0\x18\xfc\x0b\0\x18\0\x18\0\x18\x04\x0c\0\x18\0\x18\0\x18\x0c\x0c\0\x18\0\x18\0\x18\x14\x0c\0\x18\0\x18\0\x18\x1c\x0c\0\x18\0\x18\0\x18$\x0c\0\x18\0\x18\0\x18,\x0c\0\x18\0\x18\0\x184\x0c\0\x18\0\x18\0\x18<\x0c\0\x18\0\x18\0\x18D\x0c\0\x18\0\x18\0\x18L\x0c\0\x18\0\x18\0\x18T\x0c\0\x18\0\x18\0\x18\\\x0c\0\x18\0\x18\0\x18d\x0c\0\x18\0\x18\0\x18l\x0c\0\x18\0\x18\0\x18t\x0c\0\x18\0\x18\0\x18|\x0c\0\x18\0\x18\0\x18\x84\x0c\0\x18\0\x18\0\x18\x8c\x0c\0\x18\0\x18\0\x18\x94\x0c\0\x18\0\x18\0\x18\x9c\x0c\0\x18\0\x18\0\x18\xa4\x0c\0\x18\0\x18\0\x18\xac\x0c\0\x18\0\x18\0\x18\xb4\x0c\0\x18\0\x18\0\x18\xbc\x0c\0\x18\0\x18\0\x18\xc4\x0c\0\x18\0\x18\0\x18\xcc\x0c\0\x18\0\x18\0\x18\xd4\x0c\0\x18\0\x18\0\x18\xdc\x0c\0\x18\0\x18\0\x18\xe4\x0c\0\x18\0\x18\0\x18\xec\x0c\0\x18\0\x18\0\x18\xf4\x0c\0\x18\0\x18\0\x18\xfc\x0c\0\x18\0\x18\0\x18\x04\r\0\x18\0\x18\0\x18\x0c\r\0\x18\0\x18\0\x18\x14\r\0\x18\0\x18\0\x18\x1c\r\0\x18\0\x18\0\x18$\r\0\x18\0\x18\0\x18,\r\0\x18\0\x18\0\x184\r\0\x18\0\x18\0\x18<\r\0\x18\0\x18\0\x18D\r\0\x18\0\x18\0\x18L\r\0\x18\0\x18\0\x18T\r\0\x18\0\x18\0\x18\\\r\0\x18\0\x18\0\x18d\r\0\x18\0\x18\0\x18l\r\0\x18\0\x18\0\x18t\r\0\x18\0\x18\0\x18|\r\0\x18\0\x18\0\x18\x84\r\0\x18\0\x18\0\x18\x8c\r\0\x18\0\x18\0\x18\x94\r\0\x18\0\x18\0\x18\x9c\r\0\x18\0\x18\0\x18\xa4\r\0\x18\0\x18\0\x18\xac\r\0\x18\0\x18\0\x18\xb4\r\0\x18\0\x18\0\x18\xbc\r\0\x18\0\x18\0\x18\xc4\r\0\x18\0\x18\0\x18\xcc\r\0\x18\0\x18\0\x18\xd4\r\0\x18\0\x18\0\x18\xdc\r\0\x18\0\x18\0\x18\xe4\r\0\x18\0\x18\0\x18\xec\r\0\x18\0\x18\0\x18\xf4\r\0\x18\0\x18\0\x18\xfc\r\0\x18\0\x18\0\x18\x04\x0e\0\x18\0\x18\0\x18\x0c\x0e\0\x18\0\x18\0\x18\x14\x0e\0\x18\0\x18\0\x18\x1c\x0e\0\x18\0\x18\0\x18$\x0e\0\x18\0\x18\0\x18,\x0e\0\x18\0\x18\0\x184\x0e\0\x18\0\x18\0\x18<\x0e\0\x18\0\x18\0\x18D\x0e\0\x18\0\x18\0\x18L\x0e\0\x18\0\x18\0\x18T\x0e\0\x18\0\x18\0\x18\\\x0e\0\x18\0\x18\0\x18d\x0e\0\x18\0\x18\0\x18l\x0e\0\x18\0\x18\0\x18t\x0e\0\x18\0\x18\0\x18|\x0e\0\x18\0\x18\0\x18\x84\x0e\0\x18\0\x18\0\x18\x8c\x0e\0\x18\0\x18\0\x18\x94\x0e\0\x18\0\x18\0\x18\x9c\x0e\0\x18\0\x18\0\x18\xa4\x0e\0\x18\0\x18\0\x18\xac\x0e\0\x18\0\x18\0\x18\xb4\x0e\0\x18\0\x18\0\x18\xbc\x0e\0\x18\0\x18\0\x18\xc4\x0e\0\x18\0\x18\0\x18\xcc\x0e\0\x18\0\x18\0\x18\xd4\x0e\0\x18\0\x18\0\x18\xdc\x0e\0\x18\0\x18\0\x18\xe4\x0e\0\x18\0\x18\0\x18\xec\x0e\0\x18\0\x18\0\x18\xf4\x0e\0\x18\0\x18\0\x18\xfc\x0e\0\x18\0\x18\0\x18\x04\x0f\0\x18\0\x18\0\x18\x0c\x0f\0\x18\0\x18\0\x18\x14\x0f\0\x18\0\x18\0\x18\x1c\x0f\0\x18\0\x18\0\x18$\x0f\0\x18\0\x18\0\x18,\x0f\0\x18\0\x18\0\x184\x0f\0\x18\0\x18\0\x18<\x0f\0\x18\0\x18\0\x18D\x0f\0\x18\0\x18\0\x18L\x0f\0\x18\0\x18\0\x18T\x0f\0\x18\0\x18\0\x18\\\x0f\0\x18\0\x18\0\x18d\x0f\0\x18\0\x18\0\x18l\x0f\0\x18\0\x18\0\x18t\x0f\0\x18\0\x18\0\x18|\x0f\0\x18\0\x18\0\x18\x84\x0f\0\x18\0\x18\0\x18\x8c\x0f\0\x18\0\x18\0\x18\x94\x0f\0\x18\0\x18\0\x18\x9c\x0f\0\x18\0\x18\0\x18\xa4\x0f\0\x18\0\x18\0\x18\xac\x0f\0\x18\0\x18\0\x18\xb4\x0f\0\x18\0\x18\0\x18\xbc\x0f\0\x18\0\x18\0\x18\xc4\x0f\0\x18\0\x18\0\x18\xcc\x0f\0\x18\0\x18\0\x18\xd4\x0f\0\x18\0\x18\0\x18\xdc\x0f\0\x18\0\x18\0\x18\xe4\x0f\0\x18\0\x18\0\x18\xec\x0f\0\x18\0\x18\0\x18\xf4\x0f\0\x18\0\x18\0\x18\xfc\x0f\0\x18\0\x18\0\x18\x04\x10\0\x18\0\x18\0\x18\x0c\x10\0\x18\0\x18\0\x18\x14\x10\0\x18\0\x18\0\x18\x1c\x10\0\x18\0\x18\0\x18$\x10\0\x18\0\x18\0\x18,\x10\0\x18\0\x18\0\x184\x10\0\x18\0\x18\0\x18<\x10\0\x18\0\x18\0\x18D\x10\0\x18\0\x18\0\x18L\x10\0\x18\0\x18\0\x18T\x10\0\x18\0\x18\0\x18\\\x10\0\x18\0\x18\0\x18d\x10\0\x18\0\x18\0\x18l\x10\0\x18\0\x18\0\x18t\x10\0\x18\0\x18\0\x18|\x10\0\x18\0\x18\0\x18\x84\x10\0\x18\0\x18\0\x18\x8c\x10\0\x18\0\x18\0\x18\x94\x10\0\x18\0\x18\0\x18\x9c\x10\0\x18\0\x18\0\x18\xa4\x10\0\x18\0\x18\0\x18\xac\x10\0\x18\0\x18\0\x18\xb4\x10\0\x18\0\x18\0\x18\xbc\x10\0\x18\0\x18\0\x18\xc4\x10\0\x18\0\x18\0\x18\xcc\x10\0\x18\0\x18\0\x18\xd4\x10\0\x18\0\x18\0\x18\xdc\x10\0\x18\0\x18\0\x18\xe4\x10\0\x18\0\x18\0\x18\xec\x10\0\x18\0\x18\0\x18\xf4\x10\0\x18\0\x18\0\x18\xfc\x10\0\x18\0\x18\0\x18\x04\x11\0\x18\0\x18\0\x18\x0c\x11\0\x18\0\x18\0\x18\x14\x11\0\x18\0\x18\0\x18\x1c\x11\0\x18\0\x18\0\x18$\x11\0\x18\0\x18\0\x18,\x11\0\x18\0\x18\0\x184\x11\0\x18\0\x18\0\x18<\x11\0\x18\0\x18\0\x18D\x11\0\x18\0\x18\0\x18L\x11\0\x18\0\x18\0\x18T\x11\0\x18\0\x18\0\x18\\\x11\0\x18\0\x18\0\x18d\x11\0\x18\0\x18\0\x18l\x11\0\x18\0\x18\0\x18t\x11\0\x18\0\x18\0\x18|\x11\0\x18\0\x18\0\x18\x84\x11\0\x18\0\x18\0\x18\x8c\x11\0\x18\0\x18\0\x18\x94\x11\0\x18\0\x18\0\x18\x9c\x11\0\x18\0\x18\0\x18\xa4\x11\0\x18\0\x18\0\x18\xac\x11\0\x18\0\x18\0\x18\xb4\x11\0\x18\0\x18\0\x18\xbc\x11\0\x18\0\x18\0\x18\xc4\x11\0\x18\0\x18\0\x18\xcc\x11\0\x18\0\x18\0\x18\xd4\x11\0\x18\0\x18\0\x18\xdc\x11\0\x18\0\x18\0\x18\xe4\x11\0\x18\0\x18\0\x18\xec\x11\0\x18\0\x18\0\x18\xf4\x11\0\x18\0\x18\0\x18\xfc\x11\0\x18\0\x18\0\x18\x04\x12\0\x18\0\x18\0\x18\x0c\x12\0\x18\0\x18\0\x18\x14\x12\0\x18\0\x18\0\x18\x1c\x12\0\x18\0\x18\0\x18$\x12\0\x18\0\x18\0\x18,\x12\0\x18\0\x18\0\x184\x12\0\x18\0\x18\0\x18<\x12\0\x18\0\x18\0\x18D\x12\0\x18\0\x18\0\x18L\x12\0\x18\0\x18\0\x18T\x12\0\x18\0\x18\0\x18\\\x12\0\x18\0\x18\0\x18d\x12\0\x18\0\x18\0\x18l\x12\0\x18\0\x18\0\x18t\x12\0\x18\0\x18\0\x18|\x12\0\x18\0\x18\0\x18\x84\x12\0\x18\0\x18\0\x18\x8c\x12\0\x18\0\x18\0\x18\x94\x12\0\x18\0\x18\0\x18\x9c\x12\0\x18\0\x18\0\x18\xa4\x12\0\x18\0\x18\0\x18\xac\x12\0\x18\0\x18\0\x18\xb4\x12\0\x18\0\x18\0\x18\xbc\x12\0\x18\0\x18\0\x18\xc4\x12\0\x18\0\x18\0\x18\xcc\x12\0\x18\0\x18\0\x18\xd4\x12\0\x18\0\x18\0\x18\xdc\x12\0\x18\0\x18\0\x18\xe4\x12\0\x18\0\x18\0\x18\xec\x12\0\x18\0\x18\0\x18\xf4\x12\0\x18\0\x18\0\x18\xfc\x12\0\x18\0\x18\0\x18\x04\x13\0\x18\0\x18\0\x18\x0c\x13\0\x18\0\x18\0\x18\x14\x13\0\x18\0\x18\0\x18\x1c\x13\0\x18\0\x18\0\x18$\x13\0\x18\0\x18\0\x18,\x13\0\x18\0\x18\0\x184\x13\0\x18\0\x18\0\x18<\x13\0\x18\0\x18\0\x18D\x13\0\x18\0\x18\0\x18L\x13\0\x18\0\x18\0\x18T\x13\0\x18\0\x18\0\x18\\\x13\0\x18\0\x18\0\x18d\x13\0\x18\0\x18\0\x18l\x13\0\x18\0\x18\0\x18t\x13\0\x18\0\x18\0\x18|\x13\0\x18\0\x18\0\x18\x84\x13\0\x18\0\x18\0\x18\x8c\x13\0\x18\0\x18\0\x18\x94\x13\0\x18\0\x18\0\x18\x9c\x13\0\x18\0\x18\0\x18\xa4\x13\0\x18\0\x18\0\x18\xac\x13\0\x18\0\x18\0\x18\xb4\x13\0\x18\0\x18\0\x18\xbc\x13\0\x18\0\x18\0\x18\xc4\x13\0\x18\0\x18\0\x18\xcc\x13\0\x18\0\x18\0\x18\xd4\x13\0\x18\0\x18\0\x18\xdc\x13\0\x18\0\x18\0\x18\xe4\x13\0\x18\0\x18\0\x18\xec\x13\0\x18\0\x18\0\x18\xf4\x13\0\x18\0\x18\0\x18\xfc\x13\0\x18\0\x18\0\x18\x04\x14\0\x18\0\x18\0\x18\x0c\x14\0\x18\0\x18\0\x18\x14\x14\0\x18\0\x18\0\x18\x1c\x14\0\x18\0\x18\0\x18$\x14\0\x18\0\x18\0\x18,\x14\0\x18\0\x18\0\x184\x14\0\x18\0\x18\0\x18<\x14\0\x18\0\x18\0\x18D\x14\0\x18\0\x18\0\x18L\x14\0\x18\0\x18\0\x18T\x14\0\x18\0\x18\0\x18\\\x14\0\x18\0\x18\0\x18d\x14\0\x18\0\x18\0\x18l\x14\0\x18\0\x18\0\x18t\x14\0\x18\0\x18\0\x18|\x14\0\x18\0\x18\0\x18\x84\x14\0\x18\0\x18\0\x18\x8c\x14\0\x18\0\x18\0\x18\x94\x14\0\x18\0\x18\0\x18\x9c\x14\0\x18\0\x18\0\x18\xa4\x14\0\x18\0\x18\0\x18\xac\x14\0\x18\0\x18\0\x18\xb4\x14\0\x18\0\x18\0\x18\xbc\x14\0\x18\0\x18\0\x18\xc4\x14\0\x18\0\x18\0\x18\xcc\x14\0\x18\0\x18\0\x18\xd4\x14\0\x18\0\x18\0\x18\xdc\x14\0\x18\0\x18\0\x18\xe4\x14\0\x18\0\x18\0\x18\xec\x14\0\x18\0\x18\0\x18\xf4\x14\0\x18\0\x18\0\x18\xfc\x14\0\x18\0\x18\0\x18\x04\x15\0\x18\0\x18\0\x18\x0c\x15\0\x18\0\x18\0\x18\x14\x15\0\x18\0\x18\0\x18\x1c\x15\0\x18\0\x18\0\x18$\x15\0\x18\0\x18\0\x18,\x15\0\x18\0\x18\0\x184\x15\0\x18\0\x18\0\x18<\x15\0\x18\0\x18\0\x18D\x15\0\x18\0\x18\0\x18L\x15\0\x18\0\x18\0\x18T\x15\0\x18\0\x18\0\x18\\\x15\0\x18\0\x18\0\x18d\x15\0\x18\0\x18\0\x18l\x15\0\x18\0\x18\0\x18t\x15\0\x18\0\x18\0\x18|\x15\0\x18\0\x18\0\x18\x84\x15\0\x18\0\x18\0\x18\x8c\x15\0\x18\0\x18\0\x18\x94\x15\0\x18\0\x18\0\x18\x9c\x15\0\x18\0\x18\0\x18\xa4\x15\0\x18\0\x18\0\x18\xac\x15\0\x18\0\x18\0\x18\xb4\x15\0\x18\0\x18\0\x18\xbc\x15\0\x18\0\x18\0\x18\xc4\x15\0\x18\0\x18\0\x18\xcc\x15\0\x18\0\x18\0\x18\xd4\x15\0\x18\0\x18\0\x18\xdc\x15\0\x18\0\x18\0\x18\xe4\x15\0\x18\0\x18\0\x18\xec\x15\0\x18\0\x18\0\x18\xf4\x15\0\x18\0\x18\0\x18\xfc\x15\0\x18\0\x18\0\x18\x04\x16\0\x18\0\x18\0\x18\x0c\x16\0\x18\0\x18\0\x18\x14\x16\0\x18\0\x18\0\x18\x1c\x16\0\x18\0\x18\0\x18$\x16\0\x18\0\x18\0\x18,\x16\0\x18\0\x18\0\x184\x16\0\x18\0\x18\0\x18<\x16\0\x18\0\x18\0\x18D\x16\0\x18\0\x18\0\x18L\x16\0\x18\0\x18\0\x18T\x16\0\x18\0\x18\0\x18\\\x16\0\x18\0\x18\0\x18d\x16\0\x18\0\x18\0\x18l\x16\0\x18\0\x18\0\x18t\x16\0\x18\0\x18\0\x18|\x16\0\x18\0\x18\0\x18\x84\x16\0\x18\0\x18\0\x18\x8c\x16\0\x18\0\x18\0\x18\x94\x16\0\x18\0\x18\0\x18\x9c\x16\0\x18\0\x18\0\x18\xa4\x16\0\x18\0\x18\0\x18\xac\x16\0\x18\0\x18\0\x18\xb4\x16\0\x18\0\x18\0\x18\xbc\x16\0\x18\0\x18\0\x18\xc4\x16\0\x18\0\x18\0\x18\xcc\x16\0\x18\0\x18\0\x18\xd4\x16\0\x18\0\x18\0\x18\xdc\x16\0\x18\0\x18\0\x18\xe4\x16\0\x18\0\x18\0\x18\xec\x16\0\x18\0\x18\0\x18\xf4\x16\0\x18\0\x18\0\x18\xfc\x16\0\x18\0\x18\0\x18\x04\x17\0\x18\0\x18\0\x18\x0c\x17\0\x18\0\x18\0\x18\x14\x17\0\x18\0\x18\0\x18\x1c\x17\0\x18\0\x18\0\x18$\x17\0\x18\0\x18\0\x18,\x17\0\x18\0\x18\0\x184\x17\0\x18\0\x18\0\x18<\x17\0\x18\0\x18\0\x18D\x17\0\x18\0\x18\0\x18L\x17\0\x18\0\x18\0\x18T\x17\0\x18\0\x18\0\x18\\\x17\0\x18\0\x18\0\x18d\x17\0\x18\0\x18\0\x18l\x17\0\x18\0\x18\0\x18t\x17\0\x18\0\x18\0\x18|\x17\0\x18\0\x18\0\x18\x84\x17\0\x18\0\x18\0\x18\x8c\x17\0\x18\0\x18\0\x18\x94\x17\0\x18\0\x18\0\x18\x9c\x17\0\x18\0\x18\0\x18\xa4\x17\0\x18\0\x18\0\x18\xac\x17\0\x18\0\x18\0\x18\xb4\x17\0\x18\0\x18\0\x18\xbc\x17\0\x18\0\x18\0\x18\xc4\x17\0\x18\0\x18\0\x18\xcc\x17\0\x18\0\x18\0\x18\xd4\x17\0\x18\0\x18\0\x18\xdc\x17\0\x18\0\x18\0\x18\xe4\x17\0\x18\0\x18\0\x18\xec\x17\0\x18\0\x18\0\x18\xf4\x17\0\x18\0\x18\0\x18\0\0\0\x18\0\x18\0\x18\0\0\0\0MrwhR.Mrconfunivletter\x0b\x87in-housefixplccoheader\n.footer\nRencl-cco{name}\nresddress"
 offset=6224, len=8, kind=String, text="towhom-2"
 offset=6232, len=6, kind=String, text="name-3"
 offset=6238, len=98, kind=Unknown, text="MaProf. Marsland\nstowhom-\0esr lettMr. Desautels\nssProf. Arden\nKiddProf. Levinthal\nMr. Byer\nn\n Aust"
@@ -441,8 +256,6 @@ offset=7152, len=8, kind=String, text="towhom-1"
 offset=7152, len=9, kind=String, text="towhom-15"
 offset=7161, len=7, kind=Unknown, text="ey C. B"
 offset=7168, len=81, kind=String, text="Mr. Bill Mayhew\nThe Children\'s Museum\nThe Jamaicaway\nBoston, Massachusetts 02130\n"
-// overlapping labels!
-offset=7183, len=8, kind=Header(Header { write: 21514, read: 25960, head: 17184, end: 26984 }), text="\nThe Chi"
 offset=7249, len=47, kind=Unknown, text=" {for your use  ...} with the\nfollowing proviso"
 offset=7296, len=111, kind=String, text="Mr. Gary M. Goins\nDepartment of Biometry\nWearn Research Building\nCase Western University\nCleveland, Ohio 44106\n"
 offset=7407, len=17, kind=Unknown, text="rsity\nPrinceton, "
@@ -502,35 +315,19 @@ offset=7913, len=23, kind=Unknown, text="n E. NeMr. Whitney\nr of"
 offset=7936, len=123, kind=String, text="Professor Cyrus Levinthal\nDepartment of Biological Sciences\nSchermerhorn Hall\nColumbia University\nNew York, New York 10027\n"
 offset=8059, len=5, kind=Unknown, text="oviso"
 offset=8064, len=96, kind=String, text="Prof. T. A. Marsland\nDepartment of Computing Science\nThe University of Alberta\nEdmonton, Canada\n"
-// overlapping labels!
-offset=8094, len=8, kind=Header(Header { write: 8308, read: 26223, head: 17184, end: 28015 }), text="t of Com"
 offset=8160, len=1056, kind=Unknown, text="perty of Bell Laboratories.\nIt iThe accompanying {materials(media+documents)} for UNIX are \nintended for your use {for your use  ...} with the\nfollowing proviso:\n.sp\n.in +4\n.ll -4\nThe program and information transmitted herewith is and shall\nremain the property of Bell Lab%oratories.\nIt is provided solely for your use within the Bell System\nfor Bell System purposes and should be disclosed only to\nthose with a need to know.\nAny program transmitted herewith should be executed on a\nsingle piece of computer equipment only, \nand the written permission of Bell Lab%oratories must be secured before\nexecuting any program on any additional piece of \ncomputer equipment.\nNeither program nor information may be reproduced in any way\nand may not be made available in any form to non-Bell\nSystem personnel without the express written permission\nof Bell Lab%oratories.\nAll restrictions set forth herein are fully applicable to\nthose supplying, programming or maintaining \ncomputer equipment on which any program transmitted herewith\nis executed.\n.in -4\n.ll +4\niso"
 offset=9216, len=115, kind=String, text="Mr. A. J. Lindstrom\nSponsored Research Administrator\nCalifornia Institute of Technology\nPasadena, California 91109\n"
 offset=9331, len=13, kind=Unknown, text="are intereste"
 offset=9344, len=112, kind=String, text="Prof. W. H. Huggins\nDepartment of Electrical Engineering\nThe Johns Hopkins University\nBaltimore, Maryland 21218\n"
 offset=9456, len=16, kind=Unknown, text="owing equipment:"
 offset=9472, len=145, kind=String, text="Prof. Bruce W. Arden\nDepartment of Electrical Engineering\nBrackett Hall, Engineering Quadrangle\nPrinceton University\nPrinceton, New Jersey 08540\n"
-offset=9617, len=18, kind=Unknown, text="with EIS) or PDP-1"
-offset=9635, len=8, kind=Header(Header { write: 12081, read: 13620, head: 17184, end: 21840 }), text="1/45 CPU"
-offset=9643, len=85, kind=Unknown, text="\n\tKT segmentation option\n\t32K words of core\n\tRK or RP disk\n\tKW (line or programmable)"
+offset=9617, len=111, kind=Unknown, text="with EIS) or PDP-11/45 CPU\n\tKT segmentation option\n\t32K words of core\n\tRK or RP disk\n\tKW (line or programmable)"
 offset=9728, len=87, kind=String, text="Mr. Brent Byer\nAiken Computation Lab\nHarvard University\nCambridge, Massachusetts 02138\n"
 offset=9815, len=41, kind=Unknown, text="idge, Massachusetts 02138\nwing equipment:"
 offset=9856, len=103, kind=String, text="Dr. Kenneth King\nOffice of the Dean for Computer Systems\n535 East 80th Street\nNew York, New York 10021\n"
 offset=9959, len=25, kind=Unknown, text="echnology\nAtlanta, Georgi"
 offset=9984, len=136, kind=String, text="Dr. Vladimir Slamecka\nComputer Center\nSchool of Information and Computer Science\nGeorgia Institute of Technology\nAtlanta, Georgia 30332\n"
-// overlapping labels!
-offset=10043, len=8, kind=Header(Header { write: 24864, read: 25710, head: 17184, end: 28015 }), text=" and Com"
-offset=10120, len=283, kind=Unknown, text="er/punch\n\tDC line adapter\n\tDP line adapter\n\tDN ACU interface\n.sp\nYou should send me a complete\nlist of your configuratioThank you for your request for the UNIX operating system.\nThe current version of UNIX requires at least\nthe following equipment:\n.sp\n\tPDP-11/40 (with EIS) or PDP-1"
-offset=10403, len=8, kind=Header(Header { write: 12081, read: 13620, head: 17184, end: 21840 }), text="1/45 CPU"
-offset=10411, len=259, kind=Unknown, text="\n\tKT segmentation option\n\t32K words of core\n\tRK or RP disk\n\tKW (line or programmable) clock\n\tstandard DEC console (LA, VT, or LT)\n.sp\nYou should send me a complete\nlist of your configuration plus one of the following:\n.sp\n\t600\'-2400\' (9 track 800 bpi) magtape"
-offset=10670, len=8, kind=Header(Header { write: 2314, read: 19282, head: 13104, end: 21039 }), text="\n\tRK03/R"
-offset=10678, len=18, kind=Unknown, text="K05 disk cartridge"
-offset=10696, len=8, kind=Header(Header { write: 2314, read: 20562, head: 13104, end: 25632 }), text="\n\tRP03 d"
-offset=10704, len=118, kind=Unknown, text="isk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\n800 bpi) magtape"
-offset=10822, len=8, kind=Header(Header { write: 2314, read: 19282, head: 13104, end: 21039 }), text="\n\tRK03/R"
-offset=10830, len=18, kind=Unknown, text="K05 disk cartridge"
-offset=10848, len=8, kind=Header(Header { write: 2314, read: 20562, head: 13104, end: 25632 }), text="\n\tRP03 d"
-offset=10856, len=120, kind=Unknown, text="isk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\nstconfSponsored Re"
+offset=10120, len=856, kind=Unknown, text="er/punch\n\tDC line adapter\n\tDP line adapter\n\tDN ACU interface\n.sp\nYou should send me a complete\nlist of your configuratioThank you for your request for the UNIX operating system.\nThe current version of UNIX requires at least\nthe following equipment:\n.sp\n\tPDP-11/40 (with EIS) or PDP-11/45 CPU\n\tKT segmentation option\n\t32K words of core\n\tRK or RP disk\n\tKW (line or programmable) clock\n\tstandard DEC console (LA, VT, or LT)\n.sp\nYou should send me a complete\nlist of your configuration plus one of the following:\n.sp\n\t600\'-2400\' (9 track 800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\tRP03 disk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\n800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\tRP03 disk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\nstconfSponsored Re"
 offset=10976, len=8, kind=String, text="towhom-3"
 offset=10984, len=6, kind=String, text="name-4"
 offset=10990, len=26, kind=Unknown, text="yhT\x02\xd4\x01-m- 14\xfc\0\xcc\0T\x01{text}\no"
@@ -545,30 +342,16 @@ offset=11200, len=8, kind=String, text="towhom-5"
 offset=11208, len=6, kind=String, text="name-6"
 offset=11214, len=50, kind=Unknown, text="saMr. Mayhew\nyhew\nThank you for yotext-5-5s)al pur"
 offset=11264, len=86, kind=String, text="Mr. John E. Ecklund\nYale University\n10 Hillhouse Avenue\nNew Haven, Connecticut  06520\n"
-// overlapping labels!
-offset=11326, len=8, kind=Header(Header { write: 25974, read: 11374, head: 17184, end: 28271 }), text="ven, Con"
 offset=11350, len=42, kind=Unknown, text="UNIX requires at least\nthe following equip"
 offset=11392, len=110, kind=String, text="Dr. P. Weiner\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\n"
-// overlapping labels!
-offset=11437, len=8, kind=Header(Header { write: 24914, read: 25710, head: 17184, end: 29295 }), text="Rand Cor"
-// overlapping labels!
-offset=11480, len=8, kind=Header(Header { write: 25449, read: 11361, head: 17184, end: 27745 }), text="ica, Cal"
 offset=11502, len=18, kind=Unknown, text=" (line or programm"
 offset=11520, len=140, kind=String, text="James P. Lewis, Director\nComputer Center\nColumbia University\nCollege of Physicians and Surgeons\n630 West 168th Street\nNew York, N. Y. 10032\n"
 offset=11660, len=244, kind=Unknown, text="\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0R. G. Shahpazian\nRoom 400\nWestern Electric Company\n222 Broadway\nNew York, New York 10038\n the\nCommunications of the ACM in their"
 offset=11904, len=123, kind=String, text="Mr. Rusty Whitney\nDirector of Computing\nOregon Museum of Science and Industry\n4015 S.W. Canyon Road\nPortland, Oregon 97221\n"
-// overlapping labels!
-offset=11929, len=8, kind=Header(Header { write: 8306, read: 26223, head: 17184, end: 28015 }), text="r of Com"
-// overlapping labels!
-offset=11987, len=8, kind=Header(Header { write: 11859, read: 11863, head: 17184, end: 28257 }), text="S.W. Can"
 offset=12027, len=5, kind=Unknown, text="\0\0\0\0\0"
 offset=12032, len=98, kind=String, text="Mr. Gideon Yuval\nComputer Science Department\nThe Hebrew University of Jerusalem\nJerusalem, Israel\n"
 offset=12130, len=30, kind=Unknown, text="unications of the ACM in their"
 offset=12160, len=108, kind=String, text="Mr. Stanley C. Bateman\nUniversity of California\nContracts and Grants Office\nSan Francisco, California 94143\n"
-// overlapping labels!
-offset=12192, len=8, kind=Header(Header { write: 8313, read: 26223, head: 17184, end: 27745 }), text="y of Cal"
-// overlapping labels!
-offset=12246, len=8, kind=Header(Header { write: 25459, read: 11375, head: 17184, end: 27745 }), text="sco, Cal"
 offset=12268, len=20, kind=Unknown, text="-free basis,\nto educ"
 offset=12288, len=6, kind=String, text="name-1"
 // overlapping labels!
@@ -643,19 +426,11 @@ offset=12782, len=18, kind=Unknown, text="e a look at the sy"
 offset=12800, len=114, kind=String, text="Prof. R. W. Peebles\nComputer Communications Network Group\nUniversity of Waterloo\nWaterloo, Ontario\nCanada N2L 3G1\n"
 offset=12914, len=14, kind=Unknown, text="r arranging ho"
 offset=12928, len=81, kind=String, text="Prof. Melvin Ferentz\nPhysics Dept.\nBrooklyn College of CUNY\nBrooklyn, N.Y. 11210\n"
-offset=13009, len=42, kind=Unknown, text="\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-offset=13051, len=8, kind=Header(Header { write: 0, read: 0, head: 20480, end: 28530 }), text="\0\0\0\0\0Pro"
-offset=13059, len=12, kind=Unknown, text="f. Bjork\nJar"
-offset=13071, len=8, kind=Header(Header { write: 17508, read: 11890, head: 17184, end: 27759 }), text="dDr. Col"
-offset=13079, len=1, kind=Unknown, text="e"
-offset=13080, len=8, kind=Header(Header { write: 8202, read: 26223, head: 17184, end: 28015 }), text="\n of Com"
-offset=13088, len=16, kind=Unknown, text="name-letternk St"
+offset=13009, len=95, kind=Unknown, text="\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0Prof. Bjork\nJardDr. Cole\n of Comname-letternk St"
 offset=13104, len=8, kind=String, text="towhom-2"
 // overlapping labels!
 offset=13104, len=9, kind=String, text="towhom-24"
-// overlapping labels!
-offset=13109, len=8, kind=Header(Header { write: 11629, read: 13362, head: 17184, end: 27759 }), text="m-24 Col"
-offset=13117, len=3, kind=Unknown, text="e\nQ"
+offset=13113, len=7, kind=Unknown, text=" Cole\nQ"
 offset=13120, len=6, kind=String, text="name-2"
 // overlapping labels!
 offset=13120, len=7, kind=String, text="name-25"
@@ -681,12 +456,8 @@ offset=13291, len=917, kind=Unknown, text="\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
 offset=14208, len=125, kind=String, text="Mr. E. J. Desautels\nThe University of Wisconsin\nComputer Science Department\n1210 West Dayton Street\nMadison, Wisconsin 53706\n"
 offset=14333, len=3, kind=Unknown, text="per"
 offset=14336, len=94, kind=String, text="Mr. Martin E. Newell\nThe University of Utah\nCollege of Engineering\nSalt Lake City, Utah 84112\n"
-// overlapping labels!
-offset=14408, len=8, kind=Header(Header { write: 24908, read: 25963, head: 17184, end: 29801 }), text="Lake Cit"
 offset=14430, len=34, kind=Unknown, text="ms involved in releasing chess.\nTh"
 offset=14464, len=103, kind=String, text="Prof. D. A. Jardine\nDept. of Computing Science\nQueen\'s University at Kingston\nKingston, Ontario\nCanada\n"
-// overlapping labels!
-offset=14488, len=8, kind=Header(Header { write: 8238, read: 26223, head: 17184, end: 28015 }), text=". of Com"
 offset=14567, len=25, kind=Unknown, text="m are writen in a local\nv"
 offset=14592, len=85, kind=String, text="Prof. Ralph H. Bjork\nScience Building\nSaint Olaf College\nNorthfield, Minnesota 55057\n"
 // overlapping labels!
@@ -697,9 +468,7 @@ offset=14787, len=61, kind=Unknown, text="\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
 offset=14848, len=8, kind=String, text="towhom-2"
 // overlapping labels!
 offset=14848, len=9, kind=String, text="towhom-25"
-offset=14857, len=38, kind=Unknown, text="E. EcklMs. Heiser\nolleg\xcc\x04\xcc\x04-Thank you "
-offset=14895, len=8, kind=Header(Header { write: 19814, read: 11890, head: 17184, end: 25960 }), text="fMr. Che"
-offset=14903, len=9, kind=Unknown, text="sson\nest "
+offset=14857, len=55, kind=Unknown, text="E. EcklMs. Heiser\nolleg\xcc\x04\xcc\x04-Thank you fMr. Chesson\nest "
 offset=14912, len=6, kind=String, text="name-2"
 // overlapping labels!
 offset=14912, len=7, kind=String, text="name-28"
@@ -723,14 +492,8 @@ offset=14960, len=9, kind=String, text="towhom-26"
 offset=14960, len=10, kind=String, text="towhom-26a"
 offset=14970, len=6, kind=Unknown, text=". Heis"
 offset=14976, len=76, kind=String, text="Prof. R. S. Fabry\nEvans Hall\nUniversity of California\nBerkeley, Calif 94720\n"
-// overlapping labels!
-offset=15014, len=8, kind=Header(Header { write: 8313, read: 26223, head: 17184, end: 27745 }), text="y of Cal"
-// overlapping labels!
-offset=15035, len=8, kind=Header(Header { write: 25964, read: 11385, head: 17184, end: 27745 }), text="ley, Cal"
 offset=15052, len=52, kind=Unknown, text=" speed,\nparts of the program are writen in a local\nv"
 offset=15104, len=92, kind=String, text="Dr. M. S. Cole\nQueen Mary College\nUniversity of London\nMile End Road\nLondon E1 4NS, England\n"
-// overlapping labels!
-offset=15109, len=8, kind=Header(Header { write: 8238, read: 11859, head: 17184, end: 27759 }), text=". S. Col"
 offset=15196, len=52, kind=Unknown, text="all run under the UNIX time-sharing Dr. Weiner\ndale,"
 offset=15248, len=8, kind=String, text="towhom-2"
 // overlapping labels!
@@ -775,20 +538,12 @@ offset=15351, len=1, kind=Unknown, text="J"
 offset=15352, len=6, kind=String, text="name-3"
 // overlapping labels!
 offset=15352, len=7, kind=String, text="name-39"
-offset=15359, len=1050, kind=Unknown, text="aThank you for your letter concerning the chess\nprogram for the PDP-11.\nThere are certain problems involved in releasing chess.\nThe program is writen in a local language which is\nconsidered proprietary.\nFor speed,\nparts of the program are writen in a local\nvarient of PDP-11 assembly language.\nIn addition,\nthe program and associated table compilers\nall run under the UNIX time-sharing system,\nwhich is also considered proprietary.\n.sp\nIf after all this,\nyou believe that listings\nin two undocumented languages,\ncalling on undocumented system I/O routines,\nwould be of use,\nI will try to get them released.\nOn the other hand,\nif you are really interested in running\nthe program,\nyou should consider obtaining UNIX,\nwhich is available under a Western Electric\nlicense agreement, royality-free, to educational institutions.\nFor information on the UNIX agreement,\nyou should contact:\n.nf\n.sp\n.in 5\n{shah}\n.sp\n.in 0\n.fi\nI hope I have been of some help.\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x8c\0\x84\0\x9c\0\\\0\xb4\0\xac\0,\x01$\x01\\\x01l\0\xc4\0T\0\xcc"
-offset=16409, len=8, kind=Header(Header { write: 21504, read: 31745, head: 19456, end: 62465 }), text="\0T\x01|\0L\x01\xf4"
-offset=16417, len=411, kind=Unknown, text="\0\xb4\x01\xcc\x01\xec\04\x01\x94\0D\x01\xe4\x01\xd4\0<\x01\xe4\0\xfc\x01d\x01\x14\x01|\x01\x04\x02\xa4\0t\x01\xa4\x01\x1c\x02\x1c\x01\x8c\x01,\x02d\0\xbc\0\xc4\x01\x9c\x01<\x02\x84\x01\x0c\x02\x04\x01\x94\x01\xf4\x01t\x02\xfc\0\xdc\x01\xdc\0|\x02L\x02$\x02\x0c\x01\x8c\x02D\0l\x01D\x02\xac\x01T\x02\xb4\x02\x84\x02\xc4\x02\xac\x02\x94\x02\xec\x01\xbc\x01L\0\xe4\x02\x04\x03\xa4\x02\xf4\x02\xfc\x02\x1c\x03<\x034\x03L\x03\xd4\x02\x0c\x03\xec\x02\xdc\x02\\\x02\xbc\x02l\x02\\\x03$\x03t\x03d\x02\x84\x03l\x03d\x03\xcc\x02\xbc\x03\x14\x02,\x03\x9c\x03\xa4\x03\x9c\x02\xc4\x03\x94\x03\xe4\x03<\04\x04\xcc\x03<\x04\xdc\x03L\x04\x14\x03\x0c\x04$\x044\0T\x03T\x04\xb4\x03t\x04\xec\x03l\x04,\x04d\x04\x8c\x03\\\x04D\x04\x8c\x04\x9c\x04\xa4\x04\xac\x03\x84\x04\x94\x04\x04\x04|\x04\xc4\x04\x14\x04\xec\x04\xac\x04\x04\x05\x1c\x05|\x034\x05,\x05\x0c\x05<\x05$\x05\x14\x05\xf4\x04\xbc\x04\xe4\x04\x1c\x04D\x03T\x05\xb4\x04D\x05\xfc\x04\xac\x05\xb4\x05\xcc\x04L\x05\xa4\x05\xc4\x05\\\x05t\0|\x05\xec\x05\xd4\x04\x94\x05\xf4\x05\xdc\x05\xd4\x01\x8c\x05\x0c\x06\xd4\x05\xcc\x05t\x05\x1c\x06\x84\x05\x14\x06\xf4\x03L\x06D\x06<\x06l\x05l\x06T\x064\x06\xd4\x03|\x06d\x06\\\x06d\x05\x84\x06\x9c\x05t\x06\xdc\x04\xa4\x06,\x06\x9c\x06\xfc\x03\xb4\x06\x94\x06\xac\x06\x8c\x06\xcc\x06echnic Institute of New York\nLong Is"
+offset=15359, len=1469, kind=Unknown, text="aThank you for your letter concerning the chess\nprogram for the PDP-11.\nThere are certain problems involved in releasing chess.\nThe program is writen in a local language which is\nconsidered proprietary.\nFor speed,\nparts of the program are writen in a local\nvarient of PDP-11 assembly language.\nIn addition,\nthe program and associated table compilers\nall run under the UNIX time-sharing system,\nwhich is also considered proprietary.\n.sp\nIf after all this,\nyou believe that listings\nin two undocumented languages,\ncalling on undocumented system I/O routines,\nwould be of use,\nI will try to get them released.\nOn the other hand,\nif you are really interested in running\nthe program,\nyou should consider obtaining UNIX,\nwhich is available under a Western Electric\nlicense agreement, royality-free, to educational institutions.\nFor information on the UNIX agreement,\nyou should contact:\n.nf\n.sp\n.in 5\n{shah}\n.sp\n.in 0\n.fi\nI hope I have been of some help.\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x8c\0\x84\0\x9c\0\\\0\xb4\0\xac\0,\x01$\x01\\\x01l\0\xc4\0T\0\xcc\0T\x01|\0L\x01\xf4\0\xb4\x01\xcc\x01\xec\04\x01\x94\0D\x01\xe4\x01\xd4\0<\x01\xe4\0\xfc\x01d\x01\x14\x01|\x01\x04\x02\xa4\0t\x01\xa4\x01\x1c\x02\x1c\x01\x8c\x01,\x02d\0\xbc\0\xc4\x01\x9c\x01<\x02\x84\x01\x0c\x02\x04\x01\x94\x01\xf4\x01t\x02\xfc\0\xdc\x01\xdc\0|\x02L\x02$\x02\x0c\x01\x8c\x02D\0l\x01D\x02\xac\x01T\x02\xb4\x02\x84\x02\xc4\x02\xac\x02\x94\x02\xec\x01\xbc\x01L\0\xe4\x02\x04\x03\xa4\x02\xf4\x02\xfc\x02\x1c\x03<\x034\x03L\x03\xd4\x02\x0c\x03\xec\x02\xdc\x02\\\x02\xbc\x02l\x02\\\x03$\x03t\x03d\x02\x84\x03l\x03d\x03\xcc\x02\xbc\x03\x14\x02,\x03\x9c\x03\xa4\x03\x9c\x02\xc4\x03\x94\x03\xe4\x03<\04\x04\xcc\x03<\x04\xdc\x03L\x04\x14\x03\x0c\x04$\x044\0T\x03T\x04\xb4\x03t\x04\xec\x03l\x04,\x04d\x04\x8c\x03\\\x04D\x04\x8c\x04\x9c\x04\xa4\x04\xac\x03\x84\x04\x94\x04\x04\x04|\x04\xc4\x04\x14\x04\xec\x04\xac\x04\x04\x05\x1c\x05|\x034\x05,\x05\x0c\x05<\x05$\x05\x14\x05\xf4\x04\xbc\x04\xe4\x04\x1c\x04D\x03T\x05\xb4\x04D\x05\xfc\x04\xac\x05\xb4\x05\xcc\x04L\x05\xa4\x05\xc4\x05\\\x05t\0|\x05\xec\x05\xd4\x04\x94\x05\xf4\x05\xdc\x05\xd4\x01\x8c\x05\x0c\x06\xd4\x05\xcc\x05t\x05\x1c\x06\x84\x05\x14\x06\xf4\x03L\x06D\x06<\x06l\x05l\x06T\x064\x06\xd4\x03|\x06d\x06\\\x06d\x05\x84\x06\x9c\x05t\x06\xdc\x04\xa4\x06,\x06\x9c\x06\xfc\x03\xb4\x06\x94\x06\xac\x06\x8c\x06\xcc\x06echnic Institute of New York\nLong Is"
 offset=16828, len=8, kind=Header(Header { write: 24940, read: 25710, head: 17184, end: 28261 }), text="land Cen"
 offset=16836, len=60, kind=Unknown, text="ter\nRoute 110\nFarmingdale, New York 11735\ne a look at the sy"
 offset=16896, len=115, kind=String, text="Ms. Lois H. Heiser\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\n"
-// overlapping labels!
-offset=16946, len=8, kind=Header(Header { write: 24914, read: 25710, head: 17184, end: 29295 }), text="Rand Cor"
-// overlapping labels!
-offset=16989, len=8, kind=Header(Header { write: 25449, read: 11361, head: 17184, end: 27745 }), text="ica, Cal"
 offset=17011, len=13, kind=Unknown, text="llowing equip"
 offset=17024, len=92, kind=String, text="Prof. D. B. Gillies\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\n"
-// overlapping labels!
-offset=17048, len=8, kind=Header(Header { write: 8238, read: 26223, head: 17184, end: 28015 }), text=". of Com"
 offset=17116, len=68, kind=Unknown, text="\tRK or RP disk\n\tKW (line or programmJames Curry\nIASSA\n2361 Laxenburg"
 offset=17184, len=6, kind=String, text="name-3"
 // overlapping labels!
@@ -821,19 +576,9 @@ offset=17239, len=1, kind=Unknown, text="."
 offset=17240, len=6, kind=String, text="name-3"
 // overlapping labels!
 offset=17240, len=7, kind=String, text="name-35"
-offset=17247, len=18, kind=Unknown, text="fR. J. Co Souza\nDR"
-offset=17265, len=8, kind=Header(Header { write: 8238, read: 11850, head: 17184, end: 27759 }), text=". J. Col"
-offset=17273, len=7, kind=Unknown, text="lins\nDe"
+offset=17247, len=33, kind=Unknown, text="fR. J. Co Souza\nDR. J. Collins\nDe"
 offset=17280, len=85, kind=String, text="Greg Chesson\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\n"
-// overlapping labels!
-offset=17297, len=8, kind=Header(Header { write: 8238, read: 26223, head: 17184, end: 28015 }), text=". of Com"
-// overlapping labels!
-offset=17358, len=8, kind=Header(Header { write: 13856, read: 14385, head: 12592, end: 26890 }), text=" 61801\ni"
-offset=17366, len=43, kind=Unknown, text="sk pack\n.sp\nI will be able to send the sysR"
-offset=17409, len=8, kind=Header(Header { write: 8238, read: 11850, head: 17184, end: 27759 }), text=". J. Col"
-offset=17417, len=8, kind=Unknown, text="lins\nDep"
-offset=17425, len=8, kind=Header(Header { write: 8308, read: 26223, head: 17184, end: 28015 }), text="t of Com"
-offset=17433, len=39, kind=Unknown, text="puter Suth Wales\nPO Box 1\nKensington, N"
+offset=17365, len=107, kind=Unknown, text="isk pack\n.sp\nI will be able to send the sysR. J. Collins\nDept of Computer Suth Wales\nPO Box 1\nKensington, N"
 offset=17472, len=49, kind=String, text="James Curry\nIASSA\n2361 Laxenburg\nVienna, Austria\n"
 offset=17521, len=15, kind=Unknown, text=" of Manitoba\nWi"
 offset=17536, len=107, kind=String, text="Prof. James D. Foley\nUniversity of North Carolina at Chapel Hill\nNew West Hall\nChapel Hill, North Carolina\n"
@@ -841,27 +586,13 @@ offset=17643, len=21, kind=Unknown, text="in Du Cyclotron 2\n134"
 offset=17664, len=157, kind=String, text="Prof. E. Milgrom\nFaculte des Sciences Appliquees\nUnite D\'Informatique\nUniversite Catholique de Louvain\nChenin Du Cyclotron 2\n1348 Louvain-La-Neuve, Belgique\n"
 // overlapping labels!
 offset=17740, len=8, kind=Header(Header { write: 26995, read: 25972, head: 17184, end: 29793 }), text="site Cat"
-offset=17821, len=22, kind=Unknown, text="track 800 bpi) magtape"
-offset=17843, len=8, kind=Header(Header { write: 2314, read: 19282, head: 13104, end: 21039 }), text="\n\tRK03/R"
-offset=17851, len=18, kind=Unknown, text="K05 disk cartridge"
-offset=17869, len=8, kind=Header(Header { write: 2314, read: 20562, head: 13104, end: 25632 }), text="\n\tRP03 d"
-offset=17877, len=43, kind=Unknown, text="isk pack\n.sp\nI will be able to send the sys"
+offset=17821, len=99, kind=Unknown, text="track 800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\tRP03 disk pack\n.sp\nI will be able to send the sys"
 offset=17920, len=104, kind=String, text="Mr. Belton E. Allen\nInstructor of Computer Science\nNaval Postgraduate School\nMonterey, California 93940\n"
-// overlapping labels!
-offset=17949, len=8, kind=Header(Header { write: 8306, read: 26223, head: 17184, end: 28015 }), text="r of Com"
-// overlapping labels!
-offset=18002, len=8, kind=Header(Header { write: 25970, read: 11385, head: 17184, end: 27745 }), text="rey, Cal"
 offset=18024, len=24, kind=Unknown, text="east\nthe following equip"
 offset=18048, len=120, kind=String, text="Mr. J. Tansley\nMedical Computing Group\nMedical School\nUniversity of Edinbourgh\nTeviot Place\nEdinburgh EH8 9A6, Scotland\n"
-// overlapping labels!
-offset=18066, len=8, kind=Header(Header { write: 25449, read: 27745, head: 17184, end: 28015 }), text="ical Com"
 offset=18168, len=8, kind=Unknown, text="programm"
 offset=18176, len=88, kind=String, text="Mr. William C. Ripperger\nKnox College Computer Center\nKnox College\nGalesburg, Ill 61401\n"
-// overlapping labels!
-offset=18209, len=8, kind=Header(Header { write: 25964, read: 25959, head: 17184, end: 28015 }), text="lege Com"
-// overlapping labels!
-offset=18257, len=8, kind=Header(Header { write: 13856, read: 13361, head: 12592, end: 29962 }), text=" 61401\nu"
-offset=18265, len=39, kind=Unknown, text="rgeons\n630 West 168th Street\nNew York, "
+offset=18264, len=40, kind=Unknown, text="urgeons\n630 West 168th Street\nNew York, "
 offset=18304, len=112, kind=String, text="Mr. Travis Wood\nUniversity of Alabama in Birmingham\n522 Spain, UAB\nUniversity Station\nBirmingham, Alabama 35294\n"
 offset=18416, len=16, kind=Unknown, text="\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
 offset=18432, len=80, kind=String, text="Mr. Dustin H. Heuston\nThe Spence School\n22 E. 91st St.\nNew York, New York 10028\n"
@@ -886,10 +617,6 @@ offset=18808, len=8, kind=Unknown, text="4n Yuval"
 offset=18816, len=121, kind=String, text="Prof C.J. Karzmark\nDept of Radiology\nStanford University School of Medicine\n300 Pasteur Drive\nStanford, California 94305\n"
 offset=18937, len=7, kind=Unknown, text="M. Goin"
 offset=18944, len=98, kind=String, text="R. M. Kavanaugh\nDept of Computational Science\nUniversity of Sakatchewan\nSaskatoon, S7N 0W0 Canada\n"
-// overlapping labels!
-offset=18963, len=8, kind=Header(Header { write: 8308, read: 26223, head: 17184, end: 28015 }), text="t of Com"
-// overlapping labels!
-offset=19030, len=8, kind=Header(Header { write: 12320, read: 12375, head: 17184, end: 28257 }), text=" 0W0 Can"
 offset=19042, len=30, kind=Unknown, text="of. Marsland\nstowhom-\0esr lett"
 offset=19072, len=82, kind=String, text="D. R. McNeil\nStatistical Computing Lab\nPrinceton University\nPrinceton, N.J. 08540\n"
 // overlapping labels!
@@ -907,8 +634,6 @@ offset=19184, len=8, kind=String, text="towhom-1"
 offset=19184, len=9, kind=String, text="towhom-10"
 offset=19193, len=7, kind=Unknown, text="13\0\xcc\0T\x01"
 offset=19200, len=83, kind=String, text="H. L. Counts, Jr.\nPurchasing\nDenison University\nP.O. Box 119\nGranville, Ohio 43023\n"
-// overlapping labels!
-offset=19201, len=8, kind=Header(Header { write: 8238, read: 11852, head: 17184, end: 30063 }), text=". L. Cou"
 offset=19283, len=13, kind=Unknown, text=" King\non of E"
 offset=19296, len=8, kind=String, text="towhom-2"
 // overlapping labels!
@@ -944,11 +669,7 @@ offset=19832, len=6, kind=String, text="name-2"
 offset=19832, len=7, kind=String, text="name-24"
 offset=19839, len=1, kind=Unknown, text="a"
 offset=19840, len=84, kind=String, text="C. W. Tan\nDivision of Engineering\nThe Cooper Union\nCooper Square\nNew York, NY 10003\n"
-// overlapping labels!
-offset=19873, len=8, kind=Header(Header { write: 21514, read: 25960, head: 17184, end: 28527 }), text="\nThe Coo"
-// overlapping labels!
-offset=19917, len=8, kind=Header(Header { write: 12576, read: 12336, head: 13104, end: 29194 }), text=" 10003\nr"
-offset=19925, len=43, kind=Unknown, text="mingdale, New York 11735\ne a look at the sy"
+offset=19924, len=44, kind=Unknown, text="rmingdale, New York 11735\ne a look at the sy"
 offset=19968, len=65, kind=String, text="H. S. Eisenstein\nUniversity of South Carolina\nColumbia, SC 29208\n"
 offset=20033, len=15, kind=Unknown, text="name}\nresddress"
 offset=20048, len=8, kind=String, text="towhom-2"
@@ -980,12 +701,6 @@ offset=20345, len=7, kind=Unknown, text="n Yuval"
 offset=20352, len=113, kind=String, text="P. L. De Souza\nDept of Elictrical Engineering\nHeriot-Watt University\n31-35 Grassmarket\nEdinburgh EH12H5 Scotland\n"
 offset=20465, len=15, kind=Unknown, text=". Goins\nM. Goin"
 offset=20480, len=96, kind=String, text="R. J. Collins\nDept of Computer Science\nUniversity of Manitoba\nWinnipeg, Manitoba, Canada R3T2N2\n"
-// overlapping labels!
-offset=20481, len=8, kind=Header(Header { write: 8238, read: 11850, head: 17184, end: 27759 }), text=". J. Col"
-// overlapping labels!
-offset=20497, len=8, kind=Header(Header { write: 8308, read: 26223, head: 17184, end: 28015 }), text="t of Com"
-// overlapping labels!
-offset=20557, len=8, kind=Header(Header { write: 25199, read: 11361, head: 17184, end: 28257 }), text="oba, Can"
 offset=20576, len=96, kind=Unknown, text="Prof. Marsland\nstowhom-\0esr lettMr. Desautels\nssProf. Arden\nKiddProf. Levinthal\nMr. Byer\nn\n Aust"
 offset=20672, len=8, kind=String, text="towhom-9"
 offset=20680, len=6, kind=String, text="name-1"

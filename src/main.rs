@@ -65,11 +65,15 @@ fn main() {
             if occurrence < 4 || occurrence + 4 > form.len() {
                 continue;
             }
-            let header: [u8; 8] = form[occurrence - 4..occurrence + 4].try_into().unwrap();
+            let i = occurrence - 4;
+            let header: [u8; 8] = form[i..i + 8].try_into().unwrap();
             let header: Header = unsafe { mem::transmute(header) };
-            if header.head <= header.end && header.read <= header.end && header.write <= header.end
+            if i % 8 == 4
+                && header.head <= header.end
+                && header.read <= header.end
+                && header.write <= header.end
             {
-                labels.push(new_label(occurrence - 4, 8, Kind::Header(header)));
+                labels.push(new_label(i, 8, Kind::Header(header)));
             }
         }
     }
