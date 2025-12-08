@@ -1,10 +1,6 @@
-use std::{
-    fs,
-    io::{Write, stdout},
-};
+use std::fs;
 
 use bstr::BStr;
-use serde::Serialize;
 
 fn main() {
     let form = fs::read("distr/form.m").unwrap();
@@ -14,25 +10,19 @@ fn main() {
 
     let mut labels = Vec::new();
     let mut offsets = Vec::new();
-    #[derive(Serialize)]
     struct Label {
         offset: usize,
         len: usize,
         kind: Kind,
-        text: String,
     }
-    #[derive(Serialize)]
+    #[allow(dead_code)]
+    #[derive(Debug)]
     enum Kind {
         String,
         Unknown,
         Offset(u16),
     }
-    let new_label = |offset, len, kind| Label {
-        offset,
-        len,
-        kind,
-        text: BStr::new(&form[offset..offset + len]).to_string(),
-    };
+    let new_label = |offset, len, kind| Label { offset, len, kind };
 
     for s in &strings {
         let matches = form
@@ -64,11 +54,15 @@ fn main() {
 
     labels.sort_by_key(|label| (label.offset, label.len));
 
-    let mut out = stdout();
     let mut segments = Vec::new();
-    let mut push = |segment| {
-        serde_json::to_writer(&mut out, &segment).unwrap();
-        out.write_all(b"\n").unwrap();
+    let mut push = |segment: Label| {
+        println!(
+            "offset={}, len={}, kind={:?}, text={:?}",
+            segment.offset,
+            segment.len,
+            segment.kind,
+            BStr::new(&form[segment.offset..segment.offset + segment.len])
+        );
         segments.push(segment);
     };
 

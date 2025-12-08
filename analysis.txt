@@ -1,0 +1,1800 @@
+offset=0, len=29, kind=Unknown, text="\x14\x07\0\0\xc4\x06\xe4\x05\xd4\x06\xbc\x06$\x06\0\0\x0c\x07\x04\x07\xfc\x06\xf4\x06\0\0\0\0\0"
+offset=29, len=2, kind=Offset(11264), text="\0,"
+offset=31, len=2, kind=Unknown, text="\0\0"
+offset=33, len=2, kind=Offset(9216), text="\0$"
+offset=35, len=7, kind=Unknown, text="\0\x98A\x98A\0@"
+offset=42, len=2, kind=Offset(16896), text="\0B"
+offset=44, len=14, kind=Unknown, text="\0\0\0\x18\0X\0\x98n0n0`0"
+offset=58, len=2, kind=Offset(12400), text="p0"
+// overlapping labels!
+offset=58, len=2, kind=Offset(12400), text="p0"
+offset=60, len=4, kind=Unknown, text="\t1\x011"
+offset=64, len=2, kind=Offset(12544), text="\01"
+// overlapping labels!
+offset=64, len=2, kind=Offset(12544), text="\01"
+offset=66, len=2, kind=Offset(12560), text="\x101"
+// overlapping labels!
+offset=66, len=2, kind=Offset(12560), text="\x101"
+offset=68, len=4, kind=Unknown, text="\xf9\x18\xf1\x18"
+offset=72, len=2, kind=Offset(6384), text="\xf0\x18"
+// overlapping labels!
+offset=72, len=2, kind=Offset(6384), text="\xf0\x18"
+offset=74, len=16, kind=Unknown, text="\0\x19\xd4\x18\xd1\x18\xd0\x18\xd4\x18G\x18G\x18@\x18"
+offset=90, len=2, kind=Offset(6224), text="P\x18"
+offset=92, len=12, kind=Unknown, text="m\x1bm\x1b@\x1b\x80\x1bs$s$"
+offset=104, len=2, kind=Offset(9216), text="\0$"
+offset=106, len=2, kind=Offset(9344), text="\x80$"
+offset=108, len=6, kind=Unknown, text="\xfd#\xfd#\0 "
+offset=114, len=2, kind=Offset(9216), text="\0$"
+offset=116, len=4, kind=Unknown, text="_C^C"
+offset=120, len=2, kind=Offset(17240), text="XC"
+// overlapping labels!
+offset=120, len=2, kind=Offset(17240), text="XC"
+offset=122, len=16, kind=Unknown, text="`C=\x189\x188\x18@\x18h\x1ah\x1a\0\x1a"
+offset=138, len=2, kind=Offset(6912), text="\0\x1b"
+offset=140, len=24, kind=Unknown, text="\x16\x18\x11\x18\x10\x18\x18\x18\xb0\x18\xb0\x18\xa0\x18\xb0\x18%\x18!\x18 \x18(\x18"
+offset=164, len=2, kind=Offset(6920), text="\x08\x1b"
+offset=166, len=2, kind=Unknown, text="\x01\x1b"
+offset=168, len=2, kind=Offset(6912), text="\0\x1b"
+offset=170, len=2, kind=Offset(6920), text="\x08\x1b"
+offset=172, len=6, kind=Unknown, text="\x17\x1e\x17\x1e\0\x1e"
+offset=178, len=2, kind=Offset(7808), text="\x80\x1e"
+// overlapping labels!
+offset=178, len=2, kind=Offset(7808), text="\x80\x1e"
+offset=180, len=5, kind=Unknown, text=".\x18)\x18("
+offset=185, len=2, kind=Offset(12312), text="\x180"
+// overlapping labels!
+offset=185, len=2, kind=Offset(12312), text="\x180"
+offset=187, len=1, kind=Unknown, text="\x18"
+offset=188, len=2, kind=Offset(6456), text="8\x19"
+offset=190, len=2, kind=Unknown, text="1\x19"
+offset=192, len=2, kind=Offset(6448), text="0\x19"
+offset=194, len=2, kind=Offset(6456), text="8\x19"
+offset=196, len=6, kind=Unknown, text="\x85\x19\x85\x19\x80\x19"
+offset=202, len=2, kind=Offset(6544), text="\x90\x19"
+offset=204, len=8, kind=Unknown, text="w\x18q\x18p\x18\x80\x18"
+offset=212, len=2, kind=Offset(6232), text="X\x18"
+offset=214, len=2, kind=Unknown, text="Q\x18"
+offset=216, len=2, kind=Offset(6224), text="P\x18"
+offset=218, len=2, kind=Offset(6232), text="X\x18"
+offset=220, len=4, kind=Unknown, text="\xae\x19\xae\x19"
+offset=224, len=2, kind=Offset(6568), text="\xa8\x19"
+offset=226, len=2, kind=Offset(6576), text="\xb0\x19"
+offset=228, len=4, kind=Unknown, text="^\x18^\x18"
+offset=232, len=2, kind=Offset(6232), text="X\x18"
+offset=234, len=6, kind=Unknown, text="`\x18{\x1f{\x1f"
+offset=240, len=2, kind=Offset(7936), text="\0\x1f"
+offset=242, len=2, kind=Offset(8064), text="\x80\x1f"
+offset=244, len=6, kind=Unknown, text="-\x19)\x19(\x19"
+offset=250, len=2, kind=Offset(6448), text="0\x19"
+offset=252, len=2, kind=Offset(6568), text="\xa8\x19"
+offset=254, len=2, kind=Unknown, text="\xa1\x19"
+offset=256, len=2, kind=Offset(6560), text="\xa0\x19"
+offset=258, len=2, kind=Offset(6568), text="\xa8\x19"
+offset=260, len=2, kind=Offset(6584), text="\xb8\x19"
+offset=262, len=2, kind=Unknown, text="\xb1\x19"
+offset=264, len=2, kind=Offset(6576), text="\xb0\x19"
+offset=266, len=2, kind=Offset(6584), text="\xb8\x19"
+offset=268, len=4, kind=Unknown, text="\xcf\x18\xce\x18"
+offset=272, len=2, kind=Offset(6344), text="\xc8\x18"
+// overlapping labels!
+offset=272, len=2, kind=Offset(6344), text="\xc8\x18"
+offset=274, len=10, kind=Unknown, text="\xd0\x18\xdb\x19\xdb\x19\xd0\x19\xe0\x19"
+offset=284, len=2, kind=Offset(6600), text="\xc8\x19"
+offset=286, len=2, kind=Unknown, text="\xc1\x19"
+offset=288, len=2, kind=Offset(6592), text="\xc0\x19"
+offset=290, len=2, kind=Offset(6600), text="\xc8\x19"
+offset=292, len=9, kind=Unknown, text="\xbc\x1b\xbc\x1b\x80\x1b\xc0\x1b6"
+offset=301, len=2, kind=Offset(12568), text="\x181"
+// overlapping labels!
+offset=301, len=2, kind=Offset(12568), text="\x181"
+offset=303, len=2, kind=Offset(12312), text="\x180"
+// overlapping labels!
+offset=303, len=2, kind=Offset(12312), text="\x180"
+offset=305, len=3, kind=Unknown, text="\x188\x18"
+offset=308, len=2, kind=Offset(6552), text="\x98\x19"
+offset=310, len=2, kind=Unknown, text="\x91\x19"
+offset=312, len=2, kind=Offset(6544), text="\x90\x19"
+offset=314, len=2, kind=Offset(6552), text="\x98\x19"
+offset=316, len=12, kind=Unknown, text="o\x18o\x18`\x18p\x18\x9e\x19\x9e\x19"
+offset=328, len=2, kind=Offset(6552), text="\x98\x19"
+offset=330, len=2, kind=Offset(6560), text="\xa0\x19"
+offset=332, len=14, kind=Unknown, text="\'\x19\'\x19 \x19(\x19)\x1b)\x1b \x1b"
+offset=346, len=2, kind=Offset(6960), text="0\x1b"
+// overlapping labels!
+offset=346, len=2, kind=Offset(6960), text="0\x1b"
+offset=348, len=8, kind=Unknown, text=" \x18\x19\x18\x18\x18 \x18"
+offset=356, len=2, kind=Offset(6376), text="\xe8\x18"
+offset=358, len=2, kind=Unknown, text="\xe1\x18"
+offset=360, len=2, kind=Offset(6368), text="\xe0\x18"
+offset=362, len=2, kind=Offset(6376), text="\xe8\x18"
+offset=364, len=6, kind=Unknown, text="\xcd\x1b\xcd\x1b\xc0\x1b"
+offset=370, len=2, kind=Offset(7120), text="\xd0\x1b"
+// overlapping labels!
+offset=370, len=2, kind=Offset(7120), text="\xd0\x1b"
+offset=372, len=12, kind=Unknown, text="\x9c\x18\x9c\x18\x90\x18\xa0\x18\xee\x18\xee\x18"
+offset=384, len=2, kind=Offset(6376), text="\xe8\x18"
+offset=386, len=2, kind=Offset(6384), text="\xf0\x18"
+// overlapping labels!
+offset=386, len=2, kind=Offset(6384), text="\xf0\x18"
+offset=388, len=4, kind=Unknown, text=">\x19>\x19"
+offset=392, len=2, kind=Offset(6456), text="8\x19"
+offset=394, len=2, kind=Offset(6464), text="@\x19"
+// overlapping labels!
+offset=394, len=2, kind=Offset(6464), text="@\x19"
+offset=396, len=28, kind=Unknown, text="\x8e\x18\x8e\x18\x80\x18\x90\x18\xf9\x19\xf9\x19\xf0\x19\0\x1a\x0c\x18\t\x18\x08\x18\x0c\x18\x0e\x1b\x0e\x1b"
+offset=424, len=2, kind=Offset(6920), text="\x08\x1b"
+offset=426, len=6, kind=Unknown, text="\x10\x1b\xe7&\xe7&"
+offset=432, len=2, kind=Offset(9856), text="\x80&"
+offset=434, len=2, kind=Offset(9984), text="\0\'"
+offset=436, len=6, kind=Unknown, text="\x07\x19\x07\x19\0\x19"
+offset=442, len=2, kind=Offset(6408), text="\x08\x19"
+offset=444, len=6, kind=Unknown, text="\x876\x876\04"
+offset=450, len=2, kind=Offset(14336), text="\08"
+offset=452, len=12, kind=Unknown, text="\x1e\x1b\x1e\x1b\x10\x1b \x1b\x0e\x19\x0e\x19"
+offset=464, len=2, kind=Offset(6408), text="\x08\x19"
+offset=466, len=6, kind=Unknown, text="\x10\x19XGXG"
+offset=472, len=2, kind=Offset(18176), text="\0G"
+offset=474, len=2, kind=Offset(18304), text="\x80G"
+offset=476, len=12, kind=Unknown, text="\xee\x19\xee\x19\xe0\x19\xf0\x19\xe0\x1f\xe0\x1f"
+offset=488, len=2, kind=Offset(8064), text="\x80\x1f"
+offset=490, len=14, kind=Unknown, text="\0 \x10\x18\r\x18\x0c\x18\x10\x18\xbe\x19\xbe\x19"
+offset=504, len=2, kind=Offset(6584), text="\xb8\x19"
+offset=506, len=2, kind=Offset(6592), text="\xc0\x19"
+offset=508, len=4, kind=Unknown, text="Q\x1cQ\x1c"
+offset=512, len=2, kind=Offset(7168), text="\0\x1c"
+offset=514, len=2, kind=Offset(7296), text="\x80\x1c"
+offset=516, len=4, kind=Unknown, text="\x91%\x91%"
+offset=520, len=2, kind=Offset(9472), text="\0%"
+offset=522, len=2, kind=Offset(9728), text="\0&"
+offset=524, len=4, kind=Unknown, text="\xef\x1c\xef\x1c"
+offset=528, len=2, kind=Offset(7296), text="\x80\x1c"
+offset=530, len=2, kind=Offset(7424), text="\0\x1d"
+// overlapping labels!
+offset=530, len=2, kind=Offset(7424), text="\0\x1d"
+offset=532, len=4, kind=Unknown, text="\x100\x0e0"
+offset=536, len=2, kind=Offset(12296), text="\x080"
+// overlapping labels!
+offset=536, len=2, kind=Offset(12296), text="\x080"
+// overlapping labels!
+offset=536, len=2, kind=Offset(12296), text="\x080"
+offset=538, len=6, kind=Unknown, text="\x100\xfd\x1d\xfd\x1d"
+offset=544, len=2, kind=Offset(7552), text="\x80\x1d"
+offset=546, len=8, kind=Unknown, text="\0\x1e\xb9\x18\xb9\x18\xb0\x18"
+offset=554, len=2, kind=Offset(6336), text="\xc0\x18"
+offset=556, len=4, kind=Unknown, text="\xce\x19\xce\x19"
+offset=560, len=2, kind=Offset(6600), text="\xc8\x19"
+offset=562, len=16, kind=Unknown, text="\xd0\x19\0\0\0\x18\x02\x18\x04\x186*6*\0("
+offset=578, len=2, kind=Offset(11264), text="\0,"
+offset=580, len=4, kind=Unknown, text="7\x1b6\x1b"
+offset=584, len=2, kind=Offset(6960), text="0\x1b"
+// overlapping labels!
+offset=584, len=2, kind=Offset(6960), text="0\x1b"
+offset=586, len=2, kind=Offset(6968), text="8\x1b"
+// overlapping labels!
+offset=586, len=2, kind=Offset(6968), text="8\x1b"
+offset=588, len=2, kind=Offset(6344), text="\xc8\x18"
+// overlapping labels!
+offset=588, len=2, kind=Offset(6344), text="\xc8\x18"
+offset=590, len=2, kind=Unknown, text="\xc1\x18"
+offset=592, len=2, kind=Offset(6336), text="\xc0\x18"
+offset=594, len=2, kind=Offset(6344), text="\xc8\x18"
+// overlapping labels!
+offset=594, len=2, kind=Offset(6344), text="\xc8\x18"
+offset=596, len=4, kind=Unknown, text="\xd9\x1b\xd1\x1b"
+offset=600, len=2, kind=Offset(7120), text="\xd0\x1b"
+// overlapping labels!
+offset=600, len=2, kind=Offset(7120), text="\xd0\x1b"
+offset=602, len=2, kind=Offset(7136), text="\xe0\x1b"
+// overlapping labels!
+offset=602, len=2, kind=Offset(7136), text="\xe0\x1b"
+offset=604, len=4, kind=Unknown, text="\x87\x1e\x86\x1e"
+offset=608, len=2, kind=Offset(7808), text="\x80\x1e"
+// overlapping labels!
+offset=608, len=2, kind=Offset(7808), text="\x80\x1e"
+offset=610, len=2, kind=Offset(7816), text="\x88\x1e"
+// overlapping labels!
+offset=610, len=2, kind=Offset(7816), text="\x88\x1e"
+offset=612, len=4, kind=Unknown, text="Y\x1dQ\x1d"
+offset=616, len=2, kind=Offset(7504), text="P\x1d"
+// overlapping labels!
+offset=616, len=2, kind=Offset(7504), text="P\x1d"
+offset=618, len=2, kind=Offset(7520), text="`\x1d"
+// overlapping labels!
+offset=618, len=2, kind=Offset(7520), text="`\x1d"
+offset=620, len=4, kind=Unknown, text="i\x1da\x1d"
+offset=624, len=2, kind=Offset(7520), text="`\x1d"
+// overlapping labels!
+offset=624, len=2, kind=Offset(7520), text="`\x1d"
+offset=626, len=6, kind=Unknown, text="p\x1d\xf0$\xf0$"
+offset=632, len=2, kind=Offset(9344), text="\x80$"
+offset=634, len=2, kind=Offset(9472), text="\0%"
+offset=636, len=4, kind=Unknown, text="W&W&"
+offset=640, len=2, kind=Offset(9728), text="\0&"
+offset=642, len=2, kind=Offset(9856), text="\x80&"
+offset=644, len=4, kind=Unknown, text="?\x1b>\x1b"
+offset=648, len=2, kind=Offset(6968), text="8\x1b"
+// overlapping labels!
+offset=648, len=2, kind=Offset(6968), text="8\x1b"
+offset=650, len=6, kind=Unknown, text="@\x1b\x88\'\x88\'"
+offset=656, len=2, kind=Offset(9984), text="\0\'"
+offset=658, len=16, kind=Unknown, text="\0(\x1a\x19\x1a\x19\x10\x19 \x19\x150\x110\x100"
+offset=674, len=2, kind=Offset(12312), text="\x180"
+// overlapping labels!
+offset=674, len=2, kind=Offset(12312), text="\x180"
+offset=676, len=4, kind=Unknown, text="\xfb.\xfb."
+offset=680, len=2, kind=Offset(11904), text="\x80."
+offset=682, len=2, kind=Offset(12032), text="\0/"
+offset=684, len=4, kind=Unknown, text="\xe9\x1b\xe1\x1b"
+offset=688, len=2, kind=Offset(7136), text="\xe0\x1b"
+// overlapping labels!
+offset=688, len=2, kind=Offset(7136), text="\xe0\x1b"
+offset=690, len=2, kind=Offset(7152), text="\xf0\x1b"
+// overlapping labels!
+offset=690, len=2, kind=Offset(7152), text="\xf0\x1b"
+offset=692, len=6, kind=Unknown, text="Y\x19Y\x19P\x19"
+offset=698, len=2, kind=Offset(6496), text="`\x19"
+// overlapping labels!
+offset=698, len=2, kind=Offset(6496), text="`\x19"
+offset=700, len=4, kind=Unknown, text="\xf90\xf90"
+offset=704, len=2, kind=Offset(12416), text="\x800"
+offset=706, len=2, kind=Offset(12544), text="\01"
+// overlapping labels!
+offset=706, len=2, kind=Offset(12544), text="\01"
+offset=708, len=4, kind=Unknown, text="\x8c-\x8c-"
+offset=712, len=2, kind=Offset(11520), text="\0-"
+offset=714, len=6, kind=Unknown, text="\0.I\x19A\x19"
+offset=720, len=2, kind=Offset(6464), text="@\x19"
+// overlapping labels!
+offset=720, len=2, kind=Offset(6464), text="@\x19"
+offset=722, len=6, kind=Unknown, text="P\x19\xdf\x1e\xde\x1e"
+offset=728, len=2, kind=Offset(7896), text="\xd8\x1e"
+// overlapping labels!
+offset=728, len=2, kind=Offset(7896), text="\xd8\x1e"
+offset=730, len=2, kind=Offset(7904), text="\xe0\x1e"
+// overlapping labels!
+offset=730, len=2, kind=Offset(7904), text="\xe0\x1e"
+offset=732, len=6, kind=Unknown, text="\xcc\x1e\xcc\x1e\xc0\x1e"
+offset=738, len=2, kind=Offset(7888), text="\xd0\x1e"
+// overlapping labels!
+offset=738, len=2, kind=Offset(7888), text="\xd0\x1e"
+offset=740, len=6, kind=Unknown, text="Y.Y.\0."
+offset=746, len=2, kind=Offset(11904), text="\x80."
+offset=748, len=4, kind=Unknown, text="\xf9\x1b\xf1\x1b"
+offset=752, len=2, kind=Offset(7152), text="\xf0\x1b"
+// overlapping labels!
+offset=752, len=2, kind=Offset(7152), text="\xf0\x1b"
+offset=754, len=2, kind=Offset(7168), text="\0\x1c"
+offset=756, len=4, kind=Unknown, text="\t\x1d\x01\x1d"
+offset=760, len=2, kind=Offset(7424), text="\0\x1d"
+// overlapping labels!
+offset=760, len=2, kind=Offset(7424), text="\0\x1d"
+offset=762, len=8, kind=Unknown, text="\x10\x1d\xfc\x1e\xfc\x1e\xf0\x1e"
+offset=770, len=2, kind=Offset(7936), text="\0\x1f"
+offset=772, len=4, kind=Unknown, text="\xdf\x18\xde\x18"
+offset=776, len=2, kind=Offset(6360), text="\xd8\x18"
+// overlapping labels!
+offset=776, len=2, kind=Offset(6360), text="\xd8\x18"
+offset=778, len=2, kind=Offset(6368), text="\xe0\x18"
+offset=780, len=4, kind=Unknown, text="\xec/\xec/"
+offset=784, len=2, kind=Offset(12160), text="\x80/"
+offset=786, len=2, kind=Offset(12288), text="\00"
+// overlapping labels!
+offset=786, len=2, kind=Offset(12288), text="\00"
+offset=788, len=4, kind=Unknown, text="?1>1"
+offset=792, len=2, kind=Offset(12600), text="81"
+// overlapping labels!
+offset=792, len=2, kind=Offset(12600), text="81"
+offset=794, len=2, kind=Offset(12608), text="@1"
+// overlapping labels!
+offset=794, len=2, kind=Offset(12608), text="@1"
+offset=796, len=4, kind=Unknown, text="\xd7\x1e\xd6\x1e"
+offset=800, len=2, kind=Offset(7888), text="\xd0\x1e"
+// overlapping labels!
+offset=800, len=2, kind=Offset(7888), text="\xd0\x1e"
+offset=802, len=2, kind=Offset(7896), text="\xd8\x1e"
+// overlapping labels!
+offset=802, len=2, kind=Offset(7896), text="\xd8\x1e"
+offset=804, len=4, kind=Unknown, text="\x8f\x1e\x8e\x1e"
+offset=808, len=2, kind=Offset(7816), text="\x88\x1e"
+// overlapping labels!
+offset=808, len=2, kind=Offset(7816), text="\x88\x1e"
+offset=810, len=6, kind=Unknown, text="\x90\x1e\xd12\xd12"
+offset=816, len=2, kind=Offset(12928), text="\x802"
+offset=818, len=6, kind=Unknown, text="\03y\x19q\x19"
+offset=824, len=2, kind=Offset(6512), text="p\x19"
+// overlapping labels!
+offset=824, len=2, kind=Offset(6512), text="p\x19"
+offset=826, len=6, kind=Unknown, text="\x80\x19b/b/"
+offset=832, len=2, kind=Offset(12032), text="\0/"
+offset=834, len=2, kind=Offset(12160), text="\x80/"
+offset=836, len=4, kind=Unknown, text="j3a3"
+offset=840, len=2, kind=Offset(13152), text="`3"
+// overlapping labels!
+offset=840, len=2, kind=Offset(13152), text="`3"
+// overlapping labels!
+offset=840, len=2, kind=Offset(13152), text="`3"
+offset=842, len=2, kind=Offset(13168), text="p3"
+// overlapping labels!
+offset=842, len=2, kind=Offset(13168), text="p3"
+// overlapping labels!
+offset=842, len=2, kind=Offset(13168), text="p3"
+offset=844, len=12, kind=Unknown, text="\xba\x1e\xba\x1e\xb0\x1e\xc0\x1e\x171\x161"
+offset=856, len=2, kind=Offset(12560), text="\x101"
+// overlapping labels!
+offset=856, len=2, kind=Offset(12560), text="\x101"
+offset=858, len=2, kind=Offset(12568), text="\x181"
+// overlapping labels!
+offset=858, len=2, kind=Offset(12568), text="\x181"
+offset=860, len=6, kind=Unknown, text="4040 0"
+offset=866, len=2, kind=Offset(12352), text="@0"
+// overlapping labels!
+offset=866, len=2, kind=Offset(12352), text="@0"
+offset=868, len=4, kind=Unknown, text="r2r2"
+offset=872, len=2, kind=Offset(12800), text="\02"
+offset=874, len=2, kind=Offset(12928), text="\x802"
+offset=876, len=4, kind=Unknown, text="\x070\x060"
+offset=880, len=2, kind=Offset(12288), text="\00"
+// overlapping labels!
+offset=880, len=2, kind=Offset(12288), text="\00"
+offset=882, len=2, kind=Offset(12296), text="\x080"
+// overlapping labels!
+offset=882, len=2, kind=Offset(12296), text="\x080"
+// overlapping labels!
+offset=882, len=2, kind=Offset(12296), text="\x080"
+offset=884, len=4, kind=Unknown, text="\xee1\xee1"
+offset=888, len=2, kind=Offset(12672), text="\x801"
+offset=890, len=2, kind=Offset(12800), text="\02"
+offset=892, len=6, kind=Unknown, text="\x8b;\x8b;\x80;"
+offset=898, len=2, kind=Offset(15248), text="\x90;"
+// overlapping labels!
+offset=898, len=2, kind=Offset(15248), text="\x90;"
+offset=900, len=2, kind=Offset(7840), text="\xa0\x1e"
+// overlapping labels!
+offset=900, len=2, kind=Offset(7840), text="\xa0\x1e"
+// overlapping labels!
+offset=900, len=2, kind=Offset(7840), text="\xa0\x1e"
+offset=902, len=2, kind=Offset(7840), text="\xa0\x1e"
+// overlapping labels!
+offset=902, len=2, kind=Offset(7840), text="\xa0\x1e"
+// overlapping labels!
+offset=902, len=2, kind=Offset(7840), text="\xa0\x1e"
+offset=904, len=2, kind=Unknown, text="\x90\x1e"
+offset=906, len=2, kind=Offset(7840), text="\xa0\x1e"
+// overlapping labels!
+offset=906, len=2, kind=Offset(7840), text="\xa0\x1e"
+// overlapping labels!
+offset=906, len=2, kind=Offset(7840), text="\xa0\x1e"
+offset=908, len=4, kind=Unknown, text="w1v1"
+offset=912, len=2, kind=Offset(12656), text="p1"
+// overlapping labels!
+offset=912, len=2, kind=Offset(12656), text="p1"
+offset=914, len=2, kind=Offset(12664), text="x1"
+// overlapping labels!
+offset=914, len=2, kind=Offset(12664), text="x1"
+offset=916, len=4, kind=Unknown, text="\x1f0\x1e0"
+offset=920, len=2, kind=Offset(12312), text="\x180"
+// overlapping labels!
+offset=920, len=2, kind=Offset(12312), text="\x180"
+offset=922, len=6, kind=Unknown, text=" 0\xaa\x1e\xa1\x1e"
+offset=928, len=2, kind=Offset(7840), text="\xa0\x1e"
+// overlapping labels!
+offset=928, len=2, kind=Offset(7840), text="\xa0\x1e"
+// overlapping labels!
+offset=928, len=2, kind=Offset(7840), text="\xa0\x1e"
+offset=930, len=8, kind=Unknown, text="\xb0\x1e~\x1d~\x1dp\x1d"
+offset=938, len=2, kind=Offset(7552), text="\x80\x1d"
+offset=940, len=4, kind=Unknown, text="9313"
+offset=944, len=2, kind=Offset(13104), text="03"
+// overlapping labels!
+offset=944, len=2, kind=Offset(13104), text="03"
+offset=946, len=2, kind=Offset(13120), text="@3"
+// overlapping labels!
+offset=946, len=2, kind=Offset(13120), text="@3"
+offset=948, len=4, kind=Unknown, text="i1a1"
+offset=952, len=2, kind=Offset(12640), text="`1"
+// overlapping labels!
+offset=952, len=2, kind=Offset(12640), text="`1"
+offset=954, len=2, kind=Offset(12656), text="p1"
+// overlapping labels!
+offset=954, len=2, kind=Offset(12656), text="p1"
+offset=956, len=6, kind=Unknown, text=">\x1d>\x1d0\x1d"
+offset=962, len=2, kind=Offset(7488), text="@\x1d"
+// overlapping labels!
+offset=962, len=2, kind=Offset(7488), text="@\x1d"
+offset=964, len=12, kind=Unknown, text="\xb4?\xb4?\0<\0@7161"
+offset=976, len=2, kind=Offset(12592), text="01"
+// overlapping labels!
+offset=976, len=2, kind=Offset(12592), text="01"
+offset=978, len=2, kind=Offset(12600), text="81"
+// overlapping labels!
+offset=978, len=2, kind=Offset(12600), text="81"
+offset=980, len=4, kind=Unknown, text="\xdf;\xde;"
+offset=984, len=2, kind=Offset(15320), text="\xd8;"
+// overlapping labels!
+offset=984, len=2, kind=Offset(15320), text="\xd8;"
+offset=986, len=2, kind=Offset(15328), text="\xe0;"
+// overlapping labels!
+offset=986, len=2, kind=Offset(15328), text="\xe0;"
+offset=988, len=4, kind=Unknown, text="\xe9\x1e\xe1\x1e"
+offset=992, len=2, kind=Offset(7904), text="\xe0\x1e"
+// overlapping labels!
+offset=992, len=2, kind=Offset(7904), text="\xe0\x1e"
+offset=994, len=6, kind=Unknown, text="\xf0\x1e\xeb3\xeb3"
+offset=1000, len=2, kind=Offset(13184), text="\x803"
+offset=1002, len=6, kind=Unknown, text="\04\x1f1\x1e1"
+offset=1008, len=2, kind=Offset(12568), text="\x181"
+// overlapping labels!
+offset=1008, len=2, kind=Offset(12568), text="\x181"
+offset=1010, len=6, kind=Unknown, text=" 1\xff;\xfe;"
+offset=1016, len=2, kind=Offset(15352), text="\xf8;"
+// overlapping labels!
+offset=1016, len=2, kind=Offset(15352), text="\xf8;"
+offset=1018, len=6, kind=Unknown, text="\0<\xaf;\xae;"
+offset=1024, len=2, kind=Offset(15272), text="\xa8;"
+// overlapping labels!
+offset=1024, len=2, kind=Offset(15272), text="\xa8;"
+offset=1026, len=2, kind=Offset(15280), text="\xb0;"
+// overlapping labels!
+offset=1026, len=2, kind=Offset(15280), text="\xb0;"
+offset=1028, len=4, kind=Unknown, text="V,V,"
+offset=1032, len=2, kind=Offset(11264), text="\0,"
+offset=1034, len=2, kind=Offset(11392), text="\x80,"
+offset=1036, len=4, kind=Unknown, text="\xe78\xe78"
+offset=1040, len=2, kind=Offset(14464), text="\x808"
+offset=1042, len=2, kind=Offset(14592), text="\09"
+offset=1044, len=6, kind=Unknown, text="+3&3 3"
+offset=1050, len=2, kind=Offset(13104), text="03"
+// overlapping labels!
+offset=1050, len=2, kind=Offset(13104), text="03"
+offset=1052, len=4, kind=Unknown, text="\xd5C\xd5C"
+offset=1056, len=2, kind=Offset(17280), text="\x80C"
+offset=1058, len=6, kind=Unknown, text="\0Di\x19a\x19"
+offset=1064, len=2, kind=Offset(6496), text="`\x19"
+// overlapping labels!
+offset=1064, len=2, kind=Offset(6496), text="`\x19"
+offset=1066, len=2, kind=Offset(6512), text="p\x19"
+// overlapping labels!
+offset=1066, len=2, kind=Offset(6512), text="p\x19"
+offset=1068, len=4, kind=Unknown, text="I\x1dA\x1d"
+offset=1072, len=2, kind=Offset(7488), text="@\x1d"
+// overlapping labels!
+offset=1072, len=2, kind=Offset(7488), text="@\x1d"
+offset=1074, len=2, kind=Offset(7504), text="P\x1d"
+// overlapping labels!
+offset=1074, len=2, kind=Offset(7504), text="P\x1d"
+offset=1076, len=12, kind=Unknown, text="^0^0P0`0^8^8"
+offset=1088, len=2, kind=Offset(14336), text="\08"
+offset=1090, len=2, kind=Offset(14464), text="\x808"
+offset=1092, len=4, kind=Unknown, text="I0A0"
+offset=1096, len=2, kind=Offset(12352), text="@0"
+// overlapping labels!
+offset=1096, len=2, kind=Offset(12352), text="@0"
+offset=1098, len=1, kind=Unknown, text="P"
+offset=1099, len=2, kind=Offset(11056), text="0+"
+offset=1101, len=5, kind=Unknown, text="1+1 1"
+offset=1106, len=2, kind=Offset(12592), text="01"
+// overlapping labels!
+offset=1106, len=2, kind=Offset(12592), text="01"
+offset=1108, len=4, kind=Unknown, text="U9U9"
+offset=1112, len=2, kind=Offset(14592), text="\09"
+offset=1114, len=2, kind=Offset(14720), text="\x809"
+offset=1116, len=4, kind=Unknown, text="\xcc:\xcc:"
+offset=1120, len=2, kind=Offset(14976), text="\x80:"
+offset=1122, len=2, kind=Offset(15104), text="\0;"
+offset=1124, len=6, kind=Unknown, text="^1^1P1"
+offset=1130, len=2, kind=Offset(12640), text="`1"
+// overlapping labels!
+offset=1130, len=2, kind=Offset(12640), text="`1"
+offset=1132, len=4, kind=Unknown, text="\xc39\xc39"
+offset=1136, len=2, kind=Offset(14720), text="\x809"
+offset=1138, len=2, kind=Offset(14848), text="\0:"
+// overlapping labels!
+offset=1138, len=2, kind=Offset(14848), text="\0:"
+offset=1140, len=12, kind=Unknown, text="\x0c3\x0c3\03\x103\t:\x01:"
+offset=1152, len=2, kind=Offset(14848), text="\0:"
+// overlapping labels!
+offset=1152, len=2, kind=Offset(14848), text="\0:"
+offset=1154, len=16, kind=Unknown, text="\x10:\x193\x193\x103 3\\3\\3P3"
+offset=1170, len=2, kind=Offset(13152), text="`3"
+// overlapping labels!
+offset=1170, len=2, kind=Offset(13152), text="`3"
+// overlapping labels!
+offset=1170, len=2, kind=Offset(13152), text="`3"
+offset=1172, len=4, kind=Unknown, text="G3F3"
+offset=1176, len=2, kind=Offset(13120), text="@3"
+// overlapping labels!
+offset=1176, len=2, kind=Offset(13120), text="@3"
+offset=1178, len=2, kind=Offset(13128), text="H3"
+// overlapping labels!
+offset=1178, len=2, kind=Offset(13128), text="H3"
+offset=1180, len=4, kind=Unknown, text="\x7f1~1"
+offset=1184, len=2, kind=Offset(12664), text="x1"
+// overlapping labels!
+offset=1184, len=2, kind=Offset(12664), text="x1"
+offset=1186, len=2, kind=Offset(12672), text="\x801"
+offset=1188, len=4, kind=Unknown, text="\\;\\;"
+offset=1192, len=2, kind=Offset(15104), text="\0;"
+offset=1194, len=6, kind=Unknown, text="\x80;O3N3"
+offset=1200, len=2, kind=Offset(13128), text="H3"
+// overlapping labels!
+offset=1200, len=2, kind=Offset(13128), text="H3"
+offset=1202, len=2, kind=Unknown, text="P3"
+offset=1204, len=2, kind=Offset(6360), text="\xd8\x18"
+// overlapping labels!
+offset=1204, len=2, kind=Offset(6360), text="\xd8\x18"
+offset=1206, len=4, kind=Unknown, text="\xd5\x18\xd4\x18"
+offset=1210, len=2, kind=Offset(6360), text="\xd8\x18"
+// overlapping labels!
+offset=1210, len=2, kind=Offset(6360), text="\xd8\x18"
+offset=1212, len=6, kind=Unknown, text="\x1e\x1d\x1e\x1d\x10\x1d"
+offset=1218, len=2, kind=Offset(7456), text=" \x1d"
+// overlapping labels!
+offset=1218, len=2, kind=Offset(7456), text=" \x1d"
+// overlapping labels!
+offset=1218, len=2, kind=Offset(7456), text=" \x1d"
+offset=1220, len=6, kind=Unknown, text="\\:\\:P:"
+offset=1226, len=2, kind=Offset(14944), text="`:"
+// overlapping labels!
+offset=1226, len=2, kind=Offset(14944), text="`:"
+offset=1228, len=4, kind=Unknown, text="xIxI"
+offset=1232, len=2, kind=Offset(18688), text="\0I"
+offset=1234, len=2, kind=Offset(18816), text="\x80I"
+offset=1236, len=4, kind=Unknown, text="hFhF"
+offset=1240, len=2, kind=Offset(17920), text="\0F"
+offset=1242, len=2, kind=Offset(18048), text="\x80F"
+offset=1244, len=4, kind=Unknown, text="\xef;\xee;"
+offset=1248, len=2, kind=Offset(15336), text="\xe8;"
+// overlapping labels!
+offset=1248, len=2, kind=Offset(15336), text="\xe8;"
+offset=1250, len=2, kind=Offset(15344), text="\xf0;"
+// overlapping labels!
+offset=1250, len=2, kind=Offset(15344), text="\xf0;"
+offset=1252, len=4, kind=Unknown, text="x3v3"
+offset=1256, len=2, kind=Offset(13168), text="p3"
+// overlapping labels!
+offset=1256, len=2, kind=Offset(13168), text="p3"
+// overlapping labels!
+offset=1256, len=2, kind=Offset(13168), text="p3"
+offset=1258, len=14, kind=Unknown, text="x3 : : :0:y0q0"
+offset=1272, len=2, kind=Offset(12400), text="p0"
+// overlapping labels!
+offset=1272, len=2, kind=Offset(12400), text="p0"
+offset=1274, len=2, kind=Offset(12416), text="\x800"
+offset=1276, len=12, kind=Unknown, text="\xc7;\xc1;\xc0;\xc8;\xee,\xee,"
+offset=1288, len=2, kind=Offset(11392), text="\x80,"
+offset=1290, len=2, kind=Offset(11520), text="\0-"
+offset=1292, len=4, kind=Unknown, text="z:q:"
+offset=1296, len=2, kind=Offset(14960), text="p:"
+// overlapping labels!
+offset=1296, len=2, kind=Offset(14960), text="p:"
+// overlapping labels!
+offset=1296, len=2, kind=Offset(14960), text="p:"
+offset=1298, len=2, kind=Offset(14976), text="\x80:"
+offset=1300, len=4, kind=Unknown, text="\xdcB\xdcB"
+offset=1304, len=2, kind=Offset(17024), text="\x80B"
+offset=1306, len=6, kind=Unknown, text="\0C\x99;\x91;"
+offset=1312, len=2, kind=Offset(15248), text="\x90;"
+// overlapping labels!
+offset=1312, len=2, kind=Offset(15248), text="\x90;"
+offset=1314, len=2, kind=Offset(15264), text="\xa0;"
+// overlapping labels!
+offset=1314, len=2, kind=Offset(15264), text="\xa0;"
+offset=1316, len=4, kind=Unknown, text="/\x1d.\x1d"
+offset=1320, len=2, kind=Offset(7464), text="(\x1d"
+// overlapping labels!
+offset=1320, len=2, kind=Offset(7464), text="(\x1d"
+offset=1322, len=6, kind=Unknown, text="0\x1dsBsB"
+offset=1328, len=2, kind=Offset(16896), text="\0B"
+offset=1330, len=2, kind=Offset(17024), text="\x80B"
+offset=1332, len=2, kind=Offset(7464), text="(\x1d"
+// overlapping labels!
+offset=1332, len=2, kind=Offset(7464), text="(\x1d"
+offset=1334, len=2, kind=Unknown, text="&\x1d"
+offset=1336, len=2, kind=Offset(7456), text=" \x1d"
+// overlapping labels!
+offset=1336, len=2, kind=Offset(7456), text=" \x1d"
+// overlapping labels!
+offset=1336, len=2, kind=Offset(7456), text=" \x1d"
+offset=1338, len=2, kind=Offset(7464), text="(\x1d"
+// overlapping labels!
+offset=1338, len=2, kind=Offset(7464), text="(\x1d"
+offset=1340, len=20, kind=Unknown, text="\x1b:\x1b:\x10: :|3|3x3|3O:N:"
+offset=1360, len=2, kind=Offset(14920), text="H:"
+// overlapping labels!
+offset=1360, len=2, kind=Offset(14920), text="H:"
+offset=1362, len=8, kind=Unknown, text="P:<:<:0:"
+offset=1370, len=2, kind=Offset(14912), text="@:"
+// overlapping labels!
+offset=1370, len=2, kind=Offset(14912), text="@:"
+offset=1372, len=4, kind=Unknown, text="\xf9I\xf9I"
+offset=1376, len=2, kind=Offset(18816), text="\x80I"
+offset=1378, len=2, kind=Offset(18944), text="\0J"
+offset=1380, len=4, kind=Unknown, text="O1N1"
+offset=1384, len=2, kind=Offset(12616), text="H1"
+// overlapping labels!
+offset=1384, len=2, kind=Offset(12616), text="H1"
+offset=1386, len=6, kind=Unknown, text="P1\xbf;\xbe;"
+offset=1392, len=2, kind=Offset(15288), text="\xb8;"
+// overlapping labels!
+offset=1392, len=2, kind=Offset(15288), text="\xb8;"
+offset=1394, len=6, kind=Unknown, text="\xc0;/C.C"
+offset=1400, len=2, kind=Offset(17192), text="(C"
+// overlapping labels!
+offset=1400, len=2, kind=Offset(17192), text="(C"
+offset=1402, len=2, kind=Offset(17200), text="0C"
+// overlapping labels!
+offset=1402, len=2, kind=Offset(17200), text="0C"
+offset=1404, len=4, kind=Unknown, text="\xebD\xebD"
+offset=1408, len=2, kind=Offset(17536), text="\x80D"
+offset=1410, len=2, kind=Offset(17664), text="\0E"
+offset=1412, len=4, kind=Unknown, text="\xf7;\xf6;"
+offset=1416, len=2, kind=Offset(15344), text="\xf0;"
+// overlapping labels!
+offset=1416, len=2, kind=Offset(15344), text="\xf0;"
+offset=1418, len=2, kind=Offset(15352), text="\xf8;"
+// overlapping labels!
+offset=1418, len=2, kind=Offset(15352), text="\xf8;"
+offset=1420, len=4, kind=Unknown, text="?C>C"
+offset=1424, len=2, kind=Offset(17208), text="8C"
+// overlapping labels!
+offset=1424, len=2, kind=Offset(17208), text="8C"
+offset=1426, len=2, kind=Offset(17216), text="@C"
+// overlapping labels!
+offset=1426, len=2, kind=Offset(17216), text="@C"
+offset=1428, len=4, kind=Unknown, text="OCNC"
+offset=1432, len=2, kind=Offset(17224), text="HC"
+// overlapping labels!
+offset=1432, len=2, kind=Offset(17224), text="HC"
+offset=1434, len=2, kind=Offset(17232), text="PC"
+// overlapping labels!
+offset=1434, len=2, kind=Offset(17232), text="PC"
+offset=1436, len=4, kind=Unknown, text="\xe7;\xe6;"
+offset=1440, len=2, kind=Offset(15328), text="\xe0;"
+// overlapping labels!
+offset=1440, len=2, kind=Offset(15328), text="\xe0;"
+offset=1442, len=2, kind=Offset(15336), text="\xe8;"
+// overlapping labels!
+offset=1442, len=2, kind=Offset(15336), text="\xe8;"
+offset=1444, len=4, kind=Unknown, text="\x9dE\x9dE"
+offset=1448, len=2, kind=Offset(17664), text="\0E"
+offset=1450, len=2, kind=Offset(17920), text="\0F"
+offset=1452, len=2, kind=Offset(13184), text="\x803"
+offset=1454, len=2, kind=Offset(13184), text="\x803"
+offset=1456, len=2, kind=Unknown, text="|3"
+offset=1458, len=2, kind=Offset(13184), text="\x803"
+offset=1460, len=4, kind=Unknown, text="G:F:"
+offset=1464, len=2, kind=Offset(14912), text="@:"
+// overlapping labels!
+offset=1464, len=2, kind=Offset(14912), text="@:"
+offset=1466, len=2, kind=Offset(14920), text="H:"
+// overlapping labels!
+offset=1466, len=2, kind=Offset(14920), text="H:"
+offset=1468, len=6, kind=Unknown, text="\0\0\0\x18\xcc;"
+offset=1474, len=2, kind=Offset(15312), text="\xd0;"
+// overlapping labels!
+offset=1474, len=2, kind=Offset(15312), text="\xd0;"
+offset=1476, len=4, kind=Unknown, text="WCVC"
+offset=1480, len=2, kind=Offset(17232), text="PC"
+// overlapping labels!
+offset=1480, len=2, kind=Offset(17232), text="PC"
+offset=1482, len=2, kind=Offset(17240), text="XC"
+// overlapping labels!
+offset=1482, len=2, kind=Offset(17240), text="XC"
+offset=1484, len=2, kind=Offset(18512), text="PH"
+offset=1486, len=2, kind=Offset(18512), text="PH"
+offset=1488, len=2, kind=Offset(18432), text="\0H"
+offset=1490, len=2, kind=Offset(18560), text="\x80H"
+offset=1492, len=4, kind=Unknown, text="\'C&C"
+offset=1496, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=1496, len=2, kind=Offset(17184), text=" C"
+offset=1498, len=2, kind=Offset(17192), text="(C"
+// overlapping labels!
+offset=1498, len=2, kind=Offset(17192), text="(C"
+offset=1500, len=4, kind=Unknown, text="7C6C"
+offset=1504, len=2, kind=Offset(17200), text="0C"
+// overlapping labels!
+offset=1504, len=2, kind=Offset(17200), text="0C"
+offset=1506, len=2, kind=Offset(17208), text="8C"
+// overlapping labels!
+offset=1506, len=2, kind=Offset(17208), text="8C"
+offset=1508, len=12, kind=Unknown, text="\xbc\x05\0\0\xc8;\xcc;GCFC"
+offset=1520, len=2, kind=Offset(17216), text="@C"
+// overlapping labels!
+offset=1520, len=2, kind=Offset(17216), text="@C"
+offset=1522, len=2, kind=Offset(17224), text="HC"
+// overlapping labels!
+offset=1522, len=2, kind=Offset(17224), text="HC"
+offset=1524, len=4, kind=Unknown, text="\xf8F\xf8F"
+offset=1528, len=2, kind=Offset(18048), text="\x80F"
+offset=1530, len=2, kind=Offset(18176), text="\0G"
+offset=1532, len=20, kind=Unknown, text="\x04\x06\0\0\x06\x18\x08\x184\x02\0\0\0\x18\x02\x18\xf0G\xf0G"
+offset=1552, len=2, kind=Offset(18304), text="\x80G"
+offset=1554, len=2, kind=Offset(18432), text="\0H"
+offset=1556, len=4, kind=Unknown, text="bJbJ"
+offset=1560, len=2, kind=Offset(18944), text="\0J"
+offset=1562, len=2, kind=Offset(19072), text="\x80J"
+offset=1564, len=4, kind=Unknown, text="\xd7H\xd7H"
+offset=1568, len=2, kind=Offset(18560), text="\x80H"
+offset=1570, len=2, kind=Offset(18688), text="\0I"
+offset=1572, len=6, kind=Unknown, text="\xe4\x06\0\0\0C"
+offset=1578, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=1578, len=2, kind=Offset(17184), text=" C"
+offset=1580, len=4, kind=Unknown, text="\xa7;\xa6;"
+offset=1584, len=2, kind=Offset(15264), text="\xa0;"
+// overlapping labels!
+offset=1584, len=2, kind=Offset(15264), text="\xa0;"
+offset=1586, len=2, kind=Offset(15272), text="\xa8;"
+// overlapping labels!
+offset=1586, len=2, kind=Offset(15272), text="\xa8;"
+offset=1588, len=4, kind=Unknown, text="qDqD"
+offset=1592, len=2, kind=Offset(17472), text="@D"
+offset=1594, len=2, kind=Offset(17536), text="\x80D"
+offset=1596, len=4, kind=Unknown, text="SKSK"
+offset=1600, len=2, kind=Offset(19200), text="\0K"
+offset=1602, len=2, kind=Offset(19328), text="\x80K"
+offset=1604, len=4, kind=Unknown, text="\xb7;\xb6;"
+offset=1608, len=2, kind=Offset(15280), text="\xb0;"
+// overlapping labels!
+offset=1608, len=2, kind=Offset(15280), text="\xb0;"
+offset=1610, len=2, kind=Offset(15288), text="\xb8;"
+// overlapping labels!
+offset=1610, len=2, kind=Offset(15288), text="\xb8;"
+offset=1612, len=4, kind=Unknown, text="\xd2J\xd2J"
+offset=1616, len=2, kind=Offset(19072), text="\x80J"
+offset=1618, len=2, kind=Offset(19200), text="\0K"
+offset=1620, len=4, kind=Unknown, text="\xd7;\xd6;"
+offset=1624, len=2, kind=Offset(15312), text="\xd0;"
+// overlapping labels!
+offset=1624, len=2, kind=Offset(15312), text="\xd0;"
+offset=1626, len=2, kind=Offset(15320), text="\xd8;"
+// overlapping labels!
+offset=1626, len=2, kind=Offset(15320), text="\xd8;"
+offset=1628, len=2, kind=Offset(19712), text="\0M"
+offset=1630, len=2, kind=Offset(19712), text="\0M"
+offset=1632, len=2, kind=Offset(19584), text="\x80L"
+offset=1634, len=2, kind=Offset(19712), text="\0M"
+offset=1636, len=4, kind=Unknown, text="G1F1"
+offset=1640, len=2, kind=Offset(12608), text="@1"
+// overlapping labels!
+offset=1640, len=2, kind=Offset(12608), text="@1"
+offset=1642, len=2, kind=Offset(12616), text="H1"
+// overlapping labels!
+offset=1642, len=2, kind=Offset(12616), text="H1"
+offset=1644, len=4, kind=Unknown, text="\xe5K\xe5K"
+offset=1648, len=2, kind=Offset(19328), text="\x80K"
+offset=1650, len=2, kind=Offset(19456), text="\0L"
+offset=1652, len=4, kind=Unknown, text="\xd4M\xd4M"
+offset=1656, len=2, kind=Offset(19840), text="\x80M"
+offset=1658, len=2, kind=Offset(19968), text="\0N"
+offset=1660, len=4, kind=Unknown, text="CLCL"
+offset=1664, len=2, kind=Offset(19456), text="\0L"
+offset=1666, len=2, kind=Offset(19584), text="\x80L"
+offset=1668, len=4, kind=Unknown, text="QMQM"
+offset=1672, len=2, kind=Offset(19712), text="\0M"
+offset=1674, len=2, kind=Offset(19840), text="\x80M"
+offset=1676, len=4, kind=Unknown, text="o:o:"
+offset=1680, len=2, kind=Offset(14952), text="h:"
+// overlapping labels!
+offset=1680, len=2, kind=Offset(14952), text="h:"
+offset=1682, len=2, kind=Offset(14960), text="p:"
+// overlapping labels!
+offset=1682, len=2, kind=Offset(14960), text="p:"
+// overlapping labels!
+offset=1682, len=2, kind=Offset(14960), text="p:"
+offset=1684, len=4, kind=Unknown, text="g:g:"
+offset=1688, len=2, kind=Offset(14944), text="`:"
+// overlapping labels!
+offset=1688, len=2, kind=Offset(14944), text="`:"
+offset=1690, len=2, kind=Offset(14952), text="h:"
+// overlapping labels!
+offset=1690, len=2, kind=Offset(14952), text="h:"
+offset=1692, len=4, kind=Unknown, text="\xd3N\xd3N"
+offset=1696, len=2, kind=Offset(20096), text="\x80N"
+offset=1698, len=2, kind=Offset(20224), text="\0O"
+offset=1700, len=4, kind=Unknown, text="ANAN"
+offset=1704, len=2, kind=Offset(19968), text="\0N"
+offset=1706, len=2, kind=Offset(20096), text="\x80N"
+offset=1708, len=4, kind=Unknown, text="\xf1O\xf1O"
+offset=1712, len=2, kind=Offset(20352), text="\x80O"
+offset=1714, len=2, kind=Offset(20480), text="\0P"
+offset=1716, len=4, kind=Unknown, text="OOOO"
+offset=1720, len=2, kind=Offset(20224), text="\0O"
+offset=1722, len=2, kind=Offset(20352), text="\x80O"
+offset=1724, len=6, kind=Unknown, text="\0\0\0\0pC"
+offset=1730, len=2, kind=Offset(17280), text="\x80C"
+offset=1732, len=12, kind=Unknown, text="\xfc\x05\0\0\x04\x18\x06\x18`P`P"
+offset=1744, len=2, kind=Offset(20480), text="\0P"
+offset=1746, len=16, kind=Unknown, text="\x80P\xec\x06\0\0`ChC\0\0\0\x18 D"
+offset=1762, len=2, kind=Offset(17472), text="@D"
+offset=1764, len=4379, kind=Unknown, text="\xdc\x06\0\0\0D D\0\0\0\x18hCpC\0\0\0\x18\0T\0X\0\0\0\x18\0R\0T\0\0\0\x18\0Q\0R\0\0\0\x18\x80P\0Q\x1c\x07\0\x18\0\x18\0\x18$\x07\0\x18\0\x18\0\x18,\x07\0\x18\0\x18\0\x184\x07\0\x18\0\x18\0\x18<\x07\0\x18\0\x18\0\x18D\x07\0\x18\0\x18\0\x18L\x07\0\x18\0\x18\0\x18T\x07\0\x18\0\x18\0\x18\\\x07\0\x18\0\x18\0\x18d\x07\0\x18\0\x18\0\x18l\x07\0\x18\0\x18\0\x18t\x07\0\x18\0\x18\0\x18|\x07\0\x18\0\x18\0\x18\x84\x07\0\x18\0\x18\0\x18\x8c\x07\0\x18\0\x18\0\x18\x94\x07\0\x18\0\x18\0\x18\x9c\x07\0\x18\0\x18\0\x18\xa4\x07\0\x18\0\x18\0\x18\xac\x07\0\x18\0\x18\0\x18\xb4\x07\0\x18\0\x18\0\x18\xbc\x07\0\x18\0\x18\0\x18\xc4\x07\0\x18\0\x18\0\x18\xcc\x07\0\x18\0\x18\0\x18\xd4\x07\0\x18\0\x18\0\x18\xdc\x07\0\x18\0\x18\0\x18\xe4\x07\0\x18\0\x18\0\x18\xec\x07\0\x18\0\x18\0\x18\xf4\x07\0\x18\0\x18\0\x18\xfc\x07\0\x18\0\x18\0\x18\x04\x08\0\x18\0\x18\0\x18\x0c\x08\0\x18\0\x18\0\x18\x14\x08\0\x18\0\x18\0\x18\x1c\x08\0\x18\0\x18\0\x18$\x08\0\x18\0\x18\0\x18,\x08\0\x18\0\x18\0\x184\x08\0\x18\0\x18\0\x18<\x08\0\x18\0\x18\0\x18D\x08\0\x18\0\x18\0\x18L\x08\0\x18\0\x18\0\x18T\x08\0\x18\0\x18\0\x18\\\x08\0\x18\0\x18\0\x18d\x08\0\x18\0\x18\0\x18l\x08\0\x18\0\x18\0\x18t\x08\0\x18\0\x18\0\x18|\x08\0\x18\0\x18\0\x18\x84\x08\0\x18\0\x18\0\x18\x8c\x08\0\x18\0\x18\0\x18\x94\x08\0\x18\0\x18\0\x18\x9c\x08\0\x18\0\x18\0\x18\xa4\x08\0\x18\0\x18\0\x18\xac\x08\0\x18\0\x18\0\x18\xb4\x08\0\x18\0\x18\0\x18\xbc\x08\0\x18\0\x18\0\x18\xc4\x08\0\x18\0\x18\0\x18\xcc\x08\0\x18\0\x18\0\x18\xd4\x08\0\x18\0\x18\0\x18\xdc\x08\0\x18\0\x18\0\x18\xe4\x08\0\x18\0\x18\0\x18\xec\x08\0\x18\0\x18\0\x18\xf4\x08\0\x18\0\x18\0\x18\xfc\x08\0\x18\0\x18\0\x18\x04\t\0\x18\0\x18\0\x18\x0c\t\0\x18\0\x18\0\x18\x14\t\0\x18\0\x18\0\x18\x1c\t\0\x18\0\x18\0\x18$\t\0\x18\0\x18\0\x18,\t\0\x18\0\x18\0\x184\t\0\x18\0\x18\0\x18<\t\0\x18\0\x18\0\x18D\t\0\x18\0\x18\0\x18L\t\0\x18\0\x18\0\x18T\t\0\x18\0\x18\0\x18\\\t\0\x18\0\x18\0\x18d\t\0\x18\0\x18\0\x18l\t\0\x18\0\x18\0\x18t\t\0\x18\0\x18\0\x18|\t\0\x18\0\x18\0\x18\x84\t\0\x18\0\x18\0\x18\x8c\t\0\x18\0\x18\0\x18\x94\t\0\x18\0\x18\0\x18\x9c\t\0\x18\0\x18\0\x18\xa4\t\0\x18\0\x18\0\x18\xac\t\0\x18\0\x18\0\x18\xb4\t\0\x18\0\x18\0\x18\xbc\t\0\x18\0\x18\0\x18\xc4\t\0\x18\0\x18\0\x18\xcc\t\0\x18\0\x18\0\x18\xd4\t\0\x18\0\x18\0\x18\xdc\t\0\x18\0\x18\0\x18\xe4\t\0\x18\0\x18\0\x18\xec\t\0\x18\0\x18\0\x18\xf4\t\0\x18\0\x18\0\x18\xfc\t\0\x18\0\x18\0\x18\x04\n\0\x18\0\x18\0\x18\x0c\n\0\x18\0\x18\0\x18\x14\n\0\x18\0\x18\0\x18\x1c\n\0\x18\0\x18\0\x18$\n\0\x18\0\x18\0\x18,\n\0\x18\0\x18\0\x184\n\0\x18\0\x18\0\x18<\n\0\x18\0\x18\0\x18D\n\0\x18\0\x18\0\x18L\n\0\x18\0\x18\0\x18T\n\0\x18\0\x18\0\x18\\\n\0\x18\0\x18\0\x18d\n\0\x18\0\x18\0\x18l\n\0\x18\0\x18\0\x18t\n\0\x18\0\x18\0\x18|\n\0\x18\0\x18\0\x18\x84\n\0\x18\0\x18\0\x18\x8c\n\0\x18\0\x18\0\x18\x94\n\0\x18\0\x18\0\x18\x9c\n\0\x18\0\x18\0\x18\xa4\n\0\x18\0\x18\0\x18\xac\n\0\x18\0\x18\0\x18\xb4\n\0\x18\0\x18\0\x18\xbc\n\0\x18\0\x18\0\x18\xc4\n\0\x18\0\x18\0\x18\xcc\n\0\x18\0\x18\0\x18\xd4\n\0\x18\0\x18\0\x18\xdc\n\0\x18\0\x18\0\x18\xe4\n\0\x18\0\x18\0\x18\xec\n\0\x18\0\x18\0\x18\xf4\n\0\x18\0\x18\0\x18\xfc\n\0\x18\0\x18\0\x18\x04\x0b\0\x18\0\x18\0\x18\x0c\x0b\0\x18\0\x18\0\x18\x14\x0b\0\x18\0\x18\0\x18\x1c\x0b\0\x18\0\x18\0\x18$\x0b\0\x18\0\x18\0\x18,\x0b\0\x18\0\x18\0\x184\x0b\0\x18\0\x18\0\x18<\x0b\0\x18\0\x18\0\x18D\x0b\0\x18\0\x18\0\x18L\x0b\0\x18\0\x18\0\x18T\x0b\0\x18\0\x18\0\x18\\\x0b\0\x18\0\x18\0\x18d\x0b\0\x18\0\x18\0\x18l\x0b\0\x18\0\x18\0\x18t\x0b\0\x18\0\x18\0\x18|\x0b\0\x18\0\x18\0\x18\x84\x0b\0\x18\0\x18\0\x18\x8c\x0b\0\x18\0\x18\0\x18\x94\x0b\0\x18\0\x18\0\x18\x9c\x0b\0\x18\0\x18\0\x18\xa4\x0b\0\x18\0\x18\0\x18\xac\x0b\0\x18\0\x18\0\x18\xb4\x0b\0\x18\0\x18\0\x18\xbc\x0b\0\x18\0\x18\0\x18\xc4\x0b\0\x18\0\x18\0\x18\xcc\x0b\0\x18\0\x18\0\x18\xd4\x0b\0\x18\0\x18\0\x18\xdc\x0b\0\x18\0\x18\0\x18\xe4\x0b\0\x18\0\x18\0\x18\xec\x0b\0\x18\0\x18\0\x18\xf4\x0b\0\x18\0\x18\0\x18\xfc\x0b\0\x18\0\x18\0\x18\x04\x0c\0\x18\0\x18\0\x18\x0c\x0c\0\x18\0\x18\0\x18\x14\x0c\0\x18\0\x18\0\x18\x1c\x0c\0\x18\0\x18\0\x18$\x0c\0\x18\0\x18\0\x18,\x0c\0\x18\0\x18\0\x184\x0c\0\x18\0\x18\0\x18<\x0c\0\x18\0\x18\0\x18D\x0c\0\x18\0\x18\0\x18L\x0c\0\x18\0\x18\0\x18T\x0c\0\x18\0\x18\0\x18\\\x0c\0\x18\0\x18\0\x18d\x0c\0\x18\0\x18\0\x18l\x0c\0\x18\0\x18\0\x18t\x0c\0\x18\0\x18\0\x18|\x0c\0\x18\0\x18\0\x18\x84\x0c\0\x18\0\x18\0\x18\x8c\x0c\0\x18\0\x18\0\x18\x94\x0c\0\x18\0\x18\0\x18\x9c\x0c\0\x18\0\x18\0\x18\xa4\x0c\0\x18\0\x18\0\x18\xac\x0c\0\x18\0\x18\0\x18\xb4\x0c\0\x18\0\x18\0\x18\xbc\x0c\0\x18\0\x18\0\x18\xc4\x0c\0\x18\0\x18\0\x18\xcc\x0c\0\x18\0\x18\0\x18\xd4\x0c\0\x18\0\x18\0\x18\xdc\x0c\0\x18\0\x18\0\x18\xe4\x0c\0\x18\0\x18\0\x18\xec\x0c\0\x18\0\x18\0\x18\xf4\x0c\0\x18\0\x18\0\x18\xfc\x0c\0\x18\0\x18\0\x18\x04\r\0\x18\0\x18\0\x18\x0c\r\0\x18\0\x18\0\x18\x14\r\0\x18\0\x18\0\x18\x1c\r\0\x18\0\x18\0\x18$\r\0\x18\0\x18\0\x18,\r\0\x18\0\x18\0\x184\r\0\x18\0\x18\0\x18<\r\0\x18\0\x18\0\x18D\r\0\x18\0\x18\0\x18L\r\0\x18\0\x18\0\x18T\r\0\x18\0\x18\0\x18\\\r\0\x18\0\x18\0\x18d\r\0\x18\0\x18\0\x18l\r\0\x18\0\x18\0\x18t\r\0\x18\0\x18\0\x18|\r\0\x18\0\x18\0\x18\x84\r\0\x18\0\x18\0\x18\x8c\r\0\x18\0\x18\0\x18\x94\r\0\x18\0\x18\0\x18\x9c\r\0\x18\0\x18\0\x18\xa4\r\0\x18\0\x18\0\x18\xac\r\0\x18\0\x18\0\x18\xb4\r\0\x18\0\x18\0\x18\xbc\r\0\x18\0\x18\0\x18\xc4\r\0\x18\0\x18\0\x18\xcc\r\0\x18\0\x18\0\x18\xd4\r\0\x18\0\x18\0\x18\xdc\r\0\x18\0\x18\0\x18\xe4\r\0\x18\0\x18\0\x18\xec\r\0\x18\0\x18\0\x18\xf4\r\0\x18\0\x18\0\x18\xfc\r\0\x18\0\x18\0\x18\x04\x0e\0\x18\0\x18\0\x18\x0c\x0e\0\x18\0\x18\0\x18\x14\x0e\0\x18\0\x18\0\x18\x1c\x0e\0\x18\0\x18\0\x18$\x0e\0\x18\0\x18\0\x18,\x0e\0\x18\0\x18\0\x184\x0e\0\x18\0\x18\0\x18<\x0e\0\x18\0\x18\0\x18D\x0e\0\x18\0\x18\0\x18L\x0e\0\x18\0\x18\0\x18T\x0e\0\x18\0\x18\0\x18\\\x0e\0\x18\0\x18\0\x18d\x0e\0\x18\0\x18\0\x18l\x0e\0\x18\0\x18\0\x18t\x0e\0\x18\0\x18\0\x18|\x0e\0\x18\0\x18\0\x18\x84\x0e\0\x18\0\x18\0\x18\x8c\x0e\0\x18\0\x18\0\x18\x94\x0e\0\x18\0\x18\0\x18\x9c\x0e\0\x18\0\x18\0\x18\xa4\x0e\0\x18\0\x18\0\x18\xac\x0e\0\x18\0\x18\0\x18\xb4\x0e\0\x18\0\x18\0\x18\xbc\x0e\0\x18\0\x18\0\x18\xc4\x0e\0\x18\0\x18\0\x18\xcc\x0e\0\x18\0\x18\0\x18\xd4\x0e\0\x18\0\x18\0\x18\xdc\x0e\0\x18\0\x18\0\x18\xe4\x0e\0\x18\0\x18\0\x18\xec\x0e\0\x18\0\x18\0\x18\xf4\x0e\0\x18\0\x18\0\x18\xfc\x0e\0\x18\0\x18\0\x18\x04\x0f\0\x18\0\x18\0\x18\x0c\x0f\0\x18\0\x18\0\x18\x14\x0f\0\x18\0\x18\0\x18\x1c\x0f\0\x18\0\x18\0\x18$\x0f\0\x18\0\x18\0\x18,\x0f\0\x18\0\x18\0\x184\x0f\0\x18\0\x18\0\x18<\x0f\0\x18\0\x18\0\x18D\x0f\0\x18\0\x18\0\x18L\x0f\0\x18\0\x18\0\x18T\x0f\0\x18\0\x18\0\x18\\\x0f\0\x18\0\x18\0\x18d\x0f\0\x18\0\x18\0\x18l\x0f\0\x18\0\x18\0\x18t\x0f\0\x18\0\x18\0\x18|\x0f\0\x18\0\x18\0\x18\x84\x0f\0\x18\0\x18\0\x18\x8c\x0f\0\x18\0\x18\0\x18\x94\x0f\0\x18\0\x18\0\x18\x9c\x0f\0\x18\0\x18\0\x18\xa4\x0f\0\x18\0\x18\0\x18\xac\x0f\0\x18\0\x18\0\x18\xb4\x0f\0\x18\0\x18\0\x18\xbc\x0f\0\x18\0\x18\0\x18\xc4\x0f\0\x18\0\x18\0\x18\xcc\x0f\0\x18\0\x18\0\x18\xd4\x0f\0\x18\0\x18\0\x18\xdc\x0f\0\x18\0\x18\0\x18\xe4\x0f\0\x18\0\x18\0\x18\xec\x0f\0\x18\0\x18\0\x18\xf4\x0f\0\x18\0\x18\0\x18\xfc\x0f\0\x18\0\x18\0\x18\x04\x10\0\x18\0\x18\0\x18\x0c\x10\0\x18\0\x18\0\x18\x14\x10\0\x18\0\x18\0\x18\x1c\x10\0\x18\0\x18\0\x18$\x10\0\x18\0\x18\0\x18,\x10\0\x18\0\x18\0\x184\x10\0\x18\0\x18\0\x18<\x10\0\x18\0\x18\0\x18D\x10\0\x18\0\x18\0\x18L\x10\0\x18\0\x18\0\x18T\x10\0\x18\0\x18\0\x18\\\x10\0\x18\0\x18\0\x18d\x10\0\x18\0\x18\0\x18l\x10\0\x18\0\x18\0\x18t\x10\0\x18\0\x18\0\x18|\x10\0\x18\0\x18\0\x18\x84\x10\0\x18\0\x18\0\x18\x8c\x10\0\x18\0\x18\0\x18\x94\x10\0\x18\0\x18\0\x18\x9c\x10\0\x18\0\x18\0\x18\xa4\x10\0\x18\0\x18\0\x18\xac\x10\0\x18\0\x18\0\x18\xb4\x10\0\x18\0\x18\0\x18\xbc\x10\0\x18\0\x18\0\x18\xc4\x10\0\x18\0\x18\0\x18\xcc\x10\0\x18\0\x18\0\x18\xd4\x10\0\x18\0\x18\0\x18\xdc\x10\0\x18\0\x18\0\x18\xe4\x10\0\x18\0\x18\0\x18\xec\x10\0\x18\0\x18\0\x18\xf4\x10\0\x18\0\x18\0\x18\xfc\x10\0\x18\0\x18\0\x18\x04\x11\0\x18\0\x18\0\x18\x0c\x11\0\x18\0\x18\0\x18\x14\x11\0\x18\0\x18\0\x18\x1c\x11\0\x18\0\x18\0\x18$\x11\0\x18\0\x18\0\x18,\x11\0\x18\0\x18\0\x184\x11\0\x18\0\x18\0\x18<\x11\0\x18\0\x18\0\x18D\x11\0\x18\0\x18\0\x18L\x11\0\x18\0\x18\0\x18T\x11\0\x18\0\x18\0\x18\\\x11\0\x18\0\x18\0\x18d\x11\0\x18\0\x18\0\x18l\x11\0\x18\0\x18\0\x18t\x11\0\x18\0\x18\0\x18|\x11\0\x18\0\x18\0\x18\x84\x11\0\x18\0\x18\0\x18\x8c\x11\0\x18\0\x18\0\x18\x94\x11\0\x18\0\x18\0\x18\x9c\x11\0\x18\0\x18\0\x18\xa4\x11\0\x18\0\x18\0\x18\xac\x11\0\x18\0\x18\0\x18\xb4\x11\0\x18\0\x18\0\x18\xbc\x11\0\x18\0\x18\0\x18\xc4\x11\0\x18\0\x18\0\x18\xcc\x11\0\x18\0\x18\0\x18\xd4\x11\0\x18\0\x18\0\x18\xdc\x11\0\x18\0\x18\0\x18\xe4\x11\0\x18\0\x18\0\x18\xec\x11\0\x18\0\x18\0\x18\xf4\x11\0\x18\0\x18\0\x18\xfc\x11\0\x18\0\x18\0\x18\x04\x12\0\x18\0\x18\0\x18\x0c\x12\0\x18\0\x18\0\x18\x14\x12\0\x18\0\x18\0\x18\x1c\x12\0\x18\0\x18\0\x18$\x12\0\x18\0\x18\0\x18,\x12\0\x18\0\x18\0\x184\x12\0\x18\0\x18\0\x18<\x12\0\x18\0\x18\0\x18D\x12\0\x18\0\x18\0\x18L\x12\0\x18\0\x18\0\x18T\x12\0\x18\0\x18\0\x18\\\x12\0\x18\0\x18\0\x18d\x12\0\x18\0\x18\0\x18l\x12\0\x18\0\x18\0\x18t\x12\0\x18\0\x18\0\x18|\x12\0\x18\0\x18\0\x18\x84\x12\0\x18\0\x18\0\x18\x8c\x12\0\x18\0\x18\0\x18\x94\x12\0\x18\0\x18\0\x18\x9c\x12\0\x18\0\x18\0\x18\xa4\x12\0\x18\0\x18\0\x18\xac\x12\0\x18\0\x18\0\x18\xb4\x12\0\x18\0\x18\0\x18\xbc\x12\0\x18\0\x18\0\x18\xc4\x12\0\x18\0\x18\0\x18\xcc\x12\0\x18\0\x18\0\x18\xd4\x12\0\x18\0\x18\0\x18\xdc\x12\0\x18\0\x18\0\x18\xe4\x12\0\x18\0\x18\0\x18\xec\x12\0\x18\0\x18\0\x18\xf4\x12\0\x18\0\x18\0\x18\xfc\x12\0\x18\0\x18\0\x18\x04\x13\0\x18\0\x18\0\x18\x0c\x13\0\x18\0\x18\0\x18\x14\x13\0\x18\0\x18\0\x18\x1c\x13\0\x18\0\x18\0\x18$\x13\0\x18\0\x18\0\x18,\x13\0\x18\0\x18\0\x184\x13\0\x18\0\x18\0\x18<\x13\0\x18\0\x18\0\x18D\x13\0\x18\0\x18\0\x18L\x13\0\x18\0\x18\0\x18T\x13\0\x18\0\x18\0\x18\\\x13\0\x18\0\x18\0\x18d\x13\0\x18\0\x18\0\x18l\x13\0\x18\0\x18\0\x18t\x13\0\x18\0\x18\0\x18|\x13\0\x18\0\x18\0\x18\x84\x13\0\x18\0\x18\0\x18\x8c\x13\0\x18\0\x18\0\x18\x94\x13\0\x18\0\x18\0\x18\x9c\x13\0\x18\0\x18\0\x18\xa4\x13\0\x18\0\x18\0\x18\xac\x13\0\x18\0\x18\0\x18\xb4\x13\0\x18\0\x18\0\x18\xbc\x13\0\x18\0\x18\0\x18\xc4\x13\0\x18\0\x18\0\x18\xcc\x13\0\x18\0\x18\0\x18\xd4\x13\0\x18\0\x18\0\x18\xdc\x13\0\x18\0\x18\0\x18\xe4\x13\0\x18\0\x18\0\x18\xec\x13\0\x18\0\x18\0\x18\xf4\x13\0\x18\0\x18\0\x18\xfc\x13\0\x18\0\x18\0\x18\x04\x14\0\x18\0\x18\0\x18\x0c\x14\0\x18\0\x18\0\x18\x14\x14\0\x18\0\x18\0\x18\x1c\x14\0\x18\0\x18\0\x18$\x14\0\x18\0\x18\0\x18,\x14\0\x18\0\x18\0\x184\x14\0\x18\0\x18\0\x18<\x14\0\x18\0\x18\0\x18D\x14\0\x18\0\x18\0\x18L\x14\0\x18\0\x18\0\x18T\x14\0\x18\0\x18\0\x18\\\x14\0\x18\0\x18\0\x18d\x14\0\x18\0\x18\0\x18l\x14\0\x18\0\x18\0\x18t\x14\0\x18\0\x18\0\x18|\x14\0\x18\0\x18\0\x18\x84\x14\0\x18\0\x18\0\x18\x8c\x14\0\x18\0\x18\0\x18\x94\x14\0\x18\0\x18\0\x18\x9c\x14\0\x18\0\x18\0\x18\xa4\x14\0\x18\0\x18\0\x18\xac\x14\0\x18\0\x18\0\x18\xb4\x14\0\x18\0\x18\0\x18\xbc\x14\0\x18\0\x18\0\x18\xc4\x14\0\x18\0\x18\0\x18\xcc\x14\0\x18\0\x18\0\x18\xd4\x14\0\x18\0\x18\0\x18\xdc\x14\0\x18\0\x18\0\x18\xe4\x14\0\x18\0\x18\0\x18\xec\x14\0\x18\0\x18\0\x18\xf4\x14\0\x18\0\x18\0\x18\xfc\x14\0\x18\0\x18\0\x18\x04\x15\0\x18\0\x18\0\x18\x0c\x15\0\x18\0\x18\0\x18\x14\x15\0\x18\0\x18\0\x18\x1c\x15\0\x18\0\x18\0\x18$\x15\0\x18\0\x18\0\x18,\x15\0\x18\0\x18\0\x184\x15\0\x18\0\x18\0\x18<\x15\0\x18\0\x18\0\x18D\x15\0\x18\0\x18\0\x18L\x15\0\x18\0\x18\0\x18T\x15\0\x18\0\x18\0\x18\\\x15\0\x18\0\x18\0\x18d\x15\0\x18\0\x18\0\x18l\x15\0\x18\0\x18\0\x18t\x15\0\x18\0\x18\0\x18|\x15\0\x18\0\x18\0\x18\x84\x15\0\x18\0\x18\0\x18\x8c\x15\0\x18\0\x18\0\x18\x94\x15\0\x18\0\x18\0\x18\x9c\x15\0\x18\0\x18\0\x18\xa4\x15\0\x18\0\x18\0\x18\xac\x15\0\x18\0\x18\0\x18\xb4\x15\0\x18\0\x18\0\x18\xbc\x15\0\x18\0\x18\0\x18\xc4\x15\0\x18\0\x18\0\x18\xcc\x15\0\x18\0\x18\0\x18\xd4\x15\0\x18\0\x18\0\x18\xdc\x15\0\x18\0\x18\0\x18\xe4\x15\0\x18\0\x18\0\x18\xec\x15\0\x18\0\x18\0\x18\xf4\x15\0\x18\0\x18\0\x18\xfc\x15\0\x18\0\x18\0\x18\x04\x16\0\x18\0\x18\0\x18\x0c\x16\0\x18\0\x18\0\x18\x14\x16\0\x18\0\x18\0\x18\x1c\x16\0\x18\0\x18\0\x18$\x16\0\x18\0\x18\0\x18,\x16\0\x18\0\x18\0\x184\x16\0\x18\0\x18\0\x18<\x16\0\x18\0\x18\0\x18D\x16\0\x18\0\x18\0\x18L\x16\0\x18\0\x18\0\x18T\x16\0\x18\0\x18\0\x18\\\x16\0\x18\0\x18\0\x18d\x16\0\x18\0\x18\0\x18l\x16\0\x18\0\x18\0\x18t\x16\0\x18\0\x18\0\x18|\x16\0\x18\0\x18\0\x18\x84\x16\0\x18\0\x18\0\x18\x8c\x16\0\x18\0\x18\0\x18\x94\x16\0\x18\0\x18\0\x18\x9c\x16\0\x18\0\x18\0\x18\xa4\x16\0\x18\0\x18\0\x18\xac\x16\0\x18\0\x18\0\x18\xb4\x16\0\x18\0\x18\0\x18\xbc\x16\0\x18\0\x18\0\x18\xc4\x16\0\x18\0\x18\0\x18\xcc\x16\0\x18\0\x18\0\x18\xd4\x16\0\x18\0\x18\0\x18\xdc\x16\0\x18\0\x18\0\x18\xe4\x16\0\x18\0\x18\0\x18\xec\x16\0\x18\0\x18\0\x18\xf4\x16\0\x18\0\x18\0\x18\xfc\x16\0\x18\0\x18\0\x18\x04\x17\0\x18\0\x18\0\x18\x0c\x17\0\x18\0\x18\0\x18\x14\x17\0\x18\0\x18\0\x18\x1c\x17\0\x18\0\x18\0\x18$\x17\0\x18\0\x18\0\x18,\x17\0\x18\0\x18\0\x184\x17\0\x18\0\x18\0\x18<\x17\0\x18\0\x18\0\x18D\x17\0\x18\0\x18\0\x18L\x17\0\x18\0\x18\0\x18T\x17\0\x18\0\x18\0\x18\\\x17\0\x18\0\x18\0\x18d\x17\0\x18\0\x18\0\x18l\x17\0\x18\0\x18\0\x18t\x17\0\x18\0\x18\0\x18|\x17\0\x18\0\x18\0\x18\x84\x17\0\x18\0\x18\0\x18\x8c\x17\0\x18\0\x18\0\x18\x94\x17\0\x18\0\x18\0\x18\x9c\x17\0\x18\0\x18\0\x18\xa4\x17\0\x18\0\x18\0\x18\xac\x17\0\x18\0\x18\0\x18\xb4\x17\0\x18\0\x18\0\x18\xbc\x17\0\x18\0\x18\0\x18\xc4\x17\0\x18\0\x18\0\x18\xcc\x17\0\x18\0\x18\0\x18\xd4\x17\0\x18\0\x18\0\x18\xdc\x17\0\x18\0\x18\0\x18\xe4\x17\0\x18\0\x18\0\x18\xec\x17\0\x18\0\x18\0\x18\xf4\x17\0\x18\0\x18\0\x18\0\0\0\x18\0\x18\0\x18\0\0\0"
+offset=6143, len=2, kind=Offset(19712), text="\0M"
+offset=6145, len=79, kind=Unknown, text="rwhR.Mrconfunivletter\x0b\x87in-housefixplccoheader\n.footer\nRencl-cco{name}\nresddress"
+offset=6224, len=8, kind=String, text="towhom-2"
+offset=6232, len=6, kind=String, text="name-3"
+offset=6238, len=98, kind=Unknown, text="MaProf. Marsland\nstowhom-\0esr lettMr. Desautels\nssProf. Arden\nKiddProf. Levinthal\nMr. Byer\nn\n Aust"
+offset=6336, len=8, kind=String, text="towhom-9"
+offset=6344, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=6344, len=7, kind=String, text="name-10"
+offset=6351, len=9, kind=Unknown, text="tshahgreg"
+offset=6360, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=6360, len=7, kind=String, text="name-13"
+offset=6367, len=1, kind=Unknown, text="h"
+offset=6368, len=8, kind=String, text="towhom-3"
+offset=6376, len=6, kind=String, text="name-4"
+offset=6382, len=2, kind=Unknown, text="yh"
+offset=6384, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=6384, len=9, kind=String, text="towhom-10"
+// overlapping labels!
+offset=6392, len=2, kind=Offset(12592), text="01"
+// overlapping labels!
+offset=6392, len=2, kind=Offset(12592), text="01"
+offset=6394, len=14, kind=Unknown, text="3\0\xcc\0T\x01{text}\no"
+offset=6408, len=6, kind=String, text="name-1"
+offset=6414, len=34, kind=Unknown, text="ngMr. Lewis\ns(medi{encl}\netext- fo"
+offset=6448, len=8, kind=String, text="towhom-6"
+offset=6456, len=6, kind=String, text="name-7"
+offset=6462, len=2, kind=Unknown, text="yo"
+offset=6464, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=6464, len=9, kind=String, text="towhom-18"
+offset=6473, len=23, kind=Unknown, text="W. PeebDr. King\non of E"
+offset=6496, len=8, kind=String, text="towhom-2"
+// overlapping labels!
+offset=6496, len=9, kind=String, text="towhom-20"
+offset=6505, len=7, kind=Unknown, text="A. Jard"
+offset=6512, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=6512, len=9, kind=String, text="towhom-14"
+offset=6521, len=23, kind=Unknown, text="n Yuvalname-rr 10D\0T\04\x01"
+offset=6544, len=8, kind=String, text="towhom-1"
+offset=6552, len=6, kind=String, text="name-2"
+offset=6558, len=2, kind=Unknown, text="Le"
+offset=6560, len=8, kind=String, text="towhom-8"
+offset=6568, len=6, kind=String, text="name-9"
+offset=6574, len=2, kind=Unknown, text="Hu"
+offset=6576, len=8, kind=String, text="towhom-7"
+offset=6584, len=6, kind=String, text="name-8"
+offset=6590, len=2, kind=Unknown, text="ns"
+offset=6592, len=8, kind=String, text="towhom-5"
+offset=6600, len=6, kind=String, text="name-6"
+offset=6606, len=306, kind=Unknown, text="saMr. Mayhew\nyhew\nProf. Huggins\nggM. Goins\nM. Goin[fixpl]\n[header]\n.sp 1\n[name-[1]]\n.sp 1\nDear [towhom-[1]]:\n.fi\n.sp 1\n{text-[1]}\n[footer]\n.sp\n{encl-[1]}\n.bp\n.pl 10\n.nf\n[name-[1]]\n5\n.in 0\n\tSincerely,\n.sp 4\n.in 0\nKT/pdp\tKen Thompson\n.sp\n{enclosures}\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+offset=6912, len=8, kind=String, text="towhom-4"
+offset=6920, len=6, kind=String, text="name-5"
+offset=6926, len=34, kind=Unknown, text="ddMr. Lindstrom\nst{towhom}\n0move o"
+offset=6960, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=6960, len=7, kind=String, text="name-11"
+offset=6967, len=1, kind=Unknown, text="d"
+offset=6968, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=6968, len=7, kind=String, text="name-12"
+offset=6975, len=145, kind=Unknown, text="g.hc %\n.m1 0\n.m2 0\n.m3 0\n.m4 0\n.na\n.nf\n.bl 11\nl 10\n\nowing proviso.sp 2\n.in 30\n.nf\nSincerely,\n.sp 3\nKen Thompson\n.in 0\nKT/pdp\nphonDr. Slamecka\nugg"
+offset=7120, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=7120, len=9, kind=String, text="towhom-11"
+offset=7129, len=7, kind=Unknown, text="th King"
+offset=7136, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=7136, len=9, kind=String, text="towhom-12"
+offset=7145, len=7, kind=Unknown, text="Lewis, "
+offset=7152, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=7152, len=9, kind=String, text="towhom-15"
+offset=7161, len=2, kind=Unknown, text="ey"
+offset=7163, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=7163, len=2, kind=Offset(17184), text=" C"
+offset=7165, len=3, kind=Unknown, text=". B"
+offset=7168, len=81, kind=String, text="Mr. Bill Mayhew\nThe Children\'s Museum\nThe Jamaicaway\nBoston, Massachusetts 02130\n"
+// overlapping labels!
+offset=7187, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=7187, len=2, kind=Offset(17184), text=" C"
+offset=7249, len=47, kind=Unknown, text=" {for your use  ...} with the\nfollowing proviso"
+offset=7296, len=111, kind=String, text="Mr. Gary M. Goins\nDepartment of Biometry\nWearn Research Building\nCase Western University\nCleveland, Ohio 44106\n"
+offset=7407, len=17, kind=Unknown, text="rsity\nPrinceton, "
+offset=7424, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=7424, len=9, kind=String, text="towhom-13"
+offset=7433, len=23, kind=Unknown, text=" WhitneProf. Gillies\nof"
+offset=7456, len=6, kind=String, text="name-2"
+// overlapping labels!
+offset=7456, len=7, kind=String, text="name-26"
+// overlapping labels!
+offset=7456, len=8, kind=String, text="name-26a"
+offset=7464, len=6, kind=String, text="name-2"
+// overlapping labels!
+offset=7464, len=7, kind=String, text="name-27"
+offset=7471, len=17, kind=Unknown, text="sProf. Peebles\nne"
+offset=7488, len=8, kind=String, text="towhom-2"
+// overlapping labels!
+offset=7488, len=9, kind=String, text="towhom-22"
+offset=7497, len=7, kind=Unknown, text="rank St"
+offset=7504, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=7504, len=9, kind=String, text="towhom-17"
+offset=7513, len=7, kind=Unknown, text="Marcuvi"
+offset=7520, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=7520, len=9, kind=String, text="towhom-16"
+offset=7529, len=23, kind=Unknown, text="A. MichProf. Ferentz\nic"
+offset=7552, len=125, kind=String, text="Mr. E. J. Desautels\nThe University of Wisconsin\nComputer Science Department\n1210 West Dayton Street\nMadison, Wisconsin 53706\n"
+offset=7677, len=131, kind=Unknown, text="per.in 30\n[0], 1974\n.in 0\nhompson\n.in +11\nRoom 2C-523\nBell Telephone Laboratories\nMurray Hill, N.J. 07974\n.sp\n[0], 1973\n.in 0\nreste"
+offset=7808, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=7808, len=7, kind=String, text="name-16"
+offset=7815, len=1, kind=Unknown, text="e"
+offset=7816, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=7816, len=7, kind=String, text="name-17"
+offset=7823, len=17, kind=Unknown, text="iProf. Marcuvitz\n"
+offset=7840, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=7840, len=9, kind=String, text="towhom-11"
+// overlapping labels!
+offset=7840, len=10, kind=String, text="towhom-11a"
+offset=7850, len=38, kind=Unknown, text="in FerMr. Yuval\nomputeMr. Bateman\nis, "
+offset=7888, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=7888, len=7, kind=String, text="name-14"
+offset=7895, len=1, kind=Unknown, text="t"
+offset=7896, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=7896, len=7, kind=String, text="name-15"
+offset=7903, len=1, kind=Unknown, text="a"
+offset=7904, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=7904, len=9, kind=String, text="towhom-19"
+offset=7913, len=23, kind=Unknown, text="n E. NeMr. Whitney\nr of"
+offset=7936, len=123, kind=String, text="Professor Cyrus Levinthal\nDepartment of Biological Sciences\nSchermerhorn Hall\nColumbia University\nNew York, New York 10027\n"
+// overlapping labels!
+offset=7945, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=7945, len=2, kind=Offset(17184), text=" C"
+offset=8059, len=5, kind=Unknown, text="oviso"
+offset=8064, len=96, kind=String, text="Prof. T. A. Marsland\nDepartment of Computing Science\nThe University of Alberta\nEdmonton, Canada\n"
+// overlapping labels!
+offset=8098, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=8098, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=8152, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=8152, len=2, kind=Offset(17184), text=" C"
+offset=8160, len=1056, kind=Unknown, text="perty of Bell Laboratories.\nIt iThe accompanying {materials(media+documents)} for UNIX are \nintended for your use {for your use  ...} with the\nfollowing proviso:\n.sp\n.in +4\n.ll -4\nThe program and information transmitted herewith is and shall\nremain the property of Bell Lab%oratories.\nIt is provided solely for your use within the Bell System\nfor Bell System purposes and should be disclosed only to\nthose with a need to know.\nAny program transmitted herewith should be executed on a\nsingle piece of computer equipment only, \nand the written permission of Bell Lab%oratories must be secured before\nexecuting any program on any additional piece of \ncomputer equipment.\nNeither program nor information may be reproduced in any way\nand may not be made available in any form to non-Bell\nSystem personnel without the express written permission\nof Bell Lab%oratories.\nAll restrictions set forth herein are fully applicable to\nthose supplying, programming or maintaining \ncomputer equipment on which any program transmitted herewith\nis executed.\n.in -4\n.ll +4\niso"
+offset=9216, len=115, kind=String, text="Mr. A. J. Lindstrom\nSponsored Research Administrator\nCalifornia Institute of Technology\nPasadena, California 91109\n"
+// overlapping labels!
+offset=9313, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=9313, len=2, kind=Offset(17184), text=" C"
+offset=9331, len=13, kind=Unknown, text="are intereste"
+offset=9344, len=112, kind=String, text="Prof. W. H. Huggins\nDepartment of Electrical Engineering\nThe Johns Hopkins University\nBaltimore, Maryland 21218\n"
+offset=9456, len=16, kind=Unknown, text="owing equipment:"
+offset=9472, len=145, kind=String, text="Prof. Bruce W. Arden\nDepartment of Electrical Engineering\nBrackett Hall, Engineering Quadrangle\nPrinceton University\nPrinceton, New Jersey 08540\n"
+offset=9617, len=22, kind=Unknown, text="with EIS) or PDP-11/45"
+offset=9639, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=9639, len=2, kind=Offset(17184), text=" C"
+offset=9641, len=87, kind=Unknown, text="PU\n\tKT segmentation option\n\t32K words of core\n\tRK or RP disk\n\tKW (line or programmable)"
+offset=9728, len=87, kind=String, text="Mr. Brent Byer\nAiken Computation Lab\nHarvard University\nCambridge, Massachusetts 02138\n"
+// overlapping labels!
+offset=9748, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=9748, len=2, kind=Offset(17184), text=" C"
+offset=9815, len=41, kind=Unknown, text="idge, Massachusetts 02138\nwing equipment:"
+offset=9856, len=103, kind=String, text="Dr. Kenneth King\nOffice of the Dean for Computer Systems\n535 East 80th Street\nNew York, New York 10021\n"
+// overlapping labels!
+offset=9895, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=9895, len=2, kind=Offset(17184), text=" C"
+offset=9959, len=25, kind=Unknown, text="echnology\nAtlanta, Georgi"
+offset=9984, len=136, kind=String, text="Dr. Vladimir Slamecka\nComputer Center\nSchool of Information and Computer Science\nGeorgia Institute of Technology\nAtlanta, Georgia 30332\n"
+// overlapping labels!
+offset=10014, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=10014, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=10047, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=10047, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=10115, len=2, kind=Offset(13104), text="03"
+// overlapping labels!
+offset=10115, len=2, kind=Offset(13104), text="03"
+offset=10120, len=287, kind=Unknown, text="er/punch\n\tDC line adapter\n\tDP line adapter\n\tDN ACU interface\n.sp\nYou should send me a complete\nlist of your configuratioThank you for your request for the UNIX operating system.\nThe current version of UNIX requires at least\nthe following equipment:\n.sp\n\tPDP-11/40 (with EIS) or PDP-11/45"
+offset=10407, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=10407, len=2, kind=Offset(17184), text=" C"
+offset=10409, len=265, kind=Unknown, text="PU\n\tKT segmentation option\n\t32K words of core\n\tRK or RP disk\n\tKW (line or programmable) clock\n\tstandard DEC console (LA, VT, or LT)\n.sp\nYou should send me a complete\nlist of your configuration plus one of the following:\n.sp\n\t600\'-2400\' (9 track 800 bpi) magtape\n\tRK"
+offset=10674, len=2, kind=Offset(13104), text="03"
+// overlapping labels!
+offset=10674, len=2, kind=Offset(13104), text="03"
+offset=10676, len=24, kind=Unknown, text="/RK05 disk cartridge\n\tRP"
+offset=10700, len=2, kind=Offset(13104), text="03"
+// overlapping labels!
+offset=10700, len=2, kind=Offset(13104), text="03"
+offset=10702, len=124, kind=Unknown, text=" disk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\n800 bpi) magtape\n\tRK"
+offset=10826, len=2, kind=Offset(13104), text="03"
+// overlapping labels!
+offset=10826, len=2, kind=Offset(13104), text="03"
+offset=10828, len=24, kind=Unknown, text="/RK05 disk cartridge\n\tRP"
+offset=10852, len=2, kind=Offset(13104), text="03"
+// overlapping labels!
+offset=10852, len=2, kind=Offset(13104), text="03"
+offset=10854, len=122, kind=Unknown, text=" disk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\nstconfSponsored Re"
+offset=10976, len=8, kind=String, text="towhom-3"
+offset=10984, len=6, kind=String, text="name-4"
+offset=10990, len=26, kind=Unknown, text="yhT\x02\xd4\x01-m- 14\xfc\0\xcc\0T\x01{text}\no"
+offset=11016, len=6, kind=String, text="name-1"
+offset=11022, len=34, kind=Unknown, text="ngOctober 31s(medi{encl}\netext- fo"
+offset=11056, len=8, kind=String, text="towhom-6"
+offset=11064, len=88, kind=Unknown, text="Thank yoThank you for your request for the UNIX operating system.\nThe cuname-rr 10D\0T\04\x01"
+offset=11152, len=8, kind=String, text="towhom-1"
+offset=11160, len=6, kind=String, text="name-2"
+offset=11166, len=21, kind=Unknown, text="LeMr. Desautels\nut\x04\x01\x84"
+offset=11187, len=2, kind=Offset(9216), text="\0$"
+offset=11189, len=6, kind=Unknown, text="\x02r 27\xe4"
+offset=11195, len=2, kind=Offset(19456), text="\0L"
+offset=11197, len=3, kind=Unknown, text="\04\x01"
+offset=11200, len=8, kind=String, text="towhom-5"
+offset=11208, len=6, kind=String, text="name-6"
+offset=11214, len=50, kind=Unknown, text="saMr. Mayhew\nyhew\nThank you for yotext-5-5s)al pur"
+offset=11264, len=86, kind=String, text="Mr. John E. Ecklund\nYale University\n10 Hillhouse Avenue\nNew Haven, Connecticut  06520\n"
+// overlapping labels!
+offset=11330, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=11330, len=2, kind=Offset(17184), text=" C"
+offset=11350, len=42, kind=Unknown, text="UNIX requires at least\nthe following equip"
+offset=11392, len=110, kind=String, text="Dr. P. Weiner\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\n"
+// overlapping labels!
+offset=11441, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=11441, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=11484, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=11484, len=2, kind=Offset(17184), text=" C"
+offset=11502, len=18, kind=Unknown, text=" (line or programm"
+offset=11520, len=140, kind=String, text="James P. Lewis, Director\nComputer Center\nColumbia University\nCollege of Physicians and Surgeons\n630 West 168th Street\nNew York, N. Y. 10032\n"
+// overlapping labels!
+offset=11553, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=11553, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=11656, len=2, kind=Offset(13104), text="03"
+// overlapping labels!
+offset=11656, len=2, kind=Offset(13104), text="03"
+offset=11660, len=158, kind=Unknown, text="\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0R. G. Shahpazian\nRoom 400\nWestern Electric"
+offset=11818, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=11818, len=2, kind=Offset(17184), text=" C"
+offset=11820, len=41, kind=Unknown, text="ompany\n222 Broadway\nNew York, New York 10"
+offset=11861, len=2, kind=Offset(13104), text="03"
+// overlapping labels!
+offset=11861, len=2, kind=Offset(13104), text="03"
+offset=11863, len=41, kind=Unknown, text="8\n the\nCommunications of the ACM in their"
+offset=11904, len=123, kind=String, text="Mr. Rusty Whitney\nDirector of Computing\nOregon Museum of Science and Industry\n4015 S.W. Canyon Road\nPortland, Oregon 97221\n"
+// overlapping labels!
+offset=11933, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=11933, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=11983, len=2, kind=Offset(12592), text="01"
+// overlapping labels!
+offset=11983, len=2, kind=Offset(12592), text="01"
+// overlapping labels!
+offset=11991, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=11991, len=2, kind=Offset(17184), text=" C"
+offset=12027, len=4, kind=Unknown, text="\0\0\0\0"
+offset=12031, len=2, kind=Offset(19712), text="\0M"
+// overlapping labels!
+offset=12032, len=98, kind=String, text="Mr. Gideon Yuval\nComputer Science Department\nThe Hebrew University of Jerusalem\nJerusalem, Israel\n"
+offset=12130, len=30, kind=Unknown, text="unications of the ACM in their"
+offset=12160, len=108, kind=String, text="Mr. Stanley C. Bateman\nUniversity of California\nContracts and Grants Office\nSan Francisco, California 94143\n"
+// overlapping labels!
+offset=12171, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=12171, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=12196, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=12196, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=12250, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=12250, len=2, kind=Offset(17184), text=" C"
+offset=12268, len=20, kind=Unknown, text="-free basis,\nto educ"
+offset=12288, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=12288, len=7, kind=String, text="name-18"
+offset=12295, len=1, kind=Unknown, text="a"
+offset=12296, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=12296, len=7, kind=String, text="name-11"
+// overlapping labels!
+offset=12296, len=8, kind=String, text="name-11a"
+offset=12304, len=8, kind=Unknown, text="chess Fe"
+offset=12312, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=12312, len=7, kind=String, text="name-1a"
+offset=12319, len=33, kind=Unknown, text="oProf. Michalopoulos\noulos\nDepart"
+offset=12352, len=8, kind=String, text="towhom-2"
+// overlapping labels!
+offset=12352, len=9, kind=String, text="towhom-23"
+offset=12361, len=39, kind=Unknown, text="S. FabrMr. Bornholdt\n4\x04Prof. Jardine\n S"
+offset=12400, len=8, kind=String, text="towhom-2"
+// overlapping labels!
+offset=12400, len=9, kind=String, text="towhom-27"
+offset=12409, len=7, kind=Unknown, text="B. Gill"
+offset=12416, len=121, kind=String, text="Prof. D. A. Michalopoulos\nDepartment of Quantitative Methods\nThe California State University\nFullerton, California 92634\n"
+// overlapping labels!
+offset=12480, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=12480, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=12519, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=12519, len=2, kind=Offset(17184), text=" C"
+offset=12537, len=7, kind=Unknown, text="to educ"
+offset=12544, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=12544, len=9, kind=String, text="towhom-1a"
+offset=12553, len=7, kind=Unknown, text="r Bornh"
+offset=12560, len=6, kind=String, text="name-2"
+// overlapping labels!
+offset=12560, len=7, kind=String, text="name-21"
+offset=12567, len=1, kind=Unknown, text="a"
+offset=12568, len=6, kind=String, text="name-2"
+// overlapping labels!
+offset=12568, len=7, kind=String, text="name-22"
+offset=12575, len=17, kind=Unknown, text="jMr. Newell\nss\npr"
+offset=12592, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=12592, len=7, kind=String, text="name-19"
+offset=12599, len=1, kind=Unknown, text="n"
+offset=12600, len=6, kind=String, text="name-2"
+// overlapping labels!
+offset=12600, len=7, kind=String, text="name-20"
+offset=12607, len=1, kind=Unknown, text="e"
+offset=12608, len=6, kind=String, text="name-4"
+// overlapping labels!
+offset=12608, len=7, kind=String, text="name-44"
+offset=12615, len=1, kind=Unknown, text="n"
+offset=12616, len=6, kind=String, text="name-4"
+// overlapping labels!
+offset=12616, len=7, kind=String, text="name-45"
+offset=12623, len=17, kind=Unknown, text="eProf. Starmer\na,"
+offset=12640, len=8, kind=String, text="towhom-2"
+// overlapping labels!
+offset=12640, len=9, kind=String, text="towhom-21"
+offset=12649, len=7, kind=Unknown, text="ph H. B"
+offset=12656, len=6, kind=String, text="name-2"
+// overlapping labels!
+offset=12656, len=7, kind=String, text="name-23"
+offset=12663, len=1, kind=Unknown, text="t"
+offset=12664, len=6, kind=String, text="name-2"
+// overlapping labels!
+offset=12664, len=7, kind=String, text="name-24"
+offset=12671, len=1, kind=Unknown, text="a"
+offset=12672, len=110, kind=String, text="Prof. N. Marcuvitz\nPolytechnic Institute of New York\nLong Island Center\nRoute 110\nFarmingdale, New York 11735\n"
+// overlapping labels!
+offset=12736, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=12736, len=2, kind=Offset(17184), text=" C"
+offset=12782, len=18, kind=Unknown, text="e a look at the sy"
+offset=12800, len=114, kind=String, text="Prof. R. W. Peebles\nComputer Communications Network Group\nUniversity of Waterloo\nWaterloo, Ontario\nCanada N2L 3G1\n"
+// overlapping labels!
+offset=12828, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=12828, len=2, kind=Offset(17184), text=" C"
+offset=12914, len=14, kind=Unknown, text="r arranging ho"
+offset=12928, len=81, kind=String, text="Prof. Melvin Ferentz\nPhysics Dept.\nBrooklyn College of CUNY\nBrooklyn, N.Y. 11210\n"
+// overlapping labels!
+offset=12971, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=12971, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=12982, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=12982, len=2, kind=Offset(17184), text=" C"
+offset=13009, len=46, kind=Unknown, text="\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+offset=13055, len=2, kind=Offset(20480), text="\0P"
+offset=13057, len=18, kind=Unknown, text="rof. Bjork\nJardDr."
+offset=13075, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=13075, len=2, kind=Offset(17184), text=" C"
+offset=13077, len=7, kind=Unknown, text="ole\n of"
+offset=13084, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=13084, len=2, kind=Offset(17184), text=" C"
+offset=13086, len=18, kind=Unknown, text="omname-letternk St"
+offset=13104, len=8, kind=String, text="towhom-2"
+// overlapping labels!
+offset=13104, len=9, kind=String, text="towhom-24"
+offset=13113, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=13113, len=2, kind=Offset(17184), text=" C"
+offset=13115, len=5, kind=Unknown, text="ole\nQ"
+offset=13120, len=6, kind=String, text="name-2"
+// overlapping labels!
+offset=13120, len=7, kind=String, text="name-25"
+offset=13127, len=1, kind=Unknown, text="e"
+offset=13128, len=6, kind=String, text="name-2"
+// overlapping labels!
+offset=13128, len=7, kind=String, text="name-26"
+offset=13135, len=17, kind=Unknown, text="lProf. Fabry\nnive"
+offset=13152, len=8, kind=String, text="towhom-2"
+// overlapping labels!
+offset=13152, len=9, kind=String, text="towhom-27"
+// overlapping labels!
+offset=13152, len=10, kind=String, text="towhom-27a"
+offset=13162, len=6, kind=Unknown, text="on\nDep"
+offset=13168, len=6, kind=String, text="name-2"
+// overlapping labels!
+offset=13168, len=7, kind=String, text="name-27"
+// overlapping labels!
+offset=13168, len=8, kind=String, text="name-27a"
+offset=13176, len=8, kind=Unknown, text="27a\n27a\n"
+offset=13184, len=107, kind=String, text="Mr. Reidar Bornholdt\nDept. of Biological Science\n653 Scherm Ext.\nColumbia University\nNew York, N. Y. 10027\n"
+offset=13291, len=917, kind=Unknown, text="\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0Thank you for your letter\nconcerning the UNIX time-sharing system.\nEnclosed is a preprint of an article which\nwill be published in the\nCommunications of the ACM in their issue\ndevoted to papers from last year\'s\nSIGOPS conference.\n\nAt the moment,\nUNIX is available,\nfor a nuisance fee of about $100,\nto educational institutions.\nThe more detailed\nUNIX reference manual is only available\nwith such a licence.\nIn order to get the \"official\"\nword concerning release,\nyou should contact:\n\n.in 5\n.nf\n{shah}\n.in 0\n.fi\n\nAlthough our supply of publicly\navailable written\nmaterial is slim,\nwe would be happy to have you visit\nand take a look at the system.\ny M. Goins\nDepartment of Biometry\nWearn Research Building\nCase Western University\nCleveland, Ohio 44106\nrsity\nPrinceton, Thank you for your letter\nEnclosed is a preprint of an article wlege of Physicians and Surgeons\n630 West 168th Street\nNew York, "
+offset=14208, len=125, kind=String, text="Mr. E. J. Desautels\nThe University of Wisconsin\nComputer Science Department\n1210 West Dayton Street\nMadison, Wisconsin 53706\n"
+offset=14333, len=3, kind=Unknown, text="per"
+offset=14336, len=94, kind=String, text="Mr. Martin E. Newell\nThe University of Utah\nCollege of Engineering\nSalt Lake City, Utah 84112\n"
+// overlapping labels!
+offset=14412, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=14412, len=2, kind=Offset(17184), text=" C"
+offset=14430, len=34, kind=Unknown, text="ms involved in releasing chess.\nTh"
+offset=14464, len=103, kind=String, text="Prof. D. A. Jardine\nDept. of Computing Science\nQueen\'s University at Kingston\nKingston, Ontario\nCanada\n"
+// overlapping labels!
+offset=14492, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=14492, len=2, kind=Offset(17184), text=" C"
+offset=14567, len=25, kind=Unknown, text="m are writen in a local\nv"
+offset=14592, len=85, kind=String, text="Prof. Ralph H. Bjork\nScience Building\nSaint Olaf College\nNorthfield, Minnesota 55057\n"
+// overlapping labels!
+offset=14640, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=14640, len=2, kind=Offset(17184), text=" C"
+offset=14677, len=43, kind=Unknown, text="d Surgeons\n630 West 168th Street\nNew York, "
+offset=14720, len=67, kind=String, text="Prof C. Frank Starmer\nDuke University\nDurham, North Carolina 27710\n"
+// overlapping labels!
+offset=14724, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=14724, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=14771, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=14771, len=2, kind=Offset(17184), text=" C"
+offset=14787, len=61, kind=Unknown, text="\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+offset=14848, len=8, kind=String, text="towhom-2"
+// overlapping labels!
+offset=14848, len=9, kind=String, text="towhom-25"
+offset=14857, len=42, kind=Unknown, text="E. EcklMs. Heiser\nolleg\xcc\x04\xcc\x04-Thank you fMr."
+offset=14899, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=14899, len=2, kind=Offset(17184), text=" C"
+offset=14901, len=11, kind=Unknown, text="hesson\nest "
+offset=14912, len=6, kind=String, text="name-2"
+// overlapping labels!
+offset=14912, len=7, kind=String, text="name-28"
+offset=14919, len=1, kind=Unknown, text="n"
+offset=14920, len=6, kind=String, text="name-2"
+// overlapping labels!
+offset=14920, len=7, kind=String, text="name-29"
+offset=14927, len=17, kind=Unknown, text="\x05Mr. Ecklund\ne Un"
+offset=14944, len=6, kind=String, text="name-5"
+// overlapping labels!
+offset=14944, len=7, kind=String, text="name-50"
+offset=14951, len=1, kind=Unknown, text="d"
+offset=14952, len=6, kind=String, text="name-5"
+// overlapping labels!
+offset=14952, len=7, kind=String, text="name-51"
+offset=14959, len=1, kind=Unknown, text="e"
+offset=14960, len=8, kind=String, text="towhom-2"
+// overlapping labels!
+offset=14960, len=9, kind=String, text="towhom-26"
+// overlapping labels!
+offset=14960, len=10, kind=String, text="towhom-26a"
+offset=14970, len=6, kind=Unknown, text=". Heis"
+offset=14976, len=76, kind=String, text="Prof. R. S. Fabry\nEvans Hall\nUniversity of California\nBerkeley, Calif 94720\n"
+// overlapping labels!
+offset=15018, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=15018, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=15039, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=15039, len=2, kind=Offset(17184), text=" C"
+offset=15052, len=52, kind=Unknown, text=" speed,\nparts of the program are writen in a local\nv"
+offset=15104, len=92, kind=String, text="Dr. M. S. Cole\nQueen Mary College\nUniversity of London\nMile End Road\nLondon E1 4NS, England\n"
+// overlapping labels!
+offset=15113, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=15113, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=15129, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=15129, len=2, kind=Offset(17184), text=" C"
+offset=15196, len=52, kind=Unknown, text="all run under the UNIX time-sharing Dr. Weiner\ndale,"
+offset=15248, len=8, kind=String, text="towhom-2"
+// overlapping labels!
+offset=15248, len=9, kind=String, text="towhom-26"
+offset=15257, len=7, kind=Unknown, text="iner\nIn"
+offset=15264, len=6, kind=String, text="name-4"
+// overlapping labels!
+offset=15264, len=7, kind=String, text="name-48"
+offset=15271, len=1, kind=Unknown, text="i"
+offset=15272, len=6, kind=String, text="name-4"
+// overlapping labels!
+offset=15272, len=7, kind=String, text="name-49"
+offset=15279, len=1, kind=Unknown, text="f"
+offset=15280, len=6, kind=String, text="name-4"
+// overlapping labels!
+offset=15280, len=7, kind=String, text="name-40"
+offset=15287, len=1, kind=Unknown, text="c"
+offset=15288, len=6, kind=String, text="name-4"
+// overlapping labels!
+offset=15288, len=7, kind=String, text="name-41"
+offset=15295, len=17, kind=Unknown, text="ochesson}R. JGill"
+offset=15312, len=6, kind=String, text="name-4"
+// overlapping labels!
+offset=15312, len=7, kind=String, text="name-42"
+offset=15319, len=1, kind=Unknown, text="m"
+offset=15320, len=6, kind=String, text="name-4"
+// overlapping labels!
+offset=15320, len=7, kind=String, text="name-43"
+offset=15327, len=1, kind=Unknown, text="A"
+offset=15328, len=6, kind=String, text="name-4"
+// overlapping labels!
+offset=15328, len=7, kind=String, text="name-46"
+offset=15335, len=1, kind=Unknown, text="s"
+offset=15336, len=6, kind=String, text="name-4"
+// overlapping labels!
+offset=15336, len=7, kind=String, text="name-47"
+offset=15343, len=1, kind=Unknown, text="a"
+offset=15344, len=6, kind=String, text="name-3"
+// overlapping labels!
+offset=15344, len=7, kind=String, text="name-38"
+offset=15351, len=1, kind=Unknown, text="J"
+offset=15352, len=6, kind=String, text="name-3"
+// overlapping labels!
+offset=15352, len=7, kind=String, text="name-39"
+offset=15359, len=1036, kind=Unknown, text="aThank you for your letter concerning the chess\nprogram for the PDP-11.\nThere are certain problems involved in releasing chess.\nThe program is writen in a local language which is\nconsidered proprietary.\nFor speed,\nparts of the program are writen in a local\nvarient of PDP-11 assembly language.\nIn addition,\nthe program and associated table compilers\nall run under the UNIX time-sharing system,\nwhich is also considered proprietary.\n.sp\nIf after all this,\nyou believe that listings\nin two undocumented languages,\ncalling on undocumented system I/O routines,\nwould be of use,\nI will try to get them released.\nOn the other hand,\nif you are really interested in running\nthe program,\nyou should consider obtaining UNIX,\nwhich is available under a Western Electric\nlicense agreement, royality-free, to educational institutions.\nFor information on the UNIX agreement,\nyou should contact:\n.nf\n.sp\n.in 5\n{shah}\n.sp\n.in 0\n.fi\nI hope I have been of some help.\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x8c\0\x84\0\x9c\0\\\0\xb4\0\xac"
+offset=16395, len=2, kind=Offset(11264), text="\0,"
+offset=16397, len=16, kind=Unknown, text="\x01$\x01\\\x01l\0\xc4\0T\0\xcc\0T\x01|"
+offset=16413, len=2, kind=Offset(19456), text="\0L"
+offset=16415, len=417, kind=Unknown, text="\x01\xf4\0\xb4\x01\xcc\x01\xec\04\x01\x94\0D\x01\xe4\x01\xd4\0<\x01\xe4\0\xfc\x01d\x01\x14\x01|\x01\x04\x02\xa4\0t\x01\xa4\x01\x1c\x02\x1c\x01\x8c\x01,\x02d\0\xbc\0\xc4\x01\x9c\x01<\x02\x84\x01\x0c\x02\x04\x01\x94\x01\xf4\x01t\x02\xfc\0\xdc\x01\xdc\0|\x02L\x02$\x02\x0c\x01\x8c\x02D\0l\x01D\x02\xac\x01T\x02\xb4\x02\x84\x02\xc4\x02\xac\x02\x94\x02\xec\x01\xbc\x01L\0\xe4\x02\x04\x03\xa4\x02\xf4\x02\xfc\x02\x1c\x03<\x034\x03L\x03\xd4\x02\x0c\x03\xec\x02\xdc\x02\\\x02\xbc\x02l\x02\\\x03$\x03t\x03d\x02\x84\x03l\x03d\x03\xcc\x02\xbc\x03\x14\x02,\x03\x9c\x03\xa4\x03\x9c\x02\xc4\x03\x94\x03\xe4\x03<\04\x04\xcc\x03<\x04\xdc\x03L\x04\x14\x03\x0c\x04$\x044\0T\x03T\x04\xb4\x03t\x04\xec\x03l\x04,\x04d\x04\x8c\x03\\\x04D\x04\x8c\x04\x9c\x04\xa4\x04\xac\x03\x84\x04\x94\x04\x04\x04|\x04\xc4\x04\x14\x04\xec\x04\xac\x04\x04\x05\x1c\x05|\x034\x05,\x05\x0c\x05<\x05$\x05\x14\x05\xf4\x04\xbc\x04\xe4\x04\x1c\x04D\x03T\x05\xb4\x04D\x05\xfc\x04\xac\x05\xb4\x05\xcc\x04L\x05\xa4\x05\xc4\x05\\\x05t\0|\x05\xec\x05\xd4\x04\x94\x05\xf4\x05\xdc\x05\xd4\x01\x8c\x05\x0c\x06\xd4\x05\xcc\x05t\x05\x1c\x06\x84\x05\x14\x06\xf4\x03L\x06D\x06<\x06l\x05l\x06T\x064\x06\xd4\x03|\x06d\x06\\\x06d\x05\x84\x06\x9c\x05t\x06\xdc\x04\xa4\x06,\x06\x9c\x06\xfc\x03\xb4\x06\x94\x06\xac\x06\x8c\x06\xcc\x06echnic Institute of New York\nLong Island"
+offset=16832, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=16832, len=2, kind=Offset(17184), text=" C"
+offset=16834, len=62, kind=Unknown, text="enter\nRoute 110\nFarmingdale, New York 11735\ne a look at the sy"
+offset=16896, len=115, kind=String, text="Ms. Lois H. Heiser\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\n"
+// overlapping labels!
+offset=16950, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=16950, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=16993, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=16993, len=2, kind=Offset(17184), text=" C"
+offset=17011, len=13, kind=Unknown, text="llowing equip"
+offset=17024, len=92, kind=String, text="Prof. D. B. Gillies\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\n"
+// overlapping labels!
+offset=17052, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17052, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17113, len=2, kind=Offset(12592), text="01"
+// overlapping labels!
+offset=17113, len=2, kind=Offset(12592), text="01"
+offset=17116, len=41, kind=Unknown, text="\tRK or RP disk\n\tKW (line or programmJames"
+offset=17157, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17157, len=2, kind=Offset(17184), text=" C"
+offset=17159, len=25, kind=Unknown, text="urry\nIASSA\n2361 Laxenburg"
+offset=17184, len=6, kind=String, text="name-3"
+// overlapping labels!
+offset=17184, len=7, kind=String, text="name-36"
+offset=17191, len=1, kind=Unknown, text="v"
+offset=17192, len=6, kind=String, text="name-3"
+// overlapping labels!
+offset=17192, len=7, kind=String, text="name-37"
+offset=17199, len=1, kind=Unknown, text="t"
+offset=17200, len=6, kind=String, text="name-3"
+// overlapping labels!
+offset=17200, len=7, kind=String, text="name-32"
+offset=17207, len=1, kind=Unknown, text="T"
+offset=17208, len=6, kind=String, text="name-3"
+// overlapping labels!
+offset=17208, len=7, kind=String, text="name-31"
+offset=17215, len=1, kind=Unknown, text="l"
+offset=17216, len=6, kind=String, text="name-3"
+// overlapping labels!
+offset=17216, len=7, kind=String, text="name-34"
+offset=17223, len=1, kind=Unknown, text="a"
+offset=17224, len=6, kind=String, text="name-3"
+// overlapping labels!
+offset=17224, len=7, kind=String, text="name-33"
+offset=17231, len=1, kind=Unknown, text="t"
+offset=17232, len=6, kind=String, text="name-3"
+// overlapping labels!
+offset=17232, len=7, kind=String, text="name-30"
+offset=17239, len=1, kind=Unknown, text="."
+offset=17240, len=6, kind=String, text="name-3"
+// overlapping labels!
+offset=17240, len=7, kind=String, text="name-35"
+offset=17247, len=6, kind=Unknown, text="fR. J."
+offset=17253, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17253, len=2, kind=Offset(17184), text=" C"
+offset=17255, len=14, kind=Unknown, text="o Souza\nDR. J."
+offset=17269, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17269, len=2, kind=Offset(17184), text=" C"
+offset=17271, len=9, kind=Unknown, text="ollins\nDe"
+offset=17280, len=85, kind=String, text="Greg Chesson\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\n"
+// overlapping labels!
+offset=17284, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17284, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17301, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17301, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17362, len=2, kind=Offset(12592), text="01"
+// overlapping labels!
+offset=17362, len=2, kind=Offset(12592), text="01"
+offset=17365, len=48, kind=Unknown, text="isk pack\n.sp\nI will be able to send the sysR. J."
+offset=17413, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17413, len=2, kind=Offset(17184), text=" C"
+offset=17415, len=14, kind=Unknown, text="ollins\nDept of"
+offset=17429, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17429, len=2, kind=Offset(17184), text=" C"
+offset=17431, len=41, kind=Unknown, text="omputer Suth Wales\nPO Box 1\nKensington, N"
+offset=17472, len=49, kind=String, text="James Curry\nIASSA\n2361 Laxenburg\nVienna, Austria\n"
+// overlapping labels!
+offset=17477, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17477, len=2, kind=Offset(17184), text=" C"
+offset=17521, len=15, kind=Unknown, text=" of Manitoba\nWi"
+offset=17536, len=107, kind=String, text="Prof. James D. Foley\nUniversity of North Carolina at Chapel Hill\nNew West Hall\nChapel Hill, North Carolina\n"
+// overlapping labels!
+offset=17576, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17576, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17588, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17588, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17633, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17633, len=2, kind=Offset(17184), text=" C"
+offset=17643, len=5, kind=Unknown, text="in Du"
+offset=17648, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17648, len=2, kind=Offset(17184), text=" C"
+offset=17650, len=14, kind=Unknown, text="yclotron 2\n134"
+offset=17664, len=157, kind=String, text="Prof. E. Milgrom\nFaculte des Sciences Appliquees\nUnite D\'Informatique\nUniversite Catholique de Louvain\nChenin Du Cyclotron 2\n1348 Louvain-La-Neuve, Belgique\n"
+// overlapping labels!
+offset=17744, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17744, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17776, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17776, len=2, kind=Offset(17184), text=" C"
+offset=17821, len=26, kind=Unknown, text="track 800 bpi) magtape\n\tRK"
+offset=17847, len=2, kind=Offset(13104), text="03"
+// overlapping labels!
+offset=17847, len=2, kind=Offset(13104), text="03"
+offset=17849, len=24, kind=Unknown, text="/RK05 disk cartridge\n\tRP"
+offset=17873, len=2, kind=Offset(13104), text="03"
+// overlapping labels!
+offset=17873, len=2, kind=Offset(13104), text="03"
+offset=17875, len=45, kind=Unknown, text=" disk pack\n.sp\nI will be able to send the sys"
+offset=17920, len=104, kind=String, text="Mr. Belton E. Allen\nInstructor of Computer Science\nNaval Postgraduate School\nMonterey, California 93940\n"
+// overlapping labels!
+offset=17953, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=17953, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18006, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18006, len=2, kind=Offset(17184), text=" C"
+offset=18024, len=23, kind=Unknown, text="east\nthe following equi"
+offset=18047, len=2, kind=Offset(19824), text="pM"
+// overlapping labels!
+offset=18047, len=2, kind=Offset(19824), text="pM"
+// overlapping labels!
+offset=18048, len=120, kind=String, text="Mr. J. Tansley\nMedical Computing Group\nMedical School\nUniversity of Edinbourgh\nTeviot Place\nEdinburgh EH8 9A6, Scotland\n"
+// overlapping labels!
+offset=18070, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18070, len=2, kind=Offset(17184), text=" C"
+offset=18168, len=8, kind=Unknown, text="programm"
+offset=18176, len=88, kind=String, text="Mr. William C. Ripperger\nKnox College Computer Center\nKnox College\nGalesburg, Ill 61401\n"
+// overlapping labels!
+offset=18187, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18187, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18205, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18205, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18213, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18213, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18222, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18222, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18234, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18234, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18261, len=2, kind=Offset(12592), text="01"
+// overlapping labels!
+offset=18261, len=2, kind=Offset(12592), text="01"
+offset=18264, len=40, kind=Unknown, text="urgeons\n630 West 168th Street\nNew York, "
+offset=18304, len=112, kind=String, text="Mr. Travis Wood\nUniversity of Alabama in Birmingham\n522 Spain, UAB\nUniversity Station\nBirmingham, Alabama 35294\n"
+offset=18416, len=15, kind=Unknown, text="\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+offset=18431, len=2, kind=Offset(19712), text="\0M"
+// overlapping labels!
+offset=18432, len=80, kind=String, text="Mr. Dustin H. Heuston\nThe Spence School\n22 E. 91st St.\nNew York, New York 10028\n"
+offset=18512, len=8, kind=String, text="towhom-2"
+offset=18520, len=6, kind=String, text="name-3"
+offset=18526, len=34, kind=Unknown, text="MaProf. Marsland\nstowhom-\0esr lett"
+offset=18560, len=87, kind=String, text="Mr. T. C. Stevens\nComputer Research Dept\nUniversity of Toronto\nToronto, Canada M5S 1A1\n"
+// overlapping labels!
+offset=18566, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18566, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18631, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18631, len=2, kind=Offset(17184), text=" C"
+offset=18647, len=1, kind=Unknown, text="g"
+offset=18648, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=18648, len=7, kind=String, text="name-13"
+offset=18655, len=1, kind=Unknown, text="h"
+offset=18656, len=8, kind=String, text="towhom-3"
+offset=18664, len=6, kind=String, text="name-4"
+offset=18670, len=2, kind=Unknown, text="yh"
+offset=18672, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=18672, len=9, kind=String, text="towhom-10"
+// overlapping labels!
+offset=18680, len=2, kind=Offset(12592), text="01"
+// overlapping labels!
+offset=18680, len=2, kind=Offset(12592), text="01"
+offset=18682, len=6, kind=Unknown, text="3\0\xcc\0T\x01"
+offset=18688, len=120, kind=String, text="Mr John Vanderford\nInstitute for Physical Sciences\nThe University of Texas at Dallas\nPO Box 688\nRichardson, Texas 75080\n"
+offset=18808, len=8, kind=Unknown, text="4n Yuval"
+offset=18816, len=121, kind=String, text="Prof C.J. Karzmark\nDept of Radiology\nStanford University School of Medicine\n300 Pasteur Drive\nStanford, California 94305\n"
+// overlapping labels!
+offset=18820, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18820, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18919, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18919, len=2, kind=Offset(17184), text=" C"
+offset=18937, len=7, kind=Unknown, text="M. Goin"
+offset=18944, len=98, kind=String, text="R. M. Kavanaugh\nDept of Computational Science\nUniversity of Sakatchewan\nSaskatoon, S7N 0W0 Canada\n"
+// overlapping labels!
+offset=18967, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=18967, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=19034, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=19034, len=2, kind=Offset(17184), text=" C"
+offset=19042, len=30, kind=Unknown, text="of. Marsland\nstowhom-\0esr lett"
+offset=19072, len=82, kind=String, text="D. R. McNeil\nStatistical Computing Lab\nPrinceton University\nPrinceton, N.J. 08540\n"
+// overlapping labels!
+offset=19096, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=19096, len=2, kind=Offset(17184), text=" C"
+offset=19154, len=6, kind=Unknown, text="ahgreg"
+offset=19160, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=19160, len=7, kind=String, text="name-13"
+offset=19167, len=1, kind=Unknown, text="h"
+offset=19168, len=8, kind=String, text="towhom-3"
+offset=19176, len=6, kind=String, text="name-4"
+offset=19182, len=2, kind=Unknown, text="yh"
+offset=19184, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=19184, len=9, kind=String, text="towhom-10"
+// overlapping labels!
+offset=19192, len=2, kind=Offset(12592), text="01"
+// overlapping labels!
+offset=19192, len=2, kind=Offset(12592), text="01"
+offset=19194, len=6, kind=Unknown, text="3\0\xcc\0T\x01"
+offset=19200, len=83, kind=String, text="H. L. Counts, Jr.\nPurchasing\nDenison University\nP.O. Box 119\nGranville, Ohio 43023\n"
+// overlapping labels!
+offset=19205, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=19205, len=2, kind=Offset(17184), text=" C"
+offset=19283, len=13, kind=Unknown, text=" King\non of E"
+offset=19296, len=8, kind=String, text="towhom-2"
+// overlapping labels!
+offset=19296, len=9, kind=String, text="towhom-20"
+offset=19305, len=7, kind=Unknown, text="A. Jard"
+offset=19312, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=19312, len=9, kind=String, text="towhom-14"
+offset=19321, len=7, kind=Unknown, text="n Yuval"
+offset=19328, len=101, kind=String, text="H. Bellmar\nMinuteman Regional Vocational\nHigh School District\n758 Merrett Road\nLexington, Mass 02173\n"
+offset=19429, len=27, kind=Unknown, text=" Huggins\nggM. Goins\nM. Goin"
+offset=19456, len=67, kind=String, text="Carl Henry\nComputer Center\nCarleton College\nNorthfield, Minn 55057\n"
+// overlapping labels!
+offset=19475, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=19475, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=19491, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=19491, len=2, kind=Offset(17184), text=" C"
+offset=19523, len=45, kind=Unknown, text="hom-23S. FabrMr. Bornholdt\n4\x04Prof. Jardine\n S"
+offset=19568, len=8, kind=String, text="towhom-2"
+// overlapping labels!
+offset=19568, len=9, kind=String, text="towhom-27"
+offset=19577, len=7, kind=Unknown, text="B. Gill"
+offset=19584, len=128, kind=String, text="D. W. de Bakker\nDept. of Computer Science\nFoundation Mathematisch Centrum\n2e Boerhaavestraar 49\nAmsterdam 1005, The Netherlands\n"
+// overlapping labels!
+offset=19608, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=19608, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=19649, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=19649, len=2, kind=Offset(17184), text=" C"
+offset=19712, len=81, kind=String, text="S. Grodstein\nEast Brunswick High School\n22 Milltown Rd.\nEast Brunswick, NJ 08816\n"
+// overlapping labels!
+offset=19789, len=2, kind=Offset(12600), text="81"
+// overlapping labels!
+offset=19789, len=2, kind=Offset(12600), text="81"
+offset=19793, len=15, kind=Unknown, text="rof. Starmer\na,"
+offset=19808, len=8, kind=String, text="towhom-2"
+// overlapping labels!
+offset=19808, len=9, kind=String, text="towhom-21"
+offset=19817, len=7, kind=Unknown, text="ph H. B"
+offset=19824, len=6, kind=String, text="name-2"
+// overlapping labels!
+offset=19824, len=7, kind=String, text="name-23"
+offset=19831, len=1, kind=Unknown, text="t"
+offset=19832, len=6, kind=String, text="name-2"
+// overlapping labels!
+offset=19832, len=7, kind=String, text="name-24"
+offset=19839, len=1, kind=Unknown, text="a"
+offset=19840, len=84, kind=String, text="C. W. Tan\nDivision of Engineering\nThe Cooper Union\nCooper Square\nNew York, NY 10003\n"
+// overlapping labels!
+offset=19877, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=19877, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=19921, len=2, kind=Offset(13104), text="03"
+// overlapping labels!
+offset=19921, len=2, kind=Offset(13104), text="03"
+offset=19924, len=44, kind=Unknown, text="rmingdale, New York 11735\ne a look at the sy"
+offset=19968, len=65, kind=String, text="H. S. Eisenstein\nUniversity of South Carolina\nColumbia, SC 29208\n"
+// overlapping labels!
+offset=20004, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=20004, len=2, kind=Offset(17184), text=" C"
+offset=20033, len=15, kind=Unknown, text="name}\nresddress"
+offset=20048, len=8, kind=String, text="towhom-2"
+offset=20056, len=6, kind=String, text="name-3"
+offset=20062, len=34, kind=Unknown, text="MaProf. Marsland\nstowhom-\0esr lett"
+offset=20096, len=83, kind=String, text="R. Whitfeld\nUniversity of New South Wales\nPO Box 1\nKensington, NSW Austrialia 2D33\n"
+offset=20179, len=5, kind=Unknown, text="hgreg"
+offset=20184, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=20184, len=7, kind=String, text="name-13"
+offset=20191, len=1, kind=Unknown, text="h"
+offset=20192, len=8, kind=String, text="towhom-3"
+offset=20200, len=6, kind=String, text="name-4"
+offset=20206, len=2, kind=Unknown, text="yh"
+offset=20208, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=20208, len=9, kind=String, text="towhom-10"
+// overlapping labels!
+offset=20216, len=2, kind=Offset(12592), text="01"
+// overlapping labels!
+offset=20216, len=2, kind=Offset(12592), text="01"
+offset=20218, len=6, kind=Unknown, text="3\0\xcc\0T\x01"
+offset=20224, len=79, kind=String, text="J. van den Bas\nKatholieke Universiteit, Toernooiveld\nNijmegen, The Netherlands\n"
+offset=20303, len=17, kind=Unknown, text="bDr. King\non of E"
+offset=20320, len=8, kind=String, text="towhom-2"
+// overlapping labels!
+offset=20320, len=9, kind=String, text="towhom-20"
+offset=20329, len=7, kind=Unknown, text="A. Jard"
+offset=20336, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=20336, len=9, kind=String, text="towhom-14"
+offset=20345, len=7, kind=Unknown, text="n Yuval"
+offset=20352, len=113, kind=String, text="P. L. De Souza\nDept of Elictrical Engineering\nHeriot-Watt University\n31-35 Grassmarket\nEdinburgh EH12H5 Scotland\n"
+// overlapping labels!
+offset=20450, len=2, kind=Offset(12616), text="H1"
+// overlapping labels!
+offset=20450, len=2, kind=Offset(12616), text="H1"
+offset=20465, len=15, kind=Unknown, text=". Goins\nM. Goin"
+offset=20480, len=96, kind=String, text="R. J. Collins\nDept of Computer Science\nUniversity of Manitoba\nWinnipeg, Manitoba, Canada R3T2N2\n"
+// overlapping labels!
+offset=20485, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=20485, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=20501, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=20501, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=20561, len=2, kind=Offset(17184), text=" C"
+// overlapping labels!
+offset=20561, len=2, kind=Offset(17184), text=" C"
+offset=20576, len=96, kind=Unknown, text="Prof. Marsland\nstowhom-\0esr lettMr. Desautels\nssProf. Arden\nKiddProf. Levinthal\nMr. Byer\nn\n Aust"
+offset=20672, len=8, kind=String, text="towhom-9"
+offset=20680, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=20680, len=7, kind=String, text="name-10"
+offset=20687, len=9, kind=Unknown, text="tshahgreg"
+offset=20696, len=6, kind=String, text="name-1"
+// overlapping labels!
+offset=20696, len=7, kind=String, text="name-13"
+offset=20703, len=1, kind=Unknown, text="h"
+offset=20704, len=8, kind=String, text="towhom-3"
+offset=20712, len=6, kind=String, text="name-4"
+offset=20718, len=2, kind=Unknown, text="yh"
+offset=20720, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=20720, len=9, kind=String, text="towhom-10"
+// overlapping labels!
+offset=20728, len=2, kind=Offset(12592), text="01"
+// overlapping labels!
+offset=20728, len=2, kind=Offset(12592), text="01"
+offset=20730, len=14, kind=Unknown, text="3\0\xcc\0T\x01{text}\no"
+offset=20744, len=6, kind=String, text="name-1"
+offset=20750, len=34, kind=Unknown, text="ngMr. Lewis\ns(medi{encl}\netext- fo"
+offset=20784, len=8, kind=String, text="towhom-6"
+offset=20792, len=6, kind=String, text="name-7"
+offset=20798, len=2, kind=Unknown, text="yo"
+offset=20800, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=20800, len=9, kind=String, text="towhom-18"
+offset=20809, len=23, kind=Unknown, text="W. PeebDr. King\non of E"
+offset=20832, len=8, kind=String, text="towhom-2"
+// overlapping labels!
+offset=20832, len=9, kind=String, text="towhom-20"
+offset=20841, len=7, kind=Unknown, text="A. Jard"
+offset=20848, len=8, kind=String, text="towhom-1"
+// overlapping labels!
+offset=20848, len=9, kind=String, text="towhom-14"
+offset=20857, len=23, kind=Unknown, text="n Yuvalname-rr 10D\0T\04\x01"
+offset=20880, len=8, kind=String, text="towhom-1"
+offset=20888, len=6, kind=String, text="name-2"
+offset=20894, len=2, kind=Unknown, text="Le"
+offset=20896, len=8, kind=String, text="towhom-8"
+offset=20904, len=6, kind=String, text="name-9"
+offset=20910, len=2, kind=Unknown, text="Hu"
+offset=20912, len=8, kind=String, text="towhom-7"
+offset=20920, len=6, kind=String, text="name-8"
+offset=20926, len=2, kind=Unknown, text="ns"
+offset=20928, len=8, kind=String, text="towhom-5"
+offset=20936, len=6, kind=String, text="name-6"
+offset=20942, len=50, kind=Unknown, text="saMr. Mayhew\nyhew\nProf. Huggins\nggM. Goins\nM. Goin"
