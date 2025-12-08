@@ -33,7 +33,7 @@ fn main() {
     let mut names = HashSet::new();
     let mut name_number = None;
 
-    for (line_number, line) in text.split("\n").enumerate() {
+    for (line_number, mut line) in text.split("\n").enumerate() {
         if line.is_empty() {
             continue;
         }
@@ -41,7 +41,7 @@ fn main() {
             let name = &line[5..line.len() - 1];
             assert!(names.insert(name), "non-unique name");
             name_number = Some(name);
-            continue;
+            line = &line[..line.len() - 1];
         }
         let entry = line_map.entry(line).or_default();
         let name_number = name_number.expect("missing name number before first line");
@@ -109,7 +109,12 @@ fn main() {
         out.write_all(b"\n").unwrap();
     }
 
-    labels.sort_by(|x, y| x.offset.cmp(&y.offset).then(x.len.cmp(&y.len).reverse()));
+    labels.sort_by(|x, y| {
+        x.offset
+            .cmp(&y.offset)
+            .then(x.len.cmp(&y.len).reverse())
+            .then_with(|| x.label.cmp(&y.label))
+    });
     let mut segments = Vec::new();
     let mut offset = 0;
     let mut push = |label| {
