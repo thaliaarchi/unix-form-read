@@ -1,6 +1,20 @@
-use std::{collections::HashSet, fs};
+use std::{collections::HashSet, fs, mem};
 
 use bstr::BStr;
+
+/// A four-word header for a block. Source: V5 form6.s.
+#[derive(Debug)]
+#[repr(C)]
+struct Header {
+    /// W - write ptr (also used as link ptr in frlist)
+    write: u16,
+    /// R - read ptr
+    read: u16,
+    /// A - pointer to head of data
+    head: u16,
+    /// L - ptr to (end+1) of data
+    end: u16,
+}
 
 fn main() {
     let form = fs::read("distr/form.m").unwrap();
@@ -20,7 +34,7 @@ fn main() {
     enum Kind {
         String,
         Unknown,
-        Offset(u16),
+        Header(Header),
     }
     let new_label = |offset, len, kind| Label { offset, len, kind };
 
@@ -48,7 +62,15 @@ fn main() {
             .enumerate()
             .filter_map(|(offset, window)| (window == offset_bytes).then_some(offset));
         for occurrence in occurrences {
-            labels.push(new_label(occurrence, 2, Kind::Offset(offset)));
+            if occurrence < 4 || occurrence + 4 > form.len() {
+                continue;
+            }
+            let header: [u8; 8] = form[occurrence - 4..occurrence + 4].try_into().unwrap();
+            let header: Header = unsafe { mem::transmute(header) };
+            if header.head <= header.end && header.read <= header.end && header.write <= header.end
+            {
+                labels.push(new_label(occurrence - 4, 8, Kind::Header(header)));
+            }
         }
     }
 
