@@ -1,5 +1,4 @@
 use std::{
-    collections::{HashMap, HashSet},
     fs,
     io::{Write, stdout},
 };
@@ -9,126 +8,74 @@ use serde::Serialize;
 
 fn main() {
     let form = fs::read("distr/form.m").unwrap();
-    let text = fs::read_to_string("distr/y").unwrap();
-    assert!(text.chars().all(|c| c.is_ascii()));
 
-    #[derive(Default, Serialize)]
-    struct Entry<'a> {
-        text: &'a str,
-        lines: Vec<Line<'a>>,
-        offsets: Vec<Offset>,
-    }
-    #[derive(Serialize)]
-    struct Line<'a> {
-        name: &'a str,
-        line: usize,
-    }
-    #[derive(Serialize)]
-    struct Offset {
-        offset: usize,
-        occurrences: Vec<usize>,
-    }
-
-    let mut line_map = HashMap::<&str, Entry>::new();
-    let mut names = HashSet::new();
-    let mut name_number = None;
-
-    for (line_number, mut line) in text.split_inclusive('\n').enumerate() {
-        if line == "\n" {
-            continue;
-        }
-        if let [b'n', b'a', b'm', b'e', b'-', .., b':', b'\n'] = line.as_bytes() {
-            let name = &line[5..line.len() - 2];
-            assert!(names.insert(name), "non-unique name");
-            name_number = Some(name);
-            line = &line[..line.len() - 2];
-        }
-        let entry = line_map.entry(line).or_default();
-        let name_number = name_number.expect("missing name number before first line");
-        entry.text = line;
-        entry.lines.push(Line {
-            name: name_number,
-            line: line_number,
-        });
-    }
+    let strings = fs::read_to_string("strings.json").unwrap();
+    let strings: Vec<String> = serde_json::from_str(&strings).unwrap();
 
     let mut labels = Vec::new();
+    let mut offsets = Vec::new();
     #[derive(Serialize)]
     struct Label {
         offset: usize,
         len: usize,
-        label: String,
+        kind: Kind,
         text: String,
     }
-    let new_label = |offset, len, label| Label {
+    #[derive(Serialize)]
+    enum Kind {
+        String,
+        Unknown,
+        Offset(u16),
+    }
+    let new_label = |offset, len, kind| Label {
         offset,
         len,
-        label,
+        kind,
         text: BStr::new(&form[offset..offset + len]).to_string(),
     };
 
-    for (&line, entry) in &mut line_map {
-        let lines = entry
-            .lines
-            .iter()
-            .map(|line| format!("{}:{}", line.name, line.line))
-            .collect::<Vec<_>>()
-            .join(",");
-        let lines_str = format!("lines[{lines}]");
-        let occurrences_str = format!("offset[{lines}]");
-
+    for s in &strings {
         let matches = form
-            .windows(line.len())
+            .windows(s.len())
             .enumerate()
-            .filter_map(|(offset, window)| (window == line.as_bytes()).then_some(offset));
-        let offsets = matches.collect::<Vec<_>>();
-        for &offset in &offsets {
-            labels.push(new_label(offset, line.len(), lines_str.clone()));
-
-            let offset_bytes = u16::try_from(offset).unwrap().to_le_bytes();
-            let occurrences = form
-                .windows(2)
-                .enumerate()
-                .filter_map(|(offset, window)| (window == offset_bytes).then_some(offset))
-                .collect();
-            for &occurrence in &occurrences {
-                labels.push(new_label(
-                    occurrence,
-                    2,
-                    format!("{occurrences_str} = {:?}", BStr::new(line)),
-                ));
-            }
-            entry.offsets.push(Offset {
-                offset,
-                occurrences,
-            });
+            .filter_map(|(offset, window)| (window == s.as_bytes()).then_some(offset));
+        let mut found = false;
+        for offset in matches {
+            found = true;
+            offsets.push(offset);
+            labels.push(new_label(offset, s.len(), Kind::String));
+        }
+        if !found {
+            println!("// not found: {s:?}");
         }
     }
 
-    let mut entries = line_map.into_values().collect::<Vec<_>>();
-    entries.sort_by_key(|entry| entry.lines[0].line);
-    let mut out = stdout();
-    for entry in &entries {
-        serde_json::to_writer(&mut out, entry).unwrap();
-        out.write_all(b"\n").unwrap();
+    for &offset in &offsets {
+        let offset = u16::try_from(offset).unwrap();
+        let offset_bytes = offset.to_le_bytes();
+        let occurrences = form
+            .windows(2)
+            .enumerate()
+            .filter_map(|(offset, window)| (window == offset_bytes).then_some(offset));
+        for occurrence in occurrences {
+            labels.push(new_label(occurrence, 2, Kind::Offset(offset)));
+        }
     }
 
-    labels.sort_by(|x, y| {
-        x.offset
-            .cmp(&y.offset)
-            .then(x.len.cmp(&y.len).reverse())
-            .then_with(|| x.label.cmp(&y.label))
-    });
+    labels.sort_by_key(|label| (label.offset, label.len));
+
+    let mut out = stdout();
     let mut segments = Vec::new();
-    let mut offset = 0;
-    let mut push = |label| {
-        serde_json::to_writer(&mut out, &label).unwrap();
+    let mut push = |segment| {
+        serde_json::to_writer(&mut out, &segment).unwrap();
         out.write_all(b"\n").unwrap();
-        segments.push(label);
+        segments.push(segment);
     };
+
+    let mut offset = 0;
     for label in labels {
         if label.offset > offset {
-            push(new_label(offset, label.offset - offset, "?".to_owned()));
+            push(new_label(offset, label.offset - offset, Kind::Unknown));
         }
         if label.offset < offset {
             println!("// overlapping labels!");
@@ -137,6 +84,6 @@ fn main() {
         push(label);
     }
     if offset < form.len() {
-        push(new_label(offset, form.len() - offset, "?".to_owned()));
+        push(new_label(offset, form.len() - offset, Kind::Unknown));
     }
 }
