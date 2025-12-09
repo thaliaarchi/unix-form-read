@@ -7,10 +7,10 @@ use bstr::BStr;
 
 struct Headers {
     headers: [Header; HEADER_COUNT],
+    used: usize,
 }
 
-#[expect(dead_code)]
-#[derive(Debug)]
+#[derive(Debug, PartialEq, Eq)]
 enum Header {
     Alloc { ptr: u16, len: u16, capacity: u16 },
     Freed { next: u16, ptr: u16, capacity: u16 },
@@ -58,7 +58,7 @@ fn main() {
     let headers = Headers::from_form(&form);
 
     let mut allocs = Vec::new();
-    for (i, header) in headers.headers.iter().enumerate() {
+    for (i, header) in headers.headers[..headers.used].iter().enumerate() {
         let ptr = RawHeader::pointer_from_index(i);
         print!("{ptr}: {header:?}");
         if let &Header::Alloc { ptr, len, capacity } = header {
@@ -123,7 +123,25 @@ impl Headers {
             Header::from_raw(&raw.headers[i], free[i], form_len).expect("invalid header")
         });
 
-        Headers { headers: parsed }
+        let mut used = parsed.len();
+        if parsed[parsed.len() - 1] == (Header::Unused { next: 0 }) {
+            used -= 1;
+            let mut next = RawHeader::pointer_from_index(used);
+            while used > 0 && parsed[used - 1] == { Header::Unused { next } } {
+                used -= 1;
+                next -= size_of::<Header>() as u16;
+            }
+        }
+        for header in &parsed[..used] {
+            if matches!(header, Header::Unused { .. }) {
+                panic!("never-used header within allocated headers");
+            }
+        }
+
+        Headers {
+            headers: parsed,
+            used,
+        }
     }
 }
 
