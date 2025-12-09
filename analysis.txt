@@ -1,974 +1,766 @@
-free_list: [1812, 0, 1732, 1508, 1748, 1724, 1572, 0, 1804, 1796, 1788, 1780, 0, 0, 0, 44, 0]
-asmdisc: 36
-36: alloc Header { write: 16792, read: 16792, start: 16384, end: 16896 }
-  text: "\x8c\0\x84\0\x9c\0\\\0\xb4\0\xac\0,\x01$\x01\\\x01l\0\xc4\0T\0\xcc\0T\x01|\0L\x01\xf4\0\xb4\x01\xcc\x01\xec\04\x01\x94\0D\x01\xe4\x01\xd4\0<\x01\xe4\0\xfc\x01d\x01\x14\x01|\x01\x04\x02\xa4\0t\x01\xa4\x01\x1c\x02\x1c\x01\x8c\x01,\x02d\0\xbc\0\xc4\x01\x9c\x01<\x02\x84\x01\x0c\x02\x04\x01\x94\x01\xf4\x01t\x02\xfc\0\xdc\x01\xdc\0|\x02L\x02$\x02\x0c\x01\x8c\x02D\0l\x01D\x02\xac\x01T\x02\xb4\x02\x84\x02\xc4\x02\xac\x02\x94\x02\xec\x01\xbc\x01L\0\xe4\x02\x04\x03\xa4\x02\xf4\x02\xfc\x02\x1c\x03<\x034\x03L\x03\xd4\x02\x0c\x03\xec\x02\xdc\x02\\\x02\xbc\x02l\x02\\\x03$\x03t\x03d\x02\x84\x03l\x03d\x03\xcc\x02\xbc\x03\x14\x02,\x03\x9c\x03\xa4\x03\x9c\x02\xc4\x03\x94\x03\xe4\x03<\04\x04\xcc\x03<\x04\xdc\x03L\x04\x14\x03\x0c\x04$\x044\0T\x03T\x04\xb4\x03t\x04\xec\x03l\x04,\x04d\x04\x8c\x03\\\x04D\x04\x8c\x04\x9c\x04\xa4\x04\xac\x03\x84\x04\x94\x04\x04\x04|\x04\xc4\x04\x14\x04\xec\x04\xac\x04\x04\x05\x1c\x05|\x034\x05,\x05\x0c\x05<\x05$\x05\x14\x05\xf4\x04\xbc\x04\xe4\x04\x1c\x04D\x03T\x05\xb4\x04D\x05\xfc\x04\xac\x05\xb4\x05\xcc\x04L\x05\xa4\x05\xc4\x05\\\x05t\0|\x05\xec\x05\xd4\x04\x94\x05\xf4\x05\xdc\x05\xd4\x01\x8c\x05\x0c\x06\xd4\x05\xcc\x05t\x05\x1c\x06\x84\x05\x14\x06\xf4\x03L\x06D\x06<\x06l\x05l\x06T\x064\x06\xd4\x03|\x06d\x06\\\x06d\x05\x84\x06\x9c\x05t\x06\xdc\x04\xa4\x06,\x06\x9c\x06\xfc\x03\xb4\x06\x94\x06\xac\x06\x8c\x06\xcc\x06", slack: "echnic Institute of New York\nLong Island Center\nRoute 110\nFarmingdale, New York 11735\ne a look at the sy"
-44: free Header { start: 22528, end: 38912 }
-52: alloc Header { write: 12398, read: 12398, start: 12384, end: 12400 }
-  text: "Prof. Jardine\n", slack: " S"
-60: alloc Header { write: 12553, read: 12545, start: 12544, end: 12560 }
-  text: "towhom-1a", slack: "r Bornh"
-68: alloc Header { write: 6393, read: 6385, start: 6384, end: 6400 }
-  text: "towhom-10", slack: "13\0\xcc\0T\x01"
-76: alloc Header { write: 6356, read: 6353, start: 6352, end: 6356 }
-  text: "shah", slack: ""
-84: alloc Header { write: 6215, read: 6215, start: 6208, end: 6224 }
-  text: "{name}\n", slack: "resddress"
-92: alloc Header { write: 7021, read: 7021, start: 6976, end: 7040 }
-  text: ".hc %\n.m1 0\n.m2 0\n.m3 0\n.m4 0\n.na\n.nf\n.bl 11\n", slack: "l 10\n\nowing proviso"
-100: alloc Header { write: 9331, read: 9331, start: 9216, end: 9344 }
-  text: "Mr. A. J. Lindstrom\nSponsored Research Administrator\nCalifornia Institute of Technology\nPasadena, California 91109\n", slack: "are intereste"
-108: alloc Header { write: 9213, read: 9213, start: 8192, end: 9216 }
-  text: "The accompanying {materials(media+documents)} for UNIX are \nintended for your use {for your use  ...} with the\nfollowing proviso:\n.sp\n.in +4\n.ll -4\nThe program and information transmitted herewith is and shall\nremain the property of Bell Lab%oratories.\nIt is provided solely for your use within the Bell System\nfor Bell System purposes and should be disclosed only to\nthose with a need to know.\nAny program transmitted herewith should be executed on a\nsingle piece of computer equipment only, \nand the written permission of Bell Lab%oratories must be secured before\nexecuting any program on any additional piece of \ncomputer equipment.\nNeither program nor information may be reproduced in any way\nand may not be made available in any form to non-Bell\nSystem personnel without the express written permission\nof Bell Lab%oratories.\nAll restrictions set forth herein are fully applicable to\nthose supplying, programming or maintaining \ncomputer equipment on which any program transmitted herewith\nis executed.\n.in -4\n.ll +4\n", slack: "iso"
-116: alloc Header { write: 17247, read: 17246, start: 17240, end: 17248 }
-  text: "name-35", slack: "f"
-124: alloc Header { write: 6205, read: 6201, start: 6200, end: 6208 }
-  text: "encl-", slack: "cco"
-132: alloc Header { write: 6760, read: 6760, start: 6656, end: 6912 }
-  text: "[fixpl]\n[header]\n.sp 1\n[name-[1]]\n.sp 1\nDear [towhom-[1]]:\n.fi\n.sp 1\n{text-[1]}\n[footer]\n.sp\n{encl-[1]}\n", slack: ".bp\n.pl 10\n.nf\n[name-[1]]\n5\n.in 0\n\tSincerely,\n.sp 4\n.in 0\nKT/pdp\tKen Thompson\n.sp\n{enclosures}\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-140: alloc Header { write: 6166, read: 6161, start: 6160, end: 6168 }
-  text: "letter", slack: "\x0b\x87"
-148: alloc Header { write: 6320, read: 6320, start: 6304, end: 6320 }
-  text: "Prof. Levinthal\n", slack: ""
-156: alloc Header { write: 6181, read: 6177, start: 6176, end: 6184 }
-  text: "fixpl", slack: "cco"
-164: alloc Header { write: 6920, read: 6913, start: 6912, end: 6920 }
-  text: "towhom-4", slack: ""
-172: alloc Header { write: 7703, read: 7703, start: 7680, end: 7808 }
-  text: ".in 30\n[0], 1974\n.in 0\n", slack: "hompson\n.in +11\nRoom 2C-523\nBell Telephone Laboratories\nMurray Hill, N.J. 07974\n.sp\n[0], 1973\n.in 0\nreste"
-180: alloc Header { write: 6190, read: 6185, start: 6184, end: 6192 }
-  text: "header", slack: "\n."
-188: alloc Header { write: 6456, read: 6449, start: 6448, end: 6456 }
-  text: "towhom-6", slack: ""
-196: alloc Header { write: 6533, read: 6533, start: 6528, end: 6544 }
-  text: "name-", slack: "rr 10D\0T\04\x01"
-204: alloc Header { write: 6263, read: 6257, start: 6256, end: 6272 }
-  text: "towhom-", slack: "\0esr lett"
-212: alloc Header { write: 6232, read: 6225, start: 6224, end: 6232 }
-  text: "towhom-2", slack: ""
-220: alloc Header { write: 6574, read: 6574, start: 6568, end: 6576 }
-  text: "name-9", slack: "Hu"
-228: alloc Header { write: 6238, read: 6238, start: 6232, end: 6240 }
-  text: "name-3", slack: "Ma"
-236: alloc Header { write: 8059, read: 8059, start: 7936, end: 8064 }
-  text: "Professor Cyrus Levinthal\nDepartment of Biological Sciences\nSchermerhorn Hall\nColumbia University\nNew York, New York 10027\n", slack: "oviso"
-244: alloc Header { write: 6445, read: 6441, start: 6440, end: 6448 }
-  text: "text-", slack: " fo"
-252: alloc Header { write: 6568, read: 6561, start: 6560, end: 6568 }
-  text: "towhom-8", slack: ""
-260: alloc Header { write: 6584, read: 6577, start: 6576, end: 6584 }
-  text: "towhom-7", slack: ""
-268: alloc Header { write: 6351, read: 6350, start: 6344, end: 6352 }
-  text: "name-10", slack: "t"
-276: alloc Header { write: 6619, read: 6619, start: 6608, end: 6624 }
-  text: "Mr. Mayhew\n", slack: "yhew\n"
-284: alloc Header { write: 6600, read: 6593, start: 6592, end: 6600 }
-  text: "towhom-5", slack: ""
-292: alloc Header { write: 7100, read: 7100, start: 7040, end: 7104 }
-  text: ".sp 2\n.in 30\n.nf\nSincerely,\n.sp 3\nKen Thompson\n.in 0\nKT/pdp\n", slack: "phon"
-300: alloc Header { write: 6198, read: 6193, start: 6192, end: 6200 }
-  text: "footer", slack: "\nR"
-308: alloc Header { write: 6552, read: 6545, start: 6544, end: 6552 }
-  text: "towhom-1", slack: ""
-316: alloc Header { write: 6255, read: 6255, start: 6240, end: 6256 }
-  text: "Prof. Marsland\n", slack: "s"
-324: alloc Header { write: 6558, read: 6558, start: 6552, end: 6560 }
-  text: "name-2", slack: "Le"
-332: alloc Header { write: 6439, read: 6439, start: 6432, end: 6440 }
-  text: "{encl}\n", slack: "e"
-340: alloc Header { write: 6953, read: 6953, start: 6944, end: 6960 }
-  text: "{towhom}\n", slack: "0move o"
-348: alloc Header { write: 6176, read: 6169, start: 6168, end: 6176 }
-  text: "in-house", slack: ""
-356: alloc Header { write: 6376, read: 6369, start: 6368, end: 6376 }
-  text: "towhom-3", slack: ""
-364: alloc Header { write: 7117, read: 7117, start: 7104, end: 7120 }
-  text: "Dr. Slamecka\n", slack: "ugg"
-372: alloc Header { write: 6300, read: 6300, start: 6288, end: 6304 }
-  text: "Prof. Arden\n", slack: "Kidd"
-380: alloc Header { write: 6382, read: 6382, start: 6376, end: 6384 }
-  text: "name-4", slack: "yh"
-388: alloc Header { write: 6462, read: 6462, start: 6456, end: 6464 }
-  text: "name-7", slack: "yo"
-396: alloc Header { write: 6286, read: 6286, start: 6272, end: 6288 }
-  text: "Mr. Desautels\n", slack: "ss"
-404: alloc Header { write: 6649, read: 6649, start: 6640, end: 6656 }
-  text: "M. Goins\n", slack: "M. Goin"
-412: alloc Header { write: 6156, read: 6153, start: 6152, end: 6156 }
-  text: "conf", slack: ""
-420: alloc Header { write: 6926, read: 6926, start: 6920, end: 6928 }
-  text: "name-5", slack: "dd"
-428: alloc Header { write: 9959, read: 9959, start: 9856, end: 9984 }
-  text: "Dr. Kenneth King\nOffice of the Dean for Computer Systems\n535 East 80th Street\nNew York, New York 10021\n", slack: "echnology\nAtlanta, Georgi"
-436: alloc Header { write: 6407, read: 6407, start: 6400, end: 6408 }
-  text: "{text}\n", slack: "o"
-444: alloc Header { write: 13959, read: 13959, start: 13312, end: 14336 }
-  text: "Thank you for your letter\nconcerning the UNIX time-sharing system.\nEnclosed is a preprint of an article which\nwill be published in the\nCommunications of the ACM in their issue\ndevoted to papers from last year\'s\nSIGOPS conference.\n\nAt the moment,\nUNIX is available,\nfor a nuisance fee of about $100,\nto educational institutions.\nThe more detailed\nUNIX reference manual is only available\nwith such a licence.\nIn order to get the \"official\"\nword concerning release,\nyou should contact:\n\n.in 5\n.nf\n{shah}\n.in 0\n.fi\n\nAlthough our supply of publicly\navailable written\nmaterial is slim,\nwe would be happy to have you visit\nand take a look at the system.\n", slack: "y M. Goins\nDepartment of Biometry\nWearn Research Building\nCase Western University\nCleveland, Ohio 44106\nrsity\nPrinceton, Thank you for your letter\nEnclosed is a preprint of an article wlege of Physicians and Surgeons\n630 West 168th Street\nNew York, Mr. E. J. Desautels\nThe University of Wisconsin\nComputer Science Department\n1210 West Dayton Street\nMadison, Wisconsin 53706\nper"
-452: alloc Header { write: 6942, read: 6942, start: 6928, end: 6944 }
-  text: "Mr. Lindstrom\n", slack: "st"
-460: alloc Header { write: 6414, read: 6414, start: 6408, end: 6416 }
-  text: "name-1", slack: "ng"
-468: alloc Header { write: 18264, read: 18264, start: 18176, end: 18304 }
-  text: "Mr. William C. Ripperger\nKnox College Computer Center\nKnox College\nGalesburg, Ill 61401\n", slack: "urgeons\n630 West 168th Street\nNew York, "
-476: alloc Header { write: 6638, read: 6638, start: 6624, end: 6640 }
-  text: "Prof. Huggins\n", slack: "gg"
-484: alloc Header { write: 8160, read: 8160, start: 8064, end: 8192 }
-  text: "Prof. T. A. Marsland\nDepartment of Computing Science\nThe University of Alberta\nEdmonton, Canada\n", slack: "perty of Bell Laboratories.\nIt i"
-492: alloc Header { write: 6160, read: 6157, start: 6156, end: 6160 }
-  text: "univ", slack: ""
-500: alloc Header { write: 6590, read: 6590, start: 6584, end: 6592 }
-  text: "name-8", slack: "ns"
-508: alloc Header { write: 7249, read: 7249, start: 7168, end: 7296 }
-  text: "Mr. Bill Mayhew\nThe Children\'s Museum\nThe Jamaicaway\nBoston, Massachusetts 02130\n", slack: " {for your use  ...} with the\nfollowing proviso"
-516: alloc Header { write: 9617, read: 9617, start: 9472, end: 9728 }
-  text: "Prof. Bruce W. Arden\nDepartment of Electrical Engineering\nBrackett Hall, Engineering Quadrangle\nPrinceton University\nPrinceton, New Jersey 08540\n", slack: "with EIS) or PDP-11/45 CPU\n\tKT segmentation option\n\t32K words of core\n\tRK or RP disk\n\tKW (line or programmable)"
-524: alloc Header { write: 7407, read: 7407, start: 7296, end: 7424 }
-  text: "Mr. Gary M. Goins\nDepartment of Biometry\nWearn Research Building\nCase Western University\nCleveland, Ohio 44106\n", slack: "rsity\nPrinceton, "
-532: alloc Header { write: 12304, read: 12302, start: 12296, end: 12304 }
-  text: "name-11a", slack: ""
-540: alloc Header { write: 7677, read: 7677, start: 7552, end: 7680 }
-  text: "Mr. E. J. Desautels\nThe University of Wisconsin\nComputer Science Department\n1210 West Dayton Street\nMadison, Wisconsin 53706\n", slack: "per"
-548: alloc Header { write: 6329, read: 6329, start: 6320, end: 6336 }
-  text: "Mr. Byer\n", slack: "n\n Aust"
-556: alloc Header { write: 6606, read: 6606, start: 6600, end: 6608 }
-  text: "name-6", slack: "sa"
-564: free Header { start: 6146, end: 6148 }
-572: alloc Header { write: 10806, read: 10806, start: 10240, end: 11264 }
-  text: "Thank you for your request for the UNIX operating system.\nThe current version of UNIX requires at least\nthe following equipment:\n.sp\n\tPDP-11/40 (with EIS) or PDP-11/45 CPU\n\tKT segmentation option\n\t32K words of core\n\tRK or RP disk\n\tKW (line or programmable) clock\n\tstandard DEC console (LA, VT, or LT)\n.sp\nYou should send me a complete\nlist of your configuration plus one of the following:\n.sp\n\t600\'-2400\' (9 track 800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\tRP03 disk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\n", slack: "800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\tRP03 disk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\nstconfSponsored Retowhom-3name-4yhT\x02\xd4\x01-m- 14\xfc\0\xcc\0T\x01{text}\noname-1ngOctober 31s(medi{encl}\netext- fotowhom-6Thank yoThank you for your request for the UNIX operating system.\nThe cuname-rr 10D\0T\04\x01towhom-1name-2LeMr. Desautels\nut\x04\x01\x84\0$\x02r 27\xe4\0L\04\x01towhom-5name-6saMr. Mayhew\nyhew\nThank you for yotext-5-5s)al pur"
-580: alloc Header { write: 6967, read: 6966, start: 6960, end: 6968 }
-  text: "name-11", slack: "d"
-588: alloc Header { write: 6344, read: 6337, start: 6336, end: 6344 }
-  text: "towhom-9", slack: ""
-596: alloc Header { write: 7129, read: 7121, start: 7120, end: 7136 }
-  text: "towhom-11", slack: "th King"
-604: alloc Header { write: 7815, read: 7814, start: 7808, end: 7816 }
-  text: "name-16", slack: "e"
-612: alloc Header { write: 7513, read: 7505, start: 7504, end: 7520 }
-  text: "towhom-17", slack: "Marcuvi"
-620: alloc Header { write: 7529, read: 7521, start: 7520, end: 7536 }
-  text: "towhom-16", slack: "A. Mich"
-628: alloc Header { write: 9456, read: 9456, start: 9344, end: 9472 }
-  text: "Prof. W. H. Huggins\nDepartment of Electrical Engineering\nThe Johns Hopkins University\nBaltimore, Maryland 21218\n", slack: "owing equipment:"
-636: alloc Header { write: 9815, read: 9815, start: 9728, end: 9856 }
-  text: "Mr. Brent Byer\nAiken Computation Lab\nHarvard University\nCambridge, Massachusetts 02138\n", slack: "idge, Massachusetts 02138\nwing equipment:"
-644: alloc Header { write: 6975, read: 6974, start: 6968, end: 6976 }
-  text: "name-12", slack: "g"
-652: alloc Header { write: 10120, read: 10120, start: 9984, end: 10240 }
-  text: "Dr. Vladimir Slamecka\nComputer Center\nSchool of Information and Computer Science\nGeorgia Institute of Technology\nAtlanta, Georgia 30332\n", slack: "er/punch\n\tDC line adapter\n\tDP line adapter\n\tDN ACU interface\n.sp\nYou should send me a complete\nlist of your configuratio"
-660: alloc Header { write: 6426, read: 6426, start: 6416, end: 6432 }
-  text: "Mr. Lewis\n", slack: "s(medi"
-668: alloc Header { write: 12309, read: 12305, start: 12304, end: 12312 }
-  text: "chess", slack: " Fe"
-676: alloc Header { write: 12027, read: 12027, start: 11904, end: 12032 }
-  text: "Mr. Rusty Whitney\nDirector of Computing\nOregon Museum of Science and Industry\n4015 S.W. Canyon Road\nPortland, Oregon 97221\n", slack: "\0\0\0\0\0"
-684: alloc Header { write: 7145, read: 7137, start: 7136, end: 7152 }
-  text: "towhom-12", slack: "Lewis, "
-692: alloc Header { write: 6489, read: 6489, start: 6480, end: 6496 }
-  text: "Dr. King\n", slack: "on of E"
-700: alloc Header { write: 12537, read: 12537, start: 12416, end: 12544 }
-  text: "Prof. D. A. Michalopoulos\nDepartment of Quantitative Methods\nThe California State University\nFullerton, California 92634\n", slack: "to educ"
-708: alloc Header { write: 11660, read: 11660, start: 11520, end: 11776 }
-  text: "James P. Lewis, Director\nComputer Center\nColumbia University\nCollege of Physicians and Surgeons\n630 West 168th Street\nNew York, N. Y. 10032\n", slack: "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-716: alloc Header { write: 6473, read: 6465, start: 6464, end: 6480 }
-  text: "towhom-18", slack: "W. Peeb"
-724: alloc Header { write: 7903, read: 7902, start: 7896, end: 7904 }
-  text: "name-15", slack: "a"
-732: alloc Header { write: 7884, read: 7884, start: 7872, end: 7888 }
-  text: "Mr. Bateman\n", slack: "is, "
-740: alloc Header { write: 11865, read: 11865, start: 11776, end: 11904 }
-  text: "R. G. Shahpazian\nRoom 400\nWestern Electric Company\n222 Broadway\nNew York, New York 10038\n", slack: " the\nCommunications of the ACM in their"
-748: alloc Header { write: 7161, read: 7153, start: 7152, end: 7168 }
-  text: "towhom-15", slack: "ey C. B"
-756: alloc Header { write: 7433, read: 7425, start: 7424, end: 7440 }
-  text: "towhom-13", slack: " Whitne"
-764: alloc Header { write: 7932, read: 7932, start: 7920, end: 7936 }
-  text: "Mr. Whitney\n", slack: "r of"
-772: alloc Header { write: 6367, read: 6366, start: 6360, end: 6368 }
-  text: "name-13", slack: "h"
-780: alloc Header { write: 12268, read: 12268, start: 12160, end: 12288 }
-  text: "Mr. Stanley C. Bateman\nUniversity of California\nContracts and Grants Office\nSan Francisco, California 94143\n", slack: "-free basis,\nto educ"
-788: alloc Header { write: 12607, read: 12606, start: 12600, end: 12608 }
-  text: "name-20", slack: "e"
-796: alloc Header { write: 7895, read: 7894, start: 7888, end: 7896 }
-  text: "name-14", slack: "t"
-804: alloc Header { write: 7823, read: 7822, start: 7816, end: 7824 }
-  text: "name-17", slack: "i"
-812: alloc Header { write: 13009, read: 13009, start: 12928, end: 13056 }
-  text: "Prof. Melvin Ferentz\nPhysics Dept.\nBrooklyn College of CUNY\nBrooklyn, N.Y. 11210\n", slack: "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-820: alloc Header { write: 6521, read: 6513, start: 6512, end: 6528 }
-  text: "towhom-14", slack: "n Yuval"
-828: alloc Header { write: 12130, read: 12130, start: 12032, end: 12160 }
-  text: "Mr. Gideon Yuval\nComputer Science Department\nThe Hebrew University of Jerusalem\nJerusalem, Israel\n", slack: "unications of the ACM in their"
-836: alloc Header { write: 13162, read: 13153, start: 13152, end: 13168 }
-  text: "towhom-27a", slack: "on\nDep"
-844: alloc Header { write: 7866, read: 7866, start: 7856, end: 7872 }
-  text: "Mr. Yuval\n", slack: "ompute"
-852: alloc Header { write: 12567, read: 12566, start: 12560, end: 12568 }
-  text: "name-21", slack: "a"
-860: alloc Header { write: 12340, read: 12340, start: 12320, end: 12352 }
-  text: "Prof. Michalopoulos\n", slack: "oulos\nDepart"
-868: alloc Header { write: 12914, read: 12914, start: 12800, end: 12928 }
-  text: "Prof. R. W. Peebles\nComputer Communications Network Group\nUniversity of Waterloo\nWaterloo, Ontario\nCanada N2L 3G1\n", slack: "r arranging ho"
-876: alloc Header { write: 12295, read: 12294, start: 12288, end: 12296 }
-  text: "name-18", slack: "a"
-884: alloc Header { write: 12782, read: 12782, start: 12672, end: 12800 }
-  text: "Prof. N. Marcuvitz\nPolytechnic Institute of New York\nLong Island Center\nRoute 110\nFarmingdale, New York 11735\n", slack: "e a look at the sy"
-892: alloc Header { write: 15243, read: 15243, start: 15232, end: 15248 }
-  text: "Dr. Weiner\n", slack: "dale,"
-900: alloc Header { write: 7840, read: 7840, start: 7824, end: 7840 }
-  text: "Prof. Marcuvitz\n", slack: ""
-908: alloc Header { write: 12663, read: 12662, start: 12656, end: 12664 }
-  text: "name-23", slack: "t"
-916: alloc Header { write: 12319, read: 12318, start: 12312, end: 12320 }
-  text: "name-1a", slack: "o"
-924: alloc Header { write: 7850, read: 7841, start: 7840, end: 7856 }
-  text: "towhom-11a", slack: "in Fer"
-932: alloc Header { write: 7550, read: 7550, start: 7536, end: 7552 }
-  text: "Prof. Ferentz\n", slack: "ic"
-940: alloc Header { write: 13113, read: 13105, start: 13104, end: 13120 }
-  text: "towhom-24", slack: " Cole\nQ"
-948: alloc Header { write: 12649, read: 12641, start: 12640, end: 12656 }
-  text: "towhom-21", slack: "ph H. B"
-956: alloc Header { write: 7486, read: 7486, start: 7472, end: 7488 }
-  text: "Prof. Peebles\n", slack: "ne"
-964: alloc Header { write: 16308, read: 16308, start: 15360, end: 16384 }
-  text: "Thank you for your letter concerning the chess\nprogram for the PDP-11.\nThere are certain problems involved in releasing chess.\nThe program is writen in a local language which is\nconsidered proprietary.\nFor speed,\nparts of the program are writen in a local\nvarient of PDP-11 assembly language.\nIn addition,\nthe program and associated table compilers\nall run under the UNIX time-sharing system,\nwhich is also considered proprietary.\n.sp\nIf after all this,\nyou believe that listings\nin two undocumented languages,\ncalling on undocumented system I/O routines,\nwould be of use,\nI will try to get them released.\nOn the other hand,\nif you are really interested in running\nthe program,\nyou should consider obtaining UNIX,\nwhich is available under a Western Electric\nlicense agreement, royality-free, to educational institutions.\nFor information on the UNIX agreement,\nyou should contact:\n.nf\n.sp\n.in 5\n{shah}\n.sp\n.in 0\n.fi\nI hope I have been of some help.\n", slack: "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-972: alloc Header { write: 12599, read: 12598, start: 12592, end: 12600 }
-  text: "name-19", slack: "n"
-980: alloc Header { write: 15327, read: 15326, start: 15320, end: 15328 }
-  text: "name-43", slack: "A"
-988: alloc Header { write: 7913, read: 7905, start: 7904, end: 7920 }
-  text: "towhom-19", slack: "n E. Ne"
-996: alloc Header { write: 13291, read: 13291, start: 13184, end: 13312 }
-  text: "Mr. Reidar Bornholdt\nDept. of Biological Science\n653 Scherm Ext.\nColumbia University\nNew York, N. Y. 10027\n", slack: "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-1004: alloc Header { write: 12575, read: 12574, start: 12568, end: 12576 }
-  text: "name-22", slack: "j"
-1012: alloc Header { write: 15359, read: 15358, start: 15352, end: 15360 }
-  text: "name-39", slack: "a"
-1020: alloc Header { write: 15279, read: 15278, start: 15272, end: 15280 }
-  text: "name-49", slack: "f"
-1028: alloc Header { write: 11350, read: 11350, start: 11264, end: 11392 }
-  text: "Mr. John E. Ecklund\nYale University\n10 Hillhouse Avenue\nNew Haven, Connecticut  06520\n", slack: "UNIX requires at least\nthe following equip"
-1036: alloc Header { write: 14567, read: 14567, start: 14464, end: 14592 }
-  text: "Prof. D. A. Jardine\nDept. of Computing Science\nQueen\'s University at Kingston\nKingston, Ontario\nCanada\n", slack: "m are writen in a local\nv"
-1044: alloc Header { write: 13099, read: 13094, start: 13088, end: 13104 }
-  text: "name-letter", slack: "nk St"
-1052: alloc Header { write: 17365, read: 17365, start: 17280, end: 17408 }
-  text: "Greg Chesson\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\n", slack: "isk pack\n.sp\nI will be able to send the sys"
-1060: alloc Header { write: 6505, read: 6497, start: 6496, end: 6512 }
-  text: "towhom-20", slack: "A. Jard"
-1068: alloc Header { write: 7497, read: 7489, start: 7488, end: 7504 }
-  text: "towhom-22", slack: "rank St"
-1076: alloc Header { write: 12382, read: 12382, start: 12368, end: 12384 }
-  text: "Mr. Bornholdt\n", slack: "4\x04"
-1084: alloc Header { write: 14430, read: 14430, start: 14336, end: 14464 }
-  text: "Mr. Martin E. Newell\nThe University of Utah\nCollege of Engineering\nSalt Lake City, Utah 84112\n", slack: "ms involved in releasing chess.\nTh"
-1092: alloc Header { write: 12361, read: 12353, start: 12352, end: 12368 }
-  text: "towhom-23", slack: "S. Fabr"
-1100: alloc Header { write: 12587, read: 12587, start: 12576, end: 12592 }
-  text: "Mr. Newell\n", slack: "ss\npr"
-1108: alloc Header { write: 14677, read: 14677, start: 14592, end: 14720 }
-  text: "Prof. Ralph H. Bjork\nScience Building\nSaint Olaf College\nNorthfield, Minnesota 55057\n", slack: "d Surgeons\n630 West 168th Street\nNew York, "
-1116: alloc Header { write: 15052, read: 15052, start: 14976, end: 15104 }
-  text: "Prof. R. S. Fabry\nEvans Hall\nUniversity of California\nBerkeley, Calif 94720\n", slack: " speed,\nparts of the program are writen in a local\nv"
-1124: alloc Header { write: 12638, read: 12638, start: 12624, end: 12640 }
-  text: "Prof. Starmer\n", slack: "a,"
-1132: alloc Header { write: 14787, read: 14787, start: 14720, end: 14848 }
-  text: "Prof C. Frank Starmer\nDuke University\nDurham, North Carolina 27710\n", slack: "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-1140: alloc Header { write: 13068, read: 13068, start: 13056, end: 13072 }
-  text: "Prof. Bjork\n", slack: "Jard"
-1148: alloc Header { write: 14857, read: 14849, start: 14848, end: 14864 }
-  text: "towhom-25", slack: "E. Eckl"
-1156: alloc Header { write: 13081, read: 13081, start: 13072, end: 13088 }
-  text: "Dr. Cole\n", slack: " of Com"
-1164: alloc Header { write: 13148, read: 13148, start: 13136, end: 13152 }
-  text: "Prof. Fabry\n", slack: "nive"
-1172: alloc Header { write: 13127, read: 13126, start: 13120, end: 13128 }
-  text: "name-25", slack: "e"
-1180: alloc Header { write: 12671, read: 12670, start: 12664, end: 12672 }
-  text: "name-24", slack: "a"
-1188: alloc Header { write: 15196, read: 15196, start: 15104, end: 15232 }
-  text: "Dr. M. S. Cole\nQueen Mary College\nUniversity of London\nMile End Road\nLondon E1 4NS, England\n", slack: "all run under the UNIX time-sharing "
-1196: alloc Header { write: 13135, read: 13134, start: 13128, end: 13136 }
-  text: "name-26", slack: "l"
-1204: alloc Header { write: 6360, read: 6357, start: 6356, end: 6360 }
-  text: "greg", slack: ""
-1212: alloc Header { write: 7454, read: 7454, start: 7440, end: 7456 }
-  text: "Prof. Gillies\n", slack: "of"
-1220: alloc Header { write: 14940, read: 14940, start: 14928, end: 14944 }
-  text: "Mr. Ecklund\n", slack: "e Un"
-1228: alloc Header { write: 18808, read: 18808, start: 18688, end: 18816 }
-  text: "Mr John Vanderford\nInstitute for Physical Sciences\nThe University of Texas at Dallas\nPO Box 688\nRichardson, Texas 75080\n", slack: "4n Yuval"
-1236: alloc Header { write: 18024, read: 18024, start: 17920, end: 18048 }
-  text: "Mr. Belton E. Allen\nInstructor of Computer Science\nNaval Postgraduate School\nMonterey, California 93940\n", slack: "east\nthe following equip"
-1244: alloc Header { write: 15343, read: 15342, start: 15336, end: 15344 }
-  text: "name-47", slack: "a"
-1252: alloc Header { write: 13176, read: 13174, start: 13168, end: 13176 }
-  text: "name-27a", slack: ""
-1260: alloc Header { write: 14880, read: 14880, start: 14880, end: 14896 }
-  text: "", slack: "\xcc\x04\xcc\x04-Thank you f"
-1268: alloc Header { write: 12409, read: 12401, start: 12400, end: 12416 }
-  text: "towhom-27", slack: "B. Gill"
-1276: alloc Header { write: 15303, read: 15297, start: 15296, end: 15304 }
-  text: "chesson", slack: "}"
-1284: alloc Header { write: 11502, read: 11502, start: 11392, end: 11520 }
-  text: "Dr. P. Weiner\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\n", slack: " (line or programm"
-1292: alloc Header { write: 14970, read: 14961, start: 14960, end: 14976 }
-  text: "towhom-26a", slack: ". Heis"
-1300: alloc Header { write: 17116, read: 17116, start: 17024, end: 17152 }
-  text: "Prof. D. B. Gillies\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\n", slack: "\tRK or RP disk\n\tKW (line or programm"
-1308: alloc Header { write: 15257, read: 15249, start: 15248, end: 15264 }
-  text: "towhom-26", slack: "iner\nIn"
-1316: alloc Header { write: 7471, read: 7470, start: 7464, end: 7472 }
-  text: "name-27", slack: "s"
-1324: alloc Header { write: 17011, read: 17011, start: 16896, end: 17024 }
-  text: "Ms. Lois H. Heiser\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\n", slack: "llowing equip"
-1332: alloc Header { write: 7464, read: 7462, start: 7456, end: 7464 }
-  text: "name-26a", slack: ""
-1340: alloc Header { write: 14875, read: 14875, start: 14864, end: 14880 }
-  text: "Ms. Heiser\n", slack: "olleg"
-1348: alloc Header { write: 13180, read: 13180, start: 13176, end: 13180 }
-  text: "27a\n", slack: ""
-1356: alloc Header { write: 14927, read: 14926, start: 14920, end: 14928 }
-  text: "name-29", slack: "\x05"
-1364: alloc Header { write: 14908, read: 14908, start: 14896, end: 14912 }
-  text: "Mr. Chesson\n", slack: "est "
-1372: alloc Header { write: 18937, read: 18937, start: 18816, end: 18944 }
-  text: "Prof C.J. Karzmark\nDept of Radiology\nStanford University School of Medicine\n300 Pasteur Drive\nStanford, California 94305\n", slack: "M. Goin"
-1380: alloc Header { write: 12623, read: 12622, start: 12616, end: 12624 }
-  text: "name-45", slack: "e"
-1388: alloc Header { write: 15295, read: 15294, start: 15288, end: 15296 }
-  text: "name-41", slack: "o"
-1396: alloc Header { write: 17199, read: 17198, start: 17192, end: 17200 }
-  text: "name-37", slack: "t"
-1404: alloc Header { write: 17643, read: 17643, start: 17536, end: 17664 }
-  text: "Prof. James D. Foley\nUniversity of North Carolina at Chapel Hill\nNew West Hall\nChapel Hill, North Carolina\n", slack: "in Du Cyclotron 2\n134"
-1412: alloc Header { write: 15351, read: 15350, start: 15344, end: 15352 }
-  text: "name-38", slack: "J"
-1420: alloc Header { write: 17215, read: 17214, start: 17208, end: 17216 }
-  text: "name-31", slack: "l"
-1428: alloc Header { write: 17231, read: 17230, start: 17224, end: 17232 }
-  text: "name-33", slack: "t"
-1436: alloc Header { write: 15335, read: 15334, start: 15328, end: 15336 }
-  text: "name-46", slack: "s"
-1444: alloc Header { write: 17821, read: 17821, start: 17664, end: 17920 }
-  text: "Prof. E. Milgrom\nFaculte des Sciences Appliquees\nUnite D\'Informatique\nUniversite Catholique de Louvain\nChenin Du Cyclotron 2\n1348 Louvain-La-Neuve, Belgique\n", slack: "track 800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\tRP03 disk pack\n.sp\nI will be able to send the sys"
-1452: alloc Header { write: 13184, read: 13184, start: 13180, end: 13184 }
-  text: "27a\n", slack: ""
-1460: alloc Header { write: 14919, read: 14918, start: 14912, end: 14920 }
-  text: "name-28", slack: "n"
-1468: free Header { start: 15308, end: 15312 }
-1476: alloc Header { write: 17239, read: 17238, start: 17232, end: 17240 }
-  text: "name-30", slack: "."
-1484: alloc Header { write: 18512, read: 18512, start: 18432, end: 18560 }
-  text: "Mr. Dustin H. Heuston\nThe Spence School\n22 E. 91st St.\nNew York, New York 10028\n", slack: "towhom-2name-3MaProf. Marsland\nstowhom-\0esr lett"
-1492: alloc Header { write: 17191, read: 17190, start: 17184, end: 17192 }
-  text: "name-36", slack: "v"
-1500: alloc Header { write: 17207, read: 17206, start: 17200, end: 17208 }
-  text: "name-32", slack: "T"
-1508: free Header { start: 15304, end: 15308 }
-1516: alloc Header { write: 17223, read: 17222, start: 17216, end: 17224 }
-  text: "name-34", slack: "a"
-1524: alloc Header { write: 18168, read: 18168, start: 18048, end: 18176 }
-  text: "Mr. J. Tansley\nMedical Computing Group\nMedical School\nUniversity of Edinbourgh\nTeviot Place\nEdinburgh EH8 9A6, Scotland\n", slack: "programm"
-1532: free Header { start: 6150, end: 6152 }
-1540: free Header { start: 6144, end: 6146 }
-1548: alloc Header { write: 18416, read: 18416, start: 18304, end: 18432 }
-  text: "Mr. Travis Wood\nUniversity of Alabama in Birmingham\n522 Spain, UAB\nUniversity Station\nBirmingham, Alabama 35294\n", slack: "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-1556: alloc Header { write: 19042, read: 19042, start: 18944, end: 19072 }
-  text: "R. M. Kavanaugh\nDept of Computational Science\nUniversity of Sakatchewan\nSaskatoon, S7N 0W0 Canada\n", slack: "of. Marsland\nstowhom-\0esr lett"
-1564: alloc Header { write: 18647, read: 18647, start: 18560, end: 18688 }
-  text: "Mr. T. C. Stevens\nComputer Research Dept\nUniversity of Toronto\nToronto, Canada M5S 1A1\n", slack: "gname-13htowhom-3name-4yhtowhom-1013\0\xcc\0T\x01"
-1572: free Header { start: 17152, end: 17184 }
-1580: alloc Header { write: 15271, read: 15270, start: 15264, end: 15272 }
-  text: "name-48", slack: "i"
-1588: alloc Header { write: 17521, read: 17521, start: 17472, end: 17536 }
-  text: "James Curry\nIASSA\n2361 Laxenburg\nVienna, Austria\n", slack: " of Manitoba\nWi"
-1596: alloc Header { write: 19283, read: 19283, start: 19200, end: 19328 }
-  text: "H. L. Counts, Jr.\nPurchasing\nDenison University\nP.O. Box 119\nGranville, Ohio 43023\n", slack: " King\non of Etowhom-20A. Jardtowhom-14n Yuval"
-1604: alloc Header { write: 15287, read: 15286, start: 15280, end: 15288 }
-  text: "name-40", slack: "c"
-1612: alloc Header { write: 19154, read: 19154, start: 19072, end: 19200 }
-  text: "D. R. McNeil\nStatistical Computing Lab\nPrinceton University\nPrinceton, N.J. 08540\n", slack: "ahgregname-13htowhom-3name-4yhtowhom-1013\0\xcc\0T\x01"
-1620: alloc Header { write: 15319, read: 15318, start: 15312, end: 15320 }
-  text: "name-42", slack: "m"
-1628: alloc Header { write: 19712, read: 19712, start: 19584, end: 19712 }
-  text: "D. W. de Bakker\nDept. of Computer Science\nFoundation Mathematisch Centrum\n2e Boerhaavestraar 49\nAmsterdam 1005, The Netherlands\n", slack: ""
-1636: alloc Header { write: 12615, read: 12614, start: 12608, end: 12616 }
-  text: "name-44", slack: "n"
-1644: alloc Header { write: 19429, read: 19429, start: 19328, end: 19456 }
-  text: "H. Bellmar\nMinuteman Regional Vocational\nHigh School District\n758 Merrett Road\nLexington, Mass 02173\n", slack: " Huggins\nggM. Goins\nM. Goin"
-1652: alloc Header { write: 19924, read: 19924, start: 19840, end: 19968 }
-  text: "C. W. Tan\nDivision of Engineering\nThe Cooper Union\nCooper Square\nNew York, NY 10003\n", slack: "rmingdale, New York 11735\ne a look at the sy"
-1660: alloc Header { write: 19523, read: 19523, start: 19456, end: 19584 }
-  text: "Carl Henry\nComputer Center\nCarleton College\nNorthfield, Minn 55057\n", slack: "hom-23S. FabrMr. Bornholdt\n4\x04Prof. Jardine\n Stowhom-27B. Gill"
-1668: alloc Header { write: 19793, read: 19793, start: 19712, end: 19840 }
-  text: "S. Grodstein\nEast Brunswick High School\n22 Milltown Rd.\nEast Brunswick, NJ 08816\n", slack: "rof. Starmer\na,towhom-21ph H. Bname-23tname-24a"
-1676: alloc Header { write: 14959, read: 14959, start: 14952, end: 14960 }
-  text: "name-51", slack: "e"
-1684: alloc Header { write: 14951, read: 14951, start: 14944, end: 14952 }
-  text: "name-50", slack: "d"
-1692: alloc Header { write: 20179, read: 20179, start: 20096, end: 20224 }
-  text: "R. Whitfeld\nUniversity of New South Wales\nPO Box 1\nKensington, NSW Austrialia 2D33\n", slack: "hgregname-13htowhom-3name-4yhtowhom-1013\0\xcc\0T\x01"
-1700: alloc Header { write: 20033, read: 20033, start: 19968, end: 20096 }
-  text: "H. S. Eisenstein\nUniversity of South Carolina\nColumbia, SC 29208\n", slack: "name}\nresddresstowhom-2name-3MaProf. Marsland\nstowhom-\0esr lett"
-1708: alloc Header { write: 20465, read: 20465, start: 20352, end: 20480 }
-  text: "P. L. De Souza\nDept of Elictrical Engineering\nHeriot-Watt University\n31-35 Grassmarket\nEdinburgh EH12H5 Scotland\n", slack: ". Goins\nM. Goin"
-1716: alloc Header { write: 20303, read: 20303, start: 20224, end: 20352 }
-  text: "J. van den Bas\nKatholieke Universiteit, Toernooiveld\nNijmegen, The Netherlands\n", slack: "bDr. King\non of Etowhom-20A. Jardtowhom-14n Yuval"
-1724: free Header { start: 17264, end: 17280 }
-1732: free Header { start: 6148, end: 6150 }
-1740: alloc Header { write: 20576, read: 20576, start: 20480, end: 20608 }
-  text: "R. J. Collins\nDept of Computer Science\nUniversity of Manitoba\nWinnipeg, Manitoba, Canada R3T2N2\n", slack: "Prof. Marsland\nstowhom-\0esr lett"
-1748: free Header { start: 17248, end: 17256 }
-1756: free Header { start: 17440, end: 17472 }
-1764: free Header { start: 17408, end: 17440 }
-1772: free Header { start: 17256, end: 17264 }
-1780: free Header { start: 21504, end: 22528 }
-1788: free Header { start: 20992, end: 21504 }
-1796: free Header { start: 20736, end: 20992 }
-1804: free Header { start: 20608, end: 20736 }
-1812: free
-1820: free
-1828: free
-1836: free
-1844: free
-1852: free
-1860: free
-1868: free
-1876: free
-1884: free
-1892: free
-1900: free
-1908: free
-1916: free
-1924: free
-1932: free
-1940: free
-1948: free
-1956: free
-1964: free
-1972: free
-1980: free
-1988: free
-1996: free
-2004: free
-2012: free
-2020: free
-2028: free
-2036: free
-2044: free
-2052: free
-2060: free
-2068: free
-2076: free
-2084: free
-2092: free
-2100: free
-2108: free
-2116: free
-2124: free
-2132: free
-2140: free
-2148: free
-2156: free
-2164: free
-2172: free
-2180: free
-2188: free
-2196: free
-2204: free
-2212: free
-2220: free
-2228: free
-2236: free
-2244: free
-2252: free
-2260: free
-2268: free
-2276: free
-2284: free
-2292: free
-2300: free
-2308: free
-2316: free
-2324: free
-2332: free
-2340: free
-2348: free
-2356: free
-2364: free
-2372: free
-2380: free
-2388: free
-2396: free
-2404: free
-2412: free
-2420: free
-2428: free
-2436: free
-2444: free
-2452: free
-2460: free
-2468: free
-2476: free
-2484: free
-2492: free
-2500: free
-2508: free
-2516: free
-2524: free
-2532: free
-2540: free
-2548: free
-2556: free
-2564: free
-2572: free
-2580: free
-2588: free
-2596: free
-2604: free
-2612: free
-2620: free
-2628: free
-2636: free
-2644: free
-2652: free
-2660: free
-2668: free
-2676: free
-2684: free
-2692: free
-2700: free
-2708: free
-2716: free
-2724: free
-2732: free
-2740: free
-2748: free
-2756: free
-2764: free
-2772: free
-2780: free
-2788: free
-2796: free
-2804: free
-2812: free
-2820: free
-2828: free
-2836: free
-2844: free
-2852: free
-2860: free
-2868: free
-2876: free
-2884: free
-2892: free
-2900: free
-2908: free
-2916: free
-2924: free
-2932: free
-2940: free
-2948: free
-2956: free
-2964: free
-2972: free
-2980: free
-2988: free
-2996: free
-3004: free
-3012: free
-3020: free
-3028: free
-3036: free
-3044: free
-3052: free
-3060: free
-3068: free
-3076: free
-3084: free
-3092: free
-3100: free
-3108: free
-3116: free
-3124: free
-3132: free
-3140: free
-3148: free
-3156: free
-3164: free
-3172: free
-3180: free
-3188: free
-3196: free
-3204: free
-3212: free
-3220: free
-3228: free
-3236: free
-3244: free
-3252: free
-3260: free
-3268: free
-3276: free
-3284: free
-3292: free
-3300: free
-3308: free
-3316: free
-3324: free
-3332: free
-3340: free
-3348: free
-3356: free
-3364: free
-3372: free
-3380: free
-3388: free
-3396: free
-3404: free
-3412: free
-3420: free
-3428: free
-3436: free
-3444: free
-3452: free
-3460: free
-3468: free
-3476: free
-3484: free
-3492: free
-3500: free
-3508: free
-3516: free
-3524: free
-3532: free
-3540: free
-3548: free
-3556: free
-3564: free
-3572: free
-3580: free
-3588: free
-3596: free
-3604: free
-3612: free
-3620: free
-3628: free
-3636: free
-3644: free
-3652: free
-3660: free
-3668: free
-3676: free
-3684: free
-3692: free
-3700: free
-3708: free
-3716: free
-3724: free
-3732: free
-3740: free
-3748: free
-3756: free
-3764: free
-3772: free
-3780: free
-3788: free
-3796: free
-3804: free
-3812: free
-3820: free
-3828: free
-3836: free
-3844: free
-3852: free
-3860: free
-3868: free
-3876: free
-3884: free
-3892: free
-3900: free
-3908: free
-3916: free
-3924: free
-3932: free
-3940: free
-3948: free
-3956: free
-3964: free
-3972: free
-3980: free
-3988: free
-3996: free
-4004: free
-4012: free
-4020: free
-4028: free
-4036: free
-4044: free
-4052: free
-4060: free
-4068: free
-4076: free
-4084: free
-4092: free
-4100: free
-4108: free
-4116: free
-4124: free
-4132: free
-4140: free
-4148: free
-4156: free
-4164: free
-4172: free
-4180: free
-4188: free
-4196: free
-4204: free
-4212: free
-4220: free
-4228: free
-4236: free
-4244: free
-4252: free
-4260: free
-4268: free
-4276: free
-4284: free
-4292: free
-4300: free
-4308: free
-4316: free
-4324: free
-4332: free
-4340: free
-4348: free
-4356: free
-4364: free
-4372: free
-4380: free
-4388: free
-4396: free
-4404: free
-4412: free
-4420: free
-4428: free
-4436: free
-4444: free
-4452: free
-4460: free
-4468: free
-4476: free
-4484: free
-4492: free
-4500: free
-4508: free
-4516: free
-4524: free
-4532: free
-4540: free
-4548: free
-4556: free
-4564: free
-4572: free
-4580: free
-4588: free
-4596: free
-4604: free
-4612: free
-4620: free
-4628: free
-4636: free
-4644: free
-4652: free
-4660: free
-4668: free
-4676: free
-4684: free
-4692: free
-4700: free
-4708: free
-4716: free
-4724: free
-4732: free
-4740: free
-4748: free
-4756: free
-4764: free
-4772: free
-4780: free
-4788: free
-4796: free
-4804: free
-4812: free
-4820: free
-4828: free
-4836: free
-4844: free
-4852: free
-4860: free
-4868: free
-4876: free
-4884: free
-4892: free
-4900: free
-4908: free
-4916: free
-4924: free
-4932: free
-4940: free
-4948: free
-4956: free
-4964: free
-4972: free
-4980: free
-4988: free
-4996: free
-5004: free
-5012: free
-5020: free
-5028: free
-5036: free
-5044: free
-5052: free
-5060: free
-5068: free
-5076: free
-5084: free
-5092: free
-5100: free
-5108: free
-5116: free
-5124: free
-5132: free
-5140: free
-5148: free
-5156: free
-5164: free
-5172: free
-5180: free
-5188: free
-5196: free
-5204: free
-5212: free
-5220: free
-5228: free
-5236: free
-5244: free
-5252: free
-5260: free
-5268: free
-5276: free
-5284: free
-5292: free
-5300: free
-5308: free
-5316: free
-5324: free
-5332: free
-5340: free
-5348: free
-5356: free
-5364: free
-5372: free
-5380: free
-5388: free
-5396: free
-5404: free
-5412: free
-5420: free
-5428: free
-5436: free
-5444: free
-5452: free
-5460: free
-5468: free
-5476: free
-5484: free
-5492: free
-5500: free
-5508: free
-5516: free
-5524: free
-5532: free
-5540: free
-5548: free
-5556: free
-5564: free
-5572: free
-5580: free
-5588: free
-5596: free
-5604: free
-5612: free
-5620: free
-5628: free
-5636: free
-5644: free
-5652: free
-5660: free
-5668: free
-5676: free
-5684: free
-5692: free
-5700: free
-5708: free
-5716: free
-5724: free
-5732: free
-5740: free
-5748: free
-5756: free
-5764: free
-5772: free
-5780: free
-5788: free
-5796: free
-5804: free
-5812: free
-5820: free
-5828: free
-5836: free
-5844: free
-5852: free
-5860: free
-5868: free
-5876: free
-5884: free
-5892: free
-5900: free
-5908: free
-5916: free
-5924: free
-5932: free
-5940: free
-5948: free
-5956: free
-5964: free
-5972: free
-5980: free
-5988: free
-5996: free
-6004: free
-6012: free
-6020: free
-6028: free
-6036: free
-6044: free
-6052: free
-6060: free
-6068: free
-6076: free
-6084: free
-6092: free
-6100: free
-6108: free
-6116: free
-6124: free
-6132: free
-pad: [0, 0]
+36: Alloc { ptr: 16384, len: 408, capacity: 512 }: "\x8c\0\x84\0\x9c\0\\\0\xb4\0\xac\0,\x01$\x01\\\x01l\0\xc4\0T\0\xcc\0T\x01|\0L\x01\xf4\0\xb4\x01\xcc\x01\xec\04\x01\x94\0D\x01\xe4\x01\xd4\0<\x01\xe4\0\xfc\x01d\x01\x14\x01|\x01\x04\x02\xa4\0t\x01\xa4\x01\x1c\x02\x1c\x01\x8c\x01,\x02d\0\xbc\0\xc4\x01\x9c\x01<\x02\x84\x01\x0c\x02\x04\x01\x94\x01\xf4\x01t\x02\xfc\0\xdc\x01\xdc\0|\x02L\x02$\x02\x0c\x01\x8c\x02D\0l\x01D\x02\xac\x01T\x02\xb4\x02\x84\x02\xc4\x02\xac\x02\x94\x02\xec\x01\xbc\x01L\0\xe4\x02\x04\x03\xa4\x02\xf4\x02\xfc\x02\x1c\x03<\x034\x03L\x03\xd4\x02\x0c\x03\xec\x02\xdc\x02\\\x02\xbc\x02l\x02\\\x03$\x03t\x03d\x02\x84\x03l\x03d\x03\xcc\x02\xbc\x03\x14\x02,\x03\x9c\x03\xa4\x03\x9c\x02\xc4\x03\x94\x03\xe4\x03<\04\x04\xcc\x03<\x04\xdc\x03L\x04\x14\x03\x0c\x04$\x044\0T\x03T\x04\xb4\x03t\x04\xec\x03l\x04,\x04d\x04\x8c\x03\\\x04D\x04\x8c\x04\x9c\x04\xa4\x04\xac\x03\x84\x04\x94\x04\x04\x04|\x04\xc4\x04\x14\x04\xec\x04\xac\x04\x04\x05\x1c\x05|\x034\x05,\x05\x0c\x05<\x05$\x05\x14\x05\xf4\x04\xbc\x04\xe4\x04\x1c\x04D\x03T\x05\xb4\x04D\x05\xfc\x04\xac\x05\xb4\x05\xcc\x04L\x05\xa4\x05\xc4\x05\\\x05t\0|\x05\xec\x05\xd4\x04\x94\x05\xf4\x05\xdc\x05\xd4\x01\x8c\x05\x0c\x06\xd4\x05\xcc\x05t\x05\x1c\x06\x84\x05\x14\x06\xf4\x03L\x06D\x06<\x06l\x05l\x06T\x064\x06\xd4\x03|\x06d\x06\\\x06d\x05\x84\x06\x9c\x05t\x06\xdc\x04\xa4\x06,\x06\x9c\x06\xfc\x03\xb4\x06\x94\x06\xac\x06\x8c\x06\xcc\x06"
+44: Freed { next: 0, ptr: 22528, capacity: 16384 }
+52: Alloc { ptr: 12384, len: 14, capacity: 16 }: "Prof. Jardine\n"
+60: Alloc { ptr: 12544, len: 9, capacity: 16 }: "towhom-1a"
+68: Alloc { ptr: 6384, len: 9, capacity: 16 }: "towhom-10"
+76: Alloc { ptr: 6352, len: 4, capacity: 4 }: "shah"
+84: Alloc { ptr: 6208, len: 7, capacity: 16 }: "{name}\n"
+92: Alloc { ptr: 6976, len: 45, capacity: 64 }: ".hc %\n.m1 0\n.m2 0\n.m3 0\n.m4 0\n.na\n.nf\n.bl 11\n"
+100: Alloc { ptr: 9216, len: 115, capacity: 128 }: "Mr. A. J. Lindstrom\nSponsored Research Administrator\nCalifornia Institute of Technology\nPasadena, California 91109\n"
+108: Alloc { ptr: 8192, len: 1021, capacity: 1024 }: "The accompanying {materials(media+documents)} for UNIX are \nintended for your use {for your use  ...} with the\nfollowing proviso:\n.sp\n.in +4\n.ll -4\nThe program and information transmitted herewith is and shall\nremain the property of Bell Lab%oratories.\nIt is provided solely for your use within the Bell System\nfor Bell System purposes and should be disclosed only to\nthose with a need to know.\nAny program transmitted herewith should be executed on a\nsingle piece of computer equipment only, \nand the written permission of Bell Lab%oratories must be secured before\nexecuting any program on any additional piece of \ncomputer equipment.\nNeither program nor information may be reproduced in any way\nand may not be made available in any form to non-Bell\nSystem personnel without the express written permission\nof Bell Lab%oratories.\nAll restrictions set forth herein are fully applicable to\nthose supplying, programming or maintaining \ncomputer equipment on which any program transmitted herewith\nis executed.\n.in -4\n.ll +4\n"
+116: Alloc { ptr: 17240, len: 7, capacity: 8 }: "name-35"
+124: Alloc { ptr: 6200, len: 5, capacity: 8 }: "encl-"
+132: Alloc { ptr: 6656, len: 104, capacity: 256 }: "[fixpl]\n[header]\n.sp 1\n[name-[1]]\n.sp 1\nDear [towhom-[1]]:\n.fi\n.sp 1\n{text-[1]}\n[footer]\n.sp\n{encl-[1]}\n"
+140: Alloc { ptr: 6160, len: 6, capacity: 8 }: "letter"
+148: Alloc { ptr: 6304, len: 16, capacity: 16 }: "Prof. Levinthal\n"
+156: Alloc { ptr: 6176, len: 5, capacity: 8 }: "fixpl"
+164: Alloc { ptr: 6912, len: 8, capacity: 8 }: "towhom-4"
+172: Alloc { ptr: 7680, len: 23, capacity: 128 }: ".in 30\n[0], 1974\n.in 0\n"
+180: Alloc { ptr: 6184, len: 6, capacity: 8 }: "header"
+188: Alloc { ptr: 6448, len: 8, capacity: 8 }: "towhom-6"
+196: Alloc { ptr: 6528, len: 5, capacity: 16 }: "name-"
+204: Alloc { ptr: 6256, len: 7, capacity: 16 }: "towhom-"
+212: Alloc { ptr: 6224, len: 8, capacity: 8 }: "towhom-2"
+220: Alloc { ptr: 6568, len: 6, capacity: 8 }: "name-9"
+228: Alloc { ptr: 6232, len: 6, capacity: 8 }: "name-3"
+236: Alloc { ptr: 7936, len: 123, capacity: 128 }: "Professor Cyrus Levinthal\nDepartment of Biological Sciences\nSchermerhorn Hall\nColumbia University\nNew York, New York 10027\n"
+244: Alloc { ptr: 6440, len: 5, capacity: 8 }: "text-"
+252: Alloc { ptr: 6560, len: 8, capacity: 8 }: "towhom-8"
+260: Alloc { ptr: 6576, len: 8, capacity: 8 }: "towhom-7"
+268: Alloc { ptr: 6344, len: 7, capacity: 8 }: "name-10"
+276: Alloc { ptr: 6608, len: 11, capacity: 16 }: "Mr. Mayhew\n"
+284: Alloc { ptr: 6592, len: 8, capacity: 8 }: "towhom-5"
+292: Alloc { ptr: 7040, len: 60, capacity: 64 }: ".sp 2\n.in 30\n.nf\nSincerely,\n.sp 3\nKen Thompson\n.in 0\nKT/pdp\n"
+300: Alloc { ptr: 6192, len: 6, capacity: 8 }: "footer"
+308: Alloc { ptr: 6544, len: 8, capacity: 8 }: "towhom-1"
+316: Alloc { ptr: 6240, len: 15, capacity: 16 }: "Prof. Marsland\n"
+324: Alloc { ptr: 6552, len: 6, capacity: 8 }: "name-2"
+332: Alloc { ptr: 6432, len: 7, capacity: 8 }: "{encl}\n"
+340: Alloc { ptr: 6944, len: 9, capacity: 16 }: "{towhom}\n"
+348: Alloc { ptr: 6168, len: 8, capacity: 8 }: "in-house"
+356: Alloc { ptr: 6368, len: 8, capacity: 8 }: "towhom-3"
+364: Alloc { ptr: 7104, len: 13, capacity: 16 }: "Dr. Slamecka\n"
+372: Alloc { ptr: 6288, len: 12, capacity: 16 }: "Prof. Arden\n"
+380: Alloc { ptr: 6376, len: 6, capacity: 8 }: "name-4"
+388: Alloc { ptr: 6456, len: 6, capacity: 8 }: "name-7"
+396: Alloc { ptr: 6272, len: 14, capacity: 16 }: "Mr. Desautels\n"
+404: Alloc { ptr: 6640, len: 9, capacity: 16 }: "M. Goins\n"
+412: Alloc { ptr: 6152, len: 4, capacity: 4 }: "conf"
+420: Alloc { ptr: 6920, len: 6, capacity: 8 }: "name-5"
+428: Alloc { ptr: 9856, len: 103, capacity: 128 }: "Dr. Kenneth King\nOffice of the Dean for Computer Systems\n535 East 80th Street\nNew York, New York 10021\n"
+436: Alloc { ptr: 6400, len: 7, capacity: 8 }: "{text}\n"
+444: Alloc { ptr: 13312, len: 647, capacity: 1024 }: "Thank you for your letter\nconcerning the UNIX time-sharing system.\nEnclosed is a preprint of an article which\nwill be published in the\nCommunications of the ACM in their issue\ndevoted to papers from last year\'s\nSIGOPS conference.\n\nAt the moment,\nUNIX is available,\nfor a nuisance fee of about $100,\nto educational institutions.\nThe more detailed\nUNIX reference manual is only available\nwith such a licence.\nIn order to get the \"official\"\nword concerning release,\nyou should contact:\n\n.in 5\n.nf\n{shah}\n.in 0\n.fi\n\nAlthough our supply of publicly\navailable written\nmaterial is slim,\nwe would be happy to have you visit\nand take a look at the system.\n"
+452: Alloc { ptr: 6928, len: 14, capacity: 16 }: "Mr. Lindstrom\n"
+460: Alloc { ptr: 6408, len: 6, capacity: 8 }: "name-1"
+468: Alloc { ptr: 18176, len: 88, capacity: 128 }: "Mr. William C. Ripperger\nKnox College Computer Center\nKnox College\nGalesburg, Ill 61401\n"
+476: Alloc { ptr: 6624, len: 14, capacity: 16 }: "Prof. Huggins\n"
+484: Alloc { ptr: 8064, len: 96, capacity: 128 }: "Prof. T. A. Marsland\nDepartment of Computing Science\nThe University of Alberta\nEdmonton, Canada\n"
+492: Alloc { ptr: 6156, len: 4, capacity: 4 }: "univ"
+500: Alloc { ptr: 6584, len: 6, capacity: 8 }: "name-8"
+508: Alloc { ptr: 7168, len: 81, capacity: 128 }: "Mr. Bill Mayhew\nThe Children\'s Museum\nThe Jamaicaway\nBoston, Massachusetts 02130\n"
+516: Alloc { ptr: 9472, len: 145, capacity: 256 }: "Prof. Bruce W. Arden\nDepartment of Electrical Engineering\nBrackett Hall, Engineering Quadrangle\nPrinceton University\nPrinceton, New Jersey 08540\n"
+524: Alloc { ptr: 7296, len: 111, capacity: 128 }: "Mr. Gary M. Goins\nDepartment of Biometry\nWearn Research Building\nCase Western University\nCleveland, Ohio 44106\n"
+532: Alloc { ptr: 12296, len: 8, capacity: 8 }: "name-11a"
+540: Alloc { ptr: 7552, len: 125, capacity: 128 }: "Mr. E. J. Desautels\nThe University of Wisconsin\nComputer Science Department\n1210 West Dayton Street\nMadison, Wisconsin 53706\n"
+548: Alloc { ptr: 6320, len: 9, capacity: 16 }: "Mr. Byer\n"
+556: Alloc { ptr: 6600, len: 6, capacity: 8 }: "name-6"
+564: Freed { next: 0, ptr: 6146, capacity: 2 }
+572: Alloc { ptr: 10240, len: 566, capacity: 1024 }: "Thank you for your request for the UNIX operating system.\nThe current version of UNIX requires at least\nthe following equipment:\n.sp\n\tPDP-11/40 (with EIS) or PDP-11/45 CPU\n\tKT segmentation option\n\t32K words of core\n\tRK or RP disk\n\tKW (line or programmable) clock\n\tstandard DEC console (LA, VT, or LT)\n.sp\nYou should send me a complete\nlist of your configuration plus one of the following:\n.sp\n\t600\'-2400\' (9 track 800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\tRP03 disk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\n"
+580: Alloc { ptr: 6960, len: 7, capacity: 8 }: "name-11"
+588: Alloc { ptr: 6336, len: 8, capacity: 8 }: "towhom-9"
+596: Alloc { ptr: 7120, len: 9, capacity: 16 }: "towhom-11"
+604: Alloc { ptr: 7808, len: 7, capacity: 8 }: "name-16"
+612: Alloc { ptr: 7504, len: 9, capacity: 16 }: "towhom-17"
+620: Alloc { ptr: 7520, len: 9, capacity: 16 }: "towhom-16"
+628: Alloc { ptr: 9344, len: 112, capacity: 128 }: "Prof. W. H. Huggins\nDepartment of Electrical Engineering\nThe Johns Hopkins University\nBaltimore, Maryland 21218\n"
+636: Alloc { ptr: 9728, len: 87, capacity: 128 }: "Mr. Brent Byer\nAiken Computation Lab\nHarvard University\nCambridge, Massachusetts 02138\n"
+644: Alloc { ptr: 6968, len: 7, capacity: 8 }: "name-12"
+652: Alloc { ptr: 9984, len: 136, capacity: 256 }: "Dr. Vladimir Slamecka\nComputer Center\nSchool of Information and Computer Science\nGeorgia Institute of Technology\nAtlanta, Georgia 30332\n"
+660: Alloc { ptr: 6416, len: 10, capacity: 16 }: "Mr. Lewis\n"
+668: Alloc { ptr: 12304, len: 5, capacity: 8 }: "chess"
+676: Alloc { ptr: 11904, len: 123, capacity: 128 }: "Mr. Rusty Whitney\nDirector of Computing\nOregon Museum of Science and Industry\n4015 S.W. Canyon Road\nPortland, Oregon 97221\n"
+684: Alloc { ptr: 7136, len: 9, capacity: 16 }: "towhom-12"
+692: Alloc { ptr: 6480, len: 9, capacity: 16 }: "Dr. King\n"
+700: Alloc { ptr: 12416, len: 121, capacity: 128 }: "Prof. D. A. Michalopoulos\nDepartment of Quantitative Methods\nThe California State University\nFullerton, California 92634\n"
+708: Alloc { ptr: 11520, len: 140, capacity: 256 }: "James P. Lewis, Director\nComputer Center\nColumbia University\nCollege of Physicians and Surgeons\n630 West 168th Street\nNew York, N. Y. 10032\n"
+716: Alloc { ptr: 6464, len: 9, capacity: 16 }: "towhom-18"
+724: Alloc { ptr: 7896, len: 7, capacity: 8 }: "name-15"
+732: Alloc { ptr: 7872, len: 12, capacity: 16 }: "Mr. Bateman\n"
+740: Alloc { ptr: 11776, len: 89, capacity: 128 }: "R. G. Shahpazian\nRoom 400\nWestern Electric Company\n222 Broadway\nNew York, New York 10038\n"
+748: Alloc { ptr: 7152, len: 9, capacity: 16 }: "towhom-15"
+756: Alloc { ptr: 7424, len: 9, capacity: 16 }: "towhom-13"
+764: Alloc { ptr: 7920, len: 12, capacity: 16 }: "Mr. Whitney\n"
+772: Alloc { ptr: 6360, len: 7, capacity: 8 }: "name-13"
+780: Alloc { ptr: 12160, len: 108, capacity: 128 }: "Mr. Stanley C. Bateman\nUniversity of California\nContracts and Grants Office\nSan Francisco, California 94143\n"
+788: Alloc { ptr: 12600, len: 7, capacity: 8 }: "name-20"
+796: Alloc { ptr: 7888, len: 7, capacity: 8 }: "name-14"
+804: Alloc { ptr: 7816, len: 7, capacity: 8 }: "name-17"
+812: Alloc { ptr: 12928, len: 81, capacity: 128 }: "Prof. Melvin Ferentz\nPhysics Dept.\nBrooklyn College of CUNY\nBrooklyn, N.Y. 11210\n"
+820: Alloc { ptr: 6512, len: 9, capacity: 16 }: "towhom-14"
+828: Alloc { ptr: 12032, len: 98, capacity: 128 }: "Mr. Gideon Yuval\nComputer Science Department\nThe Hebrew University of Jerusalem\nJerusalem, Israel\n"
+836: Alloc { ptr: 13152, len: 10, capacity: 16 }: "towhom-27a"
+844: Alloc { ptr: 7856, len: 10, capacity: 16 }: "Mr. Yuval\n"
+852: Alloc { ptr: 12560, len: 7, capacity: 8 }: "name-21"
+860: Alloc { ptr: 12320, len: 20, capacity: 32 }: "Prof. Michalopoulos\n"
+868: Alloc { ptr: 12800, len: 114, capacity: 128 }: "Prof. R. W. Peebles\nComputer Communications Network Group\nUniversity of Waterloo\nWaterloo, Ontario\nCanada N2L 3G1\n"
+876: Alloc { ptr: 12288, len: 7, capacity: 8 }: "name-18"
+884: Alloc { ptr: 12672, len: 110, capacity: 128 }: "Prof. N. Marcuvitz\nPolytechnic Institute of New York\nLong Island Center\nRoute 110\nFarmingdale, New York 11735\n"
+892: Alloc { ptr: 15232, len: 11, capacity: 16 }: "Dr. Weiner\n"
+900: Alloc { ptr: 7824, len: 16, capacity: 16 }: "Prof. Marcuvitz\n"
+908: Alloc { ptr: 12656, len: 7, capacity: 8 }: "name-23"
+916: Alloc { ptr: 12312, len: 7, capacity: 8 }: "name-1a"
+924: Alloc { ptr: 7840, len: 10, capacity: 16 }: "towhom-11a"
+932: Alloc { ptr: 7536, len: 14, capacity: 16 }: "Prof. Ferentz\n"
+940: Alloc { ptr: 13104, len: 9, capacity: 16 }: "towhom-24"
+948: Alloc { ptr: 12640, len: 9, capacity: 16 }: "towhom-21"
+956: Alloc { ptr: 7472, len: 14, capacity: 16 }: "Prof. Peebles\n"
+964: Alloc { ptr: 15360, len: 948, capacity: 1024 }: "Thank you for your letter concerning the chess\nprogram for the PDP-11.\nThere are certain problems involved in releasing chess.\nThe program is writen in a local language which is\nconsidered proprietary.\nFor speed,\nparts of the program are writen in a local\nvarient of PDP-11 assembly language.\nIn addition,\nthe program and associated table compilers\nall run under the UNIX time-sharing system,\nwhich is also considered proprietary.\n.sp\nIf after all this,\nyou believe that listings\nin two undocumented languages,\ncalling on undocumented system I/O routines,\nwould be of use,\nI will try to get them released.\nOn the other hand,\nif you are really interested in running\nthe program,\nyou should consider obtaining UNIX,\nwhich is available under a Western Electric\nlicense agreement, royality-free, to educational institutions.\nFor information on the UNIX agreement,\nyou should contact:\n.nf\n.sp\n.in 5\n{shah}\n.sp\n.in 0\n.fi\nI hope I have been of some help.\n"
+972: Alloc { ptr: 12592, len: 7, capacity: 8 }: "name-19"
+980: Alloc { ptr: 15320, len: 7, capacity: 8 }: "name-43"
+988: Alloc { ptr: 7904, len: 9, capacity: 16 }: "towhom-19"
+996: Alloc { ptr: 13184, len: 107, capacity: 128 }: "Mr. Reidar Bornholdt\nDept. of Biological Science\n653 Scherm Ext.\nColumbia University\nNew York, N. Y. 10027\n"
+1004: Alloc { ptr: 12568, len: 7, capacity: 8 }: "name-22"
+1012: Alloc { ptr: 15352, len: 7, capacity: 8 }: "name-39"
+1020: Alloc { ptr: 15272, len: 7, capacity: 8 }: "name-49"
+1028: Alloc { ptr: 11264, len: 86, capacity: 128 }: "Mr. John E. Ecklund\nYale University\n10 Hillhouse Avenue\nNew Haven, Connecticut  06520\n"
+1036: Alloc { ptr: 14464, len: 103, capacity: 128 }: "Prof. D. A. Jardine\nDept. of Computing Science\nQueen\'s University at Kingston\nKingston, Ontario\nCanada\n"
+1044: Alloc { ptr: 13088, len: 11, capacity: 16 }: "name-letter"
+1052: Alloc { ptr: 17280, len: 85, capacity: 128 }: "Greg Chesson\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\n"
+1060: Alloc { ptr: 6496, len: 9, capacity: 16 }: "towhom-20"
+1068: Alloc { ptr: 7488, len: 9, capacity: 16 }: "towhom-22"
+1076: Alloc { ptr: 12368, len: 14, capacity: 16 }: "Mr. Bornholdt\n"
+1084: Alloc { ptr: 14336, len: 94, capacity: 128 }: "Mr. Martin E. Newell\nThe University of Utah\nCollege of Engineering\nSalt Lake City, Utah 84112\n"
+1092: Alloc { ptr: 12352, len: 9, capacity: 16 }: "towhom-23"
+1100: Alloc { ptr: 12576, len: 11, capacity: 16 }: "Mr. Newell\n"
+1108: Alloc { ptr: 14592, len: 85, capacity: 128 }: "Prof. Ralph H. Bjork\nScience Building\nSaint Olaf College\nNorthfield, Minnesota 55057\n"
+1116: Alloc { ptr: 14976, len: 76, capacity: 128 }: "Prof. R. S. Fabry\nEvans Hall\nUniversity of California\nBerkeley, Calif 94720\n"
+1124: Alloc { ptr: 12624, len: 14, capacity: 16 }: "Prof. Starmer\n"
+1132: Alloc { ptr: 14720, len: 67, capacity: 128 }: "Prof C. Frank Starmer\nDuke University\nDurham, North Carolina 27710\n"
+1140: Alloc { ptr: 13056, len: 12, capacity: 16 }: "Prof. Bjork\n"
+1148: Alloc { ptr: 14848, len: 9, capacity: 16 }: "towhom-25"
+1156: Alloc { ptr: 13072, len: 9, capacity: 16 }: "Dr. Cole\n"
+1164: Alloc { ptr: 13136, len: 12, capacity: 16 }: "Prof. Fabry\n"
+1172: Alloc { ptr: 13120, len: 7, capacity: 8 }: "name-25"
+1180: Alloc { ptr: 12664, len: 7, capacity: 8 }: "name-24"
+1188: Alloc { ptr: 15104, len: 92, capacity: 128 }: "Dr. M. S. Cole\nQueen Mary College\nUniversity of London\nMile End Road\nLondon E1 4NS, England\n"
+1196: Alloc { ptr: 13128, len: 7, capacity: 8 }: "name-26"
+1204: Alloc { ptr: 6356, len: 4, capacity: 4 }: "greg"
+1212: Alloc { ptr: 7440, len: 14, capacity: 16 }: "Prof. Gillies\n"
+1220: Alloc { ptr: 14928, len: 12, capacity: 16 }: "Mr. Ecklund\n"
+1228: Alloc { ptr: 18688, len: 120, capacity: 128 }: "Mr John Vanderford\nInstitute for Physical Sciences\nThe University of Texas at Dallas\nPO Box 688\nRichardson, Texas 75080\n"
+1236: Alloc { ptr: 17920, len: 104, capacity: 128 }: "Mr. Belton E. Allen\nInstructor of Computer Science\nNaval Postgraduate School\nMonterey, California 93940\n"
+1244: Alloc { ptr: 15336, len: 7, capacity: 8 }: "name-47"
+1252: Alloc { ptr: 13168, len: 8, capacity: 8 }: "name-27a"
+1260: Alloc { ptr: 14880, len: 0, capacity: 16 }: ""
+1268: Alloc { ptr: 12400, len: 9, capacity: 16 }: "towhom-27"
+1276: Alloc { ptr: 15296, len: 7, capacity: 8 }: "chesson"
+1284: Alloc { ptr: 11392, len: 110, capacity: 128 }: "Dr. P. Weiner\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\n"
+1292: Alloc { ptr: 14960, len: 10, capacity: 16 }: "towhom-26a"
+1300: Alloc { ptr: 17024, len: 92, capacity: 128 }: "Prof. D. B. Gillies\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\n"
+1308: Alloc { ptr: 15248, len: 9, capacity: 16 }: "towhom-26"
+1316: Alloc { ptr: 7464, len: 7, capacity: 8 }: "name-27"
+1324: Alloc { ptr: 16896, len: 115, capacity: 128 }: "Ms. Lois H. Heiser\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\n"
+1332: Alloc { ptr: 7456, len: 8, capacity: 8 }: "name-26a"
+1340: Alloc { ptr: 14864, len: 11, capacity: 16 }: "Ms. Heiser\n"
+1348: Alloc { ptr: 13176, len: 4, capacity: 4 }: "27a\n"
+1356: Alloc { ptr: 14920, len: 7, capacity: 8 }: "name-29"
+1364: Alloc { ptr: 14896, len: 12, capacity: 16 }: "Mr. Chesson\n"
+1372: Alloc { ptr: 18816, len: 121, capacity: 128 }: "Prof C.J. Karzmark\nDept of Radiology\nStanford University School of Medicine\n300 Pasteur Drive\nStanford, California 94305\n"
+1380: Alloc { ptr: 12616, len: 7, capacity: 8 }: "name-45"
+1388: Alloc { ptr: 15288, len: 7, capacity: 8 }: "name-41"
+1396: Alloc { ptr: 17192, len: 7, capacity: 8 }: "name-37"
+1404: Alloc { ptr: 17536, len: 107, capacity: 128 }: "Prof. James D. Foley\nUniversity of North Carolina at Chapel Hill\nNew West Hall\nChapel Hill, North Carolina\n"
+1412: Alloc { ptr: 15344, len: 7, capacity: 8 }: "name-38"
+1420: Alloc { ptr: 17208, len: 7, capacity: 8 }: "name-31"
+1428: Alloc { ptr: 17224, len: 7, capacity: 8 }: "name-33"
+1436: Alloc { ptr: 15328, len: 7, capacity: 8 }: "name-46"
+1444: Alloc { ptr: 17664, len: 157, capacity: 256 }: "Prof. E. Milgrom\nFaculte des Sciences Appliquees\nUnite D\'Informatique\nUniversite Catholique de Louvain\nChenin Du Cyclotron 2\n1348 Louvain-La-Neuve, Belgique\n"
+1452: Alloc { ptr: 13180, len: 4, capacity: 4 }: "27a\n"
+1460: Alloc { ptr: 14912, len: 7, capacity: 8 }: "name-28"
+1468: Freed { next: 0, ptr: 15308, capacity: 4 }
+1476: Alloc { ptr: 17232, len: 7, capacity: 8 }: "name-30"
+1484: Alloc { ptr: 18432, len: 80, capacity: 128 }: "Mr. Dustin H. Heuston\nThe Spence School\n22 E. 91st St.\nNew York, New York 10028\n"
+1492: Alloc { ptr: 17184, len: 7, capacity: 8 }: "name-36"
+1500: Alloc { ptr: 17200, len: 7, capacity: 8 }: "name-32"
+1508: Freed { next: 1468, ptr: 15304, capacity: 4 }
+1516: Alloc { ptr: 17216, len: 7, capacity: 8 }: "name-34"
+1524: Alloc { ptr: 18048, len: 120, capacity: 128 }: "Mr. J. Tansley\nMedical Computing Group\nMedical School\nUniversity of Edinbourgh\nTeviot Place\nEdinburgh EH8 9A6, Scotland\n"
+1532: Freed { next: 1540, ptr: 6150, capacity: 2 }
+1540: Freed { next: 564, ptr: 6144, capacity: 2 }
+1548: Alloc { ptr: 18304, len: 112, capacity: 128 }: "Mr. Travis Wood\nUniversity of Alabama in Birmingham\n522 Spain, UAB\nUniversity Station\nBirmingham, Alabama 35294\n"
+1556: Alloc { ptr: 18944, len: 98, capacity: 128 }: "R. M. Kavanaugh\nDept of Computational Science\nUniversity of Sakatchewan\nSaskatoon, S7N 0W0 Canada\n"
+1564: Alloc { ptr: 18560, len: 87, capacity: 128 }: "Mr. T. C. Stevens\nComputer Research Dept\nUniversity of Toronto\nToronto, Canada M5S 1A1\n"
+1572: Freed { next: 1764, ptr: 17152, capacity: 32 }
+1580: Alloc { ptr: 15264, len: 7, capacity: 8 }: "name-48"
+1588: Alloc { ptr: 17472, len: 49, capacity: 64 }: "James Curry\nIASSA\n2361 Laxenburg\nVienna, Austria\n"
+1596: Alloc { ptr: 19200, len: 83, capacity: 128 }: "H. L. Counts, Jr.\nPurchasing\nDenison University\nP.O. Box 119\nGranville, Ohio 43023\n"
+1604: Alloc { ptr: 15280, len: 7, capacity: 8 }: "name-40"
+1612: Alloc { ptr: 19072, len: 82, capacity: 128 }: "D. R. McNeil\nStatistical Computing Lab\nPrinceton University\nPrinceton, N.J. 08540\n"
+1620: Alloc { ptr: 15312, len: 7, capacity: 8 }: "name-42"
+1628: Alloc { ptr: 19584, len: 128, capacity: 128 }: "D. W. de Bakker\nDept. of Computer Science\nFoundation Mathematisch Centrum\n2e Boerhaavestraar 49\nAmsterdam 1005, The Netherlands\n"
+1636: Alloc { ptr: 12608, len: 7, capacity: 8 }: "name-44"
+1644: Alloc { ptr: 19328, len: 101, capacity: 128 }: "H. Bellmar\nMinuteman Regional Vocational\nHigh School District\n758 Merrett Road\nLexington, Mass 02173\n"
+1652: Alloc { ptr: 19840, len: 84, capacity: 128 }: "C. W. Tan\nDivision of Engineering\nThe Cooper Union\nCooper Square\nNew York, NY 10003\n"
+1660: Alloc { ptr: 19456, len: 67, capacity: 128 }: "Carl Henry\nComputer Center\nCarleton College\nNorthfield, Minn 55057\n"
+1668: Alloc { ptr: 19712, len: 81, capacity: 128 }: "S. Grodstein\nEast Brunswick High School\n22 Milltown Rd.\nEast Brunswick, NJ 08816\n"
+1676: Alloc { ptr: 14952, len: 7, capacity: 8 }: "name-51"
+1684: Alloc { ptr: 14944, len: 7, capacity: 8 }: "name-50"
+1692: Alloc { ptr: 20096, len: 83, capacity: 128 }: "R. Whitfeld\nUniversity of New South Wales\nPO Box 1\nKensington, NSW Austrialia 2D33\n"
+1700: Alloc { ptr: 19968, len: 65, capacity: 128 }: "H. S. Eisenstein\nUniversity of South Carolina\nColumbia, SC 29208\n"
+1708: Alloc { ptr: 20352, len: 113, capacity: 128 }: "P. L. De Souza\nDept of Elictrical Engineering\nHeriot-Watt University\n31-35 Grassmarket\nEdinburgh EH12H5 Scotland\n"
+1716: Alloc { ptr: 20224, len: 79, capacity: 128 }: "J. van den Bas\nKatholieke Universiteit, Toernooiveld\nNijmegen, The Netherlands\n"
+1724: Freed { next: 0, ptr: 17264, capacity: 16 }
+1732: Freed { next: 1532, ptr: 6148, capacity: 2 }
+1740: Alloc { ptr: 20480, len: 96, capacity: 128 }: "R. J. Collins\nDept of Computer Science\nUniversity of Manitoba\nWinnipeg, Manitoba, Canada R3T2N2\n"
+1748: Freed { next: 1772, ptr: 17248, capacity: 8 }
+1756: Freed { next: 0, ptr: 17440, capacity: 32 }
+1764: Freed { next: 1756, ptr: 17408, capacity: 32 }
+1772: Freed { next: 0, ptr: 17256, capacity: 8 }
+1780: Freed { next: 0, ptr: 21504, capacity: 1024 }
+1788: Freed { next: 0, ptr: 20992, capacity: 512 }
+1796: Freed { next: 0, ptr: 20736, capacity: 256 }
+1804: Freed { next: 0, ptr: 20608, capacity: 128 }
+1812: Unused { next: 1820 }
+1820: Unused { next: 1828 }
+1828: Unused { next: 1836 }
+1836: Unused { next: 1844 }
+1844: Unused { next: 1852 }
+1852: Unused { next: 1860 }
+1860: Unused { next: 1868 }
+1868: Unused { next: 1876 }
+1876: Unused { next: 1884 }
+1884: Unused { next: 1892 }
+1892: Unused { next: 1900 }
+1900: Unused { next: 1908 }
+1908: Unused { next: 1916 }
+1916: Unused { next: 1924 }
+1924: Unused { next: 1932 }
+1932: Unused { next: 1940 }
+1940: Unused { next: 1948 }
+1948: Unused { next: 1956 }
+1956: Unused { next: 1964 }
+1964: Unused { next: 1972 }
+1972: Unused { next: 1980 }
+1980: Unused { next: 1988 }
+1988: Unused { next: 1996 }
+1996: Unused { next: 2004 }
+2004: Unused { next: 2012 }
+2012: Unused { next: 2020 }
+2020: Unused { next: 2028 }
+2028: Unused { next: 2036 }
+2036: Unused { next: 2044 }
+2044: Unused { next: 2052 }
+2052: Unused { next: 2060 }
+2060: Unused { next: 2068 }
+2068: Unused { next: 2076 }
+2076: Unused { next: 2084 }
+2084: Unused { next: 2092 }
+2092: Unused { next: 2100 }
+2100: Unused { next: 2108 }
+2108: Unused { next: 2116 }
+2116: Unused { next: 2124 }
+2124: Unused { next: 2132 }
+2132: Unused { next: 2140 }
+2140: Unused { next: 2148 }
+2148: Unused { next: 2156 }
+2156: Unused { next: 2164 }
+2164: Unused { next: 2172 }
+2172: Unused { next: 2180 }
+2180: Unused { next: 2188 }
+2188: Unused { next: 2196 }
+2196: Unused { next: 2204 }
+2204: Unused { next: 2212 }
+2212: Unused { next: 2220 }
+2220: Unused { next: 2228 }
+2228: Unused { next: 2236 }
+2236: Unused { next: 2244 }
+2244: Unused { next: 2252 }
+2252: Unused { next: 2260 }
+2260: Unused { next: 2268 }
+2268: Unused { next: 2276 }
+2276: Unused { next: 2284 }
+2284: Unused { next: 2292 }
+2292: Unused { next: 2300 }
+2300: Unused { next: 2308 }
+2308: Unused { next: 2316 }
+2316: Unused { next: 2324 }
+2324: Unused { next: 2332 }
+2332: Unused { next: 2340 }
+2340: Unused { next: 2348 }
+2348: Unused { next: 2356 }
+2356: Unused { next: 2364 }
+2364: Unused { next: 2372 }
+2372: Unused { next: 2380 }
+2380: Unused { next: 2388 }
+2388: Unused { next: 2396 }
+2396: Unused { next: 2404 }
+2404: Unused { next: 2412 }
+2412: Unused { next: 2420 }
+2420: Unused { next: 2428 }
+2428: Unused { next: 2436 }
+2436: Unused { next: 2444 }
+2444: Unused { next: 2452 }
+2452: Unused { next: 2460 }
+2460: Unused { next: 2468 }
+2468: Unused { next: 2476 }
+2476: Unused { next: 2484 }
+2484: Unused { next: 2492 }
+2492: Unused { next: 2500 }
+2500: Unused { next: 2508 }
+2508: Unused { next: 2516 }
+2516: Unused { next: 2524 }
+2524: Unused { next: 2532 }
+2532: Unused { next: 2540 }
+2540: Unused { next: 2548 }
+2548: Unused { next: 2556 }
+2556: Unused { next: 2564 }
+2564: Unused { next: 2572 }
+2572: Unused { next: 2580 }
+2580: Unused { next: 2588 }
+2588: Unused { next: 2596 }
+2596: Unused { next: 2604 }
+2604: Unused { next: 2612 }
+2612: Unused { next: 2620 }
+2620: Unused { next: 2628 }
+2628: Unused { next: 2636 }
+2636: Unused { next: 2644 }
+2644: Unused { next: 2652 }
+2652: Unused { next: 2660 }
+2660: Unused { next: 2668 }
+2668: Unused { next: 2676 }
+2676: Unused { next: 2684 }
+2684: Unused { next: 2692 }
+2692: Unused { next: 2700 }
+2700: Unused { next: 2708 }
+2708: Unused { next: 2716 }
+2716: Unused { next: 2724 }
+2724: Unused { next: 2732 }
+2732: Unused { next: 2740 }
+2740: Unused { next: 2748 }
+2748: Unused { next: 2756 }
+2756: Unused { next: 2764 }
+2764: Unused { next: 2772 }
+2772: Unused { next: 2780 }
+2780: Unused { next: 2788 }
+2788: Unused { next: 2796 }
+2796: Unused { next: 2804 }
+2804: Unused { next: 2812 }
+2812: Unused { next: 2820 }
+2820: Unused { next: 2828 }
+2828: Unused { next: 2836 }
+2836: Unused { next: 2844 }
+2844: Unused { next: 2852 }
+2852: Unused { next: 2860 }
+2860: Unused { next: 2868 }
+2868: Unused { next: 2876 }
+2876: Unused { next: 2884 }
+2884: Unused { next: 2892 }
+2892: Unused { next: 2900 }
+2900: Unused { next: 2908 }
+2908: Unused { next: 2916 }
+2916: Unused { next: 2924 }
+2924: Unused { next: 2932 }
+2932: Unused { next: 2940 }
+2940: Unused { next: 2948 }
+2948: Unused { next: 2956 }
+2956: Unused { next: 2964 }
+2964: Unused { next: 2972 }
+2972: Unused { next: 2980 }
+2980: Unused { next: 2988 }
+2988: Unused { next: 2996 }
+2996: Unused { next: 3004 }
+3004: Unused { next: 3012 }
+3012: Unused { next: 3020 }
+3020: Unused { next: 3028 }
+3028: Unused { next: 3036 }
+3036: Unused { next: 3044 }
+3044: Unused { next: 3052 }
+3052: Unused { next: 3060 }
+3060: Unused { next: 3068 }
+3068: Unused { next: 3076 }
+3076: Unused { next: 3084 }
+3084: Unused { next: 3092 }
+3092: Unused { next: 3100 }
+3100: Unused { next: 3108 }
+3108: Unused { next: 3116 }
+3116: Unused { next: 3124 }
+3124: Unused { next: 3132 }
+3132: Unused { next: 3140 }
+3140: Unused { next: 3148 }
+3148: Unused { next: 3156 }
+3156: Unused { next: 3164 }
+3164: Unused { next: 3172 }
+3172: Unused { next: 3180 }
+3180: Unused { next: 3188 }
+3188: Unused { next: 3196 }
+3196: Unused { next: 3204 }
+3204: Unused { next: 3212 }
+3212: Unused { next: 3220 }
+3220: Unused { next: 3228 }
+3228: Unused { next: 3236 }
+3236: Unused { next: 3244 }
+3244: Unused { next: 3252 }
+3252: Unused { next: 3260 }
+3260: Unused { next: 3268 }
+3268: Unused { next: 3276 }
+3276: Unused { next: 3284 }
+3284: Unused { next: 3292 }
+3292: Unused { next: 3300 }
+3300: Unused { next: 3308 }
+3308: Unused { next: 3316 }
+3316: Unused { next: 3324 }
+3324: Unused { next: 3332 }
+3332: Unused { next: 3340 }
+3340: Unused { next: 3348 }
+3348: Unused { next: 3356 }
+3356: Unused { next: 3364 }
+3364: Unused { next: 3372 }
+3372: Unused { next: 3380 }
+3380: Unused { next: 3388 }
+3388: Unused { next: 3396 }
+3396: Unused { next: 3404 }
+3404: Unused { next: 3412 }
+3412: Unused { next: 3420 }
+3420: Unused { next: 3428 }
+3428: Unused { next: 3436 }
+3436: Unused { next: 3444 }
+3444: Unused { next: 3452 }
+3452: Unused { next: 3460 }
+3460: Unused { next: 3468 }
+3468: Unused { next: 3476 }
+3476: Unused { next: 3484 }
+3484: Unused { next: 3492 }
+3492: Unused { next: 3500 }
+3500: Unused { next: 3508 }
+3508: Unused { next: 3516 }
+3516: Unused { next: 3524 }
+3524: Unused { next: 3532 }
+3532: Unused { next: 3540 }
+3540: Unused { next: 3548 }
+3548: Unused { next: 3556 }
+3556: Unused { next: 3564 }
+3564: Unused { next: 3572 }
+3572: Unused { next: 3580 }
+3580: Unused { next: 3588 }
+3588: Unused { next: 3596 }
+3596: Unused { next: 3604 }
+3604: Unused { next: 3612 }
+3612: Unused { next: 3620 }
+3620: Unused { next: 3628 }
+3628: Unused { next: 3636 }
+3636: Unused { next: 3644 }
+3644: Unused { next: 3652 }
+3652: Unused { next: 3660 }
+3660: Unused { next: 3668 }
+3668: Unused { next: 3676 }
+3676: Unused { next: 3684 }
+3684: Unused { next: 3692 }
+3692: Unused { next: 3700 }
+3700: Unused { next: 3708 }
+3708: Unused { next: 3716 }
+3716: Unused { next: 3724 }
+3724: Unused { next: 3732 }
+3732: Unused { next: 3740 }
+3740: Unused { next: 3748 }
+3748: Unused { next: 3756 }
+3756: Unused { next: 3764 }
+3764: Unused { next: 3772 }
+3772: Unused { next: 3780 }
+3780: Unused { next: 3788 }
+3788: Unused { next: 3796 }
+3796: Unused { next: 3804 }
+3804: Unused { next: 3812 }
+3812: Unused { next: 3820 }
+3820: Unused { next: 3828 }
+3828: Unused { next: 3836 }
+3836: Unused { next: 3844 }
+3844: Unused { next: 3852 }
+3852: Unused { next: 3860 }
+3860: Unused { next: 3868 }
+3868: Unused { next: 3876 }
+3876: Unused { next: 3884 }
+3884: Unused { next: 3892 }
+3892: Unused { next: 3900 }
+3900: Unused { next: 3908 }
+3908: Unused { next: 3916 }
+3916: Unused { next: 3924 }
+3924: Unused { next: 3932 }
+3932: Unused { next: 3940 }
+3940: Unused { next: 3948 }
+3948: Unused { next: 3956 }
+3956: Unused { next: 3964 }
+3964: Unused { next: 3972 }
+3972: Unused { next: 3980 }
+3980: Unused { next: 3988 }
+3988: Unused { next: 3996 }
+3996: Unused { next: 4004 }
+4004: Unused { next: 4012 }
+4012: Unused { next: 4020 }
+4020: Unused { next: 4028 }
+4028: Unused { next: 4036 }
+4036: Unused { next: 4044 }
+4044: Unused { next: 4052 }
+4052: Unused { next: 4060 }
+4060: Unused { next: 4068 }
+4068: Unused { next: 4076 }
+4076: Unused { next: 4084 }
+4084: Unused { next: 4092 }
+4092: Unused { next: 4100 }
+4100: Unused { next: 4108 }
+4108: Unused { next: 4116 }
+4116: Unused { next: 4124 }
+4124: Unused { next: 4132 }
+4132: Unused { next: 4140 }
+4140: Unused { next: 4148 }
+4148: Unused { next: 4156 }
+4156: Unused { next: 4164 }
+4164: Unused { next: 4172 }
+4172: Unused { next: 4180 }
+4180: Unused { next: 4188 }
+4188: Unused { next: 4196 }
+4196: Unused { next: 4204 }
+4204: Unused { next: 4212 }
+4212: Unused { next: 4220 }
+4220: Unused { next: 4228 }
+4228: Unused { next: 4236 }
+4236: Unused { next: 4244 }
+4244: Unused { next: 4252 }
+4252: Unused { next: 4260 }
+4260: Unused { next: 4268 }
+4268: Unused { next: 4276 }
+4276: Unused { next: 4284 }
+4284: Unused { next: 4292 }
+4292: Unused { next: 4300 }
+4300: Unused { next: 4308 }
+4308: Unused { next: 4316 }
+4316: Unused { next: 4324 }
+4324: Unused { next: 4332 }
+4332: Unused { next: 4340 }
+4340: Unused { next: 4348 }
+4348: Unused { next: 4356 }
+4356: Unused { next: 4364 }
+4364: Unused { next: 4372 }
+4372: Unused { next: 4380 }
+4380: Unused { next: 4388 }
+4388: Unused { next: 4396 }
+4396: Unused { next: 4404 }
+4404: Unused { next: 4412 }
+4412: Unused { next: 4420 }
+4420: Unused { next: 4428 }
+4428: Unused { next: 4436 }
+4436: Unused { next: 4444 }
+4444: Unused { next: 4452 }
+4452: Unused { next: 4460 }
+4460: Unused { next: 4468 }
+4468: Unused { next: 4476 }
+4476: Unused { next: 4484 }
+4484: Unused { next: 4492 }
+4492: Unused { next: 4500 }
+4500: Unused { next: 4508 }
+4508: Unused { next: 4516 }
+4516: Unused { next: 4524 }
+4524: Unused { next: 4532 }
+4532: Unused { next: 4540 }
+4540: Unused { next: 4548 }
+4548: Unused { next: 4556 }
+4556: Unused { next: 4564 }
+4564: Unused { next: 4572 }
+4572: Unused { next: 4580 }
+4580: Unused { next: 4588 }
+4588: Unused { next: 4596 }
+4596: Unused { next: 4604 }
+4604: Unused { next: 4612 }
+4612: Unused { next: 4620 }
+4620: Unused { next: 4628 }
+4628: Unused { next: 4636 }
+4636: Unused { next: 4644 }
+4644: Unused { next: 4652 }
+4652: Unused { next: 4660 }
+4660: Unused { next: 4668 }
+4668: Unused { next: 4676 }
+4676: Unused { next: 4684 }
+4684: Unused { next: 4692 }
+4692: Unused { next: 4700 }
+4700: Unused { next: 4708 }
+4708: Unused { next: 4716 }
+4716: Unused { next: 4724 }
+4724: Unused { next: 4732 }
+4732: Unused { next: 4740 }
+4740: Unused { next: 4748 }
+4748: Unused { next: 4756 }
+4756: Unused { next: 4764 }
+4764: Unused { next: 4772 }
+4772: Unused { next: 4780 }
+4780: Unused { next: 4788 }
+4788: Unused { next: 4796 }
+4796: Unused { next: 4804 }
+4804: Unused { next: 4812 }
+4812: Unused { next: 4820 }
+4820: Unused { next: 4828 }
+4828: Unused { next: 4836 }
+4836: Unused { next: 4844 }
+4844: Unused { next: 4852 }
+4852: Unused { next: 4860 }
+4860: Unused { next: 4868 }
+4868: Unused { next: 4876 }
+4876: Unused { next: 4884 }
+4884: Unused { next: 4892 }
+4892: Unused { next: 4900 }
+4900: Unused { next: 4908 }
+4908: Unused { next: 4916 }
+4916: Unused { next: 4924 }
+4924: Unused { next: 4932 }
+4932: Unused { next: 4940 }
+4940: Unused { next: 4948 }
+4948: Unused { next: 4956 }
+4956: Unused { next: 4964 }
+4964: Unused { next: 4972 }
+4972: Unused { next: 4980 }
+4980: Unused { next: 4988 }
+4988: Unused { next: 4996 }
+4996: Unused { next: 5004 }
+5004: Unused { next: 5012 }
+5012: Unused { next: 5020 }
+5020: Unused { next: 5028 }
+5028: Unused { next: 5036 }
+5036: Unused { next: 5044 }
+5044: Unused { next: 5052 }
+5052: Unused { next: 5060 }
+5060: Unused { next: 5068 }
+5068: Unused { next: 5076 }
+5076: Unused { next: 5084 }
+5084: Unused { next: 5092 }
+5092: Unused { next: 5100 }
+5100: Unused { next: 5108 }
+5108: Unused { next: 5116 }
+5116: Unused { next: 5124 }
+5124: Unused { next: 5132 }
+5132: Unused { next: 5140 }
+5140: Unused { next: 5148 }
+5148: Unused { next: 5156 }
+5156: Unused { next: 5164 }
+5164: Unused { next: 5172 }
+5172: Unused { next: 5180 }
+5180: Unused { next: 5188 }
+5188: Unused { next: 5196 }
+5196: Unused { next: 5204 }
+5204: Unused { next: 5212 }
+5212: Unused { next: 5220 }
+5220: Unused { next: 5228 }
+5228: Unused { next: 5236 }
+5236: Unused { next: 5244 }
+5244: Unused { next: 5252 }
+5252: Unused { next: 5260 }
+5260: Unused { next: 5268 }
+5268: Unused { next: 5276 }
+5276: Unused { next: 5284 }
+5284: Unused { next: 5292 }
+5292: Unused { next: 5300 }
+5300: Unused { next: 5308 }
+5308: Unused { next: 5316 }
+5316: Unused { next: 5324 }
+5324: Unused { next: 5332 }
+5332: Unused { next: 5340 }
+5340: Unused { next: 5348 }
+5348: Unused { next: 5356 }
+5356: Unused { next: 5364 }
+5364: Unused { next: 5372 }
+5372: Unused { next: 5380 }
+5380: Unused { next: 5388 }
+5388: Unused { next: 5396 }
+5396: Unused { next: 5404 }
+5404: Unused { next: 5412 }
+5412: Unused { next: 5420 }
+5420: Unused { next: 5428 }
+5428: Unused { next: 5436 }
+5436: Unused { next: 5444 }
+5444: Unused { next: 5452 }
+5452: Unused { next: 5460 }
+5460: Unused { next: 5468 }
+5468: Unused { next: 5476 }
+5476: Unused { next: 5484 }
+5484: Unused { next: 5492 }
+5492: Unused { next: 5500 }
+5500: Unused { next: 5508 }
+5508: Unused { next: 5516 }
+5516: Unused { next: 5524 }
+5524: Unused { next: 5532 }
+5532: Unused { next: 5540 }
+5540: Unused { next: 5548 }
+5548: Unused { next: 5556 }
+5556: Unused { next: 5564 }
+5564: Unused { next: 5572 }
+5572: Unused { next: 5580 }
+5580: Unused { next: 5588 }
+5588: Unused { next: 5596 }
+5596: Unused { next: 5604 }
+5604: Unused { next: 5612 }
+5612: Unused { next: 5620 }
+5620: Unused { next: 5628 }
+5628: Unused { next: 5636 }
+5636: Unused { next: 5644 }
+5644: Unused { next: 5652 }
+5652: Unused { next: 5660 }
+5660: Unused { next: 5668 }
+5668: Unused { next: 5676 }
+5676: Unused { next: 5684 }
+5684: Unused { next: 5692 }
+5692: Unused { next: 5700 }
+5700: Unused { next: 5708 }
+5708: Unused { next: 5716 }
+5716: Unused { next: 5724 }
+5724: Unused { next: 5732 }
+5732: Unused { next: 5740 }
+5740: Unused { next: 5748 }
+5748: Unused { next: 5756 }
+5756: Unused { next: 5764 }
+5764: Unused { next: 5772 }
+5772: Unused { next: 5780 }
+5780: Unused { next: 5788 }
+5788: Unused { next: 5796 }
+5796: Unused { next: 5804 }
+5804: Unused { next: 5812 }
+5812: Unused { next: 5820 }
+5820: Unused { next: 5828 }
+5828: Unused { next: 5836 }
+5836: Unused { next: 5844 }
+5844: Unused { next: 5852 }
+5852: Unused { next: 5860 }
+5860: Unused { next: 5868 }
+5868: Unused { next: 5876 }
+5876: Unused { next: 5884 }
+5884: Unused { next: 5892 }
+5892: Unused { next: 5900 }
+5900: Unused { next: 5908 }
+5908: Unused { next: 5916 }
+5916: Unused { next: 5924 }
+5924: Unused { next: 5932 }
+5932: Unused { next: 5940 }
+5940: Unused { next: 5948 }
+5948: Unused { next: 5956 }
+5956: Unused { next: 5964 }
+5964: Unused { next: 5972 }
+5972: Unused { next: 5980 }
+5980: Unused { next: 5988 }
+5988: Unused { next: 5996 }
+5996: Unused { next: 6004 }
+6004: Unused { next: 6012 }
+6012: Unused { next: 6020 }
+6020: Unused { next: 6028 }
+6028: Unused { next: 6036 }
+6036: Unused { next: 6044 }
+6044: Unused { next: 6052 }
+6052: Unused { next: 6060 }
+6060: Unused { next: 6068 }
+6068: Unused { next: 6076 }
+6076: Unused { next: 6084 }
+6084: Unused { next: 6092 }
+6092: Unused { next: 6100 }
+6100: Unused { next: 6108 }
+6108: Unused { next: 6116 }
+6116: Unused { next: 6124 }
+6124: Unused { next: 6132 }
+6132: Unused { next: 0 }
 offset=6144, len=8, kind=Free, text="MrwhR.Mr"
 offset=6152, len=4, kind=Alloc, text="conf"
 offset=6156, len=4, kind=Alloc, text="univ"
