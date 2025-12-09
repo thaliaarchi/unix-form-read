@@ -1,5 +1,4 @@
 use std::{
-    collections::HashSet,
     fs,
     mem::{self, offset_of},
 };
@@ -43,9 +42,6 @@ const _: () = assert!(size_of::<Headers>() == HEADERS_SIZE);
 fn main() {
     let form = fs::read("distr/form.m").unwrap();
     assert!(form.len() <= u16::MAX as usize);
-
-    let strings = fs::read_to_string("strings.json").unwrap();
-    let strings: Vec<String> = serde_json::from_str(&strings).unwrap();
 
     let headers: &[u8; HEADERS_SIZE] = form.first_chunk().unwrap();
     let headers: Headers = unsafe { mem::transmute(*headers) };
@@ -121,8 +117,6 @@ fn main() {
         );
     };
 
-    let mut alloc_strings = HashSet::new();
-
     let mut prev_alloc = HEADERS_SIZE as u16;
     for header in &allocs {
         if header.start > prev_alloc {
@@ -131,7 +125,7 @@ fn main() {
         if header.start < prev_alloc {
             panic!("overlapping allocations");
         }
-        alloc_strings.insert(&form[header.start as usize..header.write as usize]);
+
         print_segment(header.start, header.write, State::Alloc);
         if header.write != header.end {
             print_segment(header.write, header.end, State::Slack);
@@ -140,12 +134,6 @@ fn main() {
     }
     if (prev_alloc as usize) < form.len() {
         print_segment(prev_alloc, form.len() as u16, State::Free);
-    }
-
-    for s in &strings {
-        if !alloc_strings.contains(s.as_bytes()) {
-            panic!("string not in allocated block: {s:?}");
-        }
     }
 }
 
