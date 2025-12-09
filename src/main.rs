@@ -111,6 +111,7 @@ fn main() {
     allocs.sort();
 
     let mut freed_text = String::new();
+    let mut freed_cells = vec![None; form.len()];
 
     println!("Allocations:");
     for &(start, end, state) in &allocs {
@@ -138,11 +139,38 @@ fn main() {
         } else {
             write!(freed_text, "{text}").unwrap();
         }
+
+        if state != State::Alloc {
+            for i in i..j {
+                freed_cells[i as usize] = Some(form[i as usize]);
+            }
+        }
     }
     println!();
 
     println!("Freed text:");
     println!("{freed_text}");
+
+    let residual_strings: Vec<(usize, String)> =
+        serde_json::from_str(&fs::read_to_string("residual.json").unwrap()).unwrap();
+    for (start, string) in residual_strings {
+        for (i, &b) in string.as_bytes().iter().enumerate() {
+            if let Some(b2) = freed_cells[start + i]
+                && b2 != b
+            {
+                let freed_cells_str = freed_cells[start..start + string.len()]
+                    .iter()
+                    .map(|c| c.unwrap_or(b'?'))
+                    .collect::<Vec<u8>>();
+                panic!(
+                    "freed string does not match at byte {i}:\n  start = {start}\n  json =  {:?}\n  form =  {:?}\n  cells = {:?}\n",
+                    Bytes(string.as_bytes()),
+                    Bytes(&form[start..start + string.len()]),
+                    Bytes(&freed_cells_str),
+                );
+            }
+        }
+    }
 }
 
 impl Headers {
