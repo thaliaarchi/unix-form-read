@@ -1,9 +1,9 @@
 use std::{
-    array, fs,
+    array,
+    fmt::{self, Write},
+    fs,
     mem::{self, offset_of},
 };
-
-use bstr::BStr;
 
 struct Headers {
     headers: [Header; HEADER_COUNT],
@@ -57,15 +57,17 @@ fn main() {
 
     let headers = Headers::from_form(&form);
 
+    println!("Headers:");
     for (i, header) in headers.headers[..headers.used].iter().enumerate() {
         let ptr = RawHeader::pointer_from_index(i);
         print!("{ptr}: {header:?}");
         if let &Header::Alloc { ptr, len, .. } = header {
-            let text = BStr::new(&form[ptr as usize..(ptr + len) as usize]);
+            let text = Bytes(&form[ptr as usize..(ptr + len) as usize]);
             print!(": {text:?}");
         }
         println!();
     }
+    println!();
 
     let mut allocs = Vec::new();
     #[derive(Clone, Copy, Debug, PartialEq, Eq, PartialOrd, Ord)]
@@ -108,18 +110,39 @@ fn main() {
     }
     allocs.sort();
 
+    let mut freed_text = String::new();
+
+    println!("Allocations:");
     for &(start, end, state) in &allocs {
         let (i, j, truncated) = if state == State::KnownFreed && end > form_len {
             (start.min(form_len), end.min(form_len), "...")
         } else {
             (start, end, "")
         };
-        println!(
-            "offset={start}, len={len}, kind={state:?}, text={text:?}{truncated}",
-            len = end - start,
-            text = BStr::new(&form[i as usize..j as usize]),
-        );
+        let text = Bytes(&form[i as usize..j as usize]);
+        let len = end - start;
+        println!("offset={start}, len={len}, kind={state:?}, text={text:?}{truncated}");
+
+        write!(freed_text, "«{start}:").unwrap();
+        let short_state = match state {
+            State::Alloc => 'a',
+            State::Slack => 's',
+            State::KnownFreed => 'f',
+            State::Unknown => 'u',
+        };
+        write!(freed_text, "{short_state}»").unwrap();
+        if state == State::Alloc {
+            for _ in 0..len {
+                freed_text.push('\u{FFFD}');
+            }
+        } else {
+            write!(freed_text, "{text}").unwrap();
+        }
     }
+    println!();
+
+    println!("Freed text:");
+    println!("{freed_text}");
 }
 
 impl Headers {
@@ -242,5 +265,33 @@ impl RawHeader {
         (offset_of!(RawHeaders, headers) + size_of::<RawHeader>() * index)
             .try_into()
             .unwrap()
+    }
+}
+
+struct Bytes<'a>(&'a [u8]);
+
+impl fmt::Debug for Bytes<'_> {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        write!(f, "\"{self}\"")
+    }
+}
+
+impl fmt::Display for Bytes<'_> {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        for &b in self.0 {
+            match b {
+                b'\\' => f.write_str("\\\\"),
+                b' '..=b'~' => f.write_char(b as char),
+                b'\0' => f.write_str("\\0"),
+                // 0x08 => f.write_str("\\b"),
+                b'\t' => f.write_str("\\t"),
+                b'\n' => f.write_str("\\n"),
+                // 0x0B => f.write_str("\\v"),
+                // 0x0C => f.write_str("\\f"),
+                // 0x0D => f.write_str("\\r"),
+                b => write!(f, "\\x{b:02x}"),
+            }?;
+        }
+        Ok(())
     }
 }
