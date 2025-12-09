@@ -22,8 +22,10 @@ fn main() {
     let strings = fs::read_to_string("strings.json").unwrap();
     let strings: Vec<String> = serde_json::from_str(&strings).unwrap();
 
+    // See V5 form6.s `hsz=6144.`
+    assert!(form.len() >= 6144);
     let mut i = 4;
-    while i + 8 < form.len() {
+    while i + 8 < 6144 {
         let header: [u8; 8] = form[i..i + 8].try_into().unwrap();
         let header: Header = unsafe { mem::transmute(header) };
         println!("{i}: {header:?}");
