@@ -97,10 +97,11 @@ fn main() {
                 && (header.start..=header.end).contains(&header.write)
                 && header.read <= header.write
         );
-        let start = header.start as usize;
-        println!("  end:   {:?}", BStr::new(&form[start..header.end as _]));
-        println!("  read:  {:?}", BStr::new(&form[start..header.read as _]));
-        println!("  write: {:?}", BStr::new(&form[start..header.write as _]));
+        println!(
+            "  text: {:?}, slack: {:?}",
+            BStr::new(&form[header.start as _..header.write as _]),
+            BStr::new(&form[header.write as _..header.end as _])
+        );
     }
     println!("pad: {:?}", headers.pad);
 

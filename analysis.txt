@@ -1,834 +1,424 @@
 free_list: [1812, 0, 1732, 1508, 1748, 1724, 1572, 0, 1804, 1796, 1788, 1780, 0, 0, 0, 44, 0]
 asmdisc: 36
 36: alloc Header { write: 16792, read: 16792, start: 16384, end: 16896 }
-  end:   "\x8c\0\x84\0\x9c\0\\\0\xb4\0\xac\0,\x01$\x01\\\x01l\0\xc4\0T\0\xcc\0T\x01|\0L\x01\xf4\0\xb4\x01\xcc\x01\xec\04\x01\x94\0D\x01\xe4\x01\xd4\0<\x01\xe4\0\xfc\x01d\x01\x14\x01|\x01\x04\x02\xa4\0t\x01\xa4\x01\x1c\x02\x1c\x01\x8c\x01,\x02d\0\xbc\0\xc4\x01\x9c\x01<\x02\x84\x01\x0c\x02\x04\x01\x94\x01\xf4\x01t\x02\xfc\0\xdc\x01\xdc\0|\x02L\x02$\x02\x0c\x01\x8c\x02D\0l\x01D\x02\xac\x01T\x02\xb4\x02\x84\x02\xc4\x02\xac\x02\x94\x02\xec\x01\xbc\x01L\0\xe4\x02\x04\x03\xa4\x02\xf4\x02\xfc\x02\x1c\x03<\x034\x03L\x03\xd4\x02\x0c\x03\xec\x02\xdc\x02\\\x02\xbc\x02l\x02\\\x03$\x03t\x03d\x02\x84\x03l\x03d\x03\xcc\x02\xbc\x03\x14\x02,\x03\x9c\x03\xa4\x03\x9c\x02\xc4\x03\x94\x03\xe4\x03<\04\x04\xcc\x03<\x04\xdc\x03L\x04\x14\x03\x0c\x04$\x044\0T\x03T\x04\xb4\x03t\x04\xec\x03l\x04,\x04d\x04\x8c\x03\\\x04D\x04\x8c\x04\x9c\x04\xa4\x04\xac\x03\x84\x04\x94\x04\x04\x04|\x04\xc4\x04\x14\x04\xec\x04\xac\x04\x04\x05\x1c\x05|\x034\x05,\x05\x0c\x05<\x05$\x05\x14\x05\xf4\x04\xbc\x04\xe4\x04\x1c\x04D\x03T\x05\xb4\x04D\x05\xfc\x04\xac\x05\xb4\x05\xcc\x04L\x05\xa4\x05\xc4\x05\\\x05t\0|\x05\xec\x05\xd4\x04\x94\x05\xf4\x05\xdc\x05\xd4\x01\x8c\x05\x0c\x06\xd4\x05\xcc\x05t\x05\x1c\x06\x84\x05\x14\x06\xf4\x03L\x06D\x06<\x06l\x05l\x06T\x064\x06\xd4\x03|\x06d\x06\\\x06d\x05\x84\x06\x9c\x05t\x06\xdc\x04\xa4\x06,\x06\x9c\x06\xfc\x03\xb4\x06\x94\x06\xac\x06\x8c\x06\xcc\x06echnic Institute of New York\nLong Island Center\nRoute 110\nFarmingdale, New York 11735\ne a look at the sy"
-  read:  "\x8c\0\x84\0\x9c\0\\\0\xb4\0\xac\0,\x01$\x01\\\x01l\0\xc4\0T\0\xcc\0T\x01|\0L\x01\xf4\0\xb4\x01\xcc\x01\xec\04\x01\x94\0D\x01\xe4\x01\xd4\0<\x01\xe4\0\xfc\x01d\x01\x14\x01|\x01\x04\x02\xa4\0t\x01\xa4\x01\x1c\x02\x1c\x01\x8c\x01,\x02d\0\xbc\0\xc4\x01\x9c\x01<\x02\x84\x01\x0c\x02\x04\x01\x94\x01\xf4\x01t\x02\xfc\0\xdc\x01\xdc\0|\x02L\x02$\x02\x0c\x01\x8c\x02D\0l\x01D\x02\xac\x01T\x02\xb4\x02\x84\x02\xc4\x02\xac\x02\x94\x02\xec\x01\xbc\x01L\0\xe4\x02\x04\x03\xa4\x02\xf4\x02\xfc\x02\x1c\x03<\x034\x03L\x03\xd4\x02\x0c\x03\xec\x02\xdc\x02\\\x02\xbc\x02l\x02\\\x03$\x03t\x03d\x02\x84\x03l\x03d\x03\xcc\x02\xbc\x03\x14\x02,\x03\x9c\x03\xa4\x03\x9c\x02\xc4\x03\x94\x03\xe4\x03<\04\x04\xcc\x03<\x04\xdc\x03L\x04\x14\x03\x0c\x04$\x044\0T\x03T\x04\xb4\x03t\x04\xec\x03l\x04,\x04d\x04\x8c\x03\\\x04D\x04\x8c\x04\x9c\x04\xa4\x04\xac\x03\x84\x04\x94\x04\x04\x04|\x04\xc4\x04\x14\x04\xec\x04\xac\x04\x04\x05\x1c\x05|\x034\x05,\x05\x0c\x05<\x05$\x05\x14\x05\xf4\x04\xbc\x04\xe4\x04\x1c\x04D\x03T\x05\xb4\x04D\x05\xfc\x04\xac\x05\xb4\x05\xcc\x04L\x05\xa4\x05\xc4\x05\\\x05t\0|\x05\xec\x05\xd4\x04\x94\x05\xf4\x05\xdc\x05\xd4\x01\x8c\x05\x0c\x06\xd4\x05\xcc\x05t\x05\x1c\x06\x84\x05\x14\x06\xf4\x03L\x06D\x06<\x06l\x05l\x06T\x064\x06\xd4\x03|\x06d\x06\\\x06d\x05\x84\x06\x9c\x05t\x06\xdc\x04\xa4\x06,\x06\x9c\x06\xfc\x03\xb4\x06\x94\x06\xac\x06\x8c\x06\xcc\x06"
-  write: "\x8c\0\x84\0\x9c\0\\\0\xb4\0\xac\0,\x01$\x01\\\x01l\0\xc4\0T\0\xcc\0T\x01|\0L\x01\xf4\0\xb4\x01\xcc\x01\xec\04\x01\x94\0D\x01\xe4\x01\xd4\0<\x01\xe4\0\xfc\x01d\x01\x14\x01|\x01\x04\x02\xa4\0t\x01\xa4\x01\x1c\x02\x1c\x01\x8c\x01,\x02d\0\xbc\0\xc4\x01\x9c\x01<\x02\x84\x01\x0c\x02\x04\x01\x94\x01\xf4\x01t\x02\xfc\0\xdc\x01\xdc\0|\x02L\x02$\x02\x0c\x01\x8c\x02D\0l\x01D\x02\xac\x01T\x02\xb4\x02\x84\x02\xc4\x02\xac\x02\x94\x02\xec\x01\xbc\x01L\0\xe4\x02\x04\x03\xa4\x02\xf4\x02\xfc\x02\x1c\x03<\x034\x03L\x03\xd4\x02\x0c\x03\xec\x02\xdc\x02\\\x02\xbc\x02l\x02\\\x03$\x03t\x03d\x02\x84\x03l\x03d\x03\xcc\x02\xbc\x03\x14\x02,\x03\x9c\x03\xa4\x03\x9c\x02\xc4\x03\x94\x03\xe4\x03<\04\x04\xcc\x03<\x04\xdc\x03L\x04\x14\x03\x0c\x04$\x044\0T\x03T\x04\xb4\x03t\x04\xec\x03l\x04,\x04d\x04\x8c\x03\\\x04D\x04\x8c\x04\x9c\x04\xa4\x04\xac\x03\x84\x04\x94\x04\x04\x04|\x04\xc4\x04\x14\x04\xec\x04\xac\x04\x04\x05\x1c\x05|\x034\x05,\x05\x0c\x05<\x05$\x05\x14\x05\xf4\x04\xbc\x04\xe4\x04\x1c\x04D\x03T\x05\xb4\x04D\x05\xfc\x04\xac\x05\xb4\x05\xcc\x04L\x05\xa4\x05\xc4\x05\\\x05t\0|\x05\xec\x05\xd4\x04\x94\x05\xf4\x05\xdc\x05\xd4\x01\x8c\x05\x0c\x06\xd4\x05\xcc\x05t\x05\x1c\x06\x84\x05\x14\x06\xf4\x03L\x06D\x06<\x06l\x05l\x06T\x064\x06\xd4\x03|\x06d\x06\\\x06d\x05\x84\x06\x9c\x05t\x06\xdc\x04\xa4\x06,\x06\x9c\x06\xfc\x03\xb4\x06\x94\x06\xac\x06\x8c\x06\xcc\x06"
+  text: "\x8c\0\x84\0\x9c\0\\\0\xb4\0\xac\0,\x01$\x01\\\x01l\0\xc4\0T\0\xcc\0T\x01|\0L\x01\xf4\0\xb4\x01\xcc\x01\xec\04\x01\x94\0D\x01\xe4\x01\xd4\0<\x01\xe4\0\xfc\x01d\x01\x14\x01|\x01\x04\x02\xa4\0t\x01\xa4\x01\x1c\x02\x1c\x01\x8c\x01,\x02d\0\xbc\0\xc4\x01\x9c\x01<\x02\x84\x01\x0c\x02\x04\x01\x94\x01\xf4\x01t\x02\xfc\0\xdc\x01\xdc\0|\x02L\x02$\x02\x0c\x01\x8c\x02D\0l\x01D\x02\xac\x01T\x02\xb4\x02\x84\x02\xc4\x02\xac\x02\x94\x02\xec\x01\xbc\x01L\0\xe4\x02\x04\x03\xa4\x02\xf4\x02\xfc\x02\x1c\x03<\x034\x03L\x03\xd4\x02\x0c\x03\xec\x02\xdc\x02\\\x02\xbc\x02l\x02\\\x03$\x03t\x03d\x02\x84\x03l\x03d\x03\xcc\x02\xbc\x03\x14\x02,\x03\x9c\x03\xa4\x03\x9c\x02\xc4\x03\x94\x03\xe4\x03<\04\x04\xcc\x03<\x04\xdc\x03L\x04\x14\x03\x0c\x04$\x044\0T\x03T\x04\xb4\x03t\x04\xec\x03l\x04,\x04d\x04\x8c\x03\\\x04D\x04\x8c\x04\x9c\x04\xa4\x04\xac\x03\x84\x04\x94\x04\x04\x04|\x04\xc4\x04\x14\x04\xec\x04\xac\x04\x04\x05\x1c\x05|\x034\x05,\x05\x0c\x05<\x05$\x05\x14\x05\xf4\x04\xbc\x04\xe4\x04\x1c\x04D\x03T\x05\xb4\x04D\x05\xfc\x04\xac\x05\xb4\x05\xcc\x04L\x05\xa4\x05\xc4\x05\\\x05t\0|\x05\xec\x05\xd4\x04\x94\x05\xf4\x05\xdc\x05\xd4\x01\x8c\x05\x0c\x06\xd4\x05\xcc\x05t\x05\x1c\x06\x84\x05\x14\x06\xf4\x03L\x06D\x06<\x06l\x05l\x06T\x064\x06\xd4\x03|\x06d\x06\\\x06d\x05\x84\x06\x9c\x05t\x06\xdc\x04\xa4\x06,\x06\x9c\x06\xfc\x03\xb4\x06\x94\x06\xac\x06\x8c\x06\xcc\x06", slack: "echnic Institute of New York\nLong Island Center\nRoute 110\nFarmingdale, New York 11735\ne a look at the sy"
 44: free Header { start: 22528, end: 38912 }
 52: alloc Header { write: 12398, read: 12398, start: 12384, end: 12400 }
-  end:   "Prof. Jardine\n S"
-  read:  "Prof. Jardine\n"
-  write: "Prof. Jardine\n"
+  text: "Prof. Jardine\n", slack: " S"
 60: alloc Header { write: 12553, read: 12545, start: 12544, end: 12560 }
-  end:   "towhom-1ar Bornh"
-  read:  "t"
-  write: "towhom-1a"
+  text: "towhom-1a", slack: "r Bornh"
 68: alloc Header { write: 6393, read: 6385, start: 6384, end: 6400 }
-  end:   "towhom-1013\0\xcc\0T\x01"
-  read:  "t"
-  write: "towhom-10"
+  text: "towhom-10", slack: "13\0\xcc\0T\x01"
 76: alloc Header { write: 6356, read: 6353, start: 6352, end: 6356 }
-  end:   "shah"
-  read:  "s"
-  write: "shah"
+  text: "shah", slack: ""
 84: alloc Header { write: 6215, read: 6215, start: 6208, end: 6224 }
-  end:   "{name}\nresddress"
-  read:  "{name}\n"
-  write: "{name}\n"
+  text: "{name}\n", slack: "resddress"
 92: alloc Header { write: 7021, read: 7021, start: 6976, end: 7040 }
-  end:   ".hc %\n.m1 0\n.m2 0\n.m3 0\n.m4 0\n.na\n.nf\n.bl 11\nl 10\n\nowing proviso"
-  read:  ".hc %\n.m1 0\n.m2 0\n.m3 0\n.m4 0\n.na\n.nf\n.bl 11\n"
-  write: ".hc %\n.m1 0\n.m2 0\n.m3 0\n.m4 0\n.na\n.nf\n.bl 11\n"
+  text: ".hc %\n.m1 0\n.m2 0\n.m3 0\n.m4 0\n.na\n.nf\n.bl 11\n", slack: "l 10\n\nowing proviso"
 100: alloc Header { write: 9331, read: 9331, start: 9216, end: 9344 }
-  end:   "Mr. A. J. Lindstrom\nSponsored Research Administrator\nCalifornia Institute of Technology\nPasadena, California 91109\nare intereste"
-  read:  "Mr. A. J. Lindstrom\nSponsored Research Administrator\nCalifornia Institute of Technology\nPasadena, California 91109\n"
-  write: "Mr. A. J. Lindstrom\nSponsored Research Administrator\nCalifornia Institute of Technology\nPasadena, California 91109\n"
+  text: "Mr. A. J. Lindstrom\nSponsored Research Administrator\nCalifornia Institute of Technology\nPasadena, California 91109\n", slack: "are intereste"
 108: alloc Header { write: 9213, read: 9213, start: 8192, end: 9216 }
-  end:   "The accompanying {materials(media+documents)} for UNIX are \nintended for your use {for your use  ...} with the\nfollowing proviso:\n.sp\n.in +4\n.ll -4\nThe program and information transmitted herewith is and shall\nremain the property of Bell Lab%oratories.\nIt is provided solely for your use within the Bell System\nfor Bell System purposes and should be disclosed only to\nthose with a need to know.\nAny program transmitted herewith should be executed on a\nsingle piece of computer equipment only, \nand the written permission of Bell Lab%oratories must be secured before\nexecuting any program on any additional piece of \ncomputer equipment.\nNeither program nor information may be reproduced in any way\nand may not be made available in any form to non-Bell\nSystem personnel without the express written permission\nof Bell Lab%oratories.\nAll restrictions set forth herein are fully applicable to\nthose supplying, programming or maintaining \ncomputer equipment on which any program transmitted herewith\nis executed.\n.in -4\n.ll +4\niso"
-  read:  "The accompanying {materials(media+documents)} for UNIX are \nintended for your use {for your use  ...} with the\nfollowing proviso:\n.sp\n.in +4\n.ll -4\nThe program and information transmitted herewith is and shall\nremain the property of Bell Lab%oratories.\nIt is provided solely for your use within the Bell System\nfor Bell System purposes and should be disclosed only to\nthose with a need to know.\nAny program transmitted herewith should be executed on a\nsingle piece of computer equipment only, \nand the written permission of Bell Lab%oratories must be secured before\nexecuting any program on any additional piece of \ncomputer equipment.\nNeither program nor information may be reproduced in any way\nand may not be made available in any form to non-Bell\nSystem personnel without the express written permission\nof Bell Lab%oratories.\nAll restrictions set forth herein are fully applicable to\nthose supplying, programming or maintaining \ncomputer equipment on which any program transmitted herewith\nis executed.\n.in -4\n.ll +4\n"
-  write: "The accompanying {materials(media+documents)} for UNIX are \nintended for your use {for your use  ...} with the\nfollowing proviso:\n.sp\n.in +4\n.ll -4\nThe program and information transmitted herewith is and shall\nremain the property of Bell Lab%oratories.\nIt is provided solely for your use within the Bell System\nfor Bell System purposes and should be disclosed only to\nthose with a need to know.\nAny program transmitted herewith should be executed on a\nsingle piece of computer equipment only, \nand the written permission of Bell Lab%oratories must be secured before\nexecuting any program on any additional piece of \ncomputer equipment.\nNeither program nor information may be reproduced in any way\nand may not be made available in any form to non-Bell\nSystem personnel without the express written permission\nof Bell Lab%oratories.\nAll restrictions set forth herein are fully applicable to\nthose supplying, programming or maintaining \ncomputer equipment on which any program transmitted herewith\nis executed.\n.in -4\n.ll +4\n"
+  text: "The accompanying {materials(media+documents)} for UNIX are \nintended for your use {for your use  ...} with the\nfollowing proviso:\n.sp\n.in +4\n.ll -4\nThe program and information transmitted herewith is and shall\nremain the property of Bell Lab%oratories.\nIt is provided solely for your use within the Bell System\nfor Bell System purposes and should be disclosed only to\nthose with a need to know.\nAny program transmitted herewith should be executed on a\nsingle piece of computer equipment only, \nand the written permission of Bell Lab%oratories must be secured before\nexecuting any program on any additional piece of \ncomputer equipment.\nNeither program nor information may be reproduced in any way\nand may not be made available in any form to non-Bell\nSystem personnel without the express written permission\nof Bell Lab%oratories.\nAll restrictions set forth herein are fully applicable to\nthose supplying, programming or maintaining \ncomputer equipment on which any program transmitted herewith\nis executed.\n.in -4\n.ll +4\n", slack: "iso"
 116: alloc Header { write: 17247, read: 17246, start: 17240, end: 17248 }
-  end:   "name-35f"
-  read:  "name-3"
-  write: "name-35"
+  text: "name-35", slack: "f"
 124: alloc Header { write: 6205, read: 6201, start: 6200, end: 6208 }
-  end:   "encl-cco"
-  read:  "e"
-  write: "encl-"
+  text: "encl-", slack: "cco"
 132: alloc Header { write: 6760, read: 6760, start: 6656, end: 6912 }
-  end:   "[fixpl]\n[header]\n.sp 1\n[name-[1]]\n.sp 1\nDear [towhom-[1]]:\n.fi\n.sp 1\n{text-[1]}\n[footer]\n.sp\n{encl-[1]}\n.bp\n.pl 10\n.nf\n[name-[1]]\n5\n.in 0\n\tSincerely,\n.sp 4\n.in 0\nKT/pdp\tKen Thompson\n.sp\n{enclosures}\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-  read:  "[fixpl]\n[header]\n.sp 1\n[name-[1]]\n.sp 1\nDear [towhom-[1]]:\n.fi\n.sp 1\n{text-[1]}\n[footer]\n.sp\n{encl-[1]}\n"
-  write: "[fixpl]\n[header]\n.sp 1\n[name-[1]]\n.sp 1\nDear [towhom-[1]]:\n.fi\n.sp 1\n{text-[1]}\n[footer]\n.sp\n{encl-[1]}\n"
+  text: "[fixpl]\n[header]\n.sp 1\n[name-[1]]\n.sp 1\nDear [towhom-[1]]:\n.fi\n.sp 1\n{text-[1]}\n[footer]\n.sp\n{encl-[1]}\n", slack: ".bp\n.pl 10\n.nf\n[name-[1]]\n5\n.in 0\n\tSincerely,\n.sp 4\n.in 0\nKT/pdp\tKen Thompson\n.sp\n{enclosures}\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
 140: alloc Header { write: 6166, read: 6161, start: 6160, end: 6168 }
-  end:   "letter\x0b\x87"
-  read:  "l"
-  write: "letter"
+  text: "letter", slack: "\x0b\x87"
 148: alloc Header { write: 6320, read: 6320, start: 6304, end: 6320 }
-  end:   "Prof. Levinthal\n"
-  read:  "Prof. Levinthal\n"
-  write: "Prof. Levinthal\n"
+  text: "Prof. Levinthal\n", slack: ""
 156: alloc Header { write: 6181, read: 6177, start: 6176, end: 6184 }
-  end:   "fixplcco"
-  read:  "f"
-  write: "fixpl"
+  text: "fixpl", slack: "cco"
 164: alloc Header { write: 6920, read: 6913, start: 6912, end: 6920 }
-  end:   "towhom-4"
-  read:  "t"
-  write: "towhom-4"
+  text: "towhom-4", slack: ""
 172: alloc Header { write: 7703, read: 7703, start: 7680, end: 7808 }
-  end:   ".in 30\n[0], 1974\n.in 0\nhompson\n.in +11\nRoom 2C-523\nBell Telephone Laboratories\nMurray Hill, N.J. 07974\n.sp\n[0], 1973\n.in 0\nreste"
-  read:  ".in 30\n[0], 1974\n.in 0\n"
-  write: ".in 30\n[0], 1974\n.in 0\n"
+  text: ".in 30\n[0], 1974\n.in 0\n", slack: "hompson\n.in +11\nRoom 2C-523\nBell Telephone Laboratories\nMurray Hill, N.J. 07974\n.sp\n[0], 1973\n.in 0\nreste"
 180: alloc Header { write: 6190, read: 6185, start: 6184, end: 6192 }
-  end:   "header\n."
-  read:  "h"
-  write: "header"
+  text: "header", slack: "\n."
 188: alloc Header { write: 6456, read: 6449, start: 6448, end: 6456 }
-  end:   "towhom-6"
-  read:  "t"
-  write: "towhom-6"
+  text: "towhom-6", slack: ""
 196: alloc Header { write: 6533, read: 6533, start: 6528, end: 6544 }
-  end:   "name-rr 10D\0T\04\x01"
-  read:  "name-"
-  write: "name-"
+  text: "name-", slack: "rr 10D\0T\04\x01"
 204: alloc Header { write: 6263, read: 6257, start: 6256, end: 6272 }
-  end:   "towhom-\0esr lett"
-  read:  "t"
-  write: "towhom-"
+  text: "towhom-", slack: "\0esr lett"
 212: alloc Header { write: 6232, read: 6225, start: 6224, end: 6232 }
-  end:   "towhom-2"
-  read:  "t"
-  write: "towhom-2"
+  text: "towhom-2", slack: ""
 220: alloc Header { write: 6574, read: 6574, start: 6568, end: 6576 }
-  end:   "name-9Hu"
-  read:  "name-9"
-  write: "name-9"
+  text: "name-9", slack: "Hu"
 228: alloc Header { write: 6238, read: 6238, start: 6232, end: 6240 }
-  end:   "name-3Ma"
-  read:  "name-3"
-  write: "name-3"
+  text: "name-3", slack: "Ma"
 236: alloc Header { write: 8059, read: 8059, start: 7936, end: 8064 }
-  end:   "Professor Cyrus Levinthal\nDepartment of Biological Sciences\nSchermerhorn Hall\nColumbia University\nNew York, New York 10027\noviso"
-  read:  "Professor Cyrus Levinthal\nDepartment of Biological Sciences\nSchermerhorn Hall\nColumbia University\nNew York, New York 10027\n"
-  write: "Professor Cyrus Levinthal\nDepartment of Biological Sciences\nSchermerhorn Hall\nColumbia University\nNew York, New York 10027\n"
+  text: "Professor Cyrus Levinthal\nDepartment of Biological Sciences\nSchermerhorn Hall\nColumbia University\nNew York, New York 10027\n", slack: "oviso"
 244: alloc Header { write: 6445, read: 6441, start: 6440, end: 6448 }
-  end:   "text- fo"
-  read:  "t"
-  write: "text-"
+  text: "text-", slack: " fo"
 252: alloc Header { write: 6568, read: 6561, start: 6560, end: 6568 }
-  end:   "towhom-8"
-  read:  "t"
-  write: "towhom-8"
+  text: "towhom-8", slack: ""
 260: alloc Header { write: 6584, read: 6577, start: 6576, end: 6584 }
-  end:   "towhom-7"
-  read:  "t"
-  write: "towhom-7"
+  text: "towhom-7", slack: ""
 268: alloc Header { write: 6351, read: 6350, start: 6344, end: 6352 }
-  end:   "name-10t"
-  read:  "name-1"
-  write: "name-10"
+  text: "name-10", slack: "t"
 276: alloc Header { write: 6619, read: 6619, start: 6608, end: 6624 }
-  end:   "Mr. Mayhew\nyhew\n"
-  read:  "Mr. Mayhew\n"
-  write: "Mr. Mayhew\n"
+  text: "Mr. Mayhew\n", slack: "yhew\n"
 284: alloc Header { write: 6600, read: 6593, start: 6592, end: 6600 }
-  end:   "towhom-5"
-  read:  "t"
-  write: "towhom-5"
+  text: "towhom-5", slack: ""
 292: alloc Header { write: 7100, read: 7100, start: 7040, end: 7104 }
-  end:   ".sp 2\n.in 30\n.nf\nSincerely,\n.sp 3\nKen Thompson\n.in 0\nKT/pdp\nphon"
-  read:  ".sp 2\n.in 30\n.nf\nSincerely,\n.sp 3\nKen Thompson\n.in 0\nKT/pdp\n"
-  write: ".sp 2\n.in 30\n.nf\nSincerely,\n.sp 3\nKen Thompson\n.in 0\nKT/pdp\n"
+  text: ".sp 2\n.in 30\n.nf\nSincerely,\n.sp 3\nKen Thompson\n.in 0\nKT/pdp\n", slack: "phon"
 300: alloc Header { write: 6198, read: 6193, start: 6192, end: 6200 }
-  end:   "footer\nR"
-  read:  "f"
-  write: "footer"
+  text: "footer", slack: "\nR"
 308: alloc Header { write: 6552, read: 6545, start: 6544, end: 6552 }
-  end:   "towhom-1"
-  read:  "t"
-  write: "towhom-1"
+  text: "towhom-1", slack: ""
 316: alloc Header { write: 6255, read: 6255, start: 6240, end: 6256 }
-  end:   "Prof. Marsland\ns"
-  read:  "Prof. Marsland\n"
-  write: "Prof. Marsland\n"
+  text: "Prof. Marsland\n", slack: "s"
 324: alloc Header { write: 6558, read: 6558, start: 6552, end: 6560 }
-  end:   "name-2Le"
-  read:  "name-2"
-  write: "name-2"
+  text: "name-2", slack: "Le"
 332: alloc Header { write: 6439, read: 6439, start: 6432, end: 6440 }
-  end:   "{encl}\ne"
-  read:  "{encl}\n"
-  write: "{encl}\n"
+  text: "{encl}\n", slack: "e"
 340: alloc Header { write: 6953, read: 6953, start: 6944, end: 6960 }
-  end:   "{towhom}\n0move o"
-  read:  "{towhom}\n"
-  write: "{towhom}\n"
+  text: "{towhom}\n", slack: "0move o"
 348: alloc Header { write: 6176, read: 6169, start: 6168, end: 6176 }
-  end:   "in-house"
-  read:  "i"
-  write: "in-house"
+  text: "in-house", slack: ""
 356: alloc Header { write: 6376, read: 6369, start: 6368, end: 6376 }
-  end:   "towhom-3"
-  read:  "t"
-  write: "towhom-3"
+  text: "towhom-3", slack: ""
 364: alloc Header { write: 7117, read: 7117, start: 7104, end: 7120 }
-  end:   "Dr. Slamecka\nugg"
-  read:  "Dr. Slamecka\n"
-  write: "Dr. Slamecka\n"
+  text: "Dr. Slamecka\n", slack: "ugg"
 372: alloc Header { write: 6300, read: 6300, start: 6288, end: 6304 }
-  end:   "Prof. Arden\nKidd"
-  read:  "Prof. Arden\n"
-  write: "Prof. Arden\n"
+  text: "Prof. Arden\n", slack: "Kidd"
 380: alloc Header { write: 6382, read: 6382, start: 6376, end: 6384 }
-  end:   "name-4yh"
-  read:  "name-4"
-  write: "name-4"
+  text: "name-4", slack: "yh"
 388: alloc Header { write: 6462, read: 6462, start: 6456, end: 6464 }
-  end:   "name-7yo"
-  read:  "name-7"
-  write: "name-7"
+  text: "name-7", slack: "yo"
 396: alloc Header { write: 6286, read: 6286, start: 6272, end: 6288 }
-  end:   "Mr. Desautels\nss"
-  read:  "Mr. Desautels\n"
-  write: "Mr. Desautels\n"
+  text: "Mr. Desautels\n", slack: "ss"
 404: alloc Header { write: 6649, read: 6649, start: 6640, end: 6656 }
-  end:   "M. Goins\nM. Goin"
-  read:  "M. Goins\n"
-  write: "M. Goins\n"
+  text: "M. Goins\n", slack: "M. Goin"
 412: alloc Header { write: 6156, read: 6153, start: 6152, end: 6156 }
-  end:   "conf"
-  read:  "c"
-  write: "conf"
+  text: "conf", slack: ""
 420: alloc Header { write: 6926, read: 6926, start: 6920, end: 6928 }
-  end:   "name-5dd"
-  read:  "name-5"
-  write: "name-5"
+  text: "name-5", slack: "dd"
 428: alloc Header { write: 9959, read: 9959, start: 9856, end: 9984 }
-  end:   "Dr. Kenneth King\nOffice of the Dean for Computer Systems\n535 East 80th Street\nNew York, New York 10021\nechnology\nAtlanta, Georgi"
-  read:  "Dr. Kenneth King\nOffice of the Dean for Computer Systems\n535 East 80th Street\nNew York, New York 10021\n"
-  write: "Dr. Kenneth King\nOffice of the Dean for Computer Systems\n535 East 80th Street\nNew York, New York 10021\n"
+  text: "Dr. Kenneth King\nOffice of the Dean for Computer Systems\n535 East 80th Street\nNew York, New York 10021\n", slack: "echnology\nAtlanta, Georgi"
 436: alloc Header { write: 6407, read: 6407, start: 6400, end: 6408 }
-  end:   "{text}\no"
-  read:  "{text}\n"
-  write: "{text}\n"
+  text: "{text}\n", slack: "o"
 444: alloc Header { write: 13959, read: 13959, start: 13312, end: 14336 }
-  end:   "Thank you for your letter\nconcerning the UNIX time-sharing system.\nEnclosed is a preprint of an article which\nwill be published in the\nCommunications of the ACM in their issue\ndevoted to papers from last year\'s\nSIGOPS conference.\n\nAt the moment,\nUNIX is available,\nfor a nuisance fee of about $100,\nto educational institutions.\nThe more detailed\nUNIX reference manual is only available\nwith such a licence.\nIn order to get the \"official\"\nword concerning release,\nyou should contact:\n\n.in 5\n.nf\n{shah}\n.in 0\n.fi\n\nAlthough our supply of publicly\navailable written\nmaterial is slim,\nwe would be happy to have you visit\nand take a look at the system.\ny M. Goins\nDepartment of Biometry\nWearn Research Building\nCase Western University\nCleveland, Ohio 44106\nrsity\nPrinceton, Thank you for your letter\nEnclosed is a preprint of an article wlege of Physicians and Surgeons\n630 West 168th Street\nNew York, Mr. E. J. Desautels\nThe University of Wisconsin\nComputer Science Department\n1210 West Dayton Street\nMadison, Wisconsin 53706\nper"
-  read:  "Thank you for your letter\nconcerning the UNIX time-sharing system.\nEnclosed is a preprint of an article which\nwill be published in the\nCommunications of the ACM in their issue\ndevoted to papers from last year\'s\nSIGOPS conference.\n\nAt the moment,\nUNIX is available,\nfor a nuisance fee of about $100,\nto educational institutions.\nThe more detailed\nUNIX reference manual is only available\nwith such a licence.\nIn order to get the \"official\"\nword concerning release,\nyou should contact:\n\n.in 5\n.nf\n{shah}\n.in 0\n.fi\n\nAlthough our supply of publicly\navailable written\nmaterial is slim,\nwe would be happy to have you visit\nand take a look at the system.\n"
-  write: "Thank you for your letter\nconcerning the UNIX time-sharing system.\nEnclosed is a preprint of an article which\nwill be published in the\nCommunications of the ACM in their issue\ndevoted to papers from last year\'s\nSIGOPS conference.\n\nAt the moment,\nUNIX is available,\nfor a nuisance fee of about $100,\nto educational institutions.\nThe more detailed\nUNIX reference manual is only available\nwith such a licence.\nIn order to get the \"official\"\nword concerning release,\nyou should contact:\n\n.in 5\n.nf\n{shah}\n.in 0\n.fi\n\nAlthough our supply of publicly\navailable written\nmaterial is slim,\nwe would be happy to have you visit\nand take a look at the system.\n"
+  text: "Thank you for your letter\nconcerning the UNIX time-sharing system.\nEnclosed is a preprint of an article which\nwill be published in the\nCommunications of the ACM in their issue\ndevoted to papers from last year\'s\nSIGOPS conference.\n\nAt the moment,\nUNIX is available,\nfor a nuisance fee of about $100,\nto educational institutions.\nThe more detailed\nUNIX reference manual is only available\nwith such a licence.\nIn order to get the \"official\"\nword concerning release,\nyou should contact:\n\n.in 5\n.nf\n{shah}\n.in 0\n.fi\n\nAlthough our supply of publicly\navailable written\nmaterial is slim,\nwe would be happy to have you visit\nand take a look at the system.\n", slack: "y M. Goins\nDepartment of Biometry\nWearn Research Building\nCase Western University\nCleveland, Ohio 44106\nrsity\nPrinceton, Thank you for your letter\nEnclosed is a preprint of an article wlege of Physicians and Surgeons\n630 West 168th Street\nNew York, Mr. E. J. Desautels\nThe University of Wisconsin\nComputer Science Department\n1210 West Dayton Street\nMadison, Wisconsin 53706\nper"
 452: alloc Header { write: 6942, read: 6942, start: 6928, end: 6944 }
-  end:   "Mr. Lindstrom\nst"
-  read:  "Mr. Lindstrom\n"
-  write: "Mr. Lindstrom\n"
+  text: "Mr. Lindstrom\n", slack: "st"
 460: alloc Header { write: 6414, read: 6414, start: 6408, end: 6416 }
-  end:   "name-1ng"
-  read:  "name-1"
-  write: "name-1"
+  text: "name-1", slack: "ng"
 468: alloc Header { write: 18264, read: 18264, start: 18176, end: 18304 }
-  end:   "Mr. William C. Ripperger\nKnox College Computer Center\nKnox College\nGalesburg, Ill 61401\nurgeons\n630 West 168th Street\nNew York, "
-  read:  "Mr. William C. Ripperger\nKnox College Computer Center\nKnox College\nGalesburg, Ill 61401\n"
-  write: "Mr. William C. Ripperger\nKnox College Computer Center\nKnox College\nGalesburg, Ill 61401\n"
+  text: "Mr. William C. Ripperger\nKnox College Computer Center\nKnox College\nGalesburg, Ill 61401\n", slack: "urgeons\n630 West 168th Street\nNew York, "
 476: alloc Header { write: 6638, read: 6638, start: 6624, end: 6640 }
-  end:   "Prof. Huggins\ngg"
-  read:  "Prof. Huggins\n"
-  write: "Prof. Huggins\n"
+  text: "Prof. Huggins\n", slack: "gg"
 484: alloc Header { write: 8160, read: 8160, start: 8064, end: 8192 }
-  end:   "Prof. T. A. Marsland\nDepartment of Computing Science\nThe University of Alberta\nEdmonton, Canada\nperty of Bell Laboratories.\nIt i"
-  read:  "Prof. T. A. Marsland\nDepartment of Computing Science\nThe University of Alberta\nEdmonton, Canada\n"
-  write: "Prof. T. A. Marsland\nDepartment of Computing Science\nThe University of Alberta\nEdmonton, Canada\n"
+  text: "Prof. T. A. Marsland\nDepartment of Computing Science\nThe University of Alberta\nEdmonton, Canada\n", slack: "perty of Bell Laboratories.\nIt i"
 492: alloc Header { write: 6160, read: 6157, start: 6156, end: 6160 }
-  end:   "univ"
-  read:  "u"
-  write: "univ"
+  text: "univ", slack: ""
 500: alloc Header { write: 6590, read: 6590, start: 6584, end: 6592 }
-  end:   "name-8ns"
-  read:  "name-8"
-  write: "name-8"
+  text: "name-8", slack: "ns"
 508: alloc Header { write: 7249, read: 7249, start: 7168, end: 7296 }
-  end:   "Mr. Bill Mayhew\nThe Children\'s Museum\nThe Jamaicaway\nBoston, Massachusetts 02130\n {for your use  ...} with the\nfollowing proviso"
-  read:  "Mr. Bill Mayhew\nThe Children\'s Museum\nThe Jamaicaway\nBoston, Massachusetts 02130\n"
-  write: "Mr. Bill Mayhew\nThe Children\'s Museum\nThe Jamaicaway\nBoston, Massachusetts 02130\n"
+  text: "Mr. Bill Mayhew\nThe Children\'s Museum\nThe Jamaicaway\nBoston, Massachusetts 02130\n", slack: " {for your use  ...} with the\nfollowing proviso"
 516: alloc Header { write: 9617, read: 9617, start: 9472, end: 9728 }
-  end:   "Prof. Bruce W. Arden\nDepartment of Electrical Engineering\nBrackett Hall, Engineering Quadrangle\nPrinceton University\nPrinceton, New Jersey 08540\nwith EIS) or PDP-11/45 CPU\n\tKT segmentation option\n\t32K words of core\n\tRK or RP disk\n\tKW (line or programmable)"
-  read:  "Prof. Bruce W. Arden\nDepartment of Electrical Engineering\nBrackett Hall, Engineering Quadrangle\nPrinceton University\nPrinceton, New Jersey 08540\n"
-  write: "Prof. Bruce W. Arden\nDepartment of Electrical Engineering\nBrackett Hall, Engineering Quadrangle\nPrinceton University\nPrinceton, New Jersey 08540\n"
+  text: "Prof. Bruce W. Arden\nDepartment of Electrical Engineering\nBrackett Hall, Engineering Quadrangle\nPrinceton University\nPrinceton, New Jersey 08540\n", slack: "with EIS) or PDP-11/45 CPU\n\tKT segmentation option\n\t32K words of core\n\tRK or RP disk\n\tKW (line or programmable)"
 524: alloc Header { write: 7407, read: 7407, start: 7296, end: 7424 }
-  end:   "Mr. Gary M. Goins\nDepartment of Biometry\nWearn Research Building\nCase Western University\nCleveland, Ohio 44106\nrsity\nPrinceton, "
-  read:  "Mr. Gary M. Goins\nDepartment of Biometry\nWearn Research Building\nCase Western University\nCleveland, Ohio 44106\n"
-  write: "Mr. Gary M. Goins\nDepartment of Biometry\nWearn Research Building\nCase Western University\nCleveland, Ohio 44106\n"
+  text: "Mr. Gary M. Goins\nDepartment of Biometry\nWearn Research Building\nCase Western University\nCleveland, Ohio 44106\n", slack: "rsity\nPrinceton, "
 532: alloc Header { write: 12304, read: 12302, start: 12296, end: 12304 }
-  end:   "name-11a"
-  read:  "name-1"
-  write: "name-11a"
+  text: "name-11a", slack: ""
 540: alloc Header { write: 7677, read: 7677, start: 7552, end: 7680 }
-  end:   "Mr. E. J. Desautels\nThe University of Wisconsin\nComputer Science Department\n1210 West Dayton Street\nMadison, Wisconsin 53706\nper"
-  read:  "Mr. E. J. Desautels\nThe University of Wisconsin\nComputer Science Department\n1210 West Dayton Street\nMadison, Wisconsin 53706\n"
-  write: "Mr. E. J. Desautels\nThe University of Wisconsin\nComputer Science Department\n1210 West Dayton Street\nMadison, Wisconsin 53706\n"
+  text: "Mr. E. J. Desautels\nThe University of Wisconsin\nComputer Science Department\n1210 West Dayton Street\nMadison, Wisconsin 53706\n", slack: "per"
 548: alloc Header { write: 6329, read: 6329, start: 6320, end: 6336 }
-  end:   "Mr. Byer\nn\n Aust"
-  read:  "Mr. Byer\n"
-  write: "Mr. Byer\n"
+  text: "Mr. Byer\n", slack: "n\n Aust"
 556: alloc Header { write: 6606, read: 6606, start: 6600, end: 6608 }
-  end:   "name-6sa"
-  read:  "name-6"
-  write: "name-6"
+  text: "name-6", slack: "sa"
 564: free Header { start: 6146, end: 6148 }
 572: alloc Header { write: 10806, read: 10806, start: 10240, end: 11264 }
-  end:   "Thank you for your request for the UNIX operating system.\nThe current version of UNIX requires at least\nthe following equipment:\n.sp\n\tPDP-11/40 (with EIS) or PDP-11/45 CPU\n\tKT segmentation option\n\t32K words of core\n\tRK or RP disk\n\tKW (line or programmable) clock\n\tstandard DEC console (LA, VT, or LT)\n.sp\nYou should send me a complete\nlist of your configuration plus one of the following:\n.sp\n\t600\'-2400\' (9 track 800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\tRP03 disk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\n800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\tRP03 disk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\nstconfSponsored Retowhom-3name-4yhT\x02\xd4\x01-m- 14\xfc\0\xcc\0T\x01{text}\noname-1ngOctober 31s(medi{encl}\netext- fotowhom-6Thank yoThank you for your request for the UNIX operating system.\nThe cuname-rr 10D\0T\04\x01towhom-1name-2LeMr. Desautels\nut\x04\x01\x84\0$\x02r 27\xe4\0L\04\x01towhom-5name-6saMr. Mayhew\nyhew\nThank you for yotext-5-5s)al pur"
-  read:  "Thank you for your request for the UNIX operating system.\nThe current version of UNIX requires at least\nthe following equipment:\n.sp\n\tPDP-11/40 (with EIS) or PDP-11/45 CPU\n\tKT segmentation option\n\t32K words of core\n\tRK or RP disk\n\tKW (line or programmable) clock\n\tstandard DEC console (LA, VT, or LT)\n.sp\nYou should send me a complete\nlist of your configuration plus one of the following:\n.sp\n\t600\'-2400\' (9 track 800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\tRP03 disk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\n"
-  write: "Thank you for your request for the UNIX operating system.\nThe current version of UNIX requires at least\nthe following equipment:\n.sp\n\tPDP-11/40 (with EIS) or PDP-11/45 CPU\n\tKT segmentation option\n\t32K words of core\n\tRK or RP disk\n\tKW (line or programmable) clock\n\tstandard DEC console (LA, VT, or LT)\n.sp\nYou should send me a complete\nlist of your configuration plus one of the following:\n.sp\n\t600\'-2400\' (9 track 800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\tRP03 disk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\n"
+  text: "Thank you for your request for the UNIX operating system.\nThe current version of UNIX requires at least\nthe following equipment:\n.sp\n\tPDP-11/40 (with EIS) or PDP-11/45 CPU\n\tKT segmentation option\n\t32K words of core\n\tRK or RP disk\n\tKW (line or programmable) clock\n\tstandard DEC console (LA, VT, or LT)\n.sp\nYou should send me a complete\nlist of your configuration plus one of the following:\n.sp\n\t600\'-2400\' (9 track 800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\tRP03 disk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\n", slack: "800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\tRP03 disk pack\n.sp\nI will be able to send the system and\nmanuals for the system\nas soon as I hear from you.\nstconfSponsored Retowhom-3name-4yhT\x02\xd4\x01-m- 14\xfc\0\xcc\0T\x01{text}\noname-1ngOctober 31s(medi{encl}\netext- fotowhom-6Thank yoThank you for your request for the UNIX operating system.\nThe cuname-rr 10D\0T\04\x01towhom-1name-2LeMr. Desautels\nut\x04\x01\x84\0$\x02r 27\xe4\0L\04\x01towhom-5name-6saMr. Mayhew\nyhew\nThank you for yotext-5-5s)al pur"
 580: alloc Header { write: 6967, read: 6966, start: 6960, end: 6968 }
-  end:   "name-11d"
-  read:  "name-1"
-  write: "name-11"
+  text: "name-11", slack: "d"
 588: alloc Header { write: 6344, read: 6337, start: 6336, end: 6344 }
-  end:   "towhom-9"
-  read:  "t"
-  write: "towhom-9"
+  text: "towhom-9", slack: ""
 596: alloc Header { write: 7129, read: 7121, start: 7120, end: 7136 }
-  end:   "towhom-11th King"
-  read:  "t"
-  write: "towhom-11"
+  text: "towhom-11", slack: "th King"
 604: alloc Header { write: 7815, read: 7814, start: 7808, end: 7816 }
-  end:   "name-16e"
-  read:  "name-1"
-  write: "name-16"
+  text: "name-16", slack: "e"
 612: alloc Header { write: 7513, read: 7505, start: 7504, end: 7520 }
-  end:   "towhom-17Marcuvi"
-  read:  "t"
-  write: "towhom-17"
+  text: "towhom-17", slack: "Marcuvi"
 620: alloc Header { write: 7529, read: 7521, start: 7520, end: 7536 }
-  end:   "towhom-16A. Mich"
-  read:  "t"
-  write: "towhom-16"
+  text: "towhom-16", slack: "A. Mich"
 628: alloc Header { write: 9456, read: 9456, start: 9344, end: 9472 }
-  end:   "Prof. W. H. Huggins\nDepartment of Electrical Engineering\nThe Johns Hopkins University\nBaltimore, Maryland 21218\nowing equipment:"
-  read:  "Prof. W. H. Huggins\nDepartment of Electrical Engineering\nThe Johns Hopkins University\nBaltimore, Maryland 21218\n"
-  write: "Prof. W. H. Huggins\nDepartment of Electrical Engineering\nThe Johns Hopkins University\nBaltimore, Maryland 21218\n"
+  text: "Prof. W. H. Huggins\nDepartment of Electrical Engineering\nThe Johns Hopkins University\nBaltimore, Maryland 21218\n", slack: "owing equipment:"
 636: alloc Header { write: 9815, read: 9815, start: 9728, end: 9856 }
-  end:   "Mr. Brent Byer\nAiken Computation Lab\nHarvard University\nCambridge, Massachusetts 02138\nidge, Massachusetts 02138\nwing equipment:"
-  read:  "Mr. Brent Byer\nAiken Computation Lab\nHarvard University\nCambridge, Massachusetts 02138\n"
-  write: "Mr. Brent Byer\nAiken Computation Lab\nHarvard University\nCambridge, Massachusetts 02138\n"
+  text: "Mr. Brent Byer\nAiken Computation Lab\nHarvard University\nCambridge, Massachusetts 02138\n", slack: "idge, Massachusetts 02138\nwing equipment:"
 644: alloc Header { write: 6975, read: 6974, start: 6968, end: 6976 }
-  end:   "name-12g"
-  read:  "name-1"
-  write: "name-12"
+  text: "name-12", slack: "g"
 652: alloc Header { write: 10120, read: 10120, start: 9984, end: 10240 }
-  end:   "Dr. Vladimir Slamecka\nComputer Center\nSchool of Information and Computer Science\nGeorgia Institute of Technology\nAtlanta, Georgia 30332\ner/punch\n\tDC line adapter\n\tDP line adapter\n\tDN ACU interface\n.sp\nYou should send me a complete\nlist of your configuratio"
-  read:  "Dr. Vladimir Slamecka\nComputer Center\nSchool of Information and Computer Science\nGeorgia Institute of Technology\nAtlanta, Georgia 30332\n"
-  write: "Dr. Vladimir Slamecka\nComputer Center\nSchool of Information and Computer Science\nGeorgia Institute of Technology\nAtlanta, Georgia 30332\n"
+  text: "Dr. Vladimir Slamecka\nComputer Center\nSchool of Information and Computer Science\nGeorgia Institute of Technology\nAtlanta, Georgia 30332\n", slack: "er/punch\n\tDC line adapter\n\tDP line adapter\n\tDN ACU interface\n.sp\nYou should send me a complete\nlist of your configuratio"
 660: alloc Header { write: 6426, read: 6426, start: 6416, end: 6432 }
-  end:   "Mr. Lewis\ns(medi"
-  read:  "Mr. Lewis\n"
-  write: "Mr. Lewis\n"
+  text: "Mr. Lewis\n", slack: "s(medi"
 668: alloc Header { write: 12309, read: 12305, start: 12304, end: 12312 }
-  end:   "chess Fe"
-  read:  "c"
-  write: "chess"
+  text: "chess", slack: " Fe"
 676: alloc Header { write: 12027, read: 12027, start: 11904, end: 12032 }
-  end:   "Mr. Rusty Whitney\nDirector of Computing\nOregon Museum of Science and Industry\n4015 S.W. Canyon Road\nPortland, Oregon 97221\n\0\0\0\0\0"
-  read:  "Mr. Rusty Whitney\nDirector of Computing\nOregon Museum of Science and Industry\n4015 S.W. Canyon Road\nPortland, Oregon 97221\n"
-  write: "Mr. Rusty Whitney\nDirector of Computing\nOregon Museum of Science and Industry\n4015 S.W. Canyon Road\nPortland, Oregon 97221\n"
+  text: "Mr. Rusty Whitney\nDirector of Computing\nOregon Museum of Science and Industry\n4015 S.W. Canyon Road\nPortland, Oregon 97221\n", slack: "\0\0\0\0\0"
 684: alloc Header { write: 7145, read: 7137, start: 7136, end: 7152 }
-  end:   "towhom-12Lewis, "
-  read:  "t"
-  write: "towhom-12"
+  text: "towhom-12", slack: "Lewis, "
 692: alloc Header { write: 6489, read: 6489, start: 6480, end: 6496 }
-  end:   "Dr. King\non of E"
-  read:  "Dr. King\n"
-  write: "Dr. King\n"
+  text: "Dr. King\n", slack: "on of E"
 700: alloc Header { write: 12537, read: 12537, start: 12416, end: 12544 }
-  end:   "Prof. D. A. Michalopoulos\nDepartment of Quantitative Methods\nThe California State University\nFullerton, California 92634\nto educ"
-  read:  "Prof. D. A. Michalopoulos\nDepartment of Quantitative Methods\nThe California State University\nFullerton, California 92634\n"
-  write: "Prof. D. A. Michalopoulos\nDepartment of Quantitative Methods\nThe California State University\nFullerton, California 92634\n"
+  text: "Prof. D. A. Michalopoulos\nDepartment of Quantitative Methods\nThe California State University\nFullerton, California 92634\n", slack: "to educ"
 708: alloc Header { write: 11660, read: 11660, start: 11520, end: 11776 }
-  end:   "James P. Lewis, Director\nComputer Center\nColumbia University\nCollege of Physicians and Surgeons\n630 West 168th Street\nNew York, N. Y. 10032\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-  read:  "James P. Lewis, Director\nComputer Center\nColumbia University\nCollege of Physicians and Surgeons\n630 West 168th Street\nNew York, N. Y. 10032\n"
-  write: "James P. Lewis, Director\nComputer Center\nColumbia University\nCollege of Physicians and Surgeons\n630 West 168th Street\nNew York, N. Y. 10032\n"
+  text: "James P. Lewis, Director\nComputer Center\nColumbia University\nCollege of Physicians and Surgeons\n630 West 168th Street\nNew York, N. Y. 10032\n", slack: "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
 716: alloc Header { write: 6473, read: 6465, start: 6464, end: 6480 }
-  end:   "towhom-18W. Peeb"
-  read:  "t"
-  write: "towhom-18"
+  text: "towhom-18", slack: "W. Peeb"
 724: alloc Header { write: 7903, read: 7902, start: 7896, end: 7904 }
-  end:   "name-15a"
-  read:  "name-1"
-  write: "name-15"
+  text: "name-15", slack: "a"
 732: alloc Header { write: 7884, read: 7884, start: 7872, end: 7888 }
-  end:   "Mr. Bateman\nis, "
-  read:  "Mr. Bateman\n"
-  write: "Mr. Bateman\n"
+  text: "Mr. Bateman\n", slack: "is, "
 740: alloc Header { write: 11865, read: 11865, start: 11776, end: 11904 }
-  end:   "R. G. Shahpazian\nRoom 400\nWestern Electric Company\n222 Broadway\nNew York, New York 10038\n the\nCommunications of the ACM in their"
-  read:  "R. G. Shahpazian\nRoom 400\nWestern Electric Company\n222 Broadway\nNew York, New York 10038\n"
-  write: "R. G. Shahpazian\nRoom 400\nWestern Electric Company\n222 Broadway\nNew York, New York 10038\n"
+  text: "R. G. Shahpazian\nRoom 400\nWestern Electric Company\n222 Broadway\nNew York, New York 10038\n", slack: " the\nCommunications of the ACM in their"
 748: alloc Header { write: 7161, read: 7153, start: 7152, end: 7168 }
-  end:   "towhom-15ey C. B"
-  read:  "t"
-  write: "towhom-15"
+  text: "towhom-15", slack: "ey C. B"
 756: alloc Header { write: 7433, read: 7425, start: 7424, end: 7440 }
-  end:   "towhom-13 Whitne"
-  read:  "t"
-  write: "towhom-13"
+  text: "towhom-13", slack: " Whitne"
 764: alloc Header { write: 7932, read: 7932, start: 7920, end: 7936 }
-  end:   "Mr. Whitney\nr of"
-  read:  "Mr. Whitney\n"
-  write: "Mr. Whitney\n"
+  text: "Mr. Whitney\n", slack: "r of"
 772: alloc Header { write: 6367, read: 6366, start: 6360, end: 6368 }
-  end:   "name-13h"
-  read:  "name-1"
-  write: "name-13"
+  text: "name-13", slack: "h"
 780: alloc Header { write: 12268, read: 12268, start: 12160, end: 12288 }
-  end:   "Mr. Stanley C. Bateman\nUniversity of California\nContracts and Grants Office\nSan Francisco, California 94143\n-free basis,\nto educ"
-  read:  "Mr. Stanley C. Bateman\nUniversity of California\nContracts and Grants Office\nSan Francisco, California 94143\n"
-  write: "Mr. Stanley C. Bateman\nUniversity of California\nContracts and Grants Office\nSan Francisco, California 94143\n"
+  text: "Mr. Stanley C. Bateman\nUniversity of California\nContracts and Grants Office\nSan Francisco, California 94143\n", slack: "-free basis,\nto educ"
 788: alloc Header { write: 12607, read: 12606, start: 12600, end: 12608 }
-  end:   "name-20e"
-  read:  "name-2"
-  write: "name-20"
+  text: "name-20", slack: "e"
 796: alloc Header { write: 7895, read: 7894, start: 7888, end: 7896 }
-  end:   "name-14t"
-  read:  "name-1"
-  write: "name-14"
+  text: "name-14", slack: "t"
 804: alloc Header { write: 7823, read: 7822, start: 7816, end: 7824 }
-  end:   "name-17i"
-  read:  "name-1"
-  write: "name-17"
+  text: "name-17", slack: "i"
 812: alloc Header { write: 13009, read: 13009, start: 12928, end: 13056 }
-  end:   "Prof. Melvin Ferentz\nPhysics Dept.\nBrooklyn College of CUNY\nBrooklyn, N.Y. 11210\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-  read:  "Prof. Melvin Ferentz\nPhysics Dept.\nBrooklyn College of CUNY\nBrooklyn, N.Y. 11210\n"
-  write: "Prof. Melvin Ferentz\nPhysics Dept.\nBrooklyn College of CUNY\nBrooklyn, N.Y. 11210\n"
+  text: "Prof. Melvin Ferentz\nPhysics Dept.\nBrooklyn College of CUNY\nBrooklyn, N.Y. 11210\n", slack: "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
 820: alloc Header { write: 6521, read: 6513, start: 6512, end: 6528 }
-  end:   "towhom-14n Yuval"
-  read:  "t"
-  write: "towhom-14"
+  text: "towhom-14", slack: "n Yuval"
 828: alloc Header { write: 12130, read: 12130, start: 12032, end: 12160 }
-  end:   "Mr. Gideon Yuval\nComputer Science Department\nThe Hebrew University of Jerusalem\nJerusalem, Israel\nunications of the ACM in their"
-  read:  "Mr. Gideon Yuval\nComputer Science Department\nThe Hebrew University of Jerusalem\nJerusalem, Israel\n"
-  write: "Mr. Gideon Yuval\nComputer Science Department\nThe Hebrew University of Jerusalem\nJerusalem, Israel\n"
+  text: "Mr. Gideon Yuval\nComputer Science Department\nThe Hebrew University of Jerusalem\nJerusalem, Israel\n", slack: "unications of the ACM in their"
 836: alloc Header { write: 13162, read: 13153, start: 13152, end: 13168 }
-  end:   "towhom-27aon\nDep"
-  read:  "t"
-  write: "towhom-27a"
+  text: "towhom-27a", slack: "on\nDep"
 844: alloc Header { write: 7866, read: 7866, start: 7856, end: 7872 }
-  end:   "Mr. Yuval\nompute"
-  read:  "Mr. Yuval\n"
-  write: "Mr. Yuval\n"
+  text: "Mr. Yuval\n", slack: "ompute"
 852: alloc Header { write: 12567, read: 12566, start: 12560, end: 12568 }
-  end:   "name-21a"
-  read:  "name-2"
-  write: "name-21"
+  text: "name-21", slack: "a"
 860: alloc Header { write: 12340, read: 12340, start: 12320, end: 12352 }
-  end:   "Prof. Michalopoulos\noulos\nDepart"
-  read:  "Prof. Michalopoulos\n"
-  write: "Prof. Michalopoulos\n"
+  text: "Prof. Michalopoulos\n", slack: "oulos\nDepart"
 868: alloc Header { write: 12914, read: 12914, start: 12800, end: 12928 }
-  end:   "Prof. R. W. Peebles\nComputer Communications Network Group\nUniversity of Waterloo\nWaterloo, Ontario\nCanada N2L 3G1\nr arranging ho"
-  read:  "Prof. R. W. Peebles\nComputer Communications Network Group\nUniversity of Waterloo\nWaterloo, Ontario\nCanada N2L 3G1\n"
-  write: "Prof. R. W. Peebles\nComputer Communications Network Group\nUniversity of Waterloo\nWaterloo, Ontario\nCanada N2L 3G1\n"
+  text: "Prof. R. W. Peebles\nComputer Communications Network Group\nUniversity of Waterloo\nWaterloo, Ontario\nCanada N2L 3G1\n", slack: "r arranging ho"
 876: alloc Header { write: 12295, read: 12294, start: 12288, end: 12296 }
-  end:   "name-18a"
-  read:  "name-1"
-  write: "name-18"
+  text: "name-18", slack: "a"
 884: alloc Header { write: 12782, read: 12782, start: 12672, end: 12800 }
-  end:   "Prof. N. Marcuvitz\nPolytechnic Institute of New York\nLong Island Center\nRoute 110\nFarmingdale, New York 11735\ne a look at the sy"
-  read:  "Prof. N. Marcuvitz\nPolytechnic Institute of New York\nLong Island Center\nRoute 110\nFarmingdale, New York 11735\n"
-  write: "Prof. N. Marcuvitz\nPolytechnic Institute of New York\nLong Island Center\nRoute 110\nFarmingdale, New York 11735\n"
+  text: "Prof. N. Marcuvitz\nPolytechnic Institute of New York\nLong Island Center\nRoute 110\nFarmingdale, New York 11735\n", slack: "e a look at the sy"
 892: alloc Header { write: 15243, read: 15243, start: 15232, end: 15248 }
-  end:   "Dr. Weiner\ndale,"
-  read:  "Dr. Weiner\n"
-  write: "Dr. Weiner\n"
+  text: "Dr. Weiner\n", slack: "dale,"
 900: alloc Header { write: 7840, read: 7840, start: 7824, end: 7840 }
-  end:   "Prof. Marcuvitz\n"
-  read:  "Prof. Marcuvitz\n"
-  write: "Prof. Marcuvitz\n"
+  text: "Prof. Marcuvitz\n", slack: ""
 908: alloc Header { write: 12663, read: 12662, start: 12656, end: 12664 }
-  end:   "name-23t"
-  read:  "name-2"
-  write: "name-23"
+  text: "name-23", slack: "t"
 916: alloc Header { write: 12319, read: 12318, start: 12312, end: 12320 }
-  end:   "name-1ao"
-  read:  "name-1"
-  write: "name-1a"
+  text: "name-1a", slack: "o"
 924: alloc Header { write: 7850, read: 7841, start: 7840, end: 7856 }
-  end:   "towhom-11ain Fer"
-  read:  "t"
-  write: "towhom-11a"
+  text: "towhom-11a", slack: "in Fer"
 932: alloc Header { write: 7550, read: 7550, start: 7536, end: 7552 }
-  end:   "Prof. Ferentz\nic"
-  read:  "Prof. Ferentz\n"
-  write: "Prof. Ferentz\n"
+  text: "Prof. Ferentz\n", slack: "ic"
 940: alloc Header { write: 13113, read: 13105, start: 13104, end: 13120 }
-  end:   "towhom-24 Cole\nQ"
-  read:  "t"
-  write: "towhom-24"
+  text: "towhom-24", slack: " Cole\nQ"
 948: alloc Header { write: 12649, read: 12641, start: 12640, end: 12656 }
-  end:   "towhom-21ph H. B"
-  read:  "t"
-  write: "towhom-21"
+  text: "towhom-21", slack: "ph H. B"
 956: alloc Header { write: 7486, read: 7486, start: 7472, end: 7488 }
-  end:   "Prof. Peebles\nne"
-  read:  "Prof. Peebles\n"
-  write: "Prof. Peebles\n"
+  text: "Prof. Peebles\n", slack: "ne"
 964: alloc Header { write: 16308, read: 16308, start: 15360, end: 16384 }
-  end:   "Thank you for your letter concerning the chess\nprogram for the PDP-11.\nThere are certain problems involved in releasing chess.\nThe program is writen in a local language which is\nconsidered proprietary.\nFor speed,\nparts of the program are writen in a local\nvarient of PDP-11 assembly language.\nIn addition,\nthe program and associated table compilers\nall run under the UNIX time-sharing system,\nwhich is also considered proprietary.\n.sp\nIf after all this,\nyou believe that listings\nin two undocumented languages,\ncalling on undocumented system I/O routines,\nwould be of use,\nI will try to get them released.\nOn the other hand,\nif you are really interested in running\nthe program,\nyou should consider obtaining UNIX,\nwhich is available under a Western Electric\nlicense agreement, royality-free, to educational institutions.\nFor information on the UNIX agreement,\nyou should contact:\n.nf\n.sp\n.in 5\n{shah}\n.sp\n.in 0\n.fi\nI hope I have been of some help.\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-  read:  "Thank you for your letter concerning the chess\nprogram for the PDP-11.\nThere are certain problems involved in releasing chess.\nThe program is writen in a local language which is\nconsidered proprietary.\nFor speed,\nparts of the program are writen in a local\nvarient of PDP-11 assembly language.\nIn addition,\nthe program and associated table compilers\nall run under the UNIX time-sharing system,\nwhich is also considered proprietary.\n.sp\nIf after all this,\nyou believe that listings\nin two undocumented languages,\ncalling on undocumented system I/O routines,\nwould be of use,\nI will try to get them released.\nOn the other hand,\nif you are really interested in running\nthe program,\nyou should consider obtaining UNIX,\nwhich is available under a Western Electric\nlicense agreement, royality-free, to educational institutions.\nFor information on the UNIX agreement,\nyou should contact:\n.nf\n.sp\n.in 5\n{shah}\n.sp\n.in 0\n.fi\nI hope I have been of some help.\n"
-  write: "Thank you for your letter concerning the chess\nprogram for the PDP-11.\nThere are certain problems involved in releasing chess.\nThe program is writen in a local language which is\nconsidered proprietary.\nFor speed,\nparts of the program are writen in a local\nvarient of PDP-11 assembly language.\nIn addition,\nthe program and associated table compilers\nall run under the UNIX time-sharing system,\nwhich is also considered proprietary.\n.sp\nIf after all this,\nyou believe that listings\nin two undocumented languages,\ncalling on undocumented system I/O routines,\nwould be of use,\nI will try to get them released.\nOn the other hand,\nif you are really interested in running\nthe program,\nyou should consider obtaining UNIX,\nwhich is available under a Western Electric\nlicense agreement, royality-free, to educational institutions.\nFor information on the UNIX agreement,\nyou should contact:\n.nf\n.sp\n.in 5\n{shah}\n.sp\n.in 0\n.fi\nI hope I have been of some help.\n"
+  text: "Thank you for your letter concerning the chess\nprogram for the PDP-11.\nThere are certain problems involved in releasing chess.\nThe program is writen in a local language which is\nconsidered proprietary.\nFor speed,\nparts of the program are writen in a local\nvarient of PDP-11 assembly language.\nIn addition,\nthe program and associated table compilers\nall run under the UNIX time-sharing system,\nwhich is also considered proprietary.\n.sp\nIf after all this,\nyou believe that listings\nin two undocumented languages,\ncalling on undocumented system I/O routines,\nwould be of use,\nI will try to get them released.\nOn the other hand,\nif you are really interested in running\nthe program,\nyou should consider obtaining UNIX,\nwhich is available under a Western Electric\nlicense agreement, royality-free, to educational institutions.\nFor information on the UNIX agreement,\nyou should contact:\n.nf\n.sp\n.in 5\n{shah}\n.sp\n.in 0\n.fi\nI hope I have been of some help.\n", slack: "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
 972: alloc Header { write: 12599, read: 12598, start: 12592, end: 12600 }
-  end:   "name-19n"
-  read:  "name-1"
-  write: "name-19"
+  text: "name-19", slack: "n"
 980: alloc Header { write: 15327, read: 15326, start: 15320, end: 15328 }
-  end:   "name-43A"
-  read:  "name-4"
-  write: "name-43"
+  text: "name-43", slack: "A"
 988: alloc Header { write: 7913, read: 7905, start: 7904, end: 7920 }
-  end:   "towhom-19n E. Ne"
-  read:  "t"
-  write: "towhom-19"
+  text: "towhom-19", slack: "n E. Ne"
 996: alloc Header { write: 13291, read: 13291, start: 13184, end: 13312 }
-  end:   "Mr. Reidar Bornholdt\nDept. of Biological Science\n653 Scherm Ext.\nColumbia University\nNew York, N. Y. 10027\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-  read:  "Mr. Reidar Bornholdt\nDept. of Biological Science\n653 Scherm Ext.\nColumbia University\nNew York, N. Y. 10027\n"
-  write: "Mr. Reidar Bornholdt\nDept. of Biological Science\n653 Scherm Ext.\nColumbia University\nNew York, N. Y. 10027\n"
+  text: "Mr. Reidar Bornholdt\nDept. of Biological Science\n653 Scherm Ext.\nColumbia University\nNew York, N. Y. 10027\n", slack: "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
 1004: alloc Header { write: 12575, read: 12574, start: 12568, end: 12576 }
-  end:   "name-22j"
-  read:  "name-2"
-  write: "name-22"
+  text: "name-22", slack: "j"
 1012: alloc Header { write: 15359, read: 15358, start: 15352, end: 15360 }
-  end:   "name-39a"
-  read:  "name-3"
-  write: "name-39"
+  text: "name-39", slack: "a"
 1020: alloc Header { write: 15279, read: 15278, start: 15272, end: 15280 }
-  end:   "name-49f"
-  read:  "name-4"
-  write: "name-49"
+  text: "name-49", slack: "f"
 1028: alloc Header { write: 11350, read: 11350, start: 11264, end: 11392 }
-  end:   "Mr. John E. Ecklund\nYale University\n10 Hillhouse Avenue\nNew Haven, Connecticut  06520\nUNIX requires at least\nthe following equip"
-  read:  "Mr. John E. Ecklund\nYale University\n10 Hillhouse Avenue\nNew Haven, Connecticut  06520\n"
-  write: "Mr. John E. Ecklund\nYale University\n10 Hillhouse Avenue\nNew Haven, Connecticut  06520\n"
+  text: "Mr. John E. Ecklund\nYale University\n10 Hillhouse Avenue\nNew Haven, Connecticut  06520\n", slack: "UNIX requires at least\nthe following equip"
 1036: alloc Header { write: 14567, read: 14567, start: 14464, end: 14592 }
-  end:   "Prof. D. A. Jardine\nDept. of Computing Science\nQueen\'s University at Kingston\nKingston, Ontario\nCanada\nm are writen in a local\nv"
-  read:  "Prof. D. A. Jardine\nDept. of Computing Science\nQueen\'s University at Kingston\nKingston, Ontario\nCanada\n"
-  write: "Prof. D. A. Jardine\nDept. of Computing Science\nQueen\'s University at Kingston\nKingston, Ontario\nCanada\n"
+  text: "Prof. D. A. Jardine\nDept. of Computing Science\nQueen\'s University at Kingston\nKingston, Ontario\nCanada\n", slack: "m are writen in a local\nv"
 1044: alloc Header { write: 13099, read: 13094, start: 13088, end: 13104 }
-  end:   "name-letternk St"
-  read:  "name-l"
-  write: "name-letter"
+  text: "name-letter", slack: "nk St"
 1052: alloc Header { write: 17365, read: 17365, start: 17280, end: 17408 }
-  end:   "Greg Chesson\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\nisk pack\n.sp\nI will be able to send the sys"
-  read:  "Greg Chesson\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\n"
-  write: "Greg Chesson\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\n"
+  text: "Greg Chesson\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\n", slack: "isk pack\n.sp\nI will be able to send the sys"
 1060: alloc Header { write: 6505, read: 6497, start: 6496, end: 6512 }
-  end:   "towhom-20A. Jard"
-  read:  "t"
-  write: "towhom-20"
+  text: "towhom-20", slack: "A. Jard"
 1068: alloc Header { write: 7497, read: 7489, start: 7488, end: 7504 }
-  end:   "towhom-22rank St"
-  read:  "t"
-  write: "towhom-22"
+  text: "towhom-22", slack: "rank St"
 1076: alloc Header { write: 12382, read: 12382, start: 12368, end: 12384 }
-  end:   "Mr. Bornholdt\n4\x04"
-  read:  "Mr. Bornholdt\n"
-  write: "Mr. Bornholdt\n"
+  text: "Mr. Bornholdt\n", slack: "4\x04"
 1084: alloc Header { write: 14430, read: 14430, start: 14336, end: 14464 }
-  end:   "Mr. Martin E. Newell\nThe University of Utah\nCollege of Engineering\nSalt Lake City, Utah 84112\nms involved in releasing chess.\nTh"
-  read:  "Mr. Martin E. Newell\nThe University of Utah\nCollege of Engineering\nSalt Lake City, Utah 84112\n"
-  write: "Mr. Martin E. Newell\nThe University of Utah\nCollege of Engineering\nSalt Lake City, Utah 84112\n"
+  text: "Mr. Martin E. Newell\nThe University of Utah\nCollege of Engineering\nSalt Lake City, Utah 84112\n", slack: "ms involved in releasing chess.\nTh"
 1092: alloc Header { write: 12361, read: 12353, start: 12352, end: 12368 }
-  end:   "towhom-23S. Fabr"
-  read:  "t"
-  write: "towhom-23"
+  text: "towhom-23", slack: "S. Fabr"
 1100: alloc Header { write: 12587, read: 12587, start: 12576, end: 12592 }
-  end:   "Mr. Newell\nss\npr"
-  read:  "Mr. Newell\n"
-  write: "Mr. Newell\n"
+  text: "Mr. Newell\n", slack: "ss\npr"
 1108: alloc Header { write: 14677, read: 14677, start: 14592, end: 14720 }
-  end:   "Prof. Ralph H. Bjork\nScience Building\nSaint Olaf College\nNorthfield, Minnesota 55057\nd Surgeons\n630 West 168th Street\nNew York, "
-  read:  "Prof. Ralph H. Bjork\nScience Building\nSaint Olaf College\nNorthfield, Minnesota 55057\n"
-  write: "Prof. Ralph H. Bjork\nScience Building\nSaint Olaf College\nNorthfield, Minnesota 55057\n"
+  text: "Prof. Ralph H. Bjork\nScience Building\nSaint Olaf College\nNorthfield, Minnesota 55057\n", slack: "d Surgeons\n630 West 168th Street\nNew York, "
 1116: alloc Header { write: 15052, read: 15052, start: 14976, end: 15104 }
-  end:   "Prof. R. S. Fabry\nEvans Hall\nUniversity of California\nBerkeley, Calif 94720\n speed,\nparts of the program are writen in a local\nv"
-  read:  "Prof. R. S. Fabry\nEvans Hall\nUniversity of California\nBerkeley, Calif 94720\n"
-  write: "Prof. R. S. Fabry\nEvans Hall\nUniversity of California\nBerkeley, Calif 94720\n"
+  text: "Prof. R. S. Fabry\nEvans Hall\nUniversity of California\nBerkeley, Calif 94720\n", slack: " speed,\nparts of the program are writen in a local\nv"
 1124: alloc Header { write: 12638, read: 12638, start: 12624, end: 12640 }
-  end:   "Prof. Starmer\na,"
-  read:  "Prof. Starmer\n"
-  write: "Prof. Starmer\n"
+  text: "Prof. Starmer\n", slack: "a,"
 1132: alloc Header { write: 14787, read: 14787, start: 14720, end: 14848 }
-  end:   "Prof C. Frank Starmer\nDuke University\nDurham, North Carolina 27710\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-  read:  "Prof C. Frank Starmer\nDuke University\nDurham, North Carolina 27710\n"
-  write: "Prof C. Frank Starmer\nDuke University\nDurham, North Carolina 27710\n"
+  text: "Prof C. Frank Starmer\nDuke University\nDurham, North Carolina 27710\n", slack: "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
 1140: alloc Header { write: 13068, read: 13068, start: 13056, end: 13072 }
-  end:   "Prof. Bjork\nJard"
-  read:  "Prof. Bjork\n"
-  write: "Prof. Bjork\n"
+  text: "Prof. Bjork\n", slack: "Jard"
 1148: alloc Header { write: 14857, read: 14849, start: 14848, end: 14864 }
-  end:   "towhom-25E. Eckl"
-  read:  "t"
-  write: "towhom-25"
+  text: "towhom-25", slack: "E. Eckl"
 1156: alloc Header { write: 13081, read: 13081, start: 13072, end: 13088 }
-  end:   "Dr. Cole\n of Com"
-  read:  "Dr. Cole\n"
-  write: "Dr. Cole\n"
+  text: "Dr. Cole\n", slack: " of Com"
 1164: alloc Header { write: 13148, read: 13148, start: 13136, end: 13152 }
-  end:   "Prof. Fabry\nnive"
-  read:  "Prof. Fabry\n"
-  write: "Prof. Fabry\n"
+  text: "Prof. Fabry\n", slack: "nive"
 1172: alloc Header { write: 13127, read: 13126, start: 13120, end: 13128 }
-  end:   "name-25e"
-  read:  "name-2"
-  write: "name-25"
+  text: "name-25", slack: "e"
 1180: alloc Header { write: 12671, read: 12670, start: 12664, end: 12672 }
-  end:   "name-24a"
-  read:  "name-2"
-  write: "name-24"
+  text: "name-24", slack: "a"
 1188: alloc Header { write: 15196, read: 15196, start: 15104, end: 15232 }
-  end:   "Dr. M. S. Cole\nQueen Mary College\nUniversity of London\nMile End Road\nLondon E1 4NS, England\nall run under the UNIX time-sharing "
-  read:  "Dr. M. S. Cole\nQueen Mary College\nUniversity of London\nMile End Road\nLondon E1 4NS, England\n"
-  write: "Dr. M. S. Cole\nQueen Mary College\nUniversity of London\nMile End Road\nLondon E1 4NS, England\n"
+  text: "Dr. M. S. Cole\nQueen Mary College\nUniversity of London\nMile End Road\nLondon E1 4NS, England\n", slack: "all run under the UNIX time-sharing "
 1196: alloc Header { write: 13135, read: 13134, start: 13128, end: 13136 }
-  end:   "name-26l"
-  read:  "name-2"
-  write: "name-26"
+  text: "name-26", slack: "l"
 1204: alloc Header { write: 6360, read: 6357, start: 6356, end: 6360 }
-  end:   "greg"
-  read:  "g"
-  write: "greg"
+  text: "greg", slack: ""
 1212: alloc Header { write: 7454, read: 7454, start: 7440, end: 7456 }
-  end:   "Prof. Gillies\nof"
-  read:  "Prof. Gillies\n"
-  write: "Prof. Gillies\n"
+  text: "Prof. Gillies\n", slack: "of"
 1220: alloc Header { write: 14940, read: 14940, start: 14928, end: 14944 }
-  end:   "Mr. Ecklund\ne Un"
-  read:  "Mr. Ecklund\n"
-  write: "Mr. Ecklund\n"
+  text: "Mr. Ecklund\n", slack: "e Un"
 1228: alloc Header { write: 18808, read: 18808, start: 18688, end: 18816 }
-  end:   "Mr John Vanderford\nInstitute for Physical Sciences\nThe University of Texas at Dallas\nPO Box 688\nRichardson, Texas 75080\n4n Yuval"
-  read:  "Mr John Vanderford\nInstitute for Physical Sciences\nThe University of Texas at Dallas\nPO Box 688\nRichardson, Texas 75080\n"
-  write: "Mr John Vanderford\nInstitute for Physical Sciences\nThe University of Texas at Dallas\nPO Box 688\nRichardson, Texas 75080\n"
+  text: "Mr John Vanderford\nInstitute for Physical Sciences\nThe University of Texas at Dallas\nPO Box 688\nRichardson, Texas 75080\n", slack: "4n Yuval"
 1236: alloc Header { write: 18024, read: 18024, start: 17920, end: 18048 }
-  end:   "Mr. Belton E. Allen\nInstructor of Computer Science\nNaval Postgraduate School\nMonterey, California 93940\neast\nthe following equip"
-  read:  "Mr. Belton E. Allen\nInstructor of Computer Science\nNaval Postgraduate School\nMonterey, California 93940\n"
-  write: "Mr. Belton E. Allen\nInstructor of Computer Science\nNaval Postgraduate School\nMonterey, California 93940\n"
+  text: "Mr. Belton E. Allen\nInstructor of Computer Science\nNaval Postgraduate School\nMonterey, California 93940\n", slack: "east\nthe following equip"
 1244: alloc Header { write: 15343, read: 15342, start: 15336, end: 15344 }
-  end:   "name-47a"
-  read:  "name-4"
-  write: "name-47"
+  text: "name-47", slack: "a"
 1252: alloc Header { write: 13176, read: 13174, start: 13168, end: 13176 }
-  end:   "name-27a"
-  read:  "name-2"
-  write: "name-27a"
+  text: "name-27a", slack: ""
 1260: alloc Header { write: 14880, read: 14880, start: 14880, end: 14896 }
-  end:   "\xcc\x04\xcc\x04-Thank you f"
-  read:  ""
-  write: ""
+  text: "", slack: "\xcc\x04\xcc\x04-Thank you f"
 1268: alloc Header { write: 12409, read: 12401, start: 12400, end: 12416 }
-  end:   "towhom-27B. Gill"
-  read:  "t"
-  write: "towhom-27"
+  text: "towhom-27", slack: "B. Gill"
 1276: alloc Header { write: 15303, read: 15297, start: 15296, end: 15304 }
-  end:   "chesson}"
-  read:  "c"
-  write: "chesson"
+  text: "chesson", slack: "}"
 1284: alloc Header { write: 11502, read: 11502, start: 11392, end: 11520 }
-  end:   "Dr. P. Weiner\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\n (line or programm"
-  read:  "Dr. P. Weiner\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\n"
-  write: "Dr. P. Weiner\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\n"
+  text: "Dr. P. Weiner\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\n", slack: " (line or programm"
 1292: alloc Header { write: 14970, read: 14961, start: 14960, end: 14976 }
-  end:   "towhom-26a. Heis"
-  read:  "t"
-  write: "towhom-26a"
+  text: "towhom-26a", slack: ". Heis"
 1300: alloc Header { write: 17116, read: 17116, start: 17024, end: 17152 }
-  end:   "Prof. D. B. Gillies\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\n\tRK or RP disk\n\tKW (line or programm"
-  read:  "Prof. D. B. Gillies\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\n"
-  write: "Prof. D. B. Gillies\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\n"
+  text: "Prof. D. B. Gillies\nDept. of Computer Science\nUniversity of Illinois\nUrbana, Illinois 61801\n", slack: "\tRK or RP disk\n\tKW (line or programm"
 1308: alloc Header { write: 15257, read: 15249, start: 15248, end: 15264 }
-  end:   "towhom-26iner\nIn"
-  read:  "t"
-  write: "towhom-26"
+  text: "towhom-26", slack: "iner\nIn"
 1316: alloc Header { write: 7471, read: 7470, start: 7464, end: 7472 }
-  end:   "name-27s"
-  read:  "name-2"
-  write: "name-27"
+  text: "name-27", slack: "s"
 1324: alloc Header { write: 17011, read: 17011, start: 16896, end: 17024 }
-  end:   "Ms. Lois H. Heiser\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\nllowing equip"
-  read:  "Ms. Lois H. Heiser\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\n"
-  write: "Ms. Lois H. Heiser\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\n"
+  text: "Ms. Lois H. Heiser\nInformation Sciences Dept.\nThe Rand Corporation\n1700 Main Street\nSanta Monica, California 90406\n", slack: "llowing equip"
 1332: alloc Header { write: 7464, read: 7462, start: 7456, end: 7464 }
-  end:   "name-26a"
-  read:  "name-2"
-  write: "name-26a"
+  text: "name-26a", slack: ""
 1340: alloc Header { write: 14875, read: 14875, start: 14864, end: 14880 }
-  end:   "Ms. Heiser\nolleg"
-  read:  "Ms. Heiser\n"
-  write: "Ms. Heiser\n"
+  text: "Ms. Heiser\n", slack: "olleg"
 1348: alloc Header { write: 13180, read: 13180, start: 13176, end: 13180 }
-  end:   "27a\n"
-  read:  "27a\n"
-  write: "27a\n"
+  text: "27a\n", slack: ""
 1356: alloc Header { write: 14927, read: 14926, start: 14920, end: 14928 }
-  end:   "name-29\x05"
-  read:  "name-2"
-  write: "name-29"
+  text: "name-29", slack: "\x05"
 1364: alloc Header { write: 14908, read: 14908, start: 14896, end: 14912 }
-  end:   "Mr. Chesson\nest "
-  read:  "Mr. Chesson\n"
-  write: "Mr. Chesson\n"
+  text: "Mr. Chesson\n", slack: "est "
 1372: alloc Header { write: 18937, read: 18937, start: 18816, end: 18944 }
-  end:   "Prof C.J. Karzmark\nDept of Radiology\nStanford University School of Medicine\n300 Pasteur Drive\nStanford, California 94305\nM. Goin"
-  read:  "Prof C.J. Karzmark\nDept of Radiology\nStanford University School of Medicine\n300 Pasteur Drive\nStanford, California 94305\n"
-  write: "Prof C.J. Karzmark\nDept of Radiology\nStanford University School of Medicine\n300 Pasteur Drive\nStanford, California 94305\n"
+  text: "Prof C.J. Karzmark\nDept of Radiology\nStanford University School of Medicine\n300 Pasteur Drive\nStanford, California 94305\n", slack: "M. Goin"
 1380: alloc Header { write: 12623, read: 12622, start: 12616, end: 12624 }
-  end:   "name-45e"
-  read:  "name-4"
-  write: "name-45"
+  text: "name-45", slack: "e"
 1388: alloc Header { write: 15295, read: 15294, start: 15288, end: 15296 }
-  end:   "name-41o"
-  read:  "name-4"
-  write: "name-41"
+  text: "name-41", slack: "o"
 1396: alloc Header { write: 17199, read: 17198, start: 17192, end: 17200 }
-  end:   "name-37t"
-  read:  "name-3"
-  write: "name-37"
+  text: "name-37", slack: "t"
 1404: alloc Header { write: 17643, read: 17643, start: 17536, end: 17664 }
-  end:   "Prof. James D. Foley\nUniversity of North Carolina at Chapel Hill\nNew West Hall\nChapel Hill, North Carolina\nin Du Cyclotron 2\n134"
-  read:  "Prof. James D. Foley\nUniversity of North Carolina at Chapel Hill\nNew West Hall\nChapel Hill, North Carolina\n"
-  write: "Prof. James D. Foley\nUniversity of North Carolina at Chapel Hill\nNew West Hall\nChapel Hill, North Carolina\n"
+  text: "Prof. James D. Foley\nUniversity of North Carolina at Chapel Hill\nNew West Hall\nChapel Hill, North Carolina\n", slack: "in Du Cyclotron 2\n134"
 1412: alloc Header { write: 15351, read: 15350, start: 15344, end: 15352 }
-  end:   "name-38J"
-  read:  "name-3"
-  write: "name-38"
+  text: "name-38", slack: "J"
 1420: alloc Header { write: 17215, read: 17214, start: 17208, end: 17216 }
-  end:   "name-31l"
-  read:  "name-3"
-  write: "name-31"
+  text: "name-31", slack: "l"
 1428: alloc Header { write: 17231, read: 17230, start: 17224, end: 17232 }
-  end:   "name-33t"
-  read:  "name-3"
-  write: "name-33"
+  text: "name-33", slack: "t"
 1436: alloc Header { write: 15335, read: 15334, start: 15328, end: 15336 }
-  end:   "name-46s"
-  read:  "name-4"
-  write: "name-46"
+  text: "name-46", slack: "s"
 1444: alloc Header { write: 17821, read: 17821, start: 17664, end: 17920 }
-  end:   "Prof. E. Milgrom\nFaculte des Sciences Appliquees\nUnite D\'Informatique\nUniversite Catholique de Louvain\nChenin Du Cyclotron 2\n1348 Louvain-La-Neuve, Belgique\ntrack 800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\tRP03 disk pack\n.sp\nI will be able to send the sys"
-  read:  "Prof. E. Milgrom\nFaculte des Sciences Appliquees\nUnite D\'Informatique\nUniversite Catholique de Louvain\nChenin Du Cyclotron 2\n1348 Louvain-La-Neuve, Belgique\n"
-  write: "Prof. E. Milgrom\nFaculte des Sciences Appliquees\nUnite D\'Informatique\nUniversite Catholique de Louvain\nChenin Du Cyclotron 2\n1348 Louvain-La-Neuve, Belgique\n"
+  text: "Prof. E. Milgrom\nFaculte des Sciences Appliquees\nUnite D\'Informatique\nUniversite Catholique de Louvain\nChenin Du Cyclotron 2\n1348 Louvain-La-Neuve, Belgique\n", slack: "track 800 bpi) magtape\n\tRK03/RK05 disk cartridge\n\tRP03 disk pack\n.sp\nI will be able to send the sys"
 1452: alloc Header { write: 13184, read: 13184, start: 13180, end: 13184 }
-  end:   "27a\n"
-  read:  "27a\n"
-  write: "27a\n"
+  text: "27a\n", slack: ""
 1460: alloc Header { write: 14919, read: 14918, start: 14912, end: 14920 }
-  end:   "name-28n"
-  read:  "name-2"
-  write: "name-28"
+  text: "name-28", slack: "n"
 1468: free Header { start: 15308, end: 15312 }
 1476: alloc Header { write: 17239, read: 17238, start: 17232, end: 17240 }
-  end:   "name-30."
-  read:  "name-3"
-  write: "name-30"
+  text: "name-30", slack: "."
 1484: alloc Header { write: 18512, read: 18512, start: 18432, end: 18560 }
-  end:   "Mr. Dustin H. Heuston\nThe Spence School\n22 E. 91st St.\nNew York, New York 10028\ntowhom-2name-3MaProf. Marsland\nstowhom-\0esr lett"
-  read:  "Mr. Dustin H. Heuston\nThe Spence School\n22 E. 91st St.\nNew York, New York 10028\n"
-  write: "Mr. Dustin H. Heuston\nThe Spence School\n22 E. 91st St.\nNew York, New York 10028\n"
+  text: "Mr. Dustin H. Heuston\nThe Spence School\n22 E. 91st St.\nNew York, New York 10028\n", slack: "towhom-2name-3MaProf. Marsland\nstowhom-\0esr lett"
 1492: alloc Header { write: 17191, read: 17190, start: 17184, end: 17192 }
-  end:   "name-36v"
-  read:  "name-3"
-  write: "name-36"
+  text: "name-36", slack: "v"
 1500: alloc Header { write: 17207, read: 17206, start: 17200, end: 17208 }
-  end:   "name-32T"
-  read:  "name-3"
-  write: "name-32"
+  text: "name-32", slack: "T"
 1508: free Header { start: 15304, end: 15308 }
 1516: alloc Header { write: 17223, read: 17222, start: 17216, end: 17224 }
-  end:   "name-34a"
-  read:  "name-3"
-  write: "name-34"
+  text: "name-34", slack: "a"
 1524: alloc Header { write: 18168, read: 18168, start: 18048, end: 18176 }
-  end:   "Mr. J. Tansley\nMedical Computing Group\nMedical School\nUniversity of Edinbourgh\nTeviot Place\nEdinburgh EH8 9A6, Scotland\nprogramm"
-  read:  "Mr. J. Tansley\nMedical Computing Group\nMedical School\nUniversity of Edinbourgh\nTeviot Place\nEdinburgh EH8 9A6, Scotland\n"
-  write: "Mr. J. Tansley\nMedical Computing Group\nMedical School\nUniversity of Edinbourgh\nTeviot Place\nEdinburgh EH8 9A6, Scotland\n"
+  text: "Mr. J. Tansley\nMedical Computing Group\nMedical School\nUniversity of Edinbourgh\nTeviot Place\nEdinburgh EH8 9A6, Scotland\n", slack: "programm"
 1532: free Header { start: 6150, end: 6152 }
 1540: free Header { start: 6144, end: 6146 }
 1548: alloc Header { write: 18416, read: 18416, start: 18304, end: 18432 }
-  end:   "Mr. Travis Wood\nUniversity of Alabama in Birmingham\n522 Spain, UAB\nUniversity Station\nBirmingham, Alabama 35294\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-  read:  "Mr. Travis Wood\nUniversity of Alabama in Birmingham\n522 Spain, UAB\nUniversity Station\nBirmingham, Alabama 35294\n"
-  write: "Mr. Travis Wood\nUniversity of Alabama in Birmingham\n522 Spain, UAB\nUniversity Station\nBirmingham, Alabama 35294\n"
+  text: "Mr. Travis Wood\nUniversity of Alabama in Birmingham\n522 Spain, UAB\nUniversity Station\nBirmingham, Alabama 35294\n", slack: "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
 1556: alloc Header { write: 19042, read: 19042, start: 18944, end: 19072 }
-  end:   "R. M. Kavanaugh\nDept of Computational Science\nUniversity of Sakatchewan\nSaskatoon, S7N 0W0 Canada\nof. Marsland\nstowhom-\0esr lett"
-  read:  "R. M. Kavanaugh\nDept of Computational Science\nUniversity of Sakatchewan\nSaskatoon, S7N 0W0 Canada\n"
-  write: "R. M. Kavanaugh\nDept of Computational Science\nUniversity of Sakatchewan\nSaskatoon, S7N 0W0 Canada\n"
+  text: "R. M. Kavanaugh\nDept of Computational Science\nUniversity of Sakatchewan\nSaskatoon, S7N 0W0 Canada\n", slack: "of. Marsland\nstowhom-\0esr lett"
 1564: alloc Header { write: 18647, read: 18647, start: 18560, end: 18688 }
-  end:   "Mr. T. C. Stevens\nComputer Research Dept\nUniversity of Toronto\nToronto, Canada M5S 1A1\ngname-13htowhom-3name-4yhtowhom-1013\0\xcc\0T\x01"
-  read:  "Mr. T. C. Stevens\nComputer Research Dept\nUniversity of Toronto\nToronto, Canada M5S 1A1\n"
-  write: "Mr. T. C. Stevens\nComputer Research Dept\nUniversity of Toronto\nToronto, Canada M5S 1A1\n"
+  text: "Mr. T. C. Stevens\nComputer Research Dept\nUniversity of Toronto\nToronto, Canada M5S 1A1\n", slack: "gname-13htowhom-3name-4yhtowhom-1013\0\xcc\0T\x01"
 1572: free Header { start: 17152, end: 17184 }
 1580: alloc Header { write: 15271, read: 15270, start: 15264, end: 15272 }
-  end:   "name-48i"
-  read:  "name-4"
-  write: "name-48"
+  text: "name-48", slack: "i"
 1588: alloc Header { write: 17521, read: 17521, start: 17472, end: 17536 }
-  end:   "James Curry\nIASSA\n2361 Laxenburg\nVienna, Austria\n of Manitoba\nWi"
-  read:  "James Curry\nIASSA\n2361 Laxenburg\nVienna, Austria\n"
-  write: "James Curry\nIASSA\n2361 Laxenburg\nVienna, Austria\n"
+  text: "James Curry\nIASSA\n2361 Laxenburg\nVienna, Austria\n", slack: " of Manitoba\nWi"
 1596: alloc Header { write: 19283, read: 19283, start: 19200, end: 19328 }
-  end:   "H. L. Counts, Jr.\nPurchasing\nDenison University\nP.O. Box 119\nGranville, Ohio 43023\n King\non of Etowhom-20A. Jardtowhom-14n Yuval"
-  read:  "H. L. Counts, Jr.\nPurchasing\nDenison University\nP.O. Box 119\nGranville, Ohio 43023\n"
-  write: "H. L. Counts, Jr.\nPurchasing\nDenison University\nP.O. Box 119\nGranville, Ohio 43023\n"
+  text: "H. L. Counts, Jr.\nPurchasing\nDenison University\nP.O. Box 119\nGranville, Ohio 43023\n", slack: " King\non of Etowhom-20A. Jardtowhom-14n Yuval"
 1604: alloc Header { write: 15287, read: 15286, start: 15280, end: 15288 }
-  end:   "name-40c"
-  read:  "name-4"
-  write: "name-40"
+  text: "name-40", slack: "c"
 1612: alloc Header { write: 19154, read: 19154, start: 19072, end: 19200 }
-  end:   "D. R. McNeil\nStatistical Computing Lab\nPrinceton University\nPrinceton, N.J. 08540\nahgregname-13htowhom-3name-4yhtowhom-1013\0\xcc\0T\x01"
-  read:  "D. R. McNeil\nStatistical Computing Lab\nPrinceton University\nPrinceton, N.J. 08540\n"
-  write: "D. R. McNeil\nStatistical Computing Lab\nPrinceton University\nPrinceton, N.J. 08540\n"
+  text: "D. R. McNeil\nStatistical Computing Lab\nPrinceton University\nPrinceton, N.J. 08540\n", slack: "ahgregname-13htowhom-3name-4yhtowhom-1013\0\xcc\0T\x01"
 1620: alloc Header { write: 15319, read: 15318, start: 15312, end: 15320 }
-  end:   "name-42m"
-  read:  "name-4"
-  write: "name-42"
+  text: "name-42", slack: "m"
 1628: alloc Header { write: 19712, read: 19712, start: 19584, end: 19712 }
-  end:   "D. W. de Bakker\nDept. of Computer Science\nFoundation Mathematisch Centrum\n2e Boerhaavestraar 49\nAmsterdam 1005, The Netherlands\n"
-  read:  "D. W. de Bakker\nDept. of Computer Science\nFoundation Mathematisch Centrum\n2e Boerhaavestraar 49\nAmsterdam 1005, The Netherlands\n"
-  write: "D. W. de Bakker\nDept. of Computer Science\nFoundation Mathematisch Centrum\n2e Boerhaavestraar 49\nAmsterdam 1005, The Netherlands\n"
+  text: "D. W. de Bakker\nDept. of Computer Science\nFoundation Mathematisch Centrum\n2e Boerhaavestraar 49\nAmsterdam 1005, The Netherlands\n", slack: ""
 1636: alloc Header { write: 12615, read: 12614, start: 12608, end: 12616 }
-  end:   "name-44n"
-  read:  "name-4"
-  write: "name-44"
+  text: "name-44", slack: "n"
 1644: alloc Header { write: 19429, read: 19429, start: 19328, end: 19456 }
-  end:   "H. Bellmar\nMinuteman Regional Vocational\nHigh School District\n758 Merrett Road\nLexington, Mass 02173\n Huggins\nggM. Goins\nM. Goin"
-  read:  "H. Bellmar\nMinuteman Regional Vocational\nHigh School District\n758 Merrett Road\nLexington, Mass 02173\n"
-  write: "H. Bellmar\nMinuteman Regional Vocational\nHigh School District\n758 Merrett Road\nLexington, Mass 02173\n"
+  text: "H. Bellmar\nMinuteman Regional Vocational\nHigh School District\n758 Merrett Road\nLexington, Mass 02173\n", slack: " Huggins\nggM. Goins\nM. Goin"
 1652: alloc Header { write: 19924, read: 19924, start: 19840, end: 19968 }
-  end:   "C. W. Tan\nDivision of Engineering\nThe Cooper Union\nCooper Square\nNew York, NY 10003\nrmingdale, New York 11735\ne a look at the sy"
-  read:  "C. W. Tan\nDivision of Engineering\nThe Cooper Union\nCooper Square\nNew York, NY 10003\n"
-  write: "C. W. Tan\nDivision of Engineering\nThe Cooper Union\nCooper Square\nNew York, NY 10003\n"
+  text: "C. W. Tan\nDivision of Engineering\nThe Cooper Union\nCooper Square\nNew York, NY 10003\n", slack: "rmingdale, New York 11735\ne a look at the sy"
 1660: alloc Header { write: 19523, read: 19523, start: 19456, end: 19584 }
-  end:   "Carl Henry\nComputer Center\nCarleton College\nNorthfield, Minn 55057\nhom-23S. FabrMr. Bornholdt\n4\x04Prof. Jardine\n Stowhom-27B. Gill"
-  read:  "Carl Henry\nComputer Center\nCarleton College\nNorthfield, Minn 55057\n"
-  write: "Carl Henry\nComputer Center\nCarleton College\nNorthfield, Minn 55057\n"
+  text: "Carl Henry\nComputer Center\nCarleton College\nNorthfield, Minn 55057\n", slack: "hom-23S. FabrMr. Bornholdt\n4\x04Prof. Jardine\n Stowhom-27B. Gill"
 1668: alloc Header { write: 19793, read: 19793, start: 19712, end: 19840 }
-  end:   "S. Grodstein\nEast Brunswick High School\n22 Milltown Rd.\nEast Brunswick, NJ 08816\nrof. Starmer\na,towhom-21ph H. Bname-23tname-24a"
-  read:  "S. Grodstein\nEast Brunswick High School\n22 Milltown Rd.\nEast Brunswick, NJ 08816\n"
-  write: "S. Grodstein\nEast Brunswick High School\n22 Milltown Rd.\nEast Brunswick, NJ 08816\n"
+  text: "S. Grodstein\nEast Brunswick High School\n22 Milltown Rd.\nEast Brunswick, NJ 08816\n", slack: "rof. Starmer\na,towhom-21ph H. Bname-23tname-24a"
 1676: alloc Header { write: 14959, read: 14959, start: 14952, end: 14960 }
-  end:   "name-51e"
-  read:  "name-51"
-  write: "name-51"
+  text: "name-51", slack: "e"
 1684: alloc Header { write: 14951, read: 14951, start: 14944, end: 14952 }
-  end:   "name-50d"
-  read:  "name-50"
-  write: "name-50"
+  text: "name-50", slack: "d"
 1692: alloc Header { write: 20179, read: 20179, start: 20096, end: 20224 }
-  end:   "R. Whitfeld\nUniversity of New South Wales\nPO Box 1\nKensington, NSW Austrialia 2D33\nhgregname-13htowhom-3name-4yhtowhom-1013\0\xcc\0T\x01"
-  read:  "R. Whitfeld\nUniversity of New South Wales\nPO Box 1\nKensington, NSW Austrialia 2D33\n"
-  write: "R. Whitfeld\nUniversity of New South Wales\nPO Box 1\nKensington, NSW Austrialia 2D33\n"
+  text: "R. Whitfeld\nUniversity of New South Wales\nPO Box 1\nKensington, NSW Austrialia 2D33\n", slack: "hgregname-13htowhom-3name-4yhtowhom-1013\0\xcc\0T\x01"
 1700: alloc Header { write: 20033, read: 20033, start: 19968, end: 20096 }
-  end:   "H. S. Eisenstein\nUniversity of South Carolina\nColumbia, SC 29208\nname}\nresddresstowhom-2name-3MaProf. Marsland\nstowhom-\0esr lett"
-  read:  "H. S. Eisenstein\nUniversity of South Carolina\nColumbia, SC 29208\n"
-  write: "H. S. Eisenstein\nUniversity of South Carolina\nColumbia, SC 29208\n"
+  text: "H. S. Eisenstein\nUniversity of South Carolina\nColumbia, SC 29208\n", slack: "name}\nresddresstowhom-2name-3MaProf. Marsland\nstowhom-\0esr lett"
 1708: alloc Header { write: 20465, read: 20465, start: 20352, end: 20480 }
-  end:   "P. L. De Souza\nDept of Elictrical Engineering\nHeriot-Watt University\n31-35 Grassmarket\nEdinburgh EH12H5 Scotland\n. Goins\nM. Goin"
-  read:  "P. L. De Souza\nDept of Elictrical Engineering\nHeriot-Watt University\n31-35 Grassmarket\nEdinburgh EH12H5 Scotland\n"
-  write: "P. L. De Souza\nDept of Elictrical Engineering\nHeriot-Watt University\n31-35 Grassmarket\nEdinburgh EH12H5 Scotland\n"
+  text: "P. L. De Souza\nDept of Elictrical Engineering\nHeriot-Watt University\n31-35 Grassmarket\nEdinburgh EH12H5 Scotland\n", slack: ". Goins\nM. Goin"
 1716: alloc Header { write: 20303, read: 20303, start: 20224, end: 20352 }
-  end:   "J. van den Bas\nKatholieke Universiteit, Toernooiveld\nNijmegen, The Netherlands\nbDr. King\non of Etowhom-20A. Jardtowhom-14n Yuval"
-  read:  "J. van den Bas\nKatholieke Universiteit, Toernooiveld\nNijmegen, The Netherlands\n"
-  write: "J. van den Bas\nKatholieke Universiteit, Toernooiveld\nNijmegen, The Netherlands\n"
+  text: "J. van den Bas\nKatholieke Universiteit, Toernooiveld\nNijmegen, The Netherlands\n", slack: "bDr. King\non of Etowhom-20A. Jardtowhom-14n Yuval"
 1724: free Header { start: 17264, end: 17280 }
 1732: free Header { start: 6148, end: 6150 }
 1740: alloc Header { write: 20576, read: 20576, start: 20480, end: 20608 }
-  end:   "R. J. Collins\nDept of Computer Science\nUniversity of Manitoba\nWinnipeg, Manitoba, Canada R3T2N2\nProf. Marsland\nstowhom-\0esr lett"
-  read:  "R. J. Collins\nDept of Computer Science\nUniversity of Manitoba\nWinnipeg, Manitoba, Canada R3T2N2\n"
-  write: "R. J. Collins\nDept of Computer Science\nUniversity of Manitoba\nWinnipeg, Manitoba, Canada R3T2N2\n"
+  text: "R. J. Collins\nDept of Computer Science\nUniversity of Manitoba\nWinnipeg, Manitoba, Canada R3T2N2\n", slack: "Prof. Marsland\nstowhom-\0esr lett"
 1748: free Header { start: 17248, end: 17256 }
 1756: free Header { start: 17440, end: 17472 }
 1764: free Header { start: 17408, end: 17440 }
