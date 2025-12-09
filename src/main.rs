@@ -20,24 +20,25 @@ struct Header {
     end: u16,
 }
 
-/// Header data dumped from V5 form6.s:hblk..headend in `.bss`.
+/// Header portion of `.bss` in the range of V5 form6.s:hblk..headend.
 #[repr(C)]
 struct Headers {
-    /// Pointers to free headers (V5 form6.s:frlist).
+    /// Pointers to free block headers (V5 form6.s:frlist).
     free_list: [u16; 17],
     /// ? (V5 form6.s:asmdisc).
     asmdisc: u16,
-    /// The header blocks (V5 form6.s:headers).
-    headers: [Header; 763],
+    /// The block headers (V5 form6.s:headers).
+    headers: [Header; HEADER_COUNT],
     pad: [u16; 2],
 }
 
 /// The size of the headers area (V5 form6.s:hsz).
-const HEADERS_SIZE: u16 = 6144;
+const HEADERS_SIZE: usize = 6144;
 /// The size of the data area (V5 form6.s:datasz).
-const DATA_SIZE: u16 = 32768;
+const DATA_SIZE: usize = 32768;
+const HEADER_COUNT: usize = (HEADERS_SIZE - 36) / size_of::<Header>();
 
-const _: () = assert!(size_of::<Headers>() == HEADERS_SIZE as usize);
+const _: () = assert!(size_of::<Headers>() == HEADERS_SIZE);
 
 fn main() {
     let form = fs::read("distr/form.m").unwrap();
@@ -45,30 +46,54 @@ fn main() {
     let strings = fs::read_to_string("strings.json").unwrap();
     let strings: Vec<String> = serde_json::from_str(&strings).unwrap();
 
-    let headers: &[u8; HEADERS_SIZE as _] = form.first_chunk().unwrap();
+    let headers: &[u8; HEADERS_SIZE] = form.first_chunk().unwrap();
     let headers: Headers = unsafe { mem::transmute(*headers) };
+
+    let mut free_headers = [false; HEADER_COUNT];
+    fn mark_free(free_headers: &mut [bool; HEADER_COUNT], headers: &Headers, header: u16) {
+        if header == 0 {
+            return;
+        }
+        let i = Header::index_from_pointer(header);
+        let is_free = &mut free_headers[i];
+        if *is_free {
+            panic!("block header {header} referenced multiple times in free list");
+        }
+        *is_free = true;
+        let next_free = headers.headers[i].write;
+        mark_free(free_headers, headers, next_free);
+    }
+    for header in headers.free_list {
+        mark_free(&mut free_headers, &headers, header);
+    }
+
     println!("free_list: {:?}", headers.free_list);
     println!("asmdisc: {:?}", headers.asmdisc);
     for (i, header) in headers.headers.iter().enumerate() {
-        let offset = offset_of!(Headers, headers) + size_of::<Header>() * i;
-        println!("{offset}: {header:?}");
-        // The first three conditions are from V5 form6.s:preposterous;
-        // the others are inferred.
-        if header.start >= HEADERS_SIZE
-            && header.end <= HEADERS_SIZE + DATA_SIZE
-            && (header.end - header.start).is_power_of_two()
-            && header.start <= header.end
-            && (header.end as usize) <= form.len()
-            && (header.start..=header.end).contains(&header.read)
-            && (header.start..=header.end).contains(&header.write)
-        {
-            let start = header.start as usize;
-            println!("  end:   {:?}", BStr::new(&form[start..header.end as _]));
-            println!("  read:  {:?}", BStr::new(&form[start..header.read as _]));
-            println!("  write: {:?}", BStr::new(&form[start..header.write as _]));
-        } else {
-            println!("  Invalid!");
+        let pointer = Header::pointer_from_index(i);
+        let is_free = free_headers[i];
+        let status = if is_free { "free" } else { "alloc" };
+        println!("{pointer}: {status} {header:?}");
+        if is_free {
+            continue;
         }
+        // Invariants from V5 form6.s:preposterous:
+        assert!(
+            header.start as usize >= HEADERS_SIZE
+                && header.end as usize <= HEADERS_SIZE + DATA_SIZE
+                && (header.end - header.start).is_power_of_two()
+        );
+        // Assumed invariants:
+        assert!(
+            header.start <= header.end
+                && (header.end as usize) <= form.len()
+                && (header.start..=header.end).contains(&header.read)
+                && (header.start..=header.end).contains(&header.write)
+        );
+        let start = header.start as usize;
+        println!("  end:   {:?}", BStr::new(&form[start..header.end as _]));
+        println!("  read:  {:?}", BStr::new(&form[start..header.read as _]));
+        println!("  write: {:?}", BStr::new(&form[start..header.write as _]));
     }
     println!("pad: {:?}", headers.pad);
 
@@ -155,5 +180,17 @@ fn main() {
     }
     if offset < form.len() {
         push(new_label(offset, form.len() - offset, Kind::Unknown));
+    }
+}
+
+impl Header {
+    fn index_from_pointer(ptr: u16) -> usize {
+        (ptr as usize - offset_of!(Headers, headers)) / size_of::<Header>()
+    }
+
+    fn pointer_from_index(index: usize) -> u16 {
+        (offset_of!(Headers, headers) + size_of::<Header>() * index)
+            .try_into()
+            .unwrap()
     }
 }
