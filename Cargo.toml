@@ -1,7 +1,13 @@
 [package]
-name = "formread"
+name = "unix-form-read"
 version = "0.1.0"
+authors = ["Thalia Archibald <thalia@archibald.dev>"]
 edition = "2024"
+description = "A decoder for old UNIX form letters and analysis of the earliest list of UNIX licensees"
+repository = "https://github.com/thaliaarchi/unix-form-read"
+license = "MPL-2.0"
+keywords = ["unix", "retro-computing"]
+categories = ["parser-implementations"]
 
 [dependencies]
 serde_json = "1.0.145"
