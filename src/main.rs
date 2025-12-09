@@ -32,18 +32,18 @@ struct Headers {
 }
 
 /// The size of the headers area (V5 form6.s:hsz).
-const HEADERS_SIZE: usize = 6144;
+const HEADERS_SIZE: u16 = 6144;
 /// The size of the data area (V5 form6.s:datasz).
-const DATA_SIZE: usize = 32768;
-const HEADER_COUNT: usize = (HEADERS_SIZE - 36) / size_of::<Header>();
+const DATA_SIZE: u16 = 32768;
+const HEADER_COUNT: usize = (HEADERS_SIZE as usize - 36) / size_of::<Header>();
 
-const _: () = assert!(size_of::<Headers>() == HEADERS_SIZE);
+const _: () = assert!(size_of::<Headers>() == HEADERS_SIZE as usize);
 
 fn main() {
     let form = fs::read("distr/form.m").unwrap();
     assert!(form.len() <= u16::MAX as usize);
 
-    let headers: &[u8; HEADERS_SIZE] = form.first_chunk().unwrap();
+    let headers: &[u8; HEADERS_SIZE as _] = form.first_chunk().unwrap();
     let headers: Headers = unsafe { mem::transmute(*headers) };
 
     let mut free_headers = [false; HEADER_COUNT];
@@ -69,18 +69,27 @@ fn main() {
     for (i, header) in headers.headers.iter().enumerate() {
         let pointer = Header::pointer_from_index(i);
         let is_free = free_headers[i];
-        let status = if is_free { "free" } else { "alloc" };
-        println!("{pointer}: {status} {header:?}");
         if is_free {
+            print!("{pointer}: free");
+            if header.start != HEADERS_SIZE || header.end != HEADERS_SIZE {
+                print!(" Header {{ start: {}, end: {} }}", header.start, header.end);
+                // Observed invariant:
+                assert!(header.read == 0 || header.read == HEADERS_SIZE);
+            } else {
+                // Observed invariant:
+                assert!(header.read == HEADERS_SIZE);
+            }
+            println!();
             continue;
         }
+        println!("{pointer}: alloc {header:?}");
         // Invariants from V5 form6.s:preposterous:
         assert!(
-            header.start as usize >= HEADERS_SIZE
-                && header.end as usize <= HEADERS_SIZE + DATA_SIZE
+            header.start >= HEADERS_SIZE
+                && header.end <= HEADERS_SIZE + DATA_SIZE
                 && (header.end - header.start).is_power_of_two()
         );
-        // Assumed invariants:
+        // Observed invariants:
         assert!(
             header.start <= header.end
                 && (header.end as usize) <= form.len()
