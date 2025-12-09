@@ -7,7 +7,7 @@ use std::{
 use bstr::BStr;
 
 /// A four-word header for a block (V5 form6.s).
-#[derive(Debug)]
+#[derive(Clone, Debug)]
 #[repr(C)]
 struct Header {
     /// W - write ptr (also used as link ptr in frlist)
@@ -42,6 +42,7 @@ const _: () = assert!(size_of::<Headers>() == HEADERS_SIZE);
 
 fn main() {
     let form = fs::read("distr/form.m").unwrap();
+    assert!(form.len() <= u16::MAX as usize);
 
     let strings = fs::read_to_string("strings.json").unwrap();
     let strings: Vec<String> = serde_json::from_str(&strings).unwrap();
@@ -97,89 +98,54 @@ fn main() {
     }
     println!("pad: {:?}", headers.pad);
 
-    let mut labels = Vec::new();
-    let mut offsets = HashSet::new();
-    struct Label {
-        offset: usize,
-        len: usize,
-        kind: Kind,
+    let mut allocs = Vec::new();
+    for (i, header) in headers.headers.iter().enumerate() {
+        if !free_headers[i] {
+            allocs.push(header.clone());
+        }
     }
-    #[allow(dead_code)]
+    allocs.sort_by(|x, y| x.start.cmp(&y.start).then(x.end.cmp(&y.end)));
+
     #[derive(Debug)]
-    enum Kind {
-        String,
-        Unknown,
-        Header(Header),
+    enum State {
+        Alloc,
+        Slack,
+        Free,
     }
-    let new_label = |offset, len, kind| Label { offset, len, kind };
-
-    for s in &strings {
-        let matches = form
-            .windows(s.len())
-            .enumerate()
-            .filter_map(|(offset, window)| (window == s.as_bytes()).then_some(offset));
-        let mut found = false;
-        for offset in matches {
-            found = true;
-            offsets.insert(offset);
-            labels.push(new_label(offset, s.len(), Kind::String));
-        }
-        if !found {
-            println!("// not found: {s:?}");
-        }
-    }
-
-    for &offset in &offsets {
-        let offset = u16::try_from(offset).unwrap();
-        let offset_bytes = offset.to_le_bytes();
-        let occurrences = form
-            .windows(2)
-            .enumerate()
-            .filter_map(|(offset, window)| (window == offset_bytes).then_some(offset));
-        for occurrence in occurrences {
-            if occurrence < 4 || occurrence + 4 > form.len() {
-                continue;
-            }
-            let i = occurrence - 4;
-            let header: [u8; 8] = form[i..i + 8].try_into().unwrap();
-            let header: Header = unsafe { mem::transmute(header) };
-            if i % 8 == 4
-                && header.start <= header.end
-                && header.read <= header.end
-                && header.write <= header.end
-            {
-                labels.push(new_label(i, 8, Kind::Header(header)));
-            }
-        }
-    }
-
-    labels.sort_by_key(|label| (label.offset, label.len));
-
-    let mut segments = Vec::new();
-    let mut push = |segment: Label| {
+    let print_segment = |start: u16, end: u16, state: State| {
         println!(
-            "offset={}, len={}, kind={:?}, text={:?}",
-            segment.offset,
-            segment.len,
-            segment.kind,
-            BStr::new(&form[segment.offset..segment.offset + segment.len])
+            "offset={start}, len={len}, kind={state:?}, text={text:?}",
+            len = end - start,
+            text = BStr::new(&form[start as usize..end as usize])
         );
-        segments.push(segment);
     };
 
-    let mut offset = 0;
-    for label in labels {
-        if label.offset > offset {
-            push(new_label(offset, label.offset - offset, Kind::Unknown));
+    let mut alloc_strings = HashSet::new();
+
+    let mut prev_alloc = HEADERS_SIZE as u16;
+    for header in &allocs {
+        if header.start > prev_alloc {
+            print_segment(prev_alloc, header.start, State::Free);
         }
-        if label.offset < offset {
-            println!("// overlapping labels!");
+        if header.start < prev_alloc {
+            panic!("overlapping allocations");
         }
-        offset = offset.max(label.offset + label.len);
-        push(label);
+        let read_or_write = header.read.max(header.write);
+        alloc_strings.insert(&form[header.start as usize..read_or_write as usize]);
+        print_segment(header.start, read_or_write, State::Alloc);
+        if read_or_write != header.end {
+            print_segment(read_or_write, header.end, State::Slack);
+        }
+        prev_alloc = header.end;
     }
-    if offset < form.len() {
-        push(new_label(offset, form.len() - offset, Kind::Unknown));
+    if (prev_alloc as usize) < form.len() {
+        print_segment(prev_alloc, form.len() as u16, State::Free);
+    }
+
+    for s in &strings {
+        if !alloc_strings.contains(s.as_bytes()) {
+            panic!("string not in allocated block: {s:?}");
+        }
     }
 }
 
