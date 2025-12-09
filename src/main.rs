@@ -90,6 +90,7 @@ fn main() {
                 && (header.end as usize) <= form.len()
                 && (header.start..=header.end).contains(&header.read)
                 && (header.start..=header.end).contains(&header.write)
+                && header.read <= header.write
         );
         let start = header.start as usize;
         println!("  end:   {:?}", BStr::new(&form[start..header.end as _]));
@@ -130,11 +131,10 @@ fn main() {
         if header.start < prev_alloc {
             panic!("overlapping allocations");
         }
-        let read_or_write = header.read.max(header.write);
-        alloc_strings.insert(&form[header.start as usize..read_or_write as usize]);
-        print_segment(header.start, read_or_write, State::Alloc);
-        if read_or_write != header.end {
-            print_segment(read_or_write, header.end, State::Slack);
+        alloc_strings.insert(&form[header.start as usize..header.write as usize]);
+        print_segment(header.start, header.write, State::Alloc);
+        if header.write != header.end {
+            print_segment(header.write, header.end, State::Slack);
         }
         prev_alloc = header.end;
     }
