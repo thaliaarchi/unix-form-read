@@ -53,55 +53,72 @@ const _: () = assert!(size_of::<RawHeaders>() == HEADERS_SIZE as usize);
 
 fn main() {
     let form = fs::read("distr/form.m").unwrap();
-    assert!(form.len() <= u16::MAX as usize);
+    let form_len = u16::try_from(form.len()).unwrap();
 
     let headers = Headers::from_form(&form);
 
-    let mut allocs = Vec::new();
     for (i, header) in headers.headers[..headers.used].iter().enumerate() {
         let ptr = RawHeader::pointer_from_index(i);
         print!("{ptr}: {header:?}");
-        if let &Header::Alloc { ptr, len, capacity } = header {
+        if let &Header::Alloc { ptr, len, .. } = header {
             let text = BStr::new(&form[ptr as usize..(ptr + len) as usize]);
             print!(": {text:?}");
-            allocs.push((ptr, len, capacity));
         }
         println!();
     }
-    allocs.sort();
 
-    #[derive(Debug)]
+    let mut allocs = Vec::new();
+    #[derive(Clone, Copy, Debug, PartialEq, Eq, PartialOrd, Ord)]
     enum State {
         Alloc,
         Slack,
-        Free,
+        KnownFreed,
+        Unknown,
     }
-    let print_segment = |start: u16, end: u16, state: State| {
-        println!(
-            "offset={start}, len={len}, kind={state:?}, text={text:?}",
-            text = BStr::new(&form[start as usize..end as usize]),
-            len = end - start,
-        );
-    };
+
+    for header in &headers.headers[..headers.used] {
+        match *header {
+            Header::Alloc { ptr, len, capacity } => {
+                allocs.push((ptr, ptr + len, State::Alloc));
+                if len != capacity {
+                    allocs.push((ptr + len, ptr + capacity, State::Slack));
+                }
+            }
+            Header::Freed { ptr, capacity, .. } => {
+                allocs.push((ptr, ptr + capacity, State::KnownFreed));
+            }
+            Header::Unused { .. } => unreachable!(),
+        }
+    }
+    allocs.sort();
 
     let mut prev_alloc = HEADERS_SIZE as u16;
-    for &(ptr, len, capacity) in &allocs {
-        if ptr > prev_alloc {
-            print_segment(prev_alloc, ptr, State::Free);
+    for i in 0..allocs.len() {
+        let (start, end, _) = allocs[i];
+        if start > prev_alloc {
+            allocs.push((prev_alloc, start, State::Unknown));
         }
-        if ptr < prev_alloc {
+        if start < prev_alloc {
             panic!("overlapping allocations");
         }
-        let text_end = ptr + len;
-        let alloc_end = ptr + capacity;
-        print_segment(ptr, text_end, State::Alloc);
-        if len != capacity {
-            print_segment(text_end, alloc_end, State::Slack);
-        }
-        prev_alloc = alloc_end;
+        prev_alloc = end;
     }
-    if prev_alloc < form.len() as u16 {
-        print_segment(prev_alloc, form.len() as u16, State::Free);
+    if prev_alloc < form_len {
+        allocs.push((prev_alloc, form_len, State::Unknown));
+    }
+    allocs.sort();
+
+    for &(start, end, state) in &allocs {
+        let (i, j, truncated) = if state == State::KnownFreed && end > form_len {
+            (start.min(form_len), end.min(form_len), "...")
+        } else {
+            (start, end, "")
+        };
+        println!(
+            "offset={start}, len={len}, kind={state:?}, text={text:?}{truncated}",
+            len = end - start,
+            text = BStr::new(&form[i as usize..j as usize]),
+        );
     }
 }
 
@@ -176,14 +193,21 @@ impl Header {
                 }
                 Some(Header::Unused { next: header.write })
             } else {
-                if header.read != HEADERS_SIZE && header.read != 0 {
-                    return None;
+                // Observed invariants:
+                if header.start >= HEADERS_SIZE
+                    && header.end <= HEADERS_SIZE + DATA_SIZE
+                    && (header.end - header.start).is_power_of_two()
+                    && header.start <= header.end
+                    && (header.read == HEADERS_SIZE || header.read == 0)
+                {
+                    Some(Header::Freed {
+                        next: header.write,
+                        ptr: header.start,
+                        capacity: header.end - header.start,
+                    })
+                } else {
+                    None
                 }
-                Some(Header::Freed {
-                    next: header.write,
-                    ptr: header.start,
-                    capacity: header.end - header.start,
-                })
             }
         } else {
             // Invariants from V5 form6.s:preposterous:
