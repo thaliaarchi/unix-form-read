@@ -11,7 +11,7 @@ struct Header {
     /// R - read ptr
     read: u16,
     /// A - pointer to head of data
-    head: u16,
+    start: u16,
     /// L - ptr to (end+1) of data
     end: u16,
 }
@@ -29,20 +29,20 @@ fn main() {
         let header: [u8; 8] = form[i..i + 8].try_into().unwrap();
         let header: Header = unsafe { mem::transmute(header) };
         println!("{i}: {header:?}");
-        if header.head <= header.end
+        if header.start <= header.end
             && (header.end as usize) <= form.len()
-            && ((header.head..=header.end).contains(&header.read) || header.read == 0)
-            && ((header.head..=header.end).contains(&header.write) || header.write == 0)
+            && ((header.start..=header.end).contains(&header.read) || header.read == 0)
+            && ((header.start..=header.end).contains(&header.write) || header.write == 0)
         {
-            let head = header.head as usize;
-            println!("  end:   {:?}", BStr::new(&form[head..header.end as _]));
+            let start = header.start as usize;
+            println!("  end:   {:?}", BStr::new(&form[start..header.end as _]));
             if header.read != 0 {
-                println!("  read:  {:?}", BStr::new(&form[head..header.read as _]));
+                println!("  read:  {:?}", BStr::new(&form[start..header.read as _]));
             } else {
                 println!("  read:  None");
             }
             if header.write != 0 {
-                println!("  write: {:?}", BStr::new(&form[head..header.write as _]));
+                println!("  write: {:?}", BStr::new(&form[start..header.write as _]));
             } else {
                 println!("  write: None");
             }
@@ -99,7 +99,7 @@ fn main() {
             let header: [u8; 8] = form[i..i + 8].try_into().unwrap();
             let header: Header = unsafe { mem::transmute(header) };
             if i % 8 == 4
-                && header.head <= header.end
+                && header.start <= header.end
                 && header.read <= header.end
                 && header.write <= header.end
             {
