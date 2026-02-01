@@ -57,6 +57,35 @@ fn main() {
 
     let headers = Headers::from_form(&form);
 
+    println!("Entries:");
+    let meta = match headers.headers[0] {
+        Header::Alloc { ptr, len, .. } => &form[ptr as usize..(ptr + len) as usize],
+        _ => panic!("unallocated meta"),
+    };
+    let (meta_words, []) = meta.as_chunks::<4>() else {
+        panic!("meta not divisible by 4");
+    };
+    for &entry in meta_words {
+        let key = u16::from_le_bytes(entry[..2].try_into().unwrap());
+        let value = u16::from_le_bytes(entry[2..].try_into().unwrap());
+        let Some(key) = RawHeader::index_from_pointer(key) else {
+            panic!("key not a header pointer: {key}")
+        };
+        let Some(value) = RawHeader::index_from_pointer(value) else {
+            panic!("value not a header pointer: {value}")
+        };
+        let Header::Alloc { ptr, len, .. } = headers.headers[key] else {
+            panic!("unallocated key");
+        };
+        let key = Bytes(&form[ptr as usize..(ptr + len) as usize]);
+        let Header::Alloc { ptr, len, .. } = headers.headers[value] else {
+            panic!("unallocated value");
+        };
+        let value = Bytes(&form[ptr as usize..(ptr + len) as usize]);
+        println!("{key:?}: {value:?}");
+    }
+    println!();
+
     println!("Headers:");
     for (i, header) in headers.headers[..headers.used].iter().enumerate() {
         let ptr = RawHeader::pointer_from_index(i);
@@ -223,7 +252,9 @@ impl RawHeaders {
         if header == 0 {
             return;
         }
-        let i = RawHeader::index_from_pointer(header);
+        let Some(i) = RawHeader::index_from_pointer(header) else {
+            panic!("invalid header pointer: {header}");
+        };
         let is_free = &mut free[i];
         if *is_free {
             panic!("block header {header} referenced multiple times in free list");
@@ -285,8 +316,12 @@ impl Header {
 }
 
 impl RawHeader {
-    fn index_from_pointer(ptr: u16) -> usize {
-        (ptr as usize - offset_of!(RawHeaders, headers)) / size_of::<RawHeader>()
+    fn index_from_pointer(ptr: u16) -> Option<usize> {
+        let n = (ptr as usize).checked_sub(offset_of!(RawHeaders, headers))?;
+        if n % size_of::<RawHeader>() != 0 {
+            return None;
+        }
+        Some(n / size_of::<RawHeader>())
     }
 
     fn pointer_from_index(index: usize) -> u16 {
