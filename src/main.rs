@@ -1,15 +1,14 @@
 use std::{
-    array,
     fmt::{self, Write},
     fs,
     mem::{self, offset_of},
+    process::exit,
 };
 
 struct Headers {
     /// Index of the key-value table block in `self.headers`.
     table_index: usize,
-    headers: [Header; HEADER_COUNT],
-    used: usize,
+    headers: Vec<Header>,
 }
 
 #[derive(Debug, PartialEq, Eq)]
@@ -54,11 +53,40 @@ const HEADER_COUNT: usize = (HEADERS_SIZE as usize - 36) / size_of::<RawHeader>(
 
 const _: () = assert!(size_of::<RawHeaders>() == HEADERS_SIZE as usize);
 
+#[derive(Clone, Debug, PartialEq, Eq, Hash)]
+pub enum Error {
+    FileTooLong { len: usize },
+    FileTooShort { len: usize },
+    HeaderPadNonZero { pad: [u16; 2] },
+}
+
+impl fmt::Display for Error {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        match *self {
+            Error::FileTooLong { len } => write!(
+                f,
+                "form file is too long to be addressed by u16: length {len}",
+            ),
+            Error::FileTooShort { len } => write!(
+                f,
+                "form file is too short: length {len} cannot fit headers (length {HEADERS_SIZE})",
+            ),
+            Error::HeaderPadNonZero { pad } => write!(f, "header padding is non-zero: {pad:04x?}"),
+        }
+    }
+}
+
 fn main() {
     let form = fs::read("distr/form.m").unwrap();
     let form_len = u16::try_from(form.len()).unwrap();
 
-    let headers = Headers::from_form(&form);
+    let headers = match Headers::from_form(&form) {
+        Ok(headers) => headers,
+        Err(err) => {
+            eprintln!("{err}");
+            exit(1);
+        }
+    };
 
     println!("Entries:");
     let table = match headers.headers[headers.table_index] {
@@ -90,7 +118,7 @@ fn main() {
     println!();
 
     println!("Headers:");
-    for (i, header) in headers.headers[..headers.used].iter().enumerate() {
+    for (i, header) in headers.headers.iter().enumerate() {
         let ptr = RawHeader::pointer_from_index(i);
         print!("{ptr}: {header:?}");
         if let &Header::Alloc { ptr, len, .. } = header {
@@ -110,7 +138,7 @@ fn main() {
         Unknown,
     }
 
-    for header in &headers.headers[..headers.used] {
+    for header in &headers.headers {
         match *header {
             Header::Alloc { ptr, len, capacity } => {
                 allocs.push((ptr, ptr + len, State::Alloc));
@@ -206,8 +234,15 @@ fn main() {
 }
 
 impl Headers {
-    fn from_form(form: &[u8]) -> Self {
-        let raw = RawHeaders::from_form(form);
+    fn from_form(form: &[u8]) -> Result<Self, Error> {
+        let Ok(form_len) = form.len().try_into() else {
+            return Err(Error::FileTooLong { len: form.len() });
+        };
+        let Some(raw) = form.first_chunk() else {
+            return Err(Error::FileTooShort { len: form.len() });
+        };
+
+        let raw = RawHeaders::from_bytes(raw);
         let mut free = [false; _];
         for &header in &raw.free_list {
             RawHeaders::visit_free(&mut free, &raw, header);
@@ -216,40 +251,37 @@ impl Headers {
         let table_index =
             RawHeader::index_from_pointer(raw.table_ptr).expect("invalid table pointer");
         // Observed invariant:
-        assert_eq!(raw.pad, [0, 0]);
-
-        let form_len = form.len().try_into().unwrap();
-        let parsed = array::from_fn(|i| {
-            Header::from_raw(&raw.headers[i], free[i], form_len).expect("invalid header")
-        });
-
-        let mut used = parsed.len();
-        if parsed[parsed.len() - 1] == (Header::Unused { next: 0 }) {
-            used -= 1;
-            let mut next = RawHeader::pointer_from_index(used);
-            while used > 0 && parsed[used - 1] == { Header::Unused { next } } {
-                used -= 1;
-                next -= size_of::<Header>() as u16;
-            }
+        if raw.pad != [0, 0] {
+            return Err(Error::HeaderPadNonZero { pad: raw.pad });
         }
-        for header in &parsed[..used] {
+
+        let mut parsed = Vec::with_capacity(HEADER_COUNT);
+        for (i, header) in raw.headers.iter().enumerate() {
+            parsed.push(header.parse(free[i], form_len).expect("invalid header"));
+        }
+
+        let mut next = 0;
+        while parsed.last() == Some(&Header::Unused { next }) {
+            parsed.pop();
+            next = RawHeader::pointer_from_index(parsed.len());
+        }
+
+        for header in &parsed {
             if matches!(header, Header::Unused { .. }) {
                 panic!("never-used header within allocated headers");
             }
         }
 
-        Headers {
+        Ok(Headers {
             table_index,
             headers: parsed,
-            used,
-        }
+        })
     }
 }
 
 impl RawHeaders {
-    fn from_form(form: &[u8]) -> Self {
-        let headers: &[u8; HEADERS_SIZE as _] = form.first_chunk().unwrap();
-        unsafe { mem::transmute(*headers) }
+    fn from_bytes(bytes: &[u8; HEADERS_SIZE as _]) -> Self {
+        unsafe { mem::transmute(*bytes) }
     }
 
     fn visit_free(free: &mut [bool; HEADER_COUNT], headers: &RawHeaders, header: u16) {
@@ -269,57 +301,53 @@ impl RawHeaders {
     }
 }
 
-impl Header {
-    fn from_raw(header: &RawHeader, is_free: bool, form_len: u16) -> Option<Header> {
+impl RawHeader {
+    fn parse(&self, is_free: bool, form_len: u16) -> Option<Header> {
         if is_free {
             // Observed invariants:
-            if header.start == HEADERS_SIZE && header.end == HEADERS_SIZE {
-                if header.read != HEADERS_SIZE {
+            if self.start == HEADERS_SIZE && self.end == HEADERS_SIZE {
+                if self.read != HEADERS_SIZE {
                     return None;
                 }
-                Some(Header::Unused { next: header.write })
+                Some(Header::Unused { next: self.write })
+            // Observed invariants:
+            } else if self.start >= HEADERS_SIZE
+                && self.end <= HEADERS_SIZE + DATA_SIZE
+                && (self.end - self.start).is_power_of_two()
+                && self.start <= self.end
+                && (self.read == HEADERS_SIZE || self.read == 0)
+            {
+                Some(Header::Freed {
+                    next: self.write,
+                    ptr: self.start,
+                    capacity: self.end - self.start,
+                })
             } else {
-                // Observed invariants:
-                if header.start >= HEADERS_SIZE
-                    && header.end <= HEADERS_SIZE + DATA_SIZE
-                    && (header.end - header.start).is_power_of_two()
-                    && header.start <= header.end
-                    && (header.read == HEADERS_SIZE || header.read == 0)
-                {
-                    Some(Header::Freed {
-                        next: header.write,
-                        ptr: header.start,
-                        capacity: header.end - header.start,
-                    })
-                } else {
-                    None
-                }
+                None
             }
         } else {
             // Invariants from V5 form6.s:preposterous:
-            if header.start >= HEADERS_SIZE
-                && header.end <= HEADERS_SIZE + DATA_SIZE
-                && (header.end - header.start).is_power_of_two()
+            if self.start >= HEADERS_SIZE
+                && self.end <= HEADERS_SIZE + DATA_SIZE
+                && (self.end - self.start).is_power_of_two()
                 // Observed invariants:
-                && header.start <= header.end
-                && header.end <= form_len
-                && (header.start..=header.end).contains(&header.read)
-                && (header.start..=header.end).contains(&header.write)
-                && header.read <= header.write
+                && self.start <= self.end
+                && self.end <= form_len
+                && (self.start..=self.end).contains(&self.read)
+                && (self.start..=self.end).contains(&self.write)
+                && self.read <= self.write
             {
                 Some(Header::Alloc {
-                    ptr: header.start,
-                    len: header.write - header.start,
-                    capacity: header.end - header.start,
+                    ptr: self.start,
+                    len: self.write - self.start,
+                    capacity: self.end - self.start,
                 })
             } else {
                 None
             }
         }
     }
-}
 
-impl RawHeader {
     fn index_from_pointer(ptr: u16) -> Option<usize> {
         let n = (ptr as usize).checked_sub(offset_of!(RawHeaders, headers))?;
         if n % size_of::<RawHeader>() != 0 {
