@@ -6,6 +6,8 @@ use std::{
 };
 
 struct Headers {
+    /// Index of the key-value table block in `self.headers`.
+    table_index: usize,
     headers: [Header; HEADER_COUNT],
     used: usize,
 }
@@ -36,8 +38,9 @@ struct RawHeader {
 struct RawHeaders {
     /// Pointers to free block headers (V5 form6.s:frlist).
     free_list: [u16; 17],
-    /// ? (V5 form6.s:asmdisc).
-    asmdisc: u16,
+    /// Pointer to the key-value table, evidently "associative memory disc
+    /// pointer" (V5 form6.s:asmdisc).
+    table_ptr: u16,
     /// The block headers (V5 form6.s:headers).
     headers: [RawHeader; HEADER_COUNT],
     pad: [u16; 2],
@@ -58,14 +61,14 @@ fn main() {
     let headers = Headers::from_form(&form);
 
     println!("Entries:");
-    let meta = match headers.headers[0] {
+    let table = match headers.headers[headers.table_index] {
         Header::Alloc { ptr, len, .. } => &form[ptr as usize..(ptr + len) as usize],
-        _ => panic!("unallocated meta"),
+        _ => panic!("unallocated table"),
     };
-    let (meta_words, []) = meta.as_chunks::<4>() else {
-        panic!("meta not divisible by 4");
+    let (table_words, []) = table.as_chunks::<4>() else {
+        panic!("table not divisible by 4");
     };
-    for &entry in meta_words {
+    for &entry in table_words {
         let key = u16::from_le_bytes(entry[..2].try_into().unwrap());
         let value = u16::from_le_bytes(entry[2..].try_into().unwrap());
         let Some(key) = RawHeader::index_from_pointer(key) else {
@@ -210,8 +213,8 @@ impl Headers {
             RawHeaders::visit_free(&mut free, &raw, header);
         }
 
-        // Assumed invariant:
-        assert_eq!(raw.asmdisc as usize, offset_of!(RawHeaders, headers));
+        let table_index =
+            RawHeader::index_from_pointer(raw.table_ptr).expect("invalid table pointer");
         // Observed invariant:
         assert_eq!(raw.pad, [0, 0]);
 
@@ -236,6 +239,7 @@ impl Headers {
         }
 
         Headers {
+            table_index,
             headers: parsed,
             used,
         }
